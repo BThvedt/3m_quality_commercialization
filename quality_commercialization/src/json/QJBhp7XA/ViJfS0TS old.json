@@ -1,0 +1,185 @@
+{
+  "e_title": "Quality - Commercialize the Product - Build Business Case",
+  "e_subtitle": "Select the highlighted team members to listen to the team's conversation",
+  "businessCaseConclusion": {
+    "e_title": "Business Case is Done!!",
+    "e_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  },
+  "businessCaseIntro": {
+    "e_title": "Opening prompt here",
+    "e_text": "<p>As requested, here is an openeing prompt.</p><p>Not sure if other sections need one or not haha.</p>"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "e_title": "Multichoice Question",
+      "e_questionText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?",
+      "e_prompt": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur?",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "image": "map-activity-checklist.png",
+      "questionImage": "img-img.png",
+      "feedback": {
+        "correct": {
+          "e_title": "Q1 You chose a correct answer",
+          "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "incorrect": {
+          "e_title": "Q1 You chose an incorrect answer",
+          "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      },
+      "choices": [
+        { "e_text": "Q1: Choice One", "feedback": null, "correct": true },
+        { "e_text": "Q1: Choice Two", "feedback": null, "correct": false },
+        { "e_text": "Q1: Choice Three", "feedback": null, "correct": false }
+      ]
+    },
+    {
+      "id": 2,
+      "e_title": "MultiSelect question",
+      "e_questionText": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?",
+      "e_prompt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam?",
+      "e_instructions": "Choose all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+      "image": "map-activity-clipboard.png",
+      "questionImage": "img-img.png",
+      "feedback": {
+        "correct": {
+          "e_title": "Q2 You chose a correct answer",
+          "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "incorrect": {
+          "e_title": "Q2 You chose an incorrect answer",
+          "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      },
+      "choices": [
+        { "e_text": "Q2: Choice One - correct", "correct": true },
+        { "e_text": "Q2: Choice Two", "correct": false },
+        { "e_text": "Q2: Choice Three", "correct": false },
+        { "e_text": "Q2: Choice Four - correct", "correct": true },
+        { "e_text": "Q2: Choice Five", "correct": false }
+      ]
+    },
+    {
+      "id": 3,
+      "e_title": "Multichoice question",
+      "e_questionText": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur?",
+      "e_prompt": "TExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum?",
+      "e_instructions": "Which choice whould you pick?",
+      "questionType": "multiple-choice",
+      "showBadge": true,
+      "image": "map-activity-comp.png",
+      "questionImage": "img-img.png",
+      "choices": [
+        {
+          "e_text": "Q3: Choice One",
+          "feedback": {
+            "e_title": "Q3 You chose a correct answer",
+            "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Q3: Choice Two",
+          "feedback": {
+            "e_title": "Q3 You chose an incorrect answer",
+            "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Q3: Choice Three",
+          "feedback": {
+            "e_title": "Q3 You chose an incorrect answer",
+            "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "e_questionText": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?",
+      "e_instructions": "Select the correct area (its the green one)",
+      "questionType": "area-select",
+      "e_submitText": "Submit",
+      "image": "map-activity-convo.png",
+      "questionImage": "tool-3m-document.jpg",
+      "feedback": {
+        "correct": {
+          "e_title": "Q4 You chose a correct answer",
+          "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "incorrect": {
+          "e_title": "Q4 You chose an incorrect answer",
+          "e_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      },
+      "areas": [
+        {
+          "shape": "rect",
+          "coords": "2,12,441,478",
+          "correct": false
+        },
+        {
+          "shape": "rect",
+          "coords": "441,12,631,478",
+          "correct": false
+        },
+        {
+          "shape": "rect",
+          "coords": "631,12,845,478",
+          "correct": true
+        },
+        {
+          "shape": "rect",
+          "coords": "845,12,1124,478",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "caption": "Document Master",
+      "image": "award-document-master.png"
+    },
+    { "id": 2, "caption": "Growth Guru", "image": "award-growth-guru.png" },
+    {
+      "id": 3,
+      "caption": "Market Specialist",
+      "image": "award-market-specialist.png"
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "Build Business Case",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "e_topTitle": "Build a Business Case"
+    },
+    {
+      "e_title": "Development",
+      "e_topTitle": "Development",
+      "icon": "development",
+      "id": 3
+    },
+    {
+      "e_title": "Scale Up",
+      "e_topTitle": "Scale Up",
+      "icon": "scale-up",
+      "id": 4
+    },
+    {
+      "e_title": "Launch",
+      "e_topTitle": "Launch",
+      "icon": "launch",
+      "id": 5
+    }
+  ]
+}

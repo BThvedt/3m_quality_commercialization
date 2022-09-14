@@ -1,0 +1,75 @@
+{
+  "e_title": "Meet Your Team",
+  "e_subtitle": "Select the Quality portrait.",
+  "e_subtitle_2": "Select each portrait to learn more about your team members.",
+  "introModal": {
+    "e_title": "About this activity",
+    "e_text": "<p>Now that you have a comprehensive understanding of the Quality focus is and how team members operating from this focus advocate and amplify the VOC, let’s see how these concepts apply to an example of new product commercialization.</p><p>In this activity you will contribute to the development of a product throughout the phases of 3M | Grow. You will directly role play as a team member representing Quality as you work with your team.</p><p>Before you begin, let’s refresh your knowledge of the other focus areas. In the real world, commercialization teams are organized differently depending on the project or division, but we can consider six core focuses:  Quality, Marketing and Business, Manufacturing, Lab, Legal, and Product Stewardship.</p>"
+  },
+  "transitionModal": {
+    "e_title": "It's a team effort!",
+    "e_text": "<p>Now that you’ve refreshed your knowledge of how each focus area contributes, let’s begin your journey. It’s time to Commercialize the Product!</p>"
+  },
+  "teamMembers": [
+    {
+      "id": 1,
+      "e_title": "Legal",
+      "area": "legal",
+      "image": "legal.png",
+      "e_headlineOne": "Legal",
+      "e_text": "<p>Legal team members include patent liaisons and Intellectual Property (IP) attorneys. They are most involved with IP, which includes navigating the impacts of copyrights and trademarks.</p><p>Legal team members engage with the team to help file patents, conduct ‘Freedom to Operate’ (otherwise known as ‘Right to Practice’) searches to confirm the new product is not infringing on other patents around the globe, assist with the overall IP Strategy to help protect 3M, and help align and substantiate product claims, e.g., “This new product is the world’s best.”</p>",
+      "e_headlineTwo": "",
+      "e_textTwo": ""
+    },
+    {
+      "id": 2,
+      "e_title": "Manufacturing",
+      "area": "manufacturing",
+      "image": "manufacturing.png",
+      "e_headlineOne": "Manufacturing",
+      "e_text": "<p>The Manufacturing team members include manufacturing and supply chain employees and administrators. They are most involved with the Manufacturing/Supply Chain deliverable.</p><p>The Manufacturing team members are responsible for capable reproducing the design (design transfer to the plant), managing capacity, and understanding unit costs. Supply Chain ensures enough product ships and arrives to the intended market.</p>",
+      "e_headlineTwo": "",
+      "e_textTwo": ""
+    },
+    {
+      "id": 3,
+      "e_title": "Product Stewardship",
+      "area": "product",
+      "image": "product.png",
+      "e_headlineOne": "Product Stewardship",
+      "e_text": "<p>Product Stewardship ensures products are safe for human health and the environment, and are compliant wherever they are sold.</p><p>Product stewardship is practiced throughout the entire life cycle of the product, including design, manufacture, use, and disposal. 3M’s product stewardship principles and practices support 3M’s fundamental corporate values, help achieve both legal compliance and ethical business conduct, and contribute to successful product commercialization and customer satisfaction.</p>",
+      "e_headlineTwo": "",
+      "e_textTwo": ""
+    },
+    {
+      "id": 4,
+      "e_title": "Marketing & Business",
+      "area": "marketing",
+      "image": "marketing.png",
+      "e_headlineOne": "Marketing & Business",
+      "e_text": "<p>Your Marketing and Business team members include marketing employees, functional managers, and business executives as gatekeepers.</p><p>Tasks in the Customer/Market and Business Opportunity deliverables are to understand the user’s needs, drive a successful global launch, and manage the life cycle of sales. Some of these tasks are the:</p><ul><li><p>Go to Market Strategy</p></li><li><p>Global Launch Plan</p></li><li><p>Launch Control Plan</p></li></ul><p>The team carries out a value-based assessment of the product within the context of how it meets the business goals, e.g., ensuring the product does not inadvertently reduce sales of other products. </p>",
+      "e_headlineTwo": "",
+      "e_textTwo": ""
+    },
+    {
+      "id": 5,
+      "e_title": "Quality",
+      "area": "quality",
+      "image": "quality.png",
+      "e_headlineOne": "Quality",
+      "e_text": "<p>In this activity, <strong>you are</strong> the team member representing the Quality focus. You will have opportunities to review and apply your tools, collaborate with your team, and problem solve.</p><p>You are responsible for ensuring the integrity of the product design and process through the entire commercialization process and throughout the product’s life cycle.</p>",
+      "e_headlineTwo": "",
+      "e_textTwo": ""
+    },
+    {
+      "id": 6,
+      "e_title": "Lab",
+      "area": "lab",
+      "image": "lab.png",
+      "e_headlineOne": "Lab",
+      "e_text": "<p>Your Lab team members include engineers, research and development employees, and other scientists and product specialists who create the physical product.</p><p>These team members are most involved with the Product deliverables.</p><p>Members of this team help determine which key features to maintain as the product goes through adjustments including additions, changes, or deletions.</p>",
+      "e_headlineTwo": "",
+      "e_textTwo": ""
+    }
+  ]
+}

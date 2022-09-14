@@ -1,0 +1,118 @@
+{
+  "e_title": "1b38b29f-4e16-4011-8ba7-1ab531768178",
+  "e_instructions": "bee059cb-b11d-4e1a-b634-685085204f96",
+  "e_instructionsTwo": "dc4ddb3f-25c8-4bbe-8537-225e260f6e36",
+  "secondPageButtons": {
+    "e_download": "4392a36a-6745-40ee-8e30-3a193c777799",
+    "e_continue": "ec289d33-e0e4-4c6c-988b-aefd94541f67"
+  },
+  "introModal": {
+    "e_title": "9f2929b5-9294-4082-941f-0caccb75ab7a",
+    "e_text": "e82b7be0-212a-4558-a6f9-0f13fb2a178e"
+  },
+  "transitionModal": {
+    "e_title": "d12feb7b-b149-4cf3-9d61-4a64d2941494",
+    "e_text": "20a6beae-126f-4fa3-8fe5-c27233308c0b"
+  },
+  "conclusionModal": {
+    "e_title": "08755613-b81b-4dd6-991f-8c8e57346801",
+    "e_text": "c35962d5-789e-4c65-8c33-6f233f02b9fb"
+  },
+  "activities": [
+    {
+      "id": "customer-market",
+      "e_title": "e69f1354-bbed-4bca-a8d7-0382bc34b7b3",
+      "e_oneLineTitle": "9c67e0f8-c5bc-440b-9ae8-06dd27de9c84",
+      "icon": "build-buisiness-case",
+      "deliverables": [
+        {
+          "id": "tasks",
+          "e_title": "360ae892-ea46-4441-a455-4a66a3556ed3",
+          "e_text": "025d759a-5d12-40c7-8168-86cda658c8d4"
+        },
+        {
+          "id": "how",
+          "e_title": "2944f783-b738-4bf8-a011-a6e1979231f0",
+          "e_text": "0beeb9e5-d3b8-4374-89a8-080be14920e4"
+        },
+        {
+          "id": "team",
+          "e_title": "d141f979-5fb7-4984-9bdf-1fa8e1789b77",
+          "e_text": "80ca96a8-f614-4b27-8747-fe28eac21a7c"
+        }
+      ]
+    },
+    {
+      "id": "biz-opportunity",
+      "e_title": "dadc61f6-394f-4ec9-872b-6cc4744dfb55",
+      "e_oneLineTitle": "7681b771-5345-4e64-a2fa-7403e2f07492",
+      "icon": "development",
+      "deliverables": [
+        {
+          "id": "business-case",
+          "e_title": "5482c9e5-a32d-4fc4-8468-2dd1aea98336",
+          "e_text": "4738a9fd-d173-48f7-a185-eff66f8cd11f"
+        },
+        {
+          "id": "develop",
+          "e_title": "ff05c1d3-d3b1-43cb-a045-8f300cb8f203",
+          "e_text": "3d6e037f-84d8-45a2-9371-f24bb964f7cb"
+        },
+        {
+          "id": "scale-up",
+          "e_title": "8edc5aee-8200-4a0c-9db1-8e6d341f7cce",
+          "e_text": "8dc42966-70c2-4598-93d6-66c177c3fcc6"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "e_title": "336c50a6-19b6-48b8-acd5-d0b9acbea872",
+      "e_oneLineTitle": "0a43c8a2-7059-499d-aff1-e84a4782bf91",
+      "icon": "scale-up",
+      "deliverables": [
+        {
+          "id": "business-case",
+          "e_title": "66fd598f-847e-4125-a43c-7c91a0001b96",
+          "e_text": "9b911b28-4a17-4179-805f-ce2c4b9bb46f"
+        },
+        {
+          "id": "develop",
+          "e_title": "1b460616-dfb2-4b69-bcb1-e16a0e15c678",
+          "e_text": "720e681c-5f06-4b4e-941f-ba534f2c7262"
+        },
+        {
+          "id": "scale-up",
+          "e_title": "46970a12-2163-4aef-b17d-6d72d58f540d",
+          "e_text": "650e4370-e9a1-4fcf-b8ca-6cb8381db602"
+        }
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "e_title": "9745f3f3-4dea-4bf8-a0fb-91b2d1b7c8a6",
+      "e_oneLineTitle": "b236d5d8-d5b9-4b5b-8a36-5748386fe139",
+      "icon": "launch",
+      "deliverables": [
+        {
+          "id": "business-case",
+          "e_title": "9eb505e9-be51-42fc-9d3d-def3c9f9121f",
+          "e_header": "b096cde3-6f76-4028-aac6-7c410dc4b3f8",
+          "e_text": "5f38f7f2-9291-4435-9c46-609d97987db0"
+        },
+        {
+          "id": "develop",
+          "e_title": "302d6d11-3c3d-43fd-97d7-9925643f16f0",
+          "e_header": "2cc0f314-71b4-4711-b703-070cba7882ab",
+          "e_text": "fbb55c94-c943-4eec-85c4-73e142e16fc9"
+        },
+        {
+          "id": "scale-up",
+          "e_title": "7706875a-7d04-428a-918a-96be16ec408e",
+          "e_header": "8882ebc2-96b5-406f-89ee-4a4dc6144409",
+          "e_text": "219cd629-5ae2-4e8c-b7ed-9dc49b617736"
+        }
+      ]
+    }
+  ]
+}

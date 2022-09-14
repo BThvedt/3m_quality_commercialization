@@ -1,0 +1,328 @@
+{
+  "e_title": "580aa799-4e9f-42ee-88e9-aaccbecb79de",
+  "e_subtitle": "4ff6aafc-666c-4d8a-ab4d-280adf80b85f",
+  "businessCaseConclusion": {
+    "e_title": "d3043e28-4e26-495f-8541-952561756223",
+    "e_text": "0a637ceb-dc72-46e9-a1c7-862e6e3780f5"
+  },
+  "businessCaseIntro": {
+    "e_title": "31ed23f9-9b2b-47ff-8749-1ea97f5fbb7d",
+    "e_text": "15968166-cc77-4b11-a1bc-090edda0e3ee"
+  },
+  "subActivities": [
+    {
+      "id": 1,
+      "questionIds": [
+        1,
+        2
+      ],
+      "showBadge": true,
+      "image": "map-activity-comp.png",
+      "conclusion": {
+        "e_title": "82515226-4160-4baa-8ef1-1b4db68d5e11",
+        "e_text": "5efd3484-2316-4fbc-bc3f-491d9faf7f60",
+        "image": "Quality/Product/questions/bbc_activity_1_conclusion.png"
+      }
+    },
+    {
+      "id": 2,
+      "questionIds": [
+        3
+      ],
+      "showBadge": false,
+      "image": "map-activity-office.png",
+      "conclusion": {
+        "e_title": "f46b52cb-a110-43e5-952e-5eb93dd0820a",
+        "e_text": "3697171c-496e-4b3e-b062-ce985afd4cda",
+        "image": ""
+      }
+    },
+    {
+      "id": 3,
+      "questionIds": [
+        4
+      ],
+      "showBadge": false,
+      "image": "map-activity-convo.png",
+      "conclusion": {
+        "e_title": "99e89e5f-ea60-450b-9ca5-a7b2bf27d0de",
+        "e_text": "ec209773-7b6e-4ea6-8fc6-c167cf336007",
+        "image": ""
+      }
+    },
+    {
+      "id": 4,
+      "questionIds": [
+        5
+      ],
+      "showBadge": false,
+      "image": "map-activity-checklist.png",
+      "conclusion": {
+        "e_title": "0a5c9761-adcd-46e2-a182-acc3761bf7f2",
+        "e_text": "69f95205-5ee4-4ca1-8c60-4a7ab9c8f7c9",
+        "image": ""
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "e_questionText": "110392f5-84dc-479e-b025-b395f306a9b0",
+      "e_instructions": "ec9fb632-ce7b-4508-8374-3c7e5def6357",
+      "questionType": "area-select",
+      "e_submitText": "a434470e-3ccf-41f9-90ea-5e8cd4a16aba",
+      "questionImage": "bbc_activity_1_question_1.png",
+      "areas": [
+        {
+          "shape": "rect",
+          "coords": "525,2,725,463",
+          "correct": true,
+          "feedback": {
+            "e_title": "81ccf949-63c1-404a-b9a4-ed6ca5573010",
+            "e_text": "5312c15e-48bf-4cb8-a34a-683b2bcd17ae"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "726,2,791,463",
+          "correct": false,
+          "feedback": {
+            "e_title": "301f3d67-de29-48f9-ba13-1654046d11ad",
+            "e_text": "d386437a-b7d2-4dc0-9718-f26d27aaf84b"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "792,2,930,463",
+          "correct": true,
+          "feedback": {
+            "e_title": "bc7baf4d-07cc-4e84-bdb2-b63fc7144ddc",
+            "e_text": "7670d5e7-f277-424f-8a6f-b64b24e3fc17"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "e_prompt": "ae51015d-bd2b-4b7d-ad9b-7d5907030218",
+      "e_instructions": "3301286f-5155-4163-894f-5425077ce115",
+      "questionType": "multiple-select",
+      "e_submitText": "6fdcd45d-b964-4170-8e50-c8e4f1af5c26",
+      "questionImage": "bbc_activity_1_question_2.png",
+      "specialClass": "big-image",
+      "feedback": {
+        "correct": {
+          "e_title": "319e5369-b106-4a2a-9967-c6c960f788d9",
+          "e_text": "f9313107-fc5d-49da-959e-eebfe6f16dba"
+        },
+        "incorrect": {
+          "e_title": "435467a9-9696-4a7f-b69d-d0cfb6d9a0c9",
+          "e_text": "97e5aaab-ac36-4acf-8882-700ba06164ee"
+        }
+      },
+      "choices": [
+        {
+          "e_text": "b016bc79-f264-41f4-beb2-84d7dfa44490",
+          "correct": true
+        },
+        {
+          "e_text": "d3490707-6e71-4ae6-a043-229a3ce28501",
+          "correct": true
+        },
+        {
+          "e_text": "0dd24fd0-3430-4b6a-80f0-279e7469b2c1",
+          "correct": false
+        },
+        {
+          "e_text": "6efac589-1393-4eda-be60-48d6459a2f82",
+          "correct": false
+        },
+        {
+          "e_text": "fa953687-342c-480f-b231-739173fa850c",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "e_title": "aa132318-8979-4a43-a66b-67d5fe0c9bd6",
+      "e_prompt": "1351d346-6477-4c8f-862d-0812d91ad724",
+      "e_instructions": "55484a05-3e7c-4738-8911-7ae9f4c06431",
+      "questionType": "multiple-choice",
+      "questionImage": "team-group.jpg",
+      "choices": [
+        {
+          "e_text": "c396ae2c-dd7f-45ae-9231-3c2c55eec697",
+          "feedback": {
+            "e_title": "0ec18585-1a0e-4cca-95b8-1c54f23ac25f",
+            "e_text": "e33a5a1e-89fa-4fa8-8108-b1fd9259bff0"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "a788205b-5007-43f2-810b-1fca5fb03492",
+          "feedback": {
+            "e_title": "02fa2770-d941-4f8c-b67c-a71276b1e5e6",
+            "e_text": "034e22e6-617f-4190-9381-cb8555124f39"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "de892b7c-6520-44b8-9158-d7ee75525c14",
+          "feedback": {
+            "e_title": "82e6b49a-0a7e-4ecd-912c-229ea2047c91",
+            "e_text": "4e58eacd-0671-4a96-9f32-d8517731f671"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "e_prompt": "b7444d53-a77c-4f9f-902b-7c3678d41415",
+      "e_instructions": "cbc0ae90-6d97-4050-a595-b23142fda481",
+      "questionType": "multiple-select",
+      "e_submitText": "a209f2f9-dd3b-444d-9a12-cc605cce5a7f",
+      "questionImage": "team-marketing.jpg",
+      "feedback": {
+        "correct": {
+          "e_title": "8928e4a0-2c85-4c9d-965d-6face9b352ec",
+          "e_text": "0eb0b3ea-13b9-416e-a58d-bf53762daea7"
+        },
+        "incorrect": {
+          "e_title": "a0cde4c4-550d-4aca-a561-7af45f412c9e",
+          "e_text": "fa1c4a18-dd8d-4673-85f1-77aa3c7d0513"
+        }
+      },
+      "choices": [
+        {
+          "e_text": "b80db68f-ff0f-47b1-9096-289ffd34a890",
+          "correct": true
+        },
+        {
+          "e_text": "fc9fc2c3-2317-4b91-973a-90e7389a7a45",
+          "correct": false
+        },
+        {
+          "e_text": "92a91df6-170d-425f-a7a3-c366a714bd56",
+          "correct": true
+        },
+        {
+          "e_text": "0633a991-bd90-4229-9bfe-4f9ec61cbb60",
+          "correct": false
+        },
+        {
+          "e_text": "8595026e-0808-4679-ae29-fc4206498e85",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "e_prompt": "456e5940-b7e4-47c0-adf3-0b10b1859faa",
+      "e_instructions": "f06d4c7b-9145-4959-9c7c-46b75cbf4cb2",
+      "questionType": "multiple-choice",
+      "questionImage": "team-group.jpg",
+      "choices": [
+        {
+          "e_text": "74cfd090-eda5-4ae4-8a3b-9f643945871d",
+          "feedback": {
+            "e_title": "73218f45-9715-45a7-980e-80e9ec79a3dc",
+            "e_text": "a1c028a4-be74-47b1-bb8b-063d5bdfa0b8"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "0aaa1dc6-399d-4355-8f71-0eefe1407ffa",
+          "feedback": {
+            "e_title": "bf8be1ce-3dc9-481c-b340-0771a5d8e060",
+            "e_text": "0c49198d-bb8f-4bab-ad07-8bfc147bc142"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "54ea3847-eada-4235-a906-e569e995749c",
+          "feedback": {
+            "e_title": "62e18380-02f8-4ecb-9d44-f6e3af7b219c",
+            "e_text": "2ffb08fd-f2d2-43d3-9ada-ad0a60b71c37"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "786dc2ad-9bd3-4439-b926-d334efcd115d",
+          "feedback": {
+            "e_title": "15507355-2172-415e-ae19-20e3c0512ec8",
+            "e_text": "d8d66868-d10c-4c48-bf76-edf7bf152936"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "762e0e99-b565-4561-9571-fbe07a1e2857",
+          "feedback": {
+            "e_title": "b93682a5-3cd7-498e-b6c5-e626d032d2de",
+            "e_text": "df699951-31cb-458e-a7fe-1cd5310287b3"
+          },
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "text": "<p>Congratulations! Your efforts in translating customer needs into design specifications has earned you the <strong>Customer Advocate Badge!</strong></p>",
+      "caption": "Customer Advocate",
+      "image": "badge-customer-advocate.png"
+    },
+    {
+      "id": 2,
+      "text": "<p>Congratulations! You have inspected a potential failure mode in the product/process by examining testing performance, uncovering a necessary redesign. You’ve earned the <strong>Test Evaluator Badge!</strong></p>",
+      "caption": "Test Evaluator Badge",
+      "image": "badge-test-evaluator.png"
+    },
+    {
+      "id": 3,
+      "text": "<p>Excellent work! You’ve taken all the steps necessary after the painting tape underwent a necessary redesign, all while ensuring that the VOC remained amplified in the process. Your diligence has earned you the <strong>Robust Designer Badge!</strong></p>",
+      "caption": "Robust Designer Badge",
+      "image": "badge-robust-designer.png"
+    },
+    {
+      "id": 4,
+      "text": "<p>Fantastic! You worked with a primary supplier for the materials for the painting tape to ensure that issues with their quality system were addressed. This has earned you the <strong>Systems Master Badge!</strong></p>",
+      "caption": "Systems Master Badge",
+      "image": "badge-systems-master.png"
+    },
+    {
+      "id": 5,
+      "text": "<p>Congratulations! You collaborated with the team to ensure that the VOC was correctly retranslated, and you’ve worked to document the process so that the painting tape can continue to be successful into its market life cycle. Your thorough efforts have earned you the <strong>Documentation Champion Badge!</strong></p>",
+      "caption": "Documentation Champion Badge",
+      "image": "badge-document-champion.png"
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "f25ec7e5-cb5a-41dd-9a14-643c8930fb31",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "e_topTitle": "ad22f5e8-57fc-4562-be9c-65680f8ce03e"
+    },
+    {
+      "e_title": "70438fc6-0f90-4c1a-8dfc-97f1e56820b1",
+      "e_topTitle": "bbee88fd-c53e-4a1d-a596-115070e7e6c0",
+      "icon": "development",
+      "id": 3
+    },
+    {
+      "e_title": "41922221-f2d3-42b4-9874-db4b446ed731",
+      "e_topTitle": "cf4e287b-d2b8-4889-8976-e8618e53aebd",
+      "icon": "scale-up",
+      "id": 4
+    },
+    {
+      "e_title": "1e50422f-aba3-4c97-ade8-d50a8f62c790",
+      "e_topTitle": "24e210ad-5183-49be-a06c-1a158d9b515f",
+      "icon": "launch",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "e_title": "Quality - Commercialize the Product - Scale Up",
+  "e_subtitle": "Select the highlighted team members to listen to the team's conversation",
+  "scaleUpConclusion": {
+    "e_title": "Scale Up is completed!",
+    "e_text": "<p>The painting tape is now ready to go to market. The team conducts Launch, with Marketing/Business setting the Launch Control Plan.</p><p><strong>Six months have now passed</strong> since initial Launch, and the team meets to share findings and observations.</p>"
+  },
+  "subActivities": [
+    {
+      "id": 1,
+      "questionIds": [1, 2],
+      "showBadge": false,
+      "image": "map-activity-comp.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>The equipment issue has been addressed thanks to your investigation. This results in tape length specifications falling back into passing variability range. </p><p>It is possible that product specifications can drift out of Cpk range overtime for a variety of reasons. Your continued review of the supply chain with the team helps to identify issues before they can escalate to potential failure modes.</p>",
+        "image": "Quality/Product/questions/scaleup_activity_1_conclusion.png"
+      }
+    },
+    {
+      "id": 2,
+      "questionIds": [3],
+      "showBadge": true,
+      "image": "map-activity-forklift.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>You create a checklist of improvements that the team requires be made to the supplier’s quality system. The supplier communicates that your improvements have been applied and you verify the changes.</p><p>Navigating the team’s working relationships with suppliers is a complicated part of product production. It is not uncommon that suppliers present issues that are tied to their quality systems. As the Quality focus team member, addressing these issues is an important part of your role.</p>",
+        "image": ""
+      }
+    },
+    {
+      "id": 3,
+      "questionIds": [4],
+      "showBadge": false,
+      "image": "map-activity-office.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>In some divisions, moving from Scale Up to Launch is described as locking-in the product design. The Design Review at the end of Scale Up is vital to ensuring that there are no known risks to the product or process.</p><p>You check the collective FMEA tool to ensure that all previously identified risks have been linked to a solution/intervention and are no longer a concern for the painting tape.</p>",
+        "image": "Quality/Product/questions/developemnt_activity_3_conclusion.png"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "e_questionText": "Lab informed you that there is a need to revisit the tape’s process capability. You check the Key Customer Needs tool within the DQM to investigate.",
+      "e_instructions": "Select the column of the tool you should focus on.",
+      "questionType": "area-select",
+      "e_submitText": "Submit",
+      "questionImage": "scaleup_activity_1_question_1.png",
+
+      "areas": [
+        {
+          "shape": "rect",
+          "coords": "2,2,210,194",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>While Spec Customer Requirements could be helpful to review, the Scale Up Cpk values and pass level would be the most relevant to process capability evaluation. </p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "211,2,414,194",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>While Measured Performance Prototype Requirement values could be helpful to review, the Scale Up Cpk values and pass level would be the most relevant to process capability evaluation.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "415,2,665,194",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>While Measured Performance Development values could be helpful to review, the Scale Up Cpk values and pass level would be the most relevant to process capability evaluation.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "711,2,811,194",
+          "correct": true,
+          "feedback": {
+            "e_title": "You got it!",
+            "e_text": "<p>Scale Up Cpk values and the description on if they pass minimum requirements will be the most useful information for conducting a Scale Up process capability evaluation.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "e_prompt": "<p>Working with Lab and Manufacturing, you conclude from process capability evaluation that a variability has occurred because of manufacturing equipment performance. This variability has impacted the length of the tape.</p><p>What is the most important reason why?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-manufacturing-lab.jpg",
+
+      "choices": [
+        {
+          "e_text": "Equipment should produce reliable results (process capability)",
+          "feedback": {
+            "e_title": "Close, but this isn’t the primary problem.",
+            "e_text": "The equipment used to manufacture the product should do so within acceptable limits of variability. However, the primary problem here is that too much length variability could lead to customer dissatisfaction with the product."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Too much length variability could lead to product failure (customer dissatisfaction)",
+          "feedback": {
+            "e_title": "This is the best choice!",
+            "e_text": "While all the available choices reflect real concerns for the process the primary problem here is that too much length variability could lead to customer dissatisfaction with the product."
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Packaging describes the tape as being a specific length (marketing impact)",
+          "feedback": {
+            "e_title": "Close, but this isn’t the primary problem.",
+            "e_text": "If there is too much product specification variability, it could have an impact on the accuracy of packing descriptions or marketing materials. However, the primary problem here is that too much length variability could lead to customer dissatisfaction with the product."
+          },
+          "correct": false
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+
+      "e_prompt": "<p>Manufacturing shares: “Were experiencing routine issues with a supplier’s output.”</p><p>As the Quality focus team member, you assess if a supplier has a robust quality system for output. What steps should you consider for a supplier’s quality issues?</p>",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+      "questionImage": "team-manufacturing-concerned.jpg",
+      "feedback": {
+        "correct": {
+          "e_title": "That’s right!",
+          "e_text": "<p>If a supplier has routine issues with their quality system, you must either advocate for change to the quality system and hold the supplier accountable to the changes or select a different supplier that has a better quality system. These are your primary interventions for this issue.</p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>If a supplier has routine issues with their quality system, you must either advocate for change to the quality system and hold the supplier accountable to the changes or select a different supplier that has a better quality system. These are your primary interventions for this issue.</p>"
+        }
+      },
+      "choices": [
+        {
+          "e_text": "Communicate to the team that there may be continued output variation from the supplier",
+          "correct": false
+        },
+        {
+          "e_text": "Re-check samples from the supplier using the sampling plan",
+          "correct": false
+        },
+        {
+          "e_text": "Communicate with the supplier that issues with the quality system need to be addressed",
+          "correct": true
+        },
+        {
+          "e_text": "Select a different supplier",
+          "correct": true
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "e_prompt": "<p>The team prepares for the Design Review to move into Launch.</p><p>The painting tape has gone through redesigns in Development and product specification issues have been addressed.</p><p>What is the <strong>most important</strong> thing to establish in this Review?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-group.jpg",
+
+      "choices": [
+        {
+          "e_text": "Ensure that none of the customer wants have been neglected",
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "Ensuring that customer wants have been properly identified and translated into product specifications is always important to recheck, but as the team prepares for Launch the <strong>most</strong> important consideration for you to establish from the Quality mindset is that all risks to product and process have been successfully mitigated."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Ensure that the best possible raw material selection is ready for production",
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "Striving for the best raw material selections is always important, but as the team prepares for Launch the <strong>most</strong> important consideration for you to establish from the Quality mindset is that all risks to product and process have been successfully mitigated."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Ensure that risks to product and process have been successfully mitigated",
+          "feedback": {
+            "e_title": "This is the best choice.",
+            "e_text": "To move into Launch successfully, you must operate from the Quality mindset to ensure that all previously identified risks to product and process have been successfully mitigated."
+          },
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "text": "<p>Congratulations! Your efforts in translating customer needs into design specifications has earned you the <strong>Customer Advocate Badge!</strong></p>",
+      "caption": "Customer Advocate",
+      "image": "badge-customer-advocate.png"
+    },
+    {
+      "id": 2,
+      "text": "<p>Congratulations! You have inspected a potential failure mode in the product/process by examining testing performance, uncovering a necessary redesign. You’ve earned the <strong>Test Evaluator Badge!</strong></p>",
+      "caption": "Test Evaluator Badge",
+      "image": "badge-test-evaluator.png"
+    },
+    {
+      "id": 3,
+      "text": "<p>Excellent work! You’ve taken all the steps necessary after the painting tape underwent a necessary redesign, all while ensuring that the VOC remained amplified in the process. Your diligence has earned you the <strong>Robust Designer Badge!</strong></p>",
+      "caption": "Robust Designer Badge",
+      "image": "badge-robust-designer.png"
+    },
+    {
+      "id": 4,
+      "text": "<p>Fantastic! You worked with a primary supplier for the materials for the painting tape to ensure that issues with their quality system were addressed. This has earned you the <strong>Systems Master Badge!</strong></p>",
+      "caption": "Systems Master Badge",
+      "image": "badge-systems-master.png"
+    },
+    {
+      "id": 5,
+      "text": "<p>Congratulations! You collaborated with the team to ensure that the VOC was correctly retranslated, and you’ve worked to document the process so that the painting tape can continue to be successful into its market life cycle. Your thorough efforts have earned you the <strong>Documentation Champion Badge!</strong></p>",
+      "caption": "Documentation Champion Badge",
+      "image": "badge-document-champion.png"
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "Build Business Case",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "e_topTitle": "Build a Business Case"
+    },
+    {
+      "e_title": "Development",
+      "e_topTitle": "Development",
+      "icon": "development",
+      "id": 3
+    },
+    {
+      "e_title": "Scale Up",
+      "e_topTitle": "Scale Up",
+      "icon": "scale-up",
+      "id": 4
+    },
+    {
+      "e_title": "Launch",
+      "e_topTitle": "Launch",
+      "icon": "launch",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+// @import "IntroSelectReveal";
+// @import "IntroDragAndDrop";
+// @import "OnTheTeam";
+
+// #Asdf {
+//   background-image: url("../images/intro/tree-bkg.jpg");
+// }
+
+.module-page-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.big-box-shadow {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.35);
+}
+.slow-speed {
+  animation-duration: 1500ms !important;
+}
+.regular-speed {
+  animation-duration: 1000ms !important;
+}
+.medium-speed {
+  animation-duration: 600ms !important;
+}
+.fast-speed {
+  animation-duration: 300ms !important;
+}
+.very-fast-speed {
+  animation-duration: 150ms !important;
+}
+
+.disable-user-select {
+  user-select: none;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans"),
+    url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans"),
+    url("../fonts/Noto_Sans/NotoSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans"),
+    url("../fonts/Noto_Sans/NotoSans-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans"),
+    url("../fonts/Noto_Sans/NotoSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf")
+      format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf")
+      format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-LightItalic.ttf")
+      format("truetype");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.page-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+  img {
+    pointer-events: none;
+  }
+}
+.page-container-inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: $text-page-width;
+  padding-bottom: 5%;
+  .the-logo {
+    width: 250px;
+    // position: absolute;
+    // top: 40px;
+    // left: 0;
+  }
+}
+.bold-headline {
+  font-size: 1.7em;
+  color: $black;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+.sub-headline {
+  font-family: "Noto Sans";
+  font-style: italic;
+  font-size: 1em;
+  color: $darkGray;
+}
+.small-headline {
+  color: $black;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  font-size: 1em;
+  //text-transform: uppercase;
+}
+.text-box {
+  width: 100%;
+  border: 2px solid $mediumGray;
+  height: 3.5em;
+  font-size: $text-size-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $mediumGray;
+  box-shadow: $box-shadow;
+  cursor: pointer;
+  transition: $very-fast-transition;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  // user-select: none;
+  &:hover {
+    border: 2px solid $black;
+    color: $black;
+  }
+}
+.big-text-box {
+  height: 6em;
+}
+.continue-button,
+.back-button,
+.blue-button {
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+
+  border: 2px solid $blue;
+  transition: $very-fast-transition;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $blue;
+  color: white;
+  &:hover {
+    background: white;
+    border: 2px solid $black;
+    color: $black;
+  }
+}
+.bAndWButton,
+.submit {
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  background: white;
+
+  border: 2px solid $mediumGray;
+  transition: $very-fast-transition;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    border: 2px solid $black;
+    color: $black;
+  }
+}
+.orange-button {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $lightOrange;
+  background: $lightOrange;
+  color: white;
+  transition: $very-fast-transition;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: $noto;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  &:hover {
+    border: 2px solid $black;
+    color: $black;
+    background: white;
+  }
+}
+.xs-button {
+  width: 120px;
+  height: 28px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+.small-button {
+  width: 150px;
+  height: 35px;
+  border-radius: 18px;
+}
+.med-button {
+  width: 250px;
+  height: 45px;
+  border-radius: 25px;
+}
+.orange-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $lightOrange;
+  color: white;
+  transition: $very-fast-transition;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: $noto;
+  border: 2px solid transparent;
+  &:hover {
+    border: 2px solid $black;
+    color: $black;
+    background: white;
+  }
+}
+.large-button {
+  width: 350px;
+  height: 60px;
+  border-radius: 30px;
+}
+.plain-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.paragraph {
+  color: $darkGray;
+  font: $noto;
+  font-size: 1em;
+}
+.success-header {
+  // color: $green;
+  font-weight: bold;
+  font-family: $roboto;
+  font-style: italic;
+  // text-transform: uppercase;
+}
+.incorrect-header {
+  // color: $red;
+  font-weight: bold;
+  font-family: $roboto;
+  font-style: italic;
+  // text-transform: uppercase;
+}

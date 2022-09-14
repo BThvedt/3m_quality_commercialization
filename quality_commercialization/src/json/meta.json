@@ -1,0 +1,261 @@
+{
+  "fakeLoadingTimes": {
+    "on": true,
+    "minDuration": 500
+  },
+  "specialPages": {
+    "loading": true,
+    "locked": true
+  },
+
+  "metaIds": {
+    "clientId": null,
+    "moduleId": "4e073e09-8bd9-42b3-9eda-116141839128",
+    "courseId": "e04d98b1-264f-46b4-bbf0-063a091b1ecb"
+  },
+
+  "extraJson": ["glossary.json", "extra.json"],
+
+  "sizes": [
+    { "name": "large", "width": 1280, "height": 650, "breakpoint": "Infinity" }
+  ],
+
+  "sections": [
+    {
+      "id": "Hx5Dxudy",
+      "name": "Role Choice",
+      "pages": [
+        { "id": "8U9NajQt", "name": "Role Menu", "specialClass": "menu-class" }
+      ],
+      "hiddenPages": []
+    },
+    {
+      "id": "QngESQ64",
+      "name": "Quality Intro",
+      "pages": [
+        {
+          "id": "XEU4Azyr",
+          "name": "Introduction Page",
+          "specialClass": "intro-a-class"
+        },
+        {
+          "id": "eZtl0QCN",
+          "name": "Menu",
+          "specialClass": "menu-class"
+        }
+      ],
+      "hiddenPages": []
+    },
+    {
+      "id": "QK6PvM2k",
+      "name": "Quality Challenge",
+      "pages": [
+        {
+          "id": "nyOoIEb3",
+          "name": "Commercialization Challenge",
+          "specialClass": "quality-challenge"
+        }
+      ],
+      "hiddenPages": []
+    },
+    {
+      "id": "QjBJ9ybR",
+      "name": "Quality Tasks",
+      "pages": [
+        {
+          "id": "NH7Y9N9d",
+          "name": "Tasks Intro Page 1",
+          "specialClass": "role-intro-page-1 text-image",
+          "data": {
+            "showContinue": true
+          }
+        },
+        {
+          "id": "BMh2hGaT",
+          "name": "Tasks Intro Page 2",
+          "specialClass": "role-intro-page-1 text-image",
+          "data": {
+            "showContinue": true,
+            "showBack": true
+          }
+        },
+        {
+          "id": "DkqGyoUH",
+          "name": "Tasks Intro Page 3",
+          "specialClass": "role-intro-page-3 two-col-text",
+          "data": {
+            "showContinue": true,
+            "showBack": true
+          }
+        },
+        {
+          "id": "8xGzSNGq",
+          "name": "Tasks Intro Page 4",
+          "specialClass": "role-intro-page-4 text-image",
+          "data": {
+            "showContinue": true,
+            "showBack": true
+          }
+        },
+        {
+          "id": "5q3uvPF6",
+          "name": "What are your Tasks",
+          "specialClass": "commercialization-challenge"
+        }
+      ],
+      "hiddenPages": []
+    },
+    {
+      "id": "Q4xsxPB4",
+      "name": "Quality Tools",
+      "pages": [
+        {
+          "id": "gosXyzVt",
+          "name": "Tools Intro Page 1",
+          "specialClass": "role-intro-page-1 text-image",
+          "data": {
+            "showContinue": true
+          }
+        },
+        {
+          "id": "mIhu0JDz",
+          "name": "Tools Intro Page 2",
+          "specialClass": "role-intro-page-1 text-image",
+          "data": {
+            "showContinue": true,
+            "showBack": true
+          }
+        },
+        {
+          "id": "oNcvJbNM",
+          "name": "Tools Intro Page 3",
+          "specialClass": "role-intro-page-3 two-col-text",
+          "data": {
+            "showContinue": true,
+            "showBack": true
+          }
+        },
+        {
+          "id": "w1MOHGjJ",
+          "name": "What are your Tools",
+          "specialClass": "what-are-your-tools"
+        },
+        {
+          "id": "Z5qtNqkb",
+          "name": "What are your Tools Two",
+          "specialClass": "what-are-your-tools"
+        },
+        {
+          "id": "XbfQXER5",
+          "name": "Drag and Drop One",
+          "specialClass": "drag-and-drop-one"
+        }
+      ],
+      "hiddenPages": [
+        {
+          "id": "ZeMmD7YT",
+          "name": "Tools Mid Page",
+          "specialClass": "tools-mid-page two-col-text"
+        }
+      ]
+    },
+    {
+      "id": "QJBhp7XA",
+      "name": "Quality Product",
+      "pages": [
+        {
+          "id": "KnnsvmuN",
+          "name": "Meet the Team",
+          "specialClass": "meet-the-team"
+        },
+        {
+          "id": "UU59Qfe7",
+          "name": "Commercialize the Product",
+          "specialClass": "commercialize-the-product"
+        }
+      ],
+      "hiddenPages": [
+        {
+          "id": "ViJfS0TS",
+          "name": "Build Business Case",
+          "specialClass": "commercialize-the-product"
+        },
+        {
+          "id": "S0g4Cu3H",
+          "name": "Development",
+          "specialClass": "commercialize-the-product"
+        },
+        {
+          "id": "I8ngq6qN",
+          "name": "Scale Up",
+          "specialClass": "commercialize-the-product"
+        },
+        {
+          "id": "XYJErHNC",
+          "name": "Launch",
+          "specialClass": "commercialize-the-product"
+        }
+      ]
+    },
+    {
+      "id": "QByUaA4q",
+      "name": "Quality Conclusion",
+      "pages": [
+        {
+          "id": "D1zHMHU5",
+          "name": "Conclusion",
+          "specialClass": "role-conclusion"
+        }
+      ],
+      "hiddenPages": []
+    }
+  ],
+  "suspendedData": {
+    "locked": [false, false, false, false],
+    "completed": [false, false, false, false],
+    "lastLogin": "1/1/2021",
+    "currentSection": "",
+    "currentRole": "quality",
+    "lockedSections": {
+      "quality": [false, false, false, false, false, false],
+      "marketingAndBusiness": [false, false, false, false, false, false],
+      "manufacturing": [false, false, false, false, false, false],
+      "legal": [false, false, false, false, false, false],
+      "lab": [false, false, false, false, false, false],
+      "productSteward": [false, false, false, false, false, false]
+    },
+    "completedSections": {
+      "quality": [false, false, false, false, false, false],
+      "marketingAndBusiness": [true, false, false, false, false, false],
+      "manufacturing": [true, false, false, false, false, false],
+      "legal": [true, false, false, false, false, false],
+      "lab": [true, false, false, false, false, false],
+      "productSteward": [true, false, false, false, false, false]
+    }
+  },
+  "moduleDefaults": {
+    "resumed": false,
+    "moduleStatus": "incomplete",
+    "lastLocation": "/QjBJ9ybR/NH7Y9N9d",
+    "score": {
+      "max": 100,
+      "min": 0,
+      "raw": 0
+    }
+  },
+  "userDefaults": {
+    "userName": "defaultUserName",
+    "userId": "defaultUserName"
+  },
+  "objectiveDefaults": [
+    {
+      "id": "SampleObjective",
+      "status": "incomplete",
+      "score": {
+        "max": 100,
+        "min": 0,
+        "raw": 0
+      }
+    }
+  ]
+}

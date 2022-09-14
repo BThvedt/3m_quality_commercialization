@@ -1,0 +1,352 @@
+{
+  "e_title": "Quality - Commercialize the Product",
+  "e_subtitle": "Play the audio to listen to the team’s conversation.",
+  "introModal": {
+    "e_title": "What is Commercialization?",
+    "e_text": "<p>Let’s get started by exploring some concepts and definitions to build a good foundation of knowledge.</p>"
+  },
+  "conclusionModal": {
+    "e_title": "You completed your journey!",
+    "e_text": "<p>Congratulations! You navigated the new product commercialization of the painting tape from start to finish: From BBC to post-Launch. You applied your knowledge of Quality tools, systems, and responsibilities to work with your team.</p><p>Next, let’s review your results.</p>"
+  },
+  "feedBack": {
+    "e_continue": "Continue",
+    "e_tryAgain": "Try Again",
+    "low": {
+      "e_title": "It looks like you could have performed better.",
+      "e_text": "<p>It looks like you struggled to achieve high success in this scenario. You may have opportunities to expand on your knowledge of how the Quality focus contributes to new product commercialization.</p><p>To make sure you have the basics you will want to visit some of the questions you’ve missed. You may also want to re-explore previous lessons in the course to aid you in making the best choices.</p>",
+      "icon": false
+    },
+    "med": {
+      "e_title": "You Might Want to Review",
+      "e_text": "<p>You demonstrated knowledge of how the Quality focus contributes to new product commercialization, but there is an opportunity to reach better results in this scenario.</p><p>To make sure you’ve got a mastery of the Quality mindset, you may want to visit some of the questions you’ve missed. </p><p>When you are ready, you may proceed to the conclusion.</p>",
+      "icon": false
+    },
+    "high": {
+      "e_title": "Your effort was highly successful!",
+      "e_text": "<p>You’ve demonstrated thorough knowledge of how the Quality focus contributes to new product commercialization.</p><p>If you wish, you can revisit questions if you missed them. Otherwise, you may proceed to the conclusion.</p>",
+      "icon": "champion.png"
+    },
+    "perfect": {
+      "e_title": "Your effort was highly successful!",
+      "e_text": "<p>You’ve demonstrated thorough knowledge of how the Quality focus contributes to new product commercialization.</p><p>If you wish, you can revisit questions if you missed them. Otherwise, you may proceed to the conclusion.</p>",
+      "icon": "champion.png"
+    }
+  },
+  "badges": [
+    {
+      "id": 1,
+      "text": "<p>Congratulations! Your efforts in translating customer needs into design specifications has earned you the <strong>Customer Advocate Badge!</strong></p>",
+      "caption": "Customer Advocate",
+      "image": "badge-customer-advocate.png"
+    },
+    {
+      "id": 2,
+      "text": "<p>Congratulations! You have inspected a potential failure mode in the product/process by examining testing performance, uncovering a necessary redesign. You’ve earned the <strong>Test Evaluator Badge!</strong></p>",
+      "caption": "Test Evaluator Badge",
+      "image": "badge-test-evaluator.png"
+    },
+    {
+      "id": 3,
+      "text": "<p>Excellent work! You’ve taken all the steps necessary after the painting tape underwent a necessary redesign, all while ensuring that the VOC remained amplified in the process. Your diligence has earned you the <strong>Robust Designer Badge!</strong></p>",
+      "caption": "Robust Designer Badge",
+      "image": "badge-robust-designer.png"
+    },
+    {
+      "id": 4,
+      "text": "<p>Fantastic! You worked with a primary supplier for the materials for the painting tape to ensure that issues with their quality system were addressed. This has earned you the <strong>Systems Master Badge!</strong></p>",
+      "caption": "Systems Master Badge",
+      "image": "badge-systems-master.png"
+    },
+    {
+      "id": 5,
+      "text": "<p>Congratulations! You collaborated with the team to ensure that the VOC was correctly retranslated, and you’ve worked to document the process so that the painting tape can continue to be successful into its market life cycle. Your thorough efforts have earned you the <strong>Documentation Champion Badge!</strong></p>",
+      "caption": "Documentation Champion Badge",
+      "image": "badge-document-champion.png"
+    }
+  ],
+  "e_listenAgainText": "You can listen again by selecting any of the outlined team members.",
+  "audioDoneContinueButton": {
+    "audioDone": false,
+    "e_text": "Continue",
+    "allowRevisit": false
+  },
+  "possibleEmotions": ["neutral", "serious", "happy", "slightSmile"],
+  "activityTeamMembers": [
+    {
+      "id": 1,
+      "area": "Legal",
+      "e_title": "Legal",
+      "image": "legal/neutral.png",
+      "emotions": {
+        "neutral": "legal/neutral.png",
+        "serious": "legal/happy.png",
+        "happy": "legal/happy.png",
+        "slightSmile": "legal/happy.png"
+      }
+    },
+    {
+      "id": 2,
+      "area": "Manufacturing",
+      "e_title": "Manufacturing",
+      "image": "manufacturing/neutral.png",
+      "emotions": {
+        "neutral": "manufacturing/neutral.png",
+        "serious": "manufacturing/happy.png",
+        "happy": "manufacturing/happy.png",
+        "slightSmile": "manufacturing/happy.png"
+      }
+    },
+    {
+      "id": 3,
+      "area": "Product Stewardship",
+      "e_title": "Product Stewardship",
+      "image": "product/neutral.png",
+      "emotions": {
+        "neutral": "product/neutral.png",
+        "serious": "product/happy.png",
+        "happy": "product/happy.png",
+        "slightSmile": "product/happy.png"
+      }
+    },
+    {
+      "id": 4,
+      "area": "Marketing & Business",
+      "e_title": "Marketing & Business",
+      "image": "marketing/neutral.png",
+      "emotions": {
+        "neutral": "marketing/neutral.png",
+        "serious": "marketing/happy.png",
+        "happy": "marketing/happy.png",
+        "slightSmile": "marketing/happy.png"
+      }
+    },
+    {
+      "id": 5,
+      "area": "Quality",
+      "e_title": "Quality",
+      "image": "quality/neutral.png",
+      "emotions": {
+        "neutral": "quality/neutral.png",
+        "serious": "quality/happy.png",
+        "happy": "quality/happy.png",
+        "slightSmile": "quality/happy.png"
+      }
+    },
+    {
+      "id": 6,
+      "area": "Lab",
+      "e_title": "Lab",
+      "image": "lab/neutral.png",
+      "emotions": {
+        "neutral": "lab/neutral.png",
+        "serious": "lab/happy.png",
+        "happy": "lab/happy.png",
+        "slightSmile": "lab/happy.png"
+      }
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "Build Business Case",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "topTitle": "Build a Business Case",
+      "conclusion": {
+        "title": "Build Business Case Completed!",
+        "size": "small-med",
+        "html": "<p>By presenting a strong business case at the gate review, the executive team recommends that the product move forward with a “Go” decision.</p>"
+      },
+      "audioRounds": [
+        {
+          "id": 1,
+          "areas": [
+            {
+              "area": "Marketing & Business",
+              "file": "audio/lorem-ipsum-3.mp3",
+              "e_audioTitle": "Marketing & Business",
+              "e_title": "Marketing & Business",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>Team, we’ve collected and compared the information we gathered in Discover. Let’s get to work on Building the Business Case for this new painter’s tape we hope to take to Launch.</p><p>I’ll contribute to our feasibility assessment from the business perspective.</p><p>Quality, we’ll need your help in translating the voice of the customer into the voice of the process. Be on the lookout for any opportunities you see to guide us.</p>"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "areas": [
+            {
+              "area": "Lab",
+              "file": "audio/lorem-ipsum-1.mp3",
+              "e_audioTitle": "Lab",
+              "e_title": "Lab",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>I’ll be awaiting the information we’ll need to begin identifying our product targets and specifications.</p>"
+            },
+            {
+              "area": "Product Stewardship",
+              "file": "audio/lorem-ipsum-2.mp3",
+              "e_audioTitle": "Product Stewardship",
+              "e_title": "Product Stewardship",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>Since we know the type of product and the primary market, I can begin identifying the legal requirements.</p>"
+            },
+            {
+              "area": "Legal",
+              "file": "audio/lorem-ipsum-4.mp3",
+              "e_audioTitle": "Legal",
+              "e_title": "Legal",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>I can begin evaluating product sustainability once we have the product specifications.</p>"
+            },
+            {
+              "area": "Manufacturing",
+              "file": "audio/lorem-ipsum-4.mp3",
+              "e_audioTitle": "Manufacturing",
+              "e_title": "Manufacturing",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>I will be on the lookout for raw material testing.</p>"
+            }
+          ]
+        }
+      ],
+
+      "questions": []
+    },
+    {
+      "e_title": "Development",
+      "topTitle": "Development",
+      "icon": "development",
+      "id": 3,
+      "conclusion": {
+        "title": "Development Completed!",
+        "size": "small-med",
+        "html": "<p>The painting tape underwent two redesigns to ensure that it will be of the highest quality, and raw material samples have been selected. The tape has passed the gate review and your efforts in Scape Up can begin!</p>"
+      },
+      "audioRounds": [
+        {
+          "id": 1,
+          "areas": [
+            {
+              "area": "Lab",
+              "file": "audio/lorem-ipsum-1.mp3",
+              "e_audioTitle": "Lab",
+              "e_title": "Lab",
+              "emotions": [{ "time": 0, "emotion": "happy" }],
+              "e_transcript": "<p>Now that we are in Development, we are well underway with design specification verification. Some of our field testing is returning mixed results. Quality, I’ll need your help to diagnose the problem.</p>"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "areas": [
+            {
+              "area": "Manufacturing",
+              "file": "audio/lorem-ipsum-2.mp3",
+              "e_audioTitle": "Manufacturing",
+              "e_title": "Manufacturing",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>We are also formulating our approach to raw material selection and I could use help in ensuring we do not encounter one of the material failure modes we identified in the FMEA.</p>"
+            },
+            {
+              "area": "Product Stewardship",
+              "file": "audio/lorem-ipsum-2.mp3",
+              "e_audioTitle": "Product Stewardship",
+              "e_title": "Product Stewardship",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>Since Lab is sharing that field testing is having some unexpected results, we will need to make sure our proposed product claims are accurate. Quality, I’m sure you’ll have insight into this once we review the findings.</p>"
+            }
+          ]
+        }
+      ],
+      "questions": []
+    },
+    {
+      "e_title": "Scale Up",
+      "topTitle": "Scale Up",
+      "icon": "scale-up",
+      "id": 4,
+      "conclusion": {
+        "title": "Scale Up Completed!",
+        "size": "smaller",
+        "html": "<p>Your team completed the necessary tasks in Scale Up for the product and proceeded to the gate review. The results of the review were positive, and the executive team approved the product for Launch with a “Go” decision.</p>"
+      },
+      "audioRounds": [
+        {
+          "id": 1,
+          "areas": [
+            {
+              "area": "Legal",
+              "file": "audio/lorem-ipsum-4.mp3",
+              "e_audioTitle": "Legal",
+              "e_title": "Legal",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>I’d like to congratulate the team on entering Scale Up. I’ve completed IP and Freedom to Operate checks on the painting tape and it appears that we have no challenges.</p>"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "areas": [
+            {
+              "area": "Lab",
+              "file": "audio/lorem-ipsum-1.mp3",
+              "e_audioTitle": "Lab",
+              "e_title": "Lab",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>There are some process capability questions that have arisen. Quality, we could use your guidance.</p>"
+            },
+            {
+              "area": "Manufacturing",
+              "file": "audio/lorem-ipsum-3.mp3",
+              "e_audioTitle": "Manufacturing",
+              "e_title": "Manufacturing",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>We may have uncovered some concerns with one of our chief suppliers that I’d like to review with Quality.</p>"
+            }
+          ]
+        }
+      ],
+      "questions": []
+    },
+    {
+      "e_title": "Launch",
+      "topTitle": "Launch",
+      "icon": "launch",
+      "id": 5,
+      "conclusion": {
+        "title": "You completed the Product Journey!",
+        "size": "smaller",
+        "html": "<p>The product was taken from an idea in Discover to a successful part of 3M’s business strategy post Launch.</p><p>But how effective was your team throughout this journey?</p><p>Let’s review your results.</p>"
+      },
+      "audioRounds": [
+        {
+          "id": 1,
+          "areas": [
+            {
+              "area": "Marketing & Business",
+              "file": "audio/lorem-ipsum-3.mp3",
+              "e_audioTitle": "Marketing & Business",
+              "e_title": "Marketing & Business",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>Team, while the Launch of the tape has largely been successful, we have some improvement opportunities based on our KPIs.</p><p>Customer feedback indicates that we may have some variation in the adhesion quality of the tape. and surprisingly, the tape isn’t a preferred reflective color. This needs investigation.</p><p>Finally, were aware of a product failure in one of our submarkets. It appears that adhesive glue is melted inside of the packaging when customers rfirst open it.</p><p>Quality, we’ll look to you to investigate these issues and help guide what interventions we should take.</p>"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "areas": [
+            {
+              "area": "Manufacturing",
+              "file": "audio/lorem-ipsum-1.mp3",
+              "e_audioTitle": "Manufacturing",
+              "e_title": "Manufacturing",
+              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "e_transcript": "<p>If part of the problem is product specification variation falling outside of our defined limits, we will need to check our Manufacturing Control Plan. Quality, I could use your help to identify where we may have an issue.</p>"
+            }
+          ]
+        }
+      ],
+      "questions": []
+    }
+  ]
+}

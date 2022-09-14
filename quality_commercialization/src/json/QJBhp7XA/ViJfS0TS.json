@@ -1,0 +1,304 @@
+{
+  "e_title": "Quality - Commercialize the Product - Build Business Case",
+  "e_subtitle": "Select the highlighted team members to listen to the team's conversation",
+  "businessCaseConclusion": {
+    "e_title": "Build Business Case is completed!",
+    "e_text": "<p>Your team has made some early determinations based on input from each focus area, and you have ensured that a Quality mindset is reflected in the project from the very beginning. </p><p>The painting tape has passed the gate review and has been selected for development into a new product.</p>"
+  },
+  "businessCaseIntro": {
+    "e_title": "Opening prompt here",
+    "e_text": "<p>As requested, here is an openeing prompt.</p><p>Not sure if other sections need one or not haha.</p>"
+  },
+  "subActivities": [
+    {
+      "id": 1,
+      "questionIds": [1, 2],
+      "showBadge": true,
+      "image": "map-activity-comp.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>The valid test methods for the Adhesive Strength specification have been identified.</p><p>Remember that for any design specification to be measured by a test method, the specification description must be <strong>concise</strong>, <strong>quantifiable</strong>, and <strong>measurable</strong>.</p>",
+        "image": "Quality/Product/questions/bbc_activity_1_conclusion.png"
+      }
+    },
+    {
+      "id": 2,
+      "questionIds": [3],
+      "showBadge": false,
+      "image": "map-activity-office.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>There can be a misconception that due to the oversight and inspection of completed work that is included in the responsibilities for the Quality focus, that Quality becomes more involved later in 3M | Grow. </p><p>It's in fact the case that Quality should be involved as early as possible, contributing to the team’s efforts.</p>",
+        "image": ""
+      }
+    },
+    {
+      "id": 3,
+      "questionIds": [4],
+      "showBadge": false,
+      "image": "map-activity-convo.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>Note that while you will be an advocate for the VOC in the activities and deliverables completed in BBC, this is not the only design input to draw from. Industry standards can be easy to overlook, but they are vitally important to identify early in BBC.</p>",
+        "image": ""
+      }
+    },
+    {
+      "id": 4,
+      "questionIds": [5],
+      "showBadge": false,
+      "image": "map-activity-checklist.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>A fantastic opportunity for you to take a leadership role on the team is by involving every team member from each focus area as the initial FMEA checklist is compiled. This helps ensure that risk identification is not unevenly distributed: For example, identifying many possible Market/Business risks, but few Lab risks.</p><p>This coverage across multiple focus areas and categories helps to ensure that the product design will be robust and cover all major failure mode challenges.</p>",
+        "image": ""
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "e_questionText": "The team has begun populating the DQM with information collected in the LHOQ. Significant product requirements need to be translated into design requirements.",
+      "e_instructions": "Select the column of the DQM where the translation of product requirement into design requirement is captured.",
+      "questionType": "area-select",
+      "e_submitText": "Submit",
+      "questionImage": "bbc_activity_1_question_1.png",
+
+      "areas": [
+        {
+          "shape": "rect",
+          "coords": "525,2,725,463",
+          "correct": true,
+          "feedback": {
+            "e_title": "You got it!",
+            "e_text": "<p>The design requirements are identified by translating key product requirements into specifications. Specifications must be defined in plain terms, and these descriptions and values are recorded in this column of the DQM.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "726,2,791,463",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>This column is used to identify test methods that will be used to validate specifications.</p><p>The correct choice was the Specification Descriptions and Value column.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "792,2,930,463",
+          "correct": true,
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "<p>This column is used to add additional comments about a specification, but it is not where the specification is defined. The correct choice was the Specification Descriptions and Value column.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+
+      "e_prompt": "Next, test methods need to be identified. Using the Adhesive Strength specification as an example, what test methods would test for this specification?",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+
+      "questionImage": "bbc_activity_1_question_2.png",
+      "specialClass": "big-image",
+      "feedback": {
+        "correct": {
+          "e_title": "Good thinking!",
+          "e_text": "<p>Testing how the tape peels off a roll, testing for adhesion to key surfaces such as metal, and testing the force required to move the tape from a surface are all valid test methods for testing adhesive strength.</p><p>Impact testing and temperature resistance testing are not, at face-value, strongly related to adhesive strength and would not be valid tests for the specification.</p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>Testing how the tape peels off a roll, testing for adhesion to key surfaces such as metal, and testing the force required to move the tape from a surface are all valid test methods for testing adhesive strength.</p><p>Impact testing and temperature resistance testing are not, at face-value, strongly related to adhesive strength and would not be valid tests for the specification.</p>"
+        }
+      },
+      "choices": [
+        { "e_text": "Peel off-the-tape roll testing", "correct": true },
+        { "e_text": "Adhesion to key surfaces testing", "correct": true },
+        { "e_text": "Impact testing", "correct": false },
+        { "e_text": "Temperature resistance testing", "correct": false },
+        {
+          "e_text": "Force required to remove tape from a surface testing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "e_title": "Multichoice Question",
+
+      "e_prompt": "<p>The team is evaluating the product for feasibility to ensure that it has a strong business case.</p><p>As the Quality focus team member, at what point should you be involved in feasibility determination?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-group.jpg",
+
+      "choices": [
+        {
+          "e_text": "Quality contributes to feasibility determination once the business case is formulated for the BBC gate review",
+          "feedback": {
+            "e_title": "This isn’t the right team mindset.",
+            "e_text": "As the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning. Only contributing before the gate review between BBC and Develop is not an adequate amount of team engagement. "
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Quality primarily reviews and inspects the work of the rest of the team and becomes more involved after this work is complete",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "While it is true that you will be inspecting the team’s work from a quality mindset, as the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Quality contributes to feasibility determination from the onset of a project and is engaged in all aspects of deliverables",
+          "feedback": {
+            "e_title": "This is the team role to strive for!",
+            "e_text": "As the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning. This means collaborating or giving input towards all deliverables."
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+
+      "e_prompt": "<p>You meet with Marketing/Business to review progress in identifying design inputs for the business case.</p><p>Which of the following design input categories must be included?</p>",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+
+      "questionImage": "team-marketing.jpg",
+
+      "feedback": {
+        "correct": {
+          "e_title": " Yes!",
+          "e_text": "<p>As the Quality focus team member, you’ll be chiefly concerned with ensuring that customer wants and needs (VOC) are reflected as design inputs. However, for a product to have a strong business case, additional inputs must be present: Business and market feasibility and industry standards related to the product. </p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>As the Quality focus team member, you’ll be chiefly concerned with ensuring that customer wants and needs (VOC) are reflected as design inputs. However, for a product to have a strong business case, additional inputs must be present: Business and market feasibility and industry standards related to the product. </p>"
+        }
+      },
+      "choices": [
+        { "e_text": "Customer needs and wants (VOC)", "correct": true },
+        { "e_text": "Subject matter expert feedback", "correct": false },
+        { "e_text": "Business and market feasibility", "correct": true },
+        { "e_text": "Reviews of competing products", "correct": false },
+        {
+          "e_text": "Industry standards for the product",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "e_prompt": "<p>You are building the initial checklist that will become the collective FMEA: The tools used for risk assessment. The checklist aims to identify failure modes for the product/process.</p><p>Which type of failure modes should take <strong>most priority</strong> for identification and linking to risk reduction?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-group.jpg",
+
+      "choices": [
+        {
+          "e_text": "Understanding the customer or market failure",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "While it is true that you will be inspecting the team’s work from a quality mindset, as the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Design of product specifications failure",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "While it is true that you will be inspecting the team’s work from a quality mindset, as the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Raw materials/supply chain failure",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "The team needs to identify potential risks or failure modes for the product in the category of raw material selection/supply chain, but all potential failure modes from each category or focus area’s workflow should be identified to create the FMEA."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Legal requirements and product sustainability failure",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "The team needs to identify potential risks or failure modes for the product in the category of legal requirements and product sustainability, but all potential failure modes from each category or focus area’s workflow should be identified to create the FMEA."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Each potential failure mode category has high priority",
+          "feedback": {
+            "e_title": "Good thinking!",
+            "e_text": "For the initial checklist that will be developed into the FMEA to be effective at minimizing risk, all relevant categories where failure modes could emerge must be accounted for and take equal priority."
+          },
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "text": "<p>Congratulations! Your efforts in translating customer needs into design specifications has earned you the <strong>Customer Advocate Badge!</strong></p>",
+      "caption": "Customer Advocate",
+      "image": "badge-customer-advocate.png"
+    },
+    {
+      "id": 2,
+      "text": "<p>Congratulations! You have inspected a potential failure mode in the product/process by examining testing performance, uncovering a necessary redesign. You’ve earned the <strong>Test Evaluator Badge!</strong></p>",
+      "caption": "Test Evaluator Badge",
+      "image": "badge-test-evaluator.png"
+    },
+    {
+      "id": 3,
+      "text": "<p>Excellent work! You’ve taken all the steps necessary after the painting tape underwent a necessary redesign, all while ensuring that the VOC remained amplified in the process. Your diligence has earned you the <strong>Robust Designer Badge!</strong></p>",
+      "caption": "Robust Designer Badge",
+      "image": "badge-robust-designer.png"
+    },
+    {
+      "id": 4,
+      "text": "<p>Fantastic! You worked with a primary supplier for the materials for the painting tape to ensure that issues with their quality system were addressed. This has earned you the <strong>Systems Master Badge!</strong></p>",
+      "caption": "Systems Master Badge",
+      "image": "badge-systems-master.png"
+    },
+    {
+      "id": 5,
+      "text": "<p>Congratulations! You collaborated with the team to ensure that the VOC was correctly retranslated, and you’ve worked to document the process so that the painting tape can continue to be successful into its market life cycle. Your thorough efforts have earned you the <strong>Documentation Champion Badge!</strong></p>",
+      "caption": "Documentation Champion Badge",
+      "image": "badge-document-champion.png"
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "Build Business Case",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "e_topTitle": "Build a Business Case"
+    },
+    {
+      "e_title": "Development",
+      "e_topTitle": "Development",
+      "icon": "development",
+      "id": 3
+    },
+    {
+      "e_title": "Scale Up",
+      "e_topTitle": "Scale Up",
+      "icon": "scale-up",
+      "id": 4
+    },
+    {
+      "e_title": "Launch",
+      "e_topTitle": "Launch",
+      "icon": "launch",
+      "id": 5
+    }
+  ]
+}

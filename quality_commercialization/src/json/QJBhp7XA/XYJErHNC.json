@@ -1,0 +1,238 @@
+{
+  "e_title": "Quality - Commercialize the Product - Launch",
+  "e_subtitle": "Select the highlighted team members to listen to the team's conversation",
+  "launchConclusion": {
+    "e_title": "Launch is completed!",
+    "e_text": "<p>The painting tape encountered some issues post-Launch, but you worked with the team to identify these issues as soon as knowledge of them arose and were able to apply redesigns and address manufacturing drift. After these interventions, the business performance of the tape increases and it becomes a true 3M business success!</p>"
+  },
+
+  "subActivities": [
+    {
+      "id": 1,
+      "questionIds": [1],
+      "showBadge": false,
+      "image": "map-activity-office.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>Discovering an unanticipated failure mode post-Launch speaks to how important it is to conduct robust testing of the product earlier in the process. </p><p>The team determines that the best intervention for the problem is to issue <strong>strict guidance for the transportation and storage</strong> of the painting tape to minimize failed product arriving at stores located in geographic markets with hot climates.</p>",
+        "image": ""
+      }
+    },
+    {
+      "id": 2,
+      "questionIds": [2],
+      "showBadge": false,
+      "image": "map-activity-checklist.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>If negative customer or end-user feedback is encountered post-Launch, you must determine the root cause of the feedback.</p><p>Begin by investigating: “Are we manufacturing the product to specifications?”</p><p>If the answer to this question is yes, you can then move onto other questions. The next appropriate question set would be: “Is the design correct?”  If the design is still correct, you and the team may wish to investigate if the market is correct for the product, or if the product is the right fit for 3M.</p><p>You work with the team to identify a specification issue with adhesion and address it to improve the tape’s performance.</p>",
+        "image": ""
+      }
+    },
+    {
+      "id": 3,
+      "questionIds": [3, 4],
+      "showBadge": true,
+      "image": "map-activity-comp.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>It is possible that a part of the VOC goes completely unidentified and because of this, its impact will be unanticipated. Carefully evaluating the VOC early in the process can help reduce this risk.</p><p>Should a missed important customer need occur, you must collaborate with the team on a solution and document all steps taken. Thorough documentation helps the product continue to be successful and also informs future products, contributing to Product and Process Understanding (PPU).</p><p>Remember as always that you must also <strong>amplify the VOC</strong> as changes are made to help ensure that the product will be right.</p>",
+        "image": ""
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "e_prompt": "<p>The team responds to the finding of an unanticipated failure mode: The tape’s adhesive glue is melting when transported in high temperature areas.</p><p>What could have helped prevent this from occurring during the process?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-group.jpg",
+      "choices": [
+        {
+          "e_text": "More product testing to evaluate extreme conditions",
+          "feedback": {
+            "e_title": "Good thinking!",
+            "e_text": "This unanticipated failure mode may have been identified earlier in the process if there was more testing to evaluate extreme conditions, like temperature."
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Product packaging warning against use in hot temperatures/climates",
+          "feedback": {
+            "e_title": "This could limit the product’s success.",
+            "e_text": "This intervention would be more suited as a reaction to this failure mode, rather than a way to identify or prevent it. A change to packaging may give customers warning, but it doesn’t help prevent the problem."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Conducting more customer field testing",
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "While more customer field testing may have given the team more information, it would not necessarily have helped to uncover a failure mode for transportation of the tape in extreme temperatures. The more helpful intervention would have been more product testing to evaluate extreme conditions."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "e_prompt": "<p>You review a theme in customer feedback: The tape’s glue is not sticking to certain surfaces strongly enough.</p><p>Manufacturing wonders: “Is there a drift from the Manufacturing Control Plan?”</p><p>What is <strong>the first question to answer</strong> in a diagnosis of the problem?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-manufacturing-concerned.jpg",
+      "choices": [
+        {
+          "e_text": "Are customers using the product the way it is intended to be used?",
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "Before evaluating if the product is being used as intended or directed by the customer or end-user, you would first want to determine if the manufacture of the tape is still within product specifications."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Is the manufacture of the product still within product specifications?",
+          "feedback": {
+            "e_title": "This is the first question to answer.",
+            "e_text": "It is possible that the product’s adhesion has drifted from product specifications over time and this is the first question to answer, or root cause of the problem to rule out, before investigating other possible explanations for the issue."
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Was the tape designed correctly in the first place?",
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "Before going back to analyze if there was an unanticipated flaw in the tape’s product design, you would first want to determine if the manufacture of the tape is still within product specifications."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "e_prompt": "<p>The team reviews customer feedback and identifies a major theme: Customers are not satisfied with the reflective color of the tape and wish they had options to choose from for color.</p><p>What is the <strong>primary reason</strong> why this outcome has occurred?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "launch_activity_3_question_1.png",
+      "specialClass": "big-image",
+      "choices": [
+        {
+          "e_text": "Color is a failure mode for the product",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>This is tricky. Color would be a failure mode if manufacturing variation led to a failure (such as color fading). In this case, the customer need is that there be a choice of what color the tape is. Color treated as a failure mode does not adequately explain this situation. Instead, it appears that color was not a customer need that was identified to begin with.</p>"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Color was not accurately translated from a customer need into the product design",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>This is tricky. If you observe the DQM, color is not present as an identified important customer need. Therefore, it would not have had an opportunity to be mistranslated. The primary reason for the current situation appears to be that color was not a customer need that was identified to begin with.</p>"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Color was not a customer need that was identified",
+          "feedback": {
+            "e_title": "You got it!",
+            "e_text": "<p>Color was not one of the primary customer needs identified during Build Business Case as the DQM was compiled. Somehow color has emerged as an important part of the VOC that was not only not translated, but not identified from the onset.</p>"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "e_prompt": "<p>Reflective and body color has been added to the DQM and other tools.</p><p>The team works to revise the tape and bring back to the market with new color specifications.</p><p>What is the <strong>most important thing</strong> for you to facilitate as the Quality focus team member?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "launch_activity__3_question_2.png",
+      "specialClass": "big-image",
+      "choices": [
+        {
+          "e_text": "Note improvements that could be made to future new products",
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>While there may be important lessons learned from this post-Launch redesign, the <strong>most important</strong> thing to do as the Quality focus team member is to robustly document all the steps taken and changes made to the product and process.</p>"
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Robustly document all steps taken and changes made to the product and process",
+          "feedback": {
+            "e_title": "You got it!",
+            "e_text": "<p>As with all steps throughout the commercialization process, documentation is key. This is especially true for large shifts in product design that occur. Robust documentation of all of the changes made to the product and process is the <strong>most important</strong> step to take here.</p>"
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Ecnourage teamwork as the steps that need to be taken are completed",
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "<p>While encouraging and being involved in teamwork is important, <strong>the most important</strong> thing to do as the Quality focus team member is to robustly document all the steps taken and changes made to the product and process.</p>"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "text": "<p>Congratulations! Your efforts in translating customer needs into design specifications has earned you the <strong>Customer Advocate Badge!</strong></p>",
+      "caption": "Customer Advocate",
+      "image": "badge-customer-advocate.png"
+    },
+    {
+      "id": 2,
+      "text": "<p>Congratulations! You have inspected a potential failure mode in the product/process by examining testing performance, uncovering a necessary redesign. You’ve earned the <strong>Test Evaluator Badge!</strong></p>",
+      "caption": "Test Evaluator Badge",
+      "image": "badge-test-evaluator.png"
+    },
+    {
+      "id": 3,
+      "text": "<p>Excellent work! You’ve taken all the steps necessary after the painting tape underwent a necessary redesign, all while ensuring that the VOC remained amplified in the process. Your diligence has earned you the <strong>Robust Designer Badge!</strong></p>",
+      "caption": "Robust Designer Badge",
+      "image": "badge-robust-designer.png"
+    },
+    {
+      "id": 4,
+      "text": "<p>Fantastic! You worked with a primary supplier for the materials for the painting tape to ensure that issues with their quality system were addressed. This has earned you the <strong>Systems Master Badge!</strong></p>",
+      "caption": "Systems Master Badge",
+      "image": "badge-systems-master.png"
+    },
+    {
+      "id": 5,
+      "text": "<p>Congratulations! You collaborated with the team to ensure that the VOC was correctly retranslated, and you’ve worked to document the process so that the painting tape can continue to be successful into its market life cycle. Your thorough efforts have earned you the <strong>Documentation Champion Badge!</strong></p>",
+      "caption": "Documentation Champion Badge",
+      "image": "badge-document-champion.png"
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "Build Business Case",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "e_topTitle": "Build a Business Case"
+    },
+    {
+      "e_title": "Development",
+      "e_topTitle": "Development",
+      "icon": "development",
+      "id": 3
+    },
+    {
+      "e_title": "Scale Up",
+      "e_topTitle": "Scale Up",
+      "icon": "scale-up",
+      "id": 4
+    },
+    {
+      "e_title": "Launch",
+      "e_topTitle": "Launch",
+      "icon": "launch",
+      "id": 5
+    }
+  ]
+}

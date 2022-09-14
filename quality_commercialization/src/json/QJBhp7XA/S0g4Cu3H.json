@@ -1,0 +1,362 @@
+{
+  "e_title": "Quality - Commercialize the Product - Development",
+  "e_subtitle": "Select the highlighted team members to listen to the team's conversation",
+  "developmentConclusion": {
+    "e_title": "Development is completed!",
+    "e_text": "<p>Your team has made some early determinations based on input from each focus area, and you have ensured that a Quality mindset is reflected in the project from the very beginning. </p><p>The painting tape has passed the gate review and has been selected for development into a new product.</p>"
+  },
+
+  "subActivities": [
+    {
+      "id": 1,
+      "questionIds": [1],
+      "showBadge": false,
+      "image": "map-activity-beakers.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>Test method selection is a careful process. In addition to ensuring that a test method validly and reliably measures a product specification, test methods preferably have credibility.</p><p>For this reason, using existing 3M test methods or industry standard test methods will nearly always be preferable to developing an entirely new test method, which may not be an efficient use of the team’s resources if credible alternatives exist.</p>",
+        "image": "Quality/Product/questions/developemnt_activity_1_conclusion.png"
+      }
+    },
+    {
+      "id": 2,
+      "questionIds": [2, 3, 4],
+      "showBadge": true,
+      "image": "map-activity-comp.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>In Development, you will bring the Quality mindset to interpreting the results of product and process testing. This is a big part of ensuring that the product is developed right the first time.</p><p>You make the team aware that the painting tape requires some redesign. While redesign is a serious and costly intervention to take, it can often be the correct one if a serious opportunity for improvement or a failure mode is encountered.</p>",
+        "image": ""
+      }
+    },
+    {
+      "id": 3,
+      "questionIds": [5, 6],
+      "showBadge": false,
+      "image": "map-activity-forklift.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>To ensure that a supplier’s raw material variability fits within the specification limits for the product, you will compare the Cpk/Ppk values for the raw materials sampled to the Cpk/Ppk values identified for the Product. In the LHOQ, these values can be found under the Product Control Limits and Capability section.</p><p>As the Quality focus team member, these efforts contribute to the completion of deliverables the Manufacturing team completes, including the Bill of Materials (BOM) and the data package.</p>",
+        "image": "Quality/Product/questions/developemnt_activity_3_conclusion.png"
+      }
+    },
+    {
+      "id": 4,
+      "questionIds": [7],
+      "showBadge": true,
+      "image": "map-activity-office.png",
+      "conclusion": {
+        "e_title": "",
+        "e_text": "<p>One of the reasons why the product and process is so thoroughly tested and evaluated during Development is to ensure that the product design is robust. To be robust, the product must be able to meet the VOC and other design inputs under various uses and conditions. When a product does not meet minimum acceptable parameters, it will be flagged, and interventions will be generated so that the product can reach a passing evaluation.</p>",
+        "image": ""
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+
+      "e_prompt": "<p>Lab shares with you:</p><p>“One of the test methods for the reflective surfacing specification of the tape is not reliably measuring the spec.”</p><p>You determine a new test method is needed. The method will need to be credible, valid for measuring the spec, and return reliable measurement results. Which of the following solutions would be most <strong>efficient?</strong></p>",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+      "questionImage": "team-lab.jpg",
+      "feedback": {
+        "correct": {
+          "e_title": "That’s right!",
+          "e_text": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+        }
+      },
+      "choices": [
+        {
+          "e_text": "Develop a new test method suitable for the specification",
+          "correct": false
+        },
+        {
+          "e_text": "Select an existing test method considered an industry standard for the specification",
+          "correct": true
+        },
+        {
+          "e_text": "Select an existing 3M test method suitable for the specification",
+          "correct": true
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "e_questionText": "As Lab reported, field testing has detected a gap between current design performance and a product claim. You inspect the Key Customer Needs tool within the DQM to investigate and diagnose the issue.",
+      "e_instructions": "Select the column of the tool you should focus on.",
+      "questionType": "area-select",
+      "e_submitText": "Submit",
+      "questionImage": "developemnt_activity_2_question_1.png",
+
+      "areas": [
+        {
+          "shape": "rect",
+          "coords": "0,2,60,202",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>The key customer needs listed are the most crucial needs that were initially collected and reflect the VOC. Your inspection should instead focus on Measured Performance Development.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "61,2,106,202",
+          "correct": false,
+          "feedback": {
+            "e_title": "Close, but not quite.",
+            "e_text": "<p>While you are on the right track in considering test methods, your inspection should instead focus on Measured Performance Development. This information will better inform you about the performance of the test method.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "472,2,730,202",
+          "correct": true,
+          "feedback": {
+            "e_title": "This is the best choice.",
+            "e_text": "<p>If there is a difference between design performance and a product claim, the Measured Performance Development rendered from product design testing is the most important information to inspect to possibly diagnose the problem. </p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "731,2,821,202",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>Scale Up Cpks are related to control limits. Instead of these limit ranges, your inspection should instead focus on Measured Performance Development.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+
+      "e_prompt": "In reviewing Measured Performance Development, which of the following aspects should be considered?",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+
+      "questionImage": "developemnt_activity_2_question_2.png",
+
+      "feedback": {
+        "correct": {
+          "e_title": "You got it!",
+          "e_text": "<p>All three of these aspects of a test method’s outcomes need to be considered if a potential failure mode related to the product specification/requirement is suspected.</p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>All three of these aspects of a test method’s outcomes need to be considered if a potential failure mode related to the product specification/requirement is suspected.</p>"
+        }
+      },
+      "choices": [
+        { "e_text": "Precision", "correct": true },
+        { "e_text": "Accuracy", "correct": true },
+        { "e_text": "Resolution", "correct": true }
+      ]
+    },
+    {
+      "id": 4,
+      "e_title": "Multichoice Question",
+      "e_prompt": "<p>You find that the Measured Performance Development testing results are sound. Test methods are seemingly not the issue. Product Stewardship shares:</p><p>“The product claim is a requirement for the success of the tape.”</p><p>What is the <strong>best course of action</strong> should you communicate to the team</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-product-stewardship.jpg",
+
+      "choices": [
+        {
+          "e_text": "Conduct customer field testing to see if customers are satisfied despite the current performance findings",
+          "feedback": {
+            "e_title": "This is a risky move.",
+            "e_text": "If a product claim has been determined to be a requirement for the tape’s business success, you can reasonably conclude that customers will have expectations for it. A better course of action is proposing a product redesign."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Redesign the tape to adequately meet the product claim and ensure the VOC is captured",
+          "feedback": {
+            "e_title": "This was the best choice.",
+            "e_text": "In Development, product specifications are verified through testing. When gaps, areas for improvement, or especially failure modes are encountered during testing, redesign of the product should be considered. "
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Recommend that the product not be continued for development",
+          "feedback": {
+            "e_title": "This is not the first action to explore.",
+            "e_text": "While it is possible that failure modes can be encountered that may suggest that the product is not fit for the market, this is not the best action to take at this point. Instead, product redesign should be considered."
+          },
+          "correct": false
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "e_questionText": "<p>You follow up on Manufacturing’s concerns about raw materials and check the LHOQ tool. Select the column that <strong>best</strong> describes the team’s approach for avoiding lot failure from raw material suppliers.</p>",
+      "e_instructions": "Select the column of the tool you should focus on.",
+      "questionType": "area-select",
+      "e_submitText": "Submit",
+      "questionImage": "developemnt_activity_3_question_1.png",
+
+      "areas": [
+        {
+          "shape": "rect",
+          "coords": "0,45,95,492",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>While product characteristic proposed target values are important in identifying if materials will match what the product requires, this information does not depict the team’s plan for determining that a supplier’s materials will work. The best answer is the Sampling Plan.</p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "96,45,191,492",
+          "correct": false,
+          "feedback": {
+            "e_title": "Not quite.",
+            "e_text": "<p>While product characteristic proposed upper specification limit values are important in identifying if materials will match what the product requires, this information does not depict the team’s plan for determining that a supplier’s materials will work. The best answer is the Sampling Plan. </p>"
+          }
+        },
+        {
+          "shape": "rect",
+          "coords": "377,45,475,492",
+          "correct": true,
+          "feedback": {
+            "e_title": "Good thinking!",
+            "e_text": "<p>The sampling plan is the team’s method of evaluating if raw materials from a supplier will meet the product’s specification requirements. This information is identified in the LHOQ and can be referenced by the team as the DQM is updated.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "e_title": "Multichoice Question",
+      "e_prompt": "<p>Manufacturing gives you an update:</p><p>“I’m concerned that the variability of the supplier’s materials that we sampled may not meet our needs.”</p><p>How should you evaluate raw material variability?</p>",
+      "e_instructions": "Which is the best answer?",
+      "questionType": "multiple-choice",
+      "questionImage": "team-manufacturing-concerned.jpg",
+
+      "choices": [
+        {
+          "e_text": "Narrow the sampling plan to quickly and efficiently evaluate the supplier’s variability",
+          "feedback": {
+            "e_title": "This would not help the product or process.",
+            "e_text": "A sampling plan needs to sample enough instances or aspects of a supplier’s raw materials to attain a sense of its variability. What you must do is ensure that the variability fits within the specification limits for the product."
+          },
+          "correct": false
+        },
+        {
+          "e_text": "Ensure that the supplier’s variability fits within the specification limits for the product",
+          "feedback": {
+            "e_title": "This is the approach to take!",
+            "e_text": "There can be some variation in a supplier’s raw materials so long as that variability falls within the acceptable variability limits established for the painting tape by the team."
+          },
+          "correct": true
+        },
+        {
+          "e_text": "Run a single selection from the supplier’s raw materials through a test",
+          "feedback": {
+            "e_title": "This would not be a great help.",
+            "e_text": "A sampling plan does not rely on testing just one selection from a supplier’s raw materials for testing. What you must do is ensure that the variability fits within the specification limits for the product."
+          },
+          "correct": false
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "e_prompt": "<p>Additional field-testing results in a yellow result for Measured Performance Development for a key customer need. The team proceeds with a redesign to address the issue and bring the result to Pass/Green.</p><p>What must you do to ensure the VOC is not lost in this process?</p>",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
+      "questionImage": "team-group.jpg",
+      "feedback": {
+        "correct": {
+          "e_title": "That’s right!",
+          "e_text": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+        }
+      },
+      "choices": [
+        {
+          "e_text": "Document all activities that are redone to revalidate the tape after redesign",
+          "correct": true
+        },
+        { "e_text": "Check the Cpk/Ppk for the product", "correct": false },
+        { "e_text": "Verify the redesign with customers", "correct": true },
+        {
+          "e_text": "Ask for opinions about the redesign from stakeholders",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "text": "<p>Congratulations! Your efforts in translating customer needs into design specifications has earned you the <strong>Customer Advocate Badge!</strong></p>",
+      "caption": "Customer Advocate",
+      "image": "badge-customer-advocate.png"
+    },
+    {
+      "id": 2,
+      "text": "<p>Congratulations! You have inspected a potential failure mode in the product/process by examining testing performance, uncovering a necessary redesign. You’ve earned the <strong>Test Evaluator Badge!</strong></p>",
+      "caption": "Test Evaluator Badge",
+      "image": "badge-test-evaluator.png"
+    },
+    {
+      "id": 3,
+      "text": "<p>Excellent work! You’ve taken all the steps necessary after the painting tape underwent a necessary redesign, all while ensuring that the VOC remained amplified in the process. Your diligence has earned you the <strong>Robust Designer Badge!</strong></p>",
+      "caption": "Robust Designer Badge",
+      "image": "badge-robust-designer.png"
+    },
+    {
+      "id": 4,
+      "text": "<p>Fantastic! You worked with a primary supplier for the materials for the painting tape to ensure that issues with their quality system were addressed. This has earned you the <strong>Systems Master Badge!</strong></p>",
+      "caption": "Systems Master Badge",
+      "image": "badge-systems-master.png"
+    },
+    {
+      "id": 5,
+      "text": "<p>Congratulations! You collaborated with the team to ensure that the VOC was correctly retranslated, and you’ve worked to document the process so that the painting tape can continue to be successful into its market life cycle. Your thorough efforts have earned you the <strong>Documentation Champion Badge!</strong></p>",
+      "caption": "Documentation Champion Badge",
+      "image": "badge-document-champion.png"
+    }
+  ],
+  "activityPhases": [
+    {
+      "e_title": "Build Business Case",
+      "icon": "build-buisiness-case",
+      "id": 2,
+      "e_topTitle": "Build a Business Case"
+    },
+    {
+      "e_title": "Development",
+      "e_topTitle": "Development",
+      "icon": "development",
+      "id": 3
+    },
+    {
+      "e_title": "Scale Up",
+      "e_topTitle": "Scale Up",
+      "icon": "scale-up",
+      "id": 4
+    },
+    {
+      "e_title": "Launch",
+      "e_topTitle": "Launch",
+      "icon": "launch",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+$box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+$normal-transition: 1s all;
+$med-transition: 600ms all;
+$fast-transition: 300ms all;
+$very-fast-transition: 150ms all;
+
+$font: sans-serif;
+$color: #777;
+
+$text-size-bigger: 36px;
+$text-size-big: 32px;
+$text-size-med: 24px;
+$text-size-normal: 20px;
+$text-size-small: 16px;
+$text-size-xs: 14px;
+
+$text-page-width: 94%;
+
+$hover-background: #ccc;
+
+$black: #000;
+$darkGray: #595959;
+$mediumGray: #a8a8a8;
+$lightGray: #d2d2d2;
+
+// $lightOrange: #faaa19;
+$lightOrange: #faaa19;
+$blue: #003ce6;
+$green: #00b432;
+$red: #ff0000;
+
+$orange: #f5821e;
+$darkBlue: #1e1e96;
+$lightGreen: #aae600;
+
+$phaseYellow: #f8c231;
+$phaseOrange: #f3822f;
+$phaseGreen: #1ab23b;
+$phaseRed: #fc0d1b;
+$phasePurple: #8130ba;
+
+// copied from the 'intro' module
+$correct: #1ab23b;
+$incorrect: #ff0000;
+$selected: #003ce6;
+
+$blue-box-shadow: 0px 3px 5px rgba(0, 60, 230, 0.15);
+$orange-box-shadow: 0px 3px 5px rgba(245, 130, 30, 0.15);
+$light-orange-box-shadow: 0px 3px 5px rgba(250, 170, 30, 0.15);
+$green-box-shadow: 0px 3px 5px rgba(0, 180, 50, 0.15);
+$red-box-shadow: 0px 3px 5px rgba(255, 0, 0, 0.15);
+
+// next. Menu bar.. home button, resources button
+// new nav
+// roboto fonts. Mixins for titles, buttons and text
+// consistant styles for Modals
+// Apply mixins. That should do it for today
+$noto: "Noto Sans";
+$roboto: "Roboto Condensed";
