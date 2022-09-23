@@ -17,7 +17,7 @@
       "area": "legal",
       "image": "legal.png",
       "e_headlineOne": "Legal",
-      "e_text": "<p>Legal team members include patent liaisons and Intellectual Property (IP) attorneys. They are most involved with IP, which includes navigating the impacts of copyrights and trademarks.</p><p>Legal team members engage with the team to help file patents, conduct ‘Freedom to Operate’ (otherwise known as ‘Right to Practice’) searches to confirm the new product is not infringing on other patents around the globe, assist with the overall IP Strategy to help protect 3M, and help align and substantiate product claims, e.g., “This new product is the world’s best.”</p>",
+      "e_text": "<p>Legal team members include patent liaisons and Intellectual Property (IP) attorneys. They are most involved with IP by protecting 3M's intellectual property using patents or trade secrets.</p><p>Legal team members engage with the team to help file patents, conduct ‘Freedom to Operate’ (otherwise known as ‘Right to Practice’) searches to confirm the new product is not infringing on other patents around the globe, and assist with the overall IP Strategy to help protect 3M.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     },
@@ -27,7 +27,7 @@
       "area": "manufacturing",
       "image": "manufacturing.png",
       "e_headlineOne": "Manufacturing",
-      "e_text": "<p>The Manufacturing team members include manufacturing and supply chain employees and administrators. They are most involved with the Manufacturing/Supply Chain deliverable.</p><p>The Manufacturing team members are responsible for capable reproducing the design (design transfer to the plant), managing capacity, and understanding unit costs. Supply Chain ensures enough product ships and arrives to the intended market.</p>",
+      "e_text": "<p>The Manufacturing team members include manufacturing and supply chain employees and administrators. They are most involved with the Manufacturing/Supply Chain deliverable.</p><p>The Manufacturing team members are responsible for defining the manufacturing requirements for the product and overseeing production (including capacity and unit costs).<br><br>The Supply Chain ensures enough product ships and arrives to the intended market.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     },
@@ -67,7 +67,7 @@
       "area": "lab",
       "image": "lab.png",
       "e_headlineOne": "Lab",
-      "e_text": "<p>Your Lab team members include engineers, research and development employees, and other scientists and product specialists who create the physical product.</p><p>These team members are most involved with the Product deliverables.</p><p>Members of this team help determine which key features to maintain as the product goes through adjustments including additions, changes, or deletions.</p>",
+      "e_text": "<p>Your Lab team members include the Product Developer (who leads the definition of the product), along with application engineers and other research and development personnel.</p><p>These team members are responsible for the product deliverables from Build Business Case through Launch.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     }

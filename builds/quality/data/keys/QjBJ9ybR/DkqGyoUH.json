@@ -1,20 +1,20 @@
 {
-  "f6326c80-7cef-477d-99b4-9ff26d811496": {
+  "3f4cf578-380d-403f-ada7-7e5f9da6ba7e": {
     "html": "Verification and Validation"
   },
-  "456c471a-0d6e-4f1a-bdaf-5c74fed8b38c": {
-    "html": "<p>The use of testing contributes to the oversight provided by the Quality focus throughout the 3M | Grow phases. There are two important concepts that are linked to testing and test methods: <strong>Verification</strong> and <strong>validation.</strong></p>"
+  "e2f2e413-bdae-487f-9af6-669aa9ae4fff": {
+    "html": "<p>Quality uses testing to the provide oversight throughout commercialization. Two important concepts are linked to testing and test methods: <strong>Verification</strong> and <strong>validation.</strong></p>"
   },
-  "718b55a9-6843-4d37-8304-2fc898489fd8": {
-    "html": "Verification"
+  "debb1b1b-5a2b-46b4-9853-62acee82bf7d": {
+    "html": "Verification (Internal Testing)"
   },
-  "9aaaf5de-5e81-49e1-97c2-547ab9c39581": {
-    "html": "<p>Verification is the process of testing a product to determine whether it performs in selected tests which have been selected as a proxy for the customer requirements. Verification testing shows whether a product is capable of meeting product specifications.</p><p>Divisions use a variety of tools to translate the VOC into test methods and product specifications. We will explore this in more depth when we dive deeper into the <strong>Design Qualification Matrix (DQM)</strong> tool and how it is informed by other customer voice interpretation tools, such as the <strong>House of Quality (HOQ) and the Linear House of Quality (LHOQ)</strong>.</p>"
+  "29ea72a3-c985-4149-9468-0eafc2b452c0": {
+    "html": "<p>Verification is the process of testing a product to determine whether it performs in selected tests selected as a proxy for the customer requirements. Verification testing shows if a product is capable of meeting product specifications.</p><p>Divisions use a variety of tools to translate the VOC into test methods and product specifications. You will learn more in this course by exploring the <strong>Design Qualification Matrix (DQM)</strong> tool and how it is informed by other customer voice interpretation tools, such as the <strong>House of Quality (HOQ), </strong>the <strong>Linear House of Quality (LHOQ), </strong>the <strong>Design Review (DR), </strong>and the<strong> Failure Mode Effect Analysis (Design and Process FMEA)</strong>.</p>"
   },
-  "2e70e937-8b30-4203-8094-7d3deb941d1c": {
-    "html": "Validation"
+  "03aa01c9-8fa3-4827-ae06-2162691d2a11": {
+    "html": "Validation (Customer Testing)"
   },
-  "bbb398c6-676f-4b36-8fd9-b663cabf351b": {
-    "html": "<p>Validation refers to testing at a customer in a real use situation to show that the product meets customer needs in their application. Validation testing (which can include field testing, surveys, and other methods) is always centered on the product’s intended use and is used to collect the customer’s feedback on the final design.</p><p>Validation may include customer sampling or a limited sale of product for a customer field test.  </p>"
+  "784bfeb3-1e6f-46cc-ab82-f0eb9ed05d00": {
+    "html": "<p>Validation refers to testing as a customer in a real-use situation to show the product meets customer needs in their application. Validation testing, including field testing, qualification runs, validation trials, surveys, etc., is always centered on the product’s intended use and is used to collect the customer’s feedback on the final design.</p><p>Validation may include customer sampling or a limited sale of product for a customer field test.</p>"
   }
 }

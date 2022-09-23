@@ -30,6 +30,18 @@
       "hiddenPages": []
     },
     {
+      "id": "QCK8x1BB",
+      "name": "Quality Menu",
+      "pages": [
+        {
+          "id": "eZtl0QCN",
+          "name": "Menu",
+          "specialClass": "menu-class"
+        }
+      ],
+      "hiddenPages": []
+    },
+    {
       "id": "QngESQ64",
       "name": "Quality Intro",
       "pages": [
@@ -37,11 +49,6 @@
           "id": "XEU4Azyr",
           "name": "Introduction Page",
           "specialClass": "intro-a-class"
-        },
-        {
-          "id": "eZtl0QCN",
-          "name": "Menu",
-          "specialClass": "menu-class"
         }
       ],
       "hiddenPages": []
@@ -217,26 +224,26 @@
     "currentSection": "",
     "currentRole": "quality",
     "lockedSections": {
-      "quality": [false, false, false, false, false, false],
-      "marketingAndBusiness": [false, false, false, false, false, false],
-      "manufacturing": [false, false, false, false, false, false],
-      "legal": [false, false, false, false, false, false],
-      "lab": [false, false, false, false, false, false],
-      "productSteward": [false, false, false, false, false, false]
+      "quality": [false, false, false, false, false, false, false],
+      "marketingAndBusiness": [false, false, false, false, false, false, false],
+      "manufacturing": [false, false, false, false, false, false, false],
+      "legal": [false, false, false, false, false, false, false],
+      "lab": [false, false, false, false, false, false, false],
+      "productSteward": [false, false, false, false, false, false, false]
     },
     "completedSections": {
-      "quality": [false, false, false, false, false, false],
-      "marketingAndBusiness": [true, false, false, false, false, false],
-      "manufacturing": [true, false, false, false, false, false],
-      "legal": [true, false, false, false, false, false],
-      "lab": [true, false, false, false, false, false],
-      "productSteward": [true, false, false, false, false, false]
+      "quality": [false, false, false, false, false, false, false],
+      "marketingAndBusiness": [true, false, false, false, false, false, false],
+      "manufacturing": [true, false, false, false, false, false, false],
+      "legal": [true, false, false, false, false, false, false],
+      "lab": [true, false, false, false, false, false, false],
+      "productSteward": [true, false, false, false, false, false, false]
     }
   },
   "moduleDefaults": {
     "resumed": false,
     "moduleStatus": "incomplete",
-    "lastLocation": "/QjBJ9ybR/NH7Y9N9d",
+    "lastLocation": "",
     "score": {
       "max": 100,
       "min": 0,

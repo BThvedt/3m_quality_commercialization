@@ -9,6 +9,7 @@ export type RoleName =
 export type QuestionResult = {
   correct: boolean
   id: number
+  showBadge: boolean | undefined
   feedback: {
     title: string
     text: string

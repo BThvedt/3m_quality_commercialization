@@ -18,7 +18,6 @@
           "e_questionText": "What do you believe happens if total comparison scores for importance between one or more customer wants results in a tie?",
           "images": ["round_1.png"],
           "e_instructions": "Which is the best answer?",
-
           "prompts": [
             {
               "e_prompt": "Before House 1 of the LHOQ is explored, a tab exists in the tool to begin an analysis of the voice of the customer: Their wants and needs.  Our exploration will begin here.",
@@ -32,27 +31,28 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "55,42,378,407",
               "e_popups": [
-                "<p>In this column, the team will populate a list of customer wants and needs. This is how the team begins really evaluating the voice of the customer.</p><br/><p>Examples of customer wants and needs can look like:</p><br/><p>“I want the container to open easily.”</p><p>“I want the cleaning solution to not leave a smear.”</p><p>“I don’t want the product to easily break.”</p>",
-                "<p>Completing this section is often a team effort to capture different perspectives of the target customer. </p><p>As you work from a Quality focus, <strong>you will inspect the accuracy of this list</strong> and how it is carried into House 1 of the tool.</p>"
+                "In this column, the team enters a list of the customer voices critical to quality. This isn't intended to capture everything, but will help the team focus on the critical wants and needs throughout the phases of commercialization.<br>Examples of customer wants and needs might be:<p></p><p>“I want the container to open easily.”</p><p>“I want the cleaning solution to not leave a smear.”</p><p>“I don’t want the product to easily break.”</p>",
+                "Completing this section is often a team effort to capture different perspectives of the target customer.<br>As you work from a Quality focus, <strong>you will inspect the accuracy of this list</strong> and how it is carried into House 1 of the tool."
               ]
             },
             {
               "shape": "rect",
               "coords": "379,42,450,407",
               "e_popups": [
-                "<p>Here, each item from the list of customer wants and needs is given an importance ranking:</p><ul><li>Critical</li><li>Important</li><li>Nice to Have</li><li>Not as Important</li></ul><p><strong>Critical items must be captured</strong> for a product design to reflect the voice of the customer, and this is where the Quality focus will pay keen attention to the work completed by the team.</p>"
+                "Here, each item from the list of customer wants and needs is given an importance ranking:<ul><li>Critical</li><li><p>Important</p></li><li><p>Nice to Have</p></li><li><p>Not as Important</p></li></ul><p><strong>Critical items must be captured</strong> for a product design to reflect the voice of the customer. While the entire team contributes to the completion of the LHOQ, Quality pays close attention to content and the team's execution throughout the process.</p>"
               ]
             },
             {
               "shape": "rect",
               "coords": "451,42,650,407",
               "e_popups": [
-                "<p>The results of a paired comparison of the customer wants and needs are recorded in these columns and rows. </p><p>The team will decide if each customer want listed in the spreadsheet rows are either more or less important to the customer than the corresponding want listed in the columns.</p><p>If a want in a row deemed more important, it receives a value of 1. If a want in a column is deemed more important, it receives a value of 0.</p>"
+                "The results of a paired comparison of the customer wants and needs are recorded in these columns and rows.The team will decide if each customer want listed in the spreadsheet rows are either more or less important to the customer than the corresponding want listed in the columns.<br><p>If a want in a row deemed more important, it receives a value of 1. If a want in a column is deemed more important, it receives a value of 0.</p>"
               ]
             }
           ],
@@ -82,7 +82,6 @@
           "e_questionText": "What do you believe happens if a correlation between a customer want and a linked performance method returns a 0 or a 1 result?",
           "images": ["round_2.png"],
           "e_instructions": "Which is the best answer?",
-
           "prompts": [
             {
               "e_prompt": "Excellent! Once customer wants have been identified and ranked, this information can be brought in to populate the <strong>1st House: Customer Wants</strong>. We will spend most of our time exploring House 1, as this House is what is used to begin completion of the DQM.",
@@ -96,12 +95,13 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "412,57,549,394",
               "e_popups": [
-                "<p>In this column, performance measures are defined. These measures are used to ensure that the customer wants are met. Note that these are not test methods but are rather what factors are being controlled that will eventually be tested.</p><p>More than one performance measure can be tied to a single customer want.</p>"
+                "In this column, performance measures are defined. These measures are used to ensure that the customer wants are met. Note that these are not test methods but are rather what factors are being controlled that will eventually be tested.<br>More than one performance measure can be tied to a single customer want."
               ]
             },
             {
@@ -158,7 +158,7 @@
               "closeable": true
             },
             {
-              "e_prompt": "This is a through section of the tool that we won’t explore in its entirety, but we will examine the importance of selecting appropriate test methods.",
+              "e_prompt": "We won’t explore this section entirely, but we will examine the importance of selecting appropriate test methods.",
               "imageIndex": 0,
               "closeable": true
             },
@@ -169,6 +169,7 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
@@ -181,11 +182,12 @@
               "shape": "rect",
               "coords": "170,62,260,367",
               "e_popups": [
-                "<p>In this column, test methods are identified as being used for product design development, for manufacturing release, or for both. This helps guides workflow in the Development phase.</p><p>Later, process variables and raw material characteristics will be documented and evaluated for test methods and their linked product characteristics.</p>"
+                "In this column, test methods are identified as being used for product design development, for manufacturing release, or for both. Each team member will contribute to or reference the information collected here in some way.<br><br>Later, process variables and raw material characteristics will be documented and evaluated for test methods and their linked product characteristics."
               ]
             }
           ]
         },
+
         {
           "type": "tool-intro-prompts",
           "images": ["round_5.png"],
@@ -195,21 +197,20 @@
               "imageIndex": 0
             },
             {
-              "e_prompt": "Broadly, the results of test methods are compared to standards: Are the results of testing in agreement with customer’s values?",
+              "e_prompt": "Broadly, the results of test methods are evaluated to ensure that product specifications are within close proximity to what customers will expect (or in other words, they fall within customer tolerances).",
               "imageIndex": 0
             },
             {
-              "e_prompt": "Lab and manufacturing populate much of this section, while Quality will inspect to improve the process if needed.",
+              "e_prompt": "Lab and Manufacturing populate this section, while Quality will inspect to improve the process if needed.",
               "imageIndex": 0
             }
           ]
         },
         {
           "type": "multi-choice",
-          "e_questionText": "Let’s say that a test method that is included in a collection of similar tests fully characterizes the product characteristic that collection is tied to.<br/><br/>What might you do from the Quality focus?",
+          "e_questionText": "Let’s say that a test method that is included in a collection of similar tests fully captures the product characteristic on its own.<br><br>What might you do from the Quality perspective?",
           "images": ["round_6.png"],
           "e_instructions": "Which is the best answer?",
-
           "prompts": [
             {
               "e_prompt": "Strength of correlation is once again tested, this time evaluating test methods to product characteristics, followed by <strong>collections of test methods</strong> to product characteristics.",
@@ -222,6 +223,7 @@
               "closeable": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [],
           "choices": [
             {
@@ -232,7 +234,7 @@
             },
             {
               "e_text": "Select the test method in question in favor of using a collection of methods for the product characteristic",
-              "e_feedback": "<strong>Good thinking!</strong><br/><br/><p>There may be no need to continually use a set of tests if a single test has been demonstrated to fully characterize a product characteristic reliably.</p><p>Note that a test method should be demonstrated to measure a product characteristic validly and reliably. Not all test methods will perform equally in this way. Identifying the best ones is part of the process.</p>",
+              "e_feedback": "<strong>Good thinking!</strong><br><br>There may be no need to continually use a set of tests if a single test has been demonstrated to fully characterize a product characteristic reliably.<br><p>Note that a test method should be demonstrated to measure a product characteristic validly and reliably. Not all test methods will perform equally in this way. Identifying the best ones is part of the process.</p>",
               "correct": true,
               "imageIndex": 0
             },
@@ -249,7 +251,7 @@
           "images": ["round_7.png"],
           "prompts": [
             {
-              "e_prompt": "To end our tour of House 2, Product Targets and Specifications and Product Control Limits and Capability are also tested and evaluated. These sections identify upper and lower limits for product specifications and formanufacturing.",
+              "e_prompt": "To end our tour of House 2, Product Targets and Specifications and Product Control Limits and Capability are also tested and evaluated. These sections identify upper and lower limits for product specifications and for manufacturing.",
               "imageIndex": 0
             },
             {
@@ -280,19 +282,20 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "20,62,119,368",
               "e_popups": [
-                "<p>Here, for each product characteristic, the team defines the <strong>process step</strong> at which the product characteristic is imparted. </p><p>Process steps are the series of actions and tasks taken to manufacture the product or solution to specific and defined standards and tests.</p><p>More than one process step may be responsible for imparting a product characteristic.</p>"
+                "Here, for each product characteristic, the team defines the <strong>process step</strong> at which the product characteristic is imparted.<br><br>Process steps are the series of actions and tasks taken to manufacture the product or solution to specific and defined standards and tests.<br><br><p>More than one process step may be responsible for imparting a product characteristic.</p>"
               ]
             },
             {
               "shape": "rect",
               "coords": "120,62,224,368",
               "e_popups": [
-                "<p>Once product characteristics and process steps have been paired, this column is used to define the <strong>process variable</strong> or <strong>raw material characteristic</strong> tied to that pairing.</p><p>Process variables are parts of a process that are being monitored or controlled.</p><p>Raw material characteristics can include physical, chemical, and/or performance properties of an input material.</p>"
+                "Once product characteristics and process steps have been paired, this column is used to define the <strong>process variable</strong> or <strong>raw material characteristic</strong> tied to that pairing.<br><br>Process variables are parts of a process that are being monitored or controlled.<br><br><p>Raw material characteristics can include physical, chemical, and/or performance properties of an input material.</p>"
               ]
             },
             {
@@ -320,7 +323,6 @@
               "imageIndex": 0
             }
           },
-
           "prompts": [
             {
               "e_prompt": "Analysis continues in House 3 to include additional methods of measuring process variable and raw material measurements, targets and specifications, and control limits and capability.",
@@ -333,7 +335,7 @@
               "closeable": true
             }
           ],
-
+          "e_clickRevealPrompt": "Select each highlighted area",
           "choices": [
             {
               "e_text": "Critical product characteristics drifting outside of raw material capabilities",
@@ -375,6 +377,7 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",

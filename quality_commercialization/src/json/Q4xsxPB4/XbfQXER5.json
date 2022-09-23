@@ -2,7 +2,6 @@
   "e_title": "Completing Your Toolkit",
   "e_subTitle": "Drag the icon for each definition below to the correct element.",
   "e_subTitle_2": "Before you can move on, select each component to explore it in more detail",
-
   "introModal": {
     "e_title": "You Have an Entire Toolkit!",
     "e_text": "<p>As you saw in the previous lesson, What are Your Tasks?, the Quality focus is linked to more tools than just the HOQ/LHOQ and the DQM.</p><p>Let’s explore these additional, common tools identified for use in 3M | Grow to complete your toolkit. See if you can identify which descriptions match with each tool before learning more about each of them.</p>"
@@ -50,7 +49,6 @@
       "e_clickRevealScreens": [
         "<p>Simply put, a test method is used for measuring a property. A good test method will be able to show that the product will meet the customer’s requirements for the property being measured. A test method must have the right level of accuracy, precision, sensitivity, and specificity.</p><p>Test methods are a part of the DQM, Product Quality Assurance Plan, and influence and guide the product design. They also form the basis of the project Data Package because this Package includes the DQM and Product Quality Assurance Plan, Product Claims, design verification testing, and many other components. The Data Package guides the process, and its manufacturing components guide the use of materials for production of the project.</p><p>What this all means is that test methods are involved in every phase of 3M | Grow.</p>",
         "<p>All test methods should be evaluated to confirm they will provide meaningful data:</p><ul><li><p>Measurement System Analysis (MSA): A statistical evaluation of a test method to evaluate its accuracy, precision, resolution, and stability</p></li><li><p>Gage Repeatability and Reproducibility (Gage R&R): A type of MSA used to investigate the repeatability and reproducibility of a test method</p></li></ul>",
-
         "<ul><li><p>Design of Experiments (DOE) is often used in Build Business case to identify optimize the formulation or process variables for the product.  A DOE is a statistical method for planning, conducting, analyzing, and interpreting experiments with multiple variables</p></li></ul><p>Finally, Process Capability Indices (Cp, Cpk, Pp, Ppk) provide a statistical evaluation of how consistently the process output meets specifications. Poor process capability means the process will produce out-of-spec product.  Good process capability indicates the process should reliably meet specifications.   </p><p>How to use and interpret these statistical evaluations will not be covered in this course, however it is important that you become familiar with what purpose they serve.</p>"
       ]
     },

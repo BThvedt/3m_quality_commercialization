@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22dd5b"],{f8d7:function(e){e.exports=JSON.parse('{"e_header":"d27deaee-347d-430c-a694-359a4f7cbfe6","e_text":"657967eb-a15b-4b56-949c-dd1b8428d44f","pageImage":"task-customer-process-alignment_v2.png"}')}}]);
+//# sourceMappingURL=chunk-2d22dd5b.f415bd10.js.map

@@ -1,9 +1,9 @@
 {
-  "e_title": "50944695-aa37-4a91-b1e3-665d9f210467",
-  "e_subtitle": "f1e74274-fd93-46e6-94c5-9e9929a7ee83",
+  "e_title": "2691ef9c-c04c-4abc-bc61-4042beae85ee",
+  "e_subtitle": "e9ccaa88-8104-45c7-bf95-a24082b19131",
   "launchConclusion": {
-    "e_title": "5a2701cc-1bbf-47fd-98c6-db561f5e7bbc",
-    "e_text": "b2266a4e-3c53-4ff9-bb43-f6b05f094dd2"
+    "e_title": "bacc58a5-f325-423b-9343-16a5e41f983d",
+    "e_text": "a44b9616-443c-4eab-aa47-a94ee9a0be96"
   },
   "subActivities": [
     {
@@ -11,11 +11,10 @@
       "questionIds": [
         1
       ],
-      "showBadge": false,
       "image": "map-activity-office.png",
       "conclusion": {
-        "e_title": "1d61db9b-feed-4a23-adde-4fc312be6c9d",
-        "e_text": "50a66df2-90d0-4c54-856b-f27a07977e6d",
+        "e_title": "736304e0-57b4-4d77-ba68-8788eb357069",
+        "e_text": "56038b07-7b8b-4141-b7b0-b30c33ee3854",
         "image": ""
       }
     },
@@ -24,11 +23,10 @@
       "questionIds": [
         2
       ],
-      "showBadge": false,
       "image": "map-activity-checklist.png",
       "conclusion": {
-        "e_title": "317ee9fe-240b-4b6b-bc59-94e59f61a957",
-        "e_text": "e23db309-5420-43db-b48e-d1808864384f",
+        "e_title": "3da40ff7-ebf1-4435-983c-a9971a2d2ef3",
+        "e_text": "deb08364-e7ef-4efb-b711-6d746dcc8d9f",
         "image": ""
       }
     },
@@ -38,11 +36,10 @@
         3,
         4
       ],
-      "showBadge": true,
       "image": "map-activity-comp.png",
       "conclusion": {
-        "e_title": "76e336dd-dee7-4041-a593-256a5f573303",
-        "e_text": "a679a3a9-aaad-43ac-b838-9c8b25262730",
+        "e_title": "b2d4e4dd-814e-461f-a6a6-b7d8d0993eb9",
+        "e_text": "b674cff1-3895-4388-8ab2-21dc83bbcfd2",
         "image": ""
       }
     }
@@ -50,32 +47,32 @@
   "questions": [
     {
       "id": 1,
-      "e_prompt": "13e4409b-a377-4c2b-a23b-578a0922393f",
-      "e_instructions": "a8c442f0-a454-4700-9730-f44dc6a96a67",
+      "e_prompt": "ad6900cf-e160-4163-86bc-47bc984e2aef",
+      "e_instructions": "fee382f6-e301-497c-88ea-ce01a7084f63",
       "questionType": "multiple-choice",
       "questionImage": "team-group.jpg",
       "choices": [
         {
-          "e_text": "a0c74662-aaab-4d0a-8491-d5681bb963d2",
+          "e_text": "86b9c685-fef0-41d6-8b52-97bc41ae0f90",
           "feedback": {
-            "e_title": "5bae7747-2f51-4d5d-9425-fbdb93cfcbb1",
-            "e_text": "083f61a4-a2fe-49aa-a10f-d29fc682f43f"
+            "e_title": "6f61ca2f-4e57-4f48-b82e-6cd8c92046d3",
+            "e_text": "e2928379-3ea2-46b5-9683-a9fb5c3f577e"
           },
           "correct": true
         },
         {
-          "e_text": "c2a30498-f90f-4932-8e0c-806eeab27f33",
+          "e_text": "5fee0944-00aa-4f8c-80fd-9e51b05eeef7",
           "feedback": {
-            "e_title": "2e714a8d-7175-4b0e-b53b-6d9395295fe4",
-            "e_text": "c786fb00-0903-4ef5-ad1e-f834eaa3a905"
+            "e_title": "5cbe4b4f-5928-437c-823e-72ea694c4378",
+            "e_text": "8f96398b-bfa0-4de1-b07c-42cbf4f43ee0"
           },
           "correct": false
         },
         {
-          "e_text": "5b4a142c-479e-4176-9421-b63f584e200a",
+          "e_text": "6842eb2e-a763-45dd-842b-7a1811fca3b3",
           "feedback": {
-            "e_title": "7a849155-2715-42c3-97ee-4d5d653cdc2d",
-            "e_text": "1b5bca5b-97cc-4d15-af80-024dd6af1c55"
+            "e_title": "51be0dec-5861-4d74-8dbb-32bfb0644432",
+            "e_text": "a5782592-ac9e-42d0-a54b-c89a60494783"
           },
           "correct": false
         }
@@ -83,32 +80,32 @@
     },
     {
       "id": 2,
-      "e_prompt": "785c3c51-7353-4957-92fe-090b98a5635b",
-      "e_instructions": "366ec352-0fa2-4d36-bade-66fa8f26c839",
+      "e_prompt": "7527e1df-df95-468c-8e50-da13d862eb2e",
+      "e_instructions": "1a94d74a-2d05-49be-a40f-32f4cf2150d8",
       "questionType": "multiple-choice",
-      "questionImage": "team-manufacturing.jpg",
+      "questionImage": "team-manufacturing-concerned.jpg",
       "choices": [
         {
-          "e_text": "cdcc8ef1-0f79-421f-b557-7c9f627c5daf",
+          "e_text": "a2ac89b4-a9c4-40d0-a695-3930fa6e40c8",
           "feedback": {
-            "e_title": "86c9ecdf-2900-42ea-8649-d742b9e44e34",
-            "e_text": "7ff2f0d9-874c-4003-88f1-3e31551c8d6c"
+            "e_title": "5d1b1985-21c8-43c3-b536-32158b6b20a1",
+            "e_text": "67ac31b9-5fa7-4278-a30a-c6ef88ee47a0"
           },
           "correct": false
         },
         {
-          "e_text": "4fe5f65d-7852-4247-8640-0ca780537fcc",
+          "e_text": "cba5b0c4-501c-44eb-a8a6-e49441e1a23b",
           "feedback": {
-            "e_title": "7689350c-a504-4c42-bc22-a1c243e5d181",
-            "e_text": "77fe5dc2-1dd6-4b59-8334-91f6303933d9"
+            "e_title": "0bf3d223-b6cb-442c-bb0b-890dffa6f9ee",
+            "e_text": "11310d55-4540-4ffc-b643-564bd5a25405"
           },
           "correct": true
         },
         {
-          "e_text": "957d3d29-f627-4653-bead-40e028d8a7d3",
+          "e_text": "b5bc6a08-0b22-4239-b6ec-43fdd3715078",
           "feedback": {
-            "e_title": "50ef76c2-1f35-4193-80d7-982eabe81244",
-            "e_text": "5d5e634f-6d58-4e23-9a64-9cf2fa336821"
+            "e_title": "582437c1-28f6-409d-8cbf-646297061c3a",
+            "e_text": "98824d79-51d5-43e5-a1e0-62118fa660fd"
           },
           "correct": false
         }
@@ -116,33 +113,33 @@
     },
     {
       "id": 3,
-      "e_prompt": "eb098797-c056-4bf9-b8a0-446970748b9e",
-      "e_instructions": "3be503b4-143c-4aa9-bc1d-383414b8041d",
+      "e_prompt": "2b56f230-95f0-4032-a33e-d037bbb31d2a",
+      "e_instructions": "f671f94a-76d5-459b-80f0-38e90d5a2806",
       "questionType": "multiple-choice",
       "questionImage": "launch_activity_3_question_1.png",
       "specialClass": "big-image",
       "choices": [
         {
-          "e_text": "c59f92fc-ea0e-4bdc-b7b6-045cc3f1e040",
+          "e_text": "936d25b4-49b9-4fd3-9f23-bd554980c18c",
           "feedback": {
-            "e_title": "476d7866-de5e-4acf-8570-7409943b73fb",
-            "e_text": "0ca752d0-223b-40a9-85d5-1b7e4db73c92"
+            "e_title": "4a73e0d3-e1ea-4af0-9466-0052c8cb78a7",
+            "e_text": "7a42276e-d662-404b-a1ce-462feefecaea"
           },
           "correct": false
         },
         {
-          "e_text": "33817926-8be4-4cd7-a699-7f88173ed2bd",
+          "e_text": "a7408eff-a97d-4eec-a92f-b4b35dca28b8",
           "feedback": {
-            "e_title": "ba33de9c-dfaa-42d9-b0c7-40aa5d60fed9",
-            "e_text": "73e257f0-f5f3-427f-b3d2-518e18b1ba1a"
+            "e_title": "8e1bb554-8642-486a-9b7f-d50002225fb2",
+            "e_text": "3c0b82c1-8348-4f3c-a433-9d2906c666c3"
           },
           "correct": false
         },
         {
-          "e_text": "771bae8f-9da0-4d09-b378-9d8a7852eae5",
+          "e_text": "db873557-5b38-49ba-84d1-d616387e1893",
           "feedback": {
-            "e_title": "b2ac7fbc-0290-40b1-948b-fd49d7420475",
-            "e_text": "6ee9a009-5104-4018-ba1e-b3c072b05f8c"
+            "e_title": "d3c6310e-5aff-4fa4-b7aa-53d6f22a8cec",
+            "e_text": "cedac346-5509-4d80-ae50-99a140dbcf60"
           },
           "correct": true
         }
@@ -150,33 +147,34 @@
     },
     {
       "id": 4,
-      "e_prompt": "929df158-6299-43d6-93ca-91088f579cc4",
-      "e_instructions": "95f0339d-0ed7-483e-8366-3816d419cf94",
+      "e_prompt": "8f3005c6-0442-434d-84cb-13122161a979",
+      "e_instructions": "bc6bdc84-6f9a-42f6-aaff-0b7bd7acb29c",
       "questionType": "multiple-choice",
       "questionImage": "launch_activity__3_question_2.png",
       "specialClass": "big-image",
+      "showBadge": true,
       "choices": [
         {
-          "e_text": "ac2d1441-7468-4b69-91f3-41e94c97e3a8",
+          "e_text": "5685303a-df9c-4b8f-9a24-d9a4f38e3265",
           "feedback": {
-            "e_title": "3f9e1110-f499-45e0-b0a4-adda09fe13a3",
-            "e_text": "781bdffd-38db-4c96-aa37-8a996fe8cbbb"
+            "e_title": "708a2cf9-7be1-47b4-81b7-a29c368108fd",
+            "e_text": "383a0522-7a60-474d-9b0a-80854799be36"
           },
           "correct": false
         },
         {
-          "e_text": "8c294200-ab40-461c-b09e-b462d1a4fa81",
+          "e_text": "09fb2f39-7c01-47ea-866b-9ac56ed4dc38",
           "feedback": {
-            "e_title": "4694bda2-ce63-4f02-b772-849efaa98f6b",
-            "e_text": "260fd253-5b0d-4b19-8aa1-6d8942531bbf"
+            "e_title": "93df16bc-09dd-4925-bb83-e755a018e598",
+            "e_text": "988bf224-8d97-4259-954b-35d9210cccdb"
           },
           "correct": true
         },
         {
-          "e_text": "d439a14b-090f-4c96-9a50-2014aeb36a9c",
+          "e_text": "f5a486ad-5344-440d-8df8-aefa4b270a81",
           "feedback": {
-            "e_title": "40a139eb-14b7-4bbb-b67b-64fb616572b0",
-            "e_text": "947883ff-9e4f-4ba8-a6a9-c091d63e50d3"
+            "e_title": "676d73b4-9897-4fc3-9ec7-11cad89de819",
+            "e_text": "8e227adb-a84a-463b-9225-8c2068d449bb"
           },
           "correct": false
         }
@@ -217,26 +215,26 @@
   ],
   "activityPhases": [
     {
-      "e_title": "6a06b407-8f0c-4fe8-85bf-46d4a4c73025",
+      "e_title": "615e678f-ccb7-41c3-98d7-050a7b780e7d",
       "icon": "build-buisiness-case",
       "id": 2,
-      "e_topTitle": "eaae28bf-a5f9-4f64-8c29-82b7f7cc2229"
+      "e_topTitle": "09dc252f-67dd-4ba1-b4e7-f4e04b44229e"
     },
     {
-      "e_title": "8a0a4503-c52b-44e1-94f7-065a8ffef75b",
-      "e_topTitle": "d257d446-c384-4cee-9e6d-8a1dbc082518",
+      "e_title": "141ea20e-eace-48f0-8c72-b2c72e23c41a",
+      "e_topTitle": "8bb28482-c679-43fc-8cc7-7289b715b68c",
       "icon": "development",
       "id": 3
     },
     {
-      "e_title": "da7734cc-4a96-495b-afb6-0a9394501e70",
-      "e_topTitle": "f55595a0-4be9-4a2c-9130-f802c536ebdb",
+      "e_title": "84f8bb14-0def-4a60-936a-b418b157460e",
+      "e_topTitle": "42218f03-3e0c-40ff-bcc3-62d6ab7f2ca1",
       "icon": "scale-up",
       "id": 4
     },
     {
-      "e_title": "3fa4ccca-26fb-47dc-8757-34257a8e5762",
-      "e_topTitle": "9a75f01c-639d-42ef-8af7-e51b24650639",
+      "e_title": "cfd234d1-fe99-42ae-a9b8-1434266b6feb",
+      "e_topTitle": "f50e7437-f31c-4c9f-9b9f-b94e65f97dee",
       "icon": "launch",
       "id": 5
     }

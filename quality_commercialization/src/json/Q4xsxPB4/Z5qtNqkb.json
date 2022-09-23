@@ -1,7 +1,6 @@
 {
   "e_title": "Design Qualification Matrix Exploration",
   "e_subTitle": "Follow the coach’s directions to explore the tool.",
-
   "introModal": {
     "e_title": "Exploring the DQM",
     "e_text": "<p>It’s time to walk through the DQM. You’ll explore this vital tool for the Quality focus in the same way you did with the LHOQ.</p><p>Ready? Let’s go!</p>"
@@ -19,7 +18,6 @@
           "e_questionText": "These three categories should appear familiar. Recall what we’ve reviewed earlier: When do design specification verification and design validation usually take place in 3M | Grow?",
           "images": ["r1_dqm.png"],
           "e_instructions": "Which is the best answer?",
-
           "prompts": [
             {
               "e_prompt": "Depending on your division, you may see a Microsoft Excel® DQM template, or a DQM table embedded within the 3M |Grow task portal. The DQM is completed linearly by project phase, beginning with Build Business Case.",
@@ -37,6 +35,7 @@
               "closeable": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "choices": [
             {
               "e_text": "Verification is completed in Build Business Case; Validation in Scale Up",
@@ -74,6 +73,7 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
@@ -157,7 +157,7 @@
               "revealHotSpots": true
             }
           ],
-
+          "e_clickRevealPrompt": "Select each highlighted area",
           "choices": [
             {
               "e_text": "Descriptions are concise",
@@ -182,7 +182,6 @@
           "e_questionText": "<p>Imagine that verification testing of a design specification showed that it did not meet requirements (red). After considering different solutions, the team decides to eliminate the specification.</p><p>Which of the following is the most important thing a team member operating from the Quality focus must ensure?</p>",
           "images": ["r3_dqm.png"],
           "e_instructions": "Which is the best answer?",
-
           "prompts": [
             {
               "e_prompt": "You’ll now dive into each of these three categories. Let’s begin with Product Requirements.",
@@ -196,6 +195,7 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
@@ -264,6 +264,7 @@
               "revealHotSpots": true
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": [
             {
               "shape": "rect",
@@ -304,6 +305,7 @@
               "revealHotSpots": false
             }
           ],
+          "e_clickRevealPrompt": "Select each highlighted area",
           "clickRevealAreas": []
         }
       ]

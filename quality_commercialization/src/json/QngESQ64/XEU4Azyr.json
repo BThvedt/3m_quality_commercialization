@@ -1,15 +1,14 @@
 {
   "e_continueButton": "Continue",
-
   "pages": [
     {
-      "e_title": "Bringing Commercialization into Focus: Quality",
+      "e_title": "Introduction to Quality",
       "content": [
         {
           "type": "text",
-          "e_subTitle": "Why is Quality important to Commercialization?",
+          "e_subTitle": "Why is Quality important to commercialization?",
           "background": "team",
-          "e_text": "<p>Quality is a leadership role responsible for ensuring that the commercialization process delivers products or services that meet customer expectations and that it produces consistent results.</p><p>This goal is achieved by effectively translating customer expectations into a robust product, service, or solution design. For the purposes of your learning journey in this course, we will be focusing on new product development.</p><p>Bringing a Quality focus to product development can enhance brand perception, accurately capture customer expectations, and cultivate customer loyalty.</p><p>A lack of Quality engagement can result in: Recalls, customer complaints, loss of customers, low sales, high waste, and high manufacturing costs.</p>"
+          "e_text": "<p>Quality plays a leadership role in ensuring new products or services meet customer expectations, can be reliably manufactured, and produce consistent results.</p><p>The Quality goal is achieved by translating customer needs into a robust product or service. Quality anticipates risks and leverages statistics and other engineering tools to quantify and control risk.&nbsp;Quality also ensures test methods are predictive and robust, and assists in setting product specifications that meet customer needs and ensure manufacturing capability.</p><p></p><p>Bringing a Quality focus to product development is a competitive advantage.&nbsp;Consistent quality in a new product enhances brand perception and cultivates customer loyalty.</p><p></p><p>On the other hand, a lack of quality during product development may result in customer complaints, field actions and recalls, loss of market share, low sales, waste, and high manufacturing costs.</p>"
         }
       ]
     },
@@ -18,9 +17,9 @@
       "content": [
         {
           "type": "text",
-          "e_subTitle": "Quality Responsibilities",
+          "e_subTitle": "What are the Quality responsibilities in commercialization?",
           "background": "team",
-          "e_text": "<p>The Quality focus is crucial for the product development team.  Strong quality engagement in the commercialization process is critical to delivering a robust, high quality new product or service that solves a customer problem.</p><p>Depending on your project or division, the Quality focus may be represented by team members who operate exclusively within this focus area, or by multidisciplinary team members who perform different functions. Regardless of whether you engage in a project directly from the Quality focus or not, it is vital to approach commercialization with a Quality mindset.</p><p>The responsibilities commonly performed by the team that relate to quality include, but are not limited to:</p><ul><li><p>Ensuring that the <strong>voice of the customer</strong> (customer expectations, requirements, and feedback) is accurately represented throughout Development and Scale Up</p></li><li><p>Examining outcomes of assigned tests, inspections, and other tasks that determine if the product or service meets customer requirements</p></li><li><p>Confirmation the product remains meets customer expectations and has a high probability of Launch success</p></li></ul>"
+          "e_text": "<p>Depending on the project or division, Quality may be represented by quality engineers or team members from different functions. Regardless of your role, it is vital to approach commercialization with a Quality focus.</p><p>Quality responsibilities include, but are not limited to:</p><ul><li><p>Ensuring the&nbsp;<strong>voice of the customer </strong>is accurately represented in each phase of the commercialization process by understanding customer expectations, product requirements, industry standards, and feedback from customer qualification testing.</p></li><li><p>Building a robust quality plan of reliable and predictive test methods for design level, in-process, outgoing quality control and finished product inspection.</p></li><li><p>Reviewing the quality plan data and assisting the team in setting product specifications that meet customer needs and have good process capability.</p></li><li><p>Confirming risks have been identified and action plans developed to ensure a high probability of Launch success.</p></li></ul>"
         }
       ]
     },
@@ -29,9 +28,9 @@
       "content": [
         {
           "type": "text",
-          "e_subTitle": "Advocating and Amplifying the Customer Voice",
+          "e_subTitle": "How does Quality advocate for the customer in commercialization?",
           "background": "team",
-          "e_text": "<p>There are two phrases which embody the Quality focusfor commercialization teams:</p><p><strong><i>Quality amplifies the voice of the customer throughout the commercialization process. </i></strong><br/>The Quality focus assures changes to the product design or manufacturing process doesn’t negatively impact the product and still reflects the voice of the customer.</p><p><strong><i>The Quality mindset ensures the customer voice is heard end-to-end throughout the process.</i></strong><br/>Quality must be engaged from the very beginning of a project to the very end. Quality must be involved to anticipate problems throughout the product life cycle and to carry out a role in problem prevention.</p><p><strong><i>For more detail about the role of the Quality focus, you can access The Quality Mindset aid from the course Resources.</i></strong></p>"
+          "e_text": "<p>Quality advocates for the customer in two ways:</p><p>1. Quality amplifies the voice of the customer.</p><p>Quality ensures customer requirements are accurately translated into the product design and addresses the unarticulated needs of the customer, which may include compliance to industry standards, product safety, reliable performance, and more.</p><p>2. Quality sees End-to-End (E2E).</p><p>Quality is engaged from product design, launch, and throughout the product lifecycle, so it anticipates problems and works with the global team to mitigate risk.<br><br><em>For more detail about the role of Quality, you can access The Quality Mindset aid from the course Resources.</em></p>"
         }
       ]
     },
@@ -40,31 +39,32 @@
       "content": [
         {
           "type": "text",
-          "e_subTitle": "A Systemic Approach",
+          "e_subTitle": "What is Quality's approach to commercialization?",
           "background": "team",
-          "e_text": "<p>To fulfill the responsibilities tied to Quality, tools and systems are utilized to reduce risk and increase the reliability and repeatability of results. From the Build Business Case phase through Launch, these tools and systems help ensure that product standards are met, and the customer voice is always heard. </p><p>The Quality focus uses tools and systems to anticipate and minimize the likelihood of problems before they happen, rather than simply reacting to problems after they arise.</p><p>These tools and systems touch all the key deliverable categories of 3M | Grow and are designed to answer the following questions, among others:</p><ul><li><p>Customer/Market: What is the voice of the customer and how will it guide product design?</p></li><li><p>Business Opportunity: What is the addressable and achievable market? What are the financial objectives and investment? Is it the right opportunity for business growth?</p></li><li><p>Product: Does the design meet the customer’s requirements? Has the product design been reviewed for manufacturability?</p></li><li><p>Manufacturing/Supply Chain (Value Stream): Can the product be manufactured reliably to standard? What is the sourcing risk?</p></li><li><p>Compliance: Are all necessary statutory and regulatory requirements met for the product or service to be brought to market complete or achievable?  Have all global EHS and Product Stewardship requirements been met as well as Legal requirements?</p></li>/ul>"
+          "e_text": "<p>Quality uses a set of engineering tools and statistics to anticipate and reduce risk in product and process, address raw material risks, develop a quality test plan, verify robust test methods, and set product specifications. From Build Business Case through Launch, these tools help ensure the solution meets customer expectations and can be manufactured reliably.</p><p></p><p>The tools and systems touch the key deliverable categories of 3M | Grow.</p><ul><li><p>Customer/Market: How is the voice of the customer translated into the product design?</p></li><li><p>Business Opportunity: Does the market have special industry or government standards?&nbsp; Are there certification, regulatory, or product safety requirements?</p></li><li><p>Product: What is the quality test plan?&nbsp;What are the proposed specifications?&nbsp;Has the customer validated the product design through qualification testing in a real use setting?</p></li><li><p>Manufacturing/Supply Chain (Value Stream): Can the new product design be manufactured with high process capability?&nbsp;Are the raw material choices and suppliers reliable? What is the sourcing risk?</p></li></ul>"
         }
       ]
     },
     {
-      "e_title": "Introduction to Quality",
+      "e_title": "Meet Your Coach",
       "content": [
         {
           "type": "text",
-          "e_subTitle": "Here’s How You’ll Spend Your Time",
+          "e_subTitle": "",
           "background": "happy-coach",
-          "e_text": "<p>Think of me as your coach. I’ll be your guide throughout your learning journey and explain concepts along the way.</p><p>The lessons in this course will provide a foundation allowing you to identify how the Quality focus brings a new product to life.</p><p>In the next lesson, Commercialization Challenge, you’ll have an opportunity to refresh your knowledge of 3M | Grow and new product commercialization.</p><p>The remaining lessons then explore how Quality  contributes to robust new products and efficient commercialization: Responsibilities, collaboration with other team members, and commonly used tools.</p><p>Then, you’ll get to experience how these concepts come together in an interactive challenge where you will take on the role of a Quality-focused team member as you work with your team to commercialize a new product.</p>"
+          "e_text": "<p>Hello, I’m your guide throughout this learning journey to explain concepts along the way.</p><p>The lessons in this course help you identify how Quality brings a new product to life:</p><ul><li><p>Lesson 2: The Commercialization Challenge gives you a chance to check your knowledge of</p><p>3M | Grow and new product commercialization.</p></li><li><p>Lesson 3: What are Your Tasks? identifies the essential activities Quality conducts during commercialization.</p></li><li><p>Lesson 4: What are Your Tools? helps you use common Quality tools to contribute to robust new products and efficient commercialization.</p></li><li><p>Lesson 5: Commercialize the Product is an interactive challenge integrating everything in the course where you will take on the role of a Quality team member as you work with your team to commercialize a new product.</p></li></ul>"
         }
       ]
     },
     {
-      "e_title": "Introduction to Quality",
+      "e_title": "Before You Continue",
       "content": [
         {
           "type": "text",
-          "e_subTitle": "Resources",
+          "e_subTitle": "Accessing resources",
+          "e_subTitle_two": "",
           "background": "happy-coach",
-          "e_text": "<p>At any point in your learning journey, you can select the Resources icon to explore additional resources that enhance the course, as well as links to resources outside of this course that will add to your knowledge and perspective.</p>"
+          "e_text": "<p>At any point in your learning journey, you can select the Resources icon at the upper right corner of your screen to explore additional material and links to resources outside of this course that will add to your knowledge and perspective.</p><p></p><p><strong>Continuing on your journey</strong></p><p></p><p>Now you've completed the Introduction to this course. Select Continue to go back to the menu and choose another lesson.</p>"
         }
       ]
     }

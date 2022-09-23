@@ -35,8 +35,8 @@
       mode="out-in"
     >
       <div
-        key="question-text-wrapper-1"
-        v-if="revealPopupNum >= 0"
+        key="the-click-reveal-popups"
+        v-if="revealPopupNum >= 0 && !showPopupPrompt"
         class="question-text-wrapper"
       >
         <transition
@@ -55,6 +55,15 @@
             </div>
           </template>
         </transition>
+      </div>
+      <div
+        key="click-reveal-prompt"
+        v-if="revealPopupNum < 0 && showPopupPrompt"
+        class="question-text-wrapper"
+      >
+        <div class="question-text">
+          <E t="p" :h="questionData.e_clickRevealPrompt" />
+        </div>
       </div>
     </transition>
     <!-- End the popups -->
@@ -173,6 +182,8 @@ export default Vue.extend({
       hotSpotIndexSelected: -1,
       hotSpotsFinished: [] as boolean[],
 
+      showPopupPrompt: false,
+
       showQuestion: false,
       showFeedback: false,
       showChoices: false,
@@ -197,9 +208,11 @@ export default Vue.extend({
     // this.showChoices = true
 
     // do we hve hotspots? If so..
-    this.hotSpotsFinished = new Array(
-      this.questionData.clickRevealAreas.length
-    ).fill(false)
+    if (this.questionData.clickRevealAreas) {
+      this.hotSpotsFinished = new Array(
+        this.questionData.clickRevealAreas.length
+      ).fill(false)
+    }
   },
   methods: {
     async goToNextPrompt() {
@@ -230,13 +243,17 @@ export default Vue.extend({
         }
       }
 
-      if (this.prompts[this.promptNum].revealHotSpots) {
+      if (
+        this.prompts[this.promptNum] &&
+        this.prompts[this.promptNum].revealHotSpots
+      ) {
         await genericAwait(1000)
         this.revealHotSpots = true
       }
     },
     async handleHotSpotSelected(payload: any) {
       this.revealPopupNum = 0
+      this.showPopupPrompt = false
 
       this.hotSpotIndexSelected = payload.index
       if (this.startShowingPrompts) {
@@ -247,6 +264,7 @@ export default Vue.extend({
         this.revealPopups = payload.e_popups
       }
     },
+
     async goToNextPopup() {
       if (this.revealPopupNum < this.revealPopups.length - 1) {
         this.revealPopupNum++
@@ -267,6 +285,8 @@ export default Vue.extend({
           this.showQuestion = true
           await genericAwait(1000)
           this.showChoices = true
+        } else {
+          this.showPopupPrompt = true
         }
       }
     },

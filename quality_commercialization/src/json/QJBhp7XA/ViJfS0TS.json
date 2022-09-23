@@ -13,7 +13,6 @@
     {
       "id": 1,
       "questionIds": [1, 2],
-      "showBadge": true,
       "image": "map-activity-comp.png",
       "conclusion": {
         "e_title": "",
@@ -24,7 +23,6 @@
     {
       "id": 2,
       "questionIds": [3],
-      "showBadge": false,
       "image": "map-activity-office.png",
       "conclusion": {
         "e_title": "",
@@ -35,7 +33,6 @@
     {
       "id": 3,
       "questionIds": [4],
-      "showBadge": false,
       "image": "map-activity-convo.png",
       "conclusion": {
         "e_title": "",
@@ -46,7 +43,6 @@
     {
       "id": 4,
       "questionIds": [5],
-      "showBadge": false,
       "image": "map-activity-checklist.png",
       "conclusion": {
         "e_title": "",
@@ -101,7 +97,7 @@
       "e_instructions": "Select all that apply",
       "questionType": "multiple-select",
       "e_submitText": "Submit",
-
+      "showBadge": true,
       "questionImage": "bbc_activity_1_question_2.png",
       "specialClass": "big-image",
       "feedback": {

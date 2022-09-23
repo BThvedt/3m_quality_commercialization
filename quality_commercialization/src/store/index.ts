@@ -68,14 +68,15 @@ const store: StoreOptions<RootState> = {
         id: number
         phaseIndex: number
         questionNum: number
+        showBadge: boolean | undefined
         result: QuestionResult
       }
     ) {
-      const { id, area, phaseIndex, questionNum, result } = payload
+      const { id, area, phaseIndex, questionNum, showBadge, result } = payload
       const newQResults = structuredClone(state.commercializeQResults)
 
       // whoops need the id in the result
-      newQResults[area][phaseIndex][questionNum] = { ...result, id }
+      newQResults[area][phaseIndex][questionNum] = { ...result, id, showBadge }
 
       state.commercializeQResults = newQResults
     },
@@ -184,6 +185,7 @@ const store: StoreOptions<RootState> = {
       { commit, state },
       payload: {
         area: RoleName
+        showBadge: boolean | undefined
         phaseIndex: number
         questionNum: number
         result: QuestionResult

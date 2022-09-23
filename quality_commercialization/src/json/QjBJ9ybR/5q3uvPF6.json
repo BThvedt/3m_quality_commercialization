@@ -7,8 +7,8 @@
     "e_continue": "Continue"
   },
   "introModal": {
-    "e_title": "Let’s Explore the Quality Focus Across the Phases",
-    "e_text": "<p>Now that you understand the broad strokes of how Quality contributes to a project, let’s look at how tasks and responsibilities tied to the Quality focus break down by each phase of 3M | Grow.</p>"
+    "e_title": "Let’s explore the Quality focus across the phases",
+    "e_text": "<p>Now that you understand the big picture of how Quality contributes to a project, let’s look at how the tasks and responsibilities break down by each phase of commercialization.</p>"
   },
   "transitionModal": {
     "e_title": "Transition!",
@@ -28,7 +28,7 @@
         {
           "id": "tasks",
           "e_title": "Quality Tasks",
-          "e_text": "<ul><li><p>Translate customer wants and needs into customer requirements, and then further translate these Critical to Quality requirements (CTQs) </p></li><li><p>Define or develop test methods to measure CTQs</p></li><li><p>Test concepts or prototypes for performance</p></li></ul>"
+          "e_text": "<ul><li><p>Translate customer wants and needs into customer requirements, and then further translate these into quantifiable test methods.</p></li><li><p>Define or develop test methods to measure customer requirements</p></li><li><p>Test concepts or prototypes for performance</p></li></ul>"
         },
         {
           "id": "how",
@@ -51,12 +51,12 @@
         {
           "id": "business-case",
           "e_title": "Quality Tasks",
-          "e_text": "<ul><li><p>Ensure that the voice of the customer and voice of the process remain aligned and are translated into robust test methods</p></li><li><p>Update the Product Quality Assurance Plan and data packages with additional information from pilot or manufacturing scale runs</p></li><li><p>Update the Design Review to reflect any design modifications, and additional testing</p></li></ul>"
+          "e_text": "<ul><li><p>Ensure the voice of the customer and voice of the process remain aligned and are translated into robust test methods</p></li><li><p>Update the Quality Plan and data packages with additional information from pilot or manufacturing scale runs</p></li><li><p>Update the Design Review to reflect any design modifications and additional testing</p></li></ul>"
         },
         {
           "id": "develop",
           "e_title": "How You’ll Do It",
-          "e_text": "<ul><li><p>Continue to complete the Product Quality Assurance Plan and Design Review with the latest data from pilot and full-scale manufacturing runs</p></li><li><p>Update the HOQ, DQM, and FMEA as needed</p></li><li><p>Ensure specification ranges reflect customer requirements</p></li><li><p>Confirm test methods and process capability using statistical tools</p></li></ul>"
+          "e_text": "<ul><li><p>Continue to complete the Quality Plan and Design Review with the latest data from pilot and full-scale manufacturing runs</p></li><li><p>Update the HOQ, DQM, and FMEA as needed</p></li><li><p>Ensure specification ranges reflect customer requirements</p></li><li><p>Confirm test methods and process capability using statistical tools</p></li></ul>"
         },
         {
           "id": "scale-up",

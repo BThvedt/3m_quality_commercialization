@@ -1,188 +1,188 @@
 {
-  "11a15152-bbe8-4fcb-bb7d-dba7d6bb1566": {
+  "d2a51b80-7985-4376-ba57-226aa10a1eca": {
     "html": "Quality - Commercialize the Product - Scale Up"
   },
-  "af6dc36f-c5a1-4d6d-b9d5-0a6c6a904843": {
+  "7f9e482b-b4dc-40ca-aec1-1db83d13c26d": {
     "html": "Select the highlighted team members to listen to the team's conversation"
   },
-  "51b50f82-4b8c-4413-a84b-4a4cde3756b7": {
+  "67c9afc7-8a57-48cb-b836-4a3cf3df6acc": {
     "html": "Scale Up is completed!"
   },
-  "f2708c58-f915-41fa-9b40-adf4f7f66434": {
+  "c4a4fa72-ce8d-429e-92b3-7dc67a1aa1db": {
     "html": "<p>The painting tape is now ready to go to market. The team conducts Launch, with Marketing/Business setting the Launch Control Plan.</p><p><strong>Six months have now passed</strong> since initial Launch, and the team meets to share findings and observations.</p>"
   },
-  "50f0a48b-c7c9-4ebf-8c51-bbb7ad383b22": {
+  "ff1cfe1c-d18e-42d4-b256-34708274447a": {
     "html": ""
   },
-  "3bd5ff7a-b6d1-4132-a458-bc526a80cb39": {
+  "36412757-267f-4c27-82d8-df9c4ec90b5b": {
     "html": "<p>The equipment issue has been addressed thanks to your investigation. This results in tape length specifications falling back into passing variability range. </p><p>It is possible that product specifications can drift out of Cpk range overtime for a variety of reasons. Your continued review of the supply chain with the team helps to identify issues before they can escalate to potential failure modes.</p>"
   },
-  "cf815926-ff1f-4a36-a424-04878568e569": {
+  "51d84abe-dd83-4e1f-bd6b-fc43aa506f80": {
     "html": ""
   },
-  "c5eb668b-756a-4948-93ee-2516d9e611c4": {
+  "ffe922ac-061d-4944-a282-6639206d20ef": {
     "html": "<p>You create a checklist of improvements that the team requires be made to the supplier’s quality system. The supplier communicates that your improvements have been applied and you verify the changes.</p><p>Navigating the team’s working relationships with suppliers is a complicated part of product production. It is not uncommon that suppliers present issues that are tied to their quality systems. As the Quality focus team member, addressing these issues is an important part of your role.</p>"
   },
-  "0d9a29c9-4351-4cbb-abc8-37dd002d2781": {
+  "db1e4c1e-4d64-467a-80cc-ba295ec747ed": {
     "html": ""
   },
-  "b9c42da2-4a08-4854-a9e7-59a397fe5520": {
+  "d66e975b-afc8-4fce-a764-4c788d87ec3c": {
     "html": "<p>In some divisions, moving from Scale Up to Launch is described as locking-in the product design. The Design Review at the end of Scale Up is vital to ensuring that there are no known risks to the product or process.</p><p>You check the collective FMEA tool to ensure that all previously identified risks have been linked to a solution/intervention and are no longer a concern for the painting tape.</p>"
   },
-  "f02de4e3-11f4-44a3-bf49-cab26479e7a5": {
+  "3c79e5c1-1951-40f4-bea2-be1cae97e530": {
     "html": "Lab informed you that there is a need to revisit the tape’s process capability. You check the Key Customer Needs tool within the DQM to investigate."
   },
-  "635fc6e2-f262-42d8-a2af-419190e286fc": {
+  "a27350ef-e5a3-4fa1-956e-4cd0d91b8987": {
     "html": "Select the column of the tool you should focus on."
   },
-  "7339ada3-d8dc-4669-b319-79544ea7ac9f": {
+  "04ba9f60-12b4-4929-828e-974d831ce9c8": {
     "html": "Submit"
   },
-  "82f7f15d-2ba8-489c-bd69-b911bdc7447e": {
+  "ec1b9c83-8b2c-4fe1-a13a-6a3d8fbf28ae": {
     "html": "Not quite."
   },
-  "72ce1a75-12a0-4a58-8833-c0525ff2188d": {
+  "933b0127-38f5-494f-b743-868d50296ac6": {
     "html": "<p>While Spec Customer Requirements could be helpful to review, the Scale Up Cpk values and pass level would be the most relevant to process capability evaluation. </p>"
   },
-  "be539e79-f45c-444a-ada8-70c7c14adb9e": {
+  "50216408-43e0-4223-bf97-6f324a296152": {
     "html": "Not quite."
   },
-  "fd1051bc-21dc-4ca7-a4f2-eab7940d1dd8": {
+  "00323c06-9ec3-49a1-bb61-e987c61ff502": {
     "html": "<p>While Measured Performance Prototype Requirement values could be helpful to review, the Scale Up Cpk values and pass level would be the most relevant to process capability evaluation.</p>"
   },
-  "776c64d4-b6d2-42bb-a3f8-26931eb44ee1": {
+  "2ae161ed-8b2e-4114-9b02-5a802aa54b69": {
     "html": "Not quite."
   },
-  "731e657b-2e05-41e8-9ddd-fb3045084663": {
+  "12cbde41-baac-4dbf-9ef0-8009d8d4e6da": {
     "html": "<p>While Measured Performance Development values could be helpful to review, the Scale Up Cpk values and pass level would be the most relevant to process capability evaluation.</p>"
   },
-  "b5411235-d7e2-4d9c-a82c-a493b5fb06d0": {
+  "4c59e9ae-8971-4f59-a56d-20c4b544668b": {
     "html": "You got it!"
   },
-  "cfe664ad-b7b4-4d86-b364-1f5ba089e159": {
+  "f23d7a08-2b4e-401c-ab10-f31143ac2e41": {
     "html": "<p>Scale Up Cpk values and the description on if they pass minimum requirements will be the most useful information for conducting a Scale Up process capability evaluation.</p>"
   },
-  "94418ea9-4513-4867-88ea-5151d6f9defc": {
+  "1b8993b8-940b-428a-ad15-814ddba1fa1d": {
     "html": "<p>Working with Lab and Manufacturing, you conclude from process capability evaluation that a variability has occurred because of manufacturing equipment performance. This variability has impacted the length of the tape.</p><p>What is the most important reason why?</p>"
   },
-  "c5fda3c2-6e4f-4fe8-8d35-a0986cdc3fbd": {
+  "b1b7a2aa-6325-47b4-8a55-87d95c7ae4ed": {
     "html": "Which is the best answer?"
   },
-  "812a9b5b-040b-4acc-880e-20b7dad12e4d": {
+  "db993e99-9298-4821-8505-8e94bb76c1d6": {
     "html": "Equipment should produce reliable results (process capability)"
   },
-  "021eef3e-c2a3-4125-8777-efffc38a340c": {
+  "af0e0538-07d9-413f-bc4f-60a1d763fcd8": {
     "html": "Close, but this isn’t the primary problem."
   },
-  "a27472f5-b0b4-4a97-8825-fefaa5a94e51": {
+  "b05ee5ac-a18e-460a-9eb8-ab85b7b1491c": {
     "html": "The equipment used to manufacture the product should do so within acceptable limits of variability. However, the primary problem here is that too much length variability could lead to customer dissatisfaction with the product."
   },
-  "3d6c3dc8-8121-43e3-beae-ef13d71d4edb": {
+  "66a913dd-d854-46d5-8326-1d4cab494c11": {
     "html": "Too much length variability could lead to product failure (customer dissatisfaction)"
   },
-  "3a1d9e4b-c52e-4dfd-8e58-9597f12325b5": {
+  "7958ee9c-fc2a-4c4e-b84f-bcb5c8b136e3": {
     "html": "This is the best choice!"
   },
-  "6e1a3c8e-5d19-4624-a938-e0066d53b072": {
+  "e5c9dcd8-eb10-4881-b260-1201c6b616ff": {
     "html": "While all the available choices reflect real concerns for the process the primary problem here is that too much length variability could lead to customer dissatisfaction with the product."
   },
-  "935953d3-87b4-4a65-abc7-9801bd909af9": {
+  "6d0e3128-cdcb-43b6-a446-79be8cb86373": {
     "html": "Packaging describes the tape as being a specific length (marketing impact)"
   },
-  "21e5319f-d5d4-4fb4-830b-ded64dc43165": {
+  "eee98c52-5115-46a3-b613-c72925cef2f8": {
     "html": "Close, but this isn’t the primary problem."
   },
-  "cd64b2f9-e9c5-4168-97e4-232baa48744e": {
+  "81265c40-6576-43e3-9b56-06a3fc3a4192": {
     "html": "If there is too much product specification variability, it could have an impact on the accuracy of packing descriptions or marketing materials. However, the primary problem here is that too much length variability could lead to customer dissatisfaction with the product."
   },
-  "00486b65-1248-412e-93f8-309fb46529e4": {
+  "dbf8c72a-f4e0-44fa-a6b5-25a430687b17": {
     "html": "<p>Manufacturing shares: “Were experiencing routine issues with a supplier’s output.”</p><p>As the Quality focus team member, you assess if a supplier has a robust quality system for output. What steps should you consider for a supplier’s quality issues?</p>"
   },
-  "5488b5a6-035f-4f9f-9d9d-33441447b5cb": {
+  "6bc2c662-a01e-483a-863f-44527fcf22ab": {
     "html": "Select all that apply"
   },
-  "656dcedf-7d3b-45c9-b828-7598107d8090": {
+  "1f631ae6-68a5-43f0-8531-1fcb92aa07d1": {
     "html": "Submit"
   },
-  "1c911910-7837-45a0-9646-433756af7aad": {
+  "484c40b3-2716-4322-9a8d-921d9552255d": {
     "html": "That’s right!"
   },
-  "417cf71c-87a6-4244-aa4a-12d670e65860": {
+  "a45e0b11-57f7-4fe3-b0a9-e27993bb13ec": {
     "html": "<p>If a supplier has routine issues with their quality system, you must either advocate for change to the quality system and hold the supplier accountable to the changes or select a different supplier that has a better quality system. These are your primary interventions for this issue.</p>"
   },
-  "28a67c2e-e2eb-4321-944a-76181ce36cdf": {
+  "d9d45bca-d591-40c7-9722-fade8fc20826": {
     "html": "Not quite."
   },
-  "7fb85c75-c3a1-48a7-b969-2a46c2d95fd7": {
+  "9434c127-d330-497f-bfd2-3bedb4f9a396": {
     "html": "<p>If a supplier has routine issues with their quality system, you must either advocate for change to the quality system and hold the supplier accountable to the changes or select a different supplier that has a better quality system. These are your primary interventions for this issue.</p>"
   },
-  "4d8b821f-6f92-492d-8ddf-e2d3e8eafde5": {
+  "c6386776-0549-43e9-8a02-df15415d602b": {
     "html": "Communicate to the team that there may be continued output variation from the supplier"
   },
-  "722b50a0-87f1-4a80-8d45-ec31b5da50de": {
+  "fe01d5a3-2fdd-408e-96bb-fe3b84b9a540": {
     "html": "Re-check samples from the supplier using the sampling plan"
   },
-  "8675786b-44b5-45fa-b2a8-8fbaea5076b3": {
+  "227fe532-a9f7-4e37-9147-d861e5bc1232": {
     "html": "Communicate with the supplier that issues with the quality system need to be addressed"
   },
-  "fc42bb5a-2127-4a15-a76f-0ce6831c4790": {
+  "a52c1dbb-ac8d-49c4-b675-77744050aa1f": {
     "html": "Select a different supplier"
   },
-  "af59ba9a-6130-406b-ad40-d1d99a70f19e": {
+  "75988a8e-beba-41a4-b02f-ad63a7a9cb4d": {
     "html": "<p>The team prepares for the Design Review to move into Launch.</p><p>The painting tape has gone through redesigns in Development and product specification issues have been addressed.</p><p>What is the <strong>most important</strong> thing to establish in this Review?</p>"
   },
-  "5636ba5c-12c0-443c-91cc-4ddd463e58d5": {
+  "f9264753-cd15-402f-8a96-28698542def4": {
     "html": "Which is the best answer?"
   },
-  "6e442c8c-5878-4ad2-868f-be0070c675b8": {
+  "c40d6268-e807-4aac-ba21-d6676ae16c35": {
     "html": "Ensure that none of the customer wants have been neglected"
   },
-  "bc096b39-3fa0-49a9-a003-f37d38b2c285": {
+  "c2c0e318-a2db-490f-8351-0c7edc8de92f": {
     "html": "Close, but not quite."
   },
-  "1567571a-7176-4290-a923-20530d7c81b5": {
+  "2f0db155-5fdd-4934-9189-d58114be5124": {
     "html": "Ensuring that customer wants have been properly identified and translated into product specifications is always important to recheck, but as the team prepares for Launch the <strong>most</strong> important consideration for you to establish from the Quality mindset is that all risks to product and process have been successfully mitigated."
   },
-  "51a54761-219a-4f7b-962b-8a23a4899bf2": {
+  "da81c29c-ab67-48b6-93cc-22a39069f69a": {
     "html": "Ensure that the best possible raw material selection is ready for production"
   },
-  "2f1c50a9-6258-475c-b1fa-50d7e691cdb1": {
+  "cbf60cb4-4024-410e-9ff4-53a7e50dabe4": {
     "html": "Close, but not quite."
   },
-  "7c06c759-bc32-4e5e-82ad-faa7fa6aca9f": {
+  "06dd0eef-b0fd-4160-9fd8-4dea3e8c5dc1": {
     "html": "Striving for the best raw material selections is always important, but as the team prepares for Launch the <strong>most</strong> important consideration for you to establish from the Quality mindset is that all risks to product and process have been successfully mitigated."
   },
-  "00009470-22d8-4a9d-9803-117ebe995c18": {
+  "93ff8ad5-51d3-404c-9279-15649d3078e4": {
     "html": "Ensure that risks to product and process have been successfully mitigated"
   },
-  "74dec78c-5d2d-4801-8bdd-11abfb97d7dd": {
+  "41676bba-9af4-4535-8fcf-3f15ba6c3595": {
     "html": "This is the best choice."
   },
-  "ecc87f02-353c-47a8-b46a-d5240a959223": {
+  "8db62acb-3838-4bc3-b94f-28d9e3992e56": {
     "html": "To move into Launch successfully, you must operate from the Quality mindset to ensure that all previously identified risks to product and process have been successfully mitigated."
   },
-  "d9629fe5-0c36-4967-a9d6-d1bc4580e4d3": {
+  "800440ba-f1f7-4775-8277-da7b4d060adb": {
     "html": "Build Business Case"
   },
-  "69c2557e-fad2-4b35-a039-b5e82daf3d5f": {
+  "83e6f32e-bb5b-49e8-a52a-7a7a80c57466": {
     "html": "Build a Business Case"
   },
-  "e02be279-750f-4994-8641-c8a590cbd584": {
+  "7a22bc47-b951-456b-8558-bf1a40b31af9": {
     "html": "Development"
   },
-  "dc583fdf-12d8-4ff4-923b-0b749d8d9c0e": {
+  "6efd9123-dd81-4a97-aeaf-8723db6bde75": {
     "html": "Development"
   },
-  "852c7bf5-ba90-4c82-b221-2f925d1fd6b8": {
+  "a3ea0ecf-ad1e-46db-9e2b-783da6c2bafb": {
     "html": "Scale Up"
   },
-  "f40235de-6770-44f3-bb6b-fa7a246e35a9": {
+  "c1d38e86-f642-400f-8b75-3e013fb479d8": {
     "html": "Scale Up"
   },
-  "48b96347-3966-4021-a377-6cf0017c20d6": {
+  "57c4aca1-aa0b-4f35-b2fa-ccd6fa7c68e0": {
     "html": "Launch"
   },
-  "fb617849-9738-4822-8fba-571c657ceb99": {
+  "af3ec6a4-a366-45f5-b293-d9ae534cd045": {
     "html": "Launch"
   }
 }

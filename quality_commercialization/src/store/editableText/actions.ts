@@ -40,9 +40,12 @@ export const actions: ActionTree<TextState, RootState> = {
     const jsonPathArr = jsonPath.split("/")
     jsonPathArr.pop()
     jsonPathArr.push("keys")
-    // const keyPath = jsonPathArr.join("/")
+    let keyPath = jsonPathArr.join("/")
+    keyPath = keyPath.replace("/public/", "")
 
-    // const importJson = (path: string) => import(`${keyPath}/${path}`)
+    const importJson = async (path: string) => {
+      return ((await import(`/public/${keyPath}/${path}`)) as any).default
+    }
 
     for (let x = 0; x < sections.length; x++) {
       const { id: sectionID, pages } = sections[x]
@@ -50,9 +53,11 @@ export const actions: ActionTree<TextState, RootState> = {
       for (let y = 0; y < pages.length; y++) {
         const { id: pageID } = pages[y]
 
-        const jsonDataObj = (
-          (await import(`/public/data/keys/${sectionID}/${pageID}`)) as any
-        ).default
+        // const jsonDataObj = (
+        //   (await import(`/public/data/keys/${sectionID}/${pageID}`)) as any
+        // ).default
+
+        const jsonDataObj = await importJson(`${sectionID}/${pageID}`)
 
         Object.keys(jsonDataObj).forEach((key) => {
           state.textData[key] = jsonDataObj[key]
@@ -64,9 +69,11 @@ export const actions: ActionTree<TextState, RootState> = {
     const { extraJson } = (rootState as any).meta
 
     for (const x in Object.keys(extraJson)) {
-      const jsonDataObj = (
-        (await import(`/public/data/keys/${Object.keys(extraJson)[x]}`)) as any
-      ).default
+      // const jsonDataObj = (
+      //   (await import(`/public/data/keys/${Object.keys(extraJson)[x]}`)) as any
+      // ).default
+
+      const jsonDataObj = await importJson(`${Object.keys(extraJson)[x]}`)
 
       Object.keys(jsonDataObj).forEach((key) => {
         state.textData[key] = jsonDataObj[key]
@@ -80,9 +87,11 @@ export const actions: ActionTree<TextState, RootState> = {
       for (let y = 0; y < hiddenPages.length; y++) {
         const { id: pageID } = hiddenPages[y]
 
-        const jsonDataObj = (
-          (await import(`/public/data/keys/${sectionID}/${pageID}`)) as any
-        ).default
+        // const jsonDataObj = (
+        //   (await import(`/public/data/keys/${sectionID}/${pageID}`)) as any
+        // ).default
+
+        const jsonDataObj = await importJson(`${sectionID}/${pageID}`)
 
         Object.keys(jsonDataObj).forEach((key) => {
           state.textData[key] = jsonDataObj[key]

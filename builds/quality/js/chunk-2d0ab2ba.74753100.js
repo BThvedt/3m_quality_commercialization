@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ab2ba"],{"13ac":function(a){a.exports=JSON.parse('{"691c6be4-d6dc-4121-adcc-4db2e00c00b7":{"html":"Boilerplate v 0.1"},"ccb08815-8b8d-429e-8c0e-fc6f89350a3b":{"html":"Glossary"},"384ae5d0-5125-4770-a1b9-ab41bc8fb267":{"html":"Prev"},"9d0891c1-0160-4507-acac-22208aa5a89d":{"html":"Next"}}')}}]);
-//# sourceMappingURL=chunk-2d0ab2ba.74753100.js.map

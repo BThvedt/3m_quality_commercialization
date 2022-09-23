@@ -71,7 +71,12 @@
     "e_text": "Continue",
     "allowRevisit": false
   },
-  "possibleEmotions": ["neutral", "serious", "happy", "slightSmile"],
+  "possibleEmotions": [
+    "neutral",
+    "serious",
+    "happy",
+    "slightSmile"
+  ],
   "activityTeamMembers": [
     {
       "id": 1,
@@ -166,7 +171,12 @@
               "file": "audio/lorem-ipsum-3.mp3",
               "e_audioTitle": "Marketing & Business",
               "e_title": "Marketing & Business",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>Team, we’ve collected and compared the information we gathered in Discover. Let’s get to work on Building the Business Case for this new painter’s tape we hope to take to Launch.</p><p>I’ll contribute to our feasibility assessment from the business perspective.</p><p>Quality, we’ll need your help in translating the voice of the customer into the voice of the process. Be on the lookout for any opportunities you see to guide us.</p>"
             }
           ]
@@ -179,7 +189,12 @@
               "file": "audio/lorem-ipsum-1.mp3",
               "e_audioTitle": "Lab",
               "e_title": "Lab",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>I’ll be awaiting the information we’ll need to begin identifying our product targets and specifications.</p>"
             },
             {
@@ -187,7 +202,12 @@
               "file": "audio/lorem-ipsum-2.mp3",
               "e_audioTitle": "Product Stewardship",
               "e_title": "Product Stewardship",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>Since we know the type of product and the primary market, I can begin identifying the legal requirements.</p>"
             },
             {
@@ -195,7 +215,12 @@
               "file": "audio/lorem-ipsum-4.mp3",
               "e_audioTitle": "Legal",
               "e_title": "Legal",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>I can begin evaluating product sustainability once we have the product specifications.</p>"
             },
             {
@@ -203,13 +228,17 @@
               "file": "audio/lorem-ipsum-4.mp3",
               "e_audioTitle": "Manufacturing",
               "e_title": "Manufacturing",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>I will be on the lookout for raw material testing.</p>"
             }
           ]
         }
       ],
-
       "questions": []
     },
     {
@@ -231,7 +260,12 @@
               "file": "audio/lorem-ipsum-1.mp3",
               "e_audioTitle": "Lab",
               "e_title": "Lab",
-              "emotions": [{ "time": 0, "emotion": "happy" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "happy"
+                }
+              ],
               "e_transcript": "<p>Now that we are in Development, we are well underway with design specification verification. Some of our field testing is returning mixed results. Quality, I’ll need your help to diagnose the problem.</p>"
             }
           ]
@@ -244,7 +278,12 @@
               "file": "audio/lorem-ipsum-2.mp3",
               "e_audioTitle": "Manufacturing",
               "e_title": "Manufacturing",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>We are also formulating our approach to raw material selection and I could use help in ensuring we do not encounter one of the material failure modes we identified in the FMEA.</p>"
             },
             {
@@ -252,7 +291,12 @@
               "file": "audio/lorem-ipsum-2.mp3",
               "e_audioTitle": "Product Stewardship",
               "e_title": "Product Stewardship",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>Since Lab is sharing that field testing is having some unexpected results, we will need to make sure our proposed product claims are accurate. Quality, I’m sure you’ll have insight into this once we review the findings.</p>"
             }
           ]
@@ -279,7 +323,12 @@
               "file": "audio/lorem-ipsum-4.mp3",
               "e_audioTitle": "Legal",
               "e_title": "Legal",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>I’d like to congratulate the team on entering Scale Up. I’ve completed IP and Freedom to Operate checks on the painting tape and it appears that we have no challenges.</p>"
             }
           ]
@@ -292,7 +341,12 @@
               "file": "audio/lorem-ipsum-1.mp3",
               "e_audioTitle": "Lab",
               "e_title": "Lab",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>There are some process capability questions that have arisen. Quality, we could use your guidance.</p>"
             },
             {
@@ -300,7 +354,12 @@
               "file": "audio/lorem-ipsum-3.mp3",
               "e_audioTitle": "Manufacturing",
               "e_title": "Manufacturing",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>We may have uncovered some concerns with one of our chief suppliers that I’d like to review with Quality.</p>"
             }
           ]
@@ -327,7 +386,12 @@
               "file": "audio/lorem-ipsum-3.mp3",
               "e_audioTitle": "Marketing & Business",
               "e_title": "Marketing & Business",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>Team, while the Launch of the tape has largely been successful, we have some improvement opportunities based on our KPIs.</p><p>Customer feedback indicates that we may have some variation in the adhesion quality of the tape. and surprisingly, the tape isn’t a preferred reflective color. This needs investigation.</p><p>Finally, were aware of a product failure in one of our submarkets. It appears that adhesive glue is melted inside of the packaging when customers rfirst open it.</p><p>Quality, we’ll look to you to investigate these issues and help guide what interventions we should take.</p>"
             }
           ]
@@ -340,7 +404,12 @@
               "file": "audio/lorem-ipsum-1.mp3",
               "e_audioTitle": "Manufacturing",
               "e_title": "Manufacturing",
-              "emotions": [{ "time": 0, "emotion": "neutral" }],
+              "emotions": [
+                {
+                  "time": 0,
+                  "emotion": "neutral"
+                }
+              ],
               "e_transcript": "<p>If part of the problem is product specification variation falling outside of our defined limits, we will need to check our Manufacturing Control Plan. Quality, I could use your help to identify where we may have an issue.</p>"
             }
           ]

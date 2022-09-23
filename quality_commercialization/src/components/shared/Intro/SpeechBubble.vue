@@ -24,6 +24,12 @@
                 >
                   <div v-if="item.type === 'text'">
                     <E :h="item.e_subTitle" class="small-headline" t="h2" />
+                    <E
+                      :h="item.e_subTitle_two"
+                      v-if="item.e_subTitle_two"
+                      class="small-headline"
+                      t="h2"
+                    />
                     <E :h="item.e_text" t="div" />
                   </div>
                   <div v-if="item.type === 'image'">

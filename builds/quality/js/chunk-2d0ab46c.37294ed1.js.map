@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./public/audio/transcript.mp3"],"names":["module","exports"],"mappings":"qGAAAA,EAAOC,QAAU,IAA0B","file":"js/chunk-2d0ab46c.37294ed1.js","sourcesContent":["module.exports = __webpack_public_path__ + \"media/transcript.5d7508d0.mp3\";"],"sourceRoot":""}

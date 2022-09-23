@@ -59,7 +59,7 @@ export default Vue.extend({
       if (currSection === 0) {
         return false
       }
-      if (currSection - (1 % 6) === 0) {
+      if (currSection - (1 % 7) === 0) {
         return false
       }
       return true

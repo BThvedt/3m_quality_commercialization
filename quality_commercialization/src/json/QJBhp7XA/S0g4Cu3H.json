@@ -10,7 +10,7 @@
     {
       "id": 1,
       "questionIds": [1],
-      "showBadge": false,
+
       "image": "map-activity-beakers.png",
       "conclusion": {
         "e_title": "",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "questionIds": [2, 3, 4],
-      "showBadge": true,
+
       "image": "map-activity-comp.png",
       "conclusion": {
         "e_title": "",
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "questionIds": [5, 6],
-      "showBadge": false,
+
       "image": "map-activity-forklift.png",
       "conclusion": {
         "e_title": "",
@@ -43,7 +43,7 @@
     {
       "id": 4,
       "questionIds": [7],
-      "showBadge": true,
+
       "image": "map-activity-office.png",
       "conclusion": {
         "e_title": "",
@@ -167,7 +167,7 @@
       "e_instructions": "Which is the best answer?",
       "questionType": "multiple-choice",
       "questionImage": "team-product-stewardship.jpg",
-
+      "showBadge": true,
       "choices": [
         {
           "e_text": "Conduct customer field testing to see if customers are satisfied despite the current performance findings",
@@ -277,6 +277,7 @@
       "questionType": "multiple-select",
       "e_submitText": "Submit",
       "questionImage": "team-group.jpg",
+      "showBadge": true,
       "feedback": {
         "correct": {
           "e_title": "That’s right!",

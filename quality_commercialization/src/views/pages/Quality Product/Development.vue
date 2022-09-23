@@ -310,21 +310,27 @@ export default Vue.extend({
           }
         )
 
-        console.log("FINISHING SECTIONS")
-        console.log(questionIds)
-        console.log(correctResults)
+        questionIds.forEach((id: number) => {
+          if (
+            correctResults.find(
+              (result: any) => result.id === id && result.showBadge
+            )
+          ) {
+            shouldWeShowBadge = true
+          }
+        })
 
-        if (
-          questionIds.every((id: number) => {
-            return correctResults.find((result: any) => {
-              return result?.id === id
-            })
-          })
-        ) {
-          shouldWeShowBadge = true
-        } else {
-          shouldWeShowBadge = false
-        }
+        // if (
+        //   questionIds.every((id: number) => {
+        //     return correctResults.find((result: any) => {
+        //       return result?.id === id
+        //     })
+        //   })
+        // ) {
+        //   shouldWeShowBadge = true
+        // } else {
+        //   shouldWeShowBadge = false
+        // }
 
         if (shouldWeShowBadge) {
           // eh shoot. Which badge are we showing again

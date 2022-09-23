@@ -645,7 +645,7 @@ export const actions: ActionTree<MetaState, RootState> = {
 
     // sectionIndex comes from the array of sections. But there's 1 section, then 6 sections per 'role'
     // so subtract 1 from the section index and mod by 6
-    const sectionToUnlock = (sectionIndex - 1) % 6
+    const sectionToUnlock = (sectionIndex - 1) % 7
 
     lockedSections[currentRole][sectionToUnlock] = false
 
@@ -666,7 +666,7 @@ export const actions: ActionTree<MetaState, RootState> = {
       throw new Error("something is wrong with the currentrole")
     }
 
-    const sectionToUnlock = (sectionIndex - 1) % 6
+    const sectionToUnlock = (sectionIndex - 1) % 7
 
     lockedSections[currentRole][sectionToUnlock] = false
 
@@ -685,7 +685,7 @@ export const actions: ActionTree<MetaState, RootState> = {
       throw new Error("something is wrong with the currentrole")
     }
 
-    const sectionToComplete = (sectionIndex - 1) % 6
+    const sectionToComplete = (sectionIndex - 1) % 7
     completedSections[currentRole][sectionToComplete] = true
 
     // ok. So in here we check to see if all the sections are done. If so, we mark set the score to 100

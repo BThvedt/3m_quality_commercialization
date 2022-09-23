@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./public/audio/lorem-ipsum-1.mp3"],"names":["module","exports"],"mappings":"mGAAAA,EAAOC,QAAU,IAA0B","file":"js/chunk-2d22ccb2.144e578a.js","sourcesContent":["module.exports = __webpack_public_path__ + \"media/lorem-ipsum-1.b0417eeb.mp3\";"],"sourceRoot":""}

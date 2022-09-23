@@ -265,11 +265,14 @@ export default Vue.extend({
         return question.id === currQuestionId
       })
 
+      const { showBadge } = this.questions[questionNum]
+
       this.$store.dispatch("setCommercializationQuestionResult", {
         area: "quality",
         id: currQuestionId,
         phaseIndex: this.activityPhase,
         questionNum,
+        showBadge,
         result: payload,
       })
 
@@ -303,45 +306,60 @@ export default Vue.extend({
       let formerlySelectedSubActivity = this.selectedSubActivity
       this.selectedSubActivity = -1
       this.subActivityQuestionNum = 0
-      if (this.subActivities[formerlySelectedSubActivity].showBadge) {
-        await genericAwait(1000)
+      //if (this.subActivities[formerlySelectedSubActivity].showBadge) {
+      await genericAwait(1000)
 
-        // only show badges if every question in the activity is correct
-        // ok .. if EVERYTHING Is correct.. let's show a badge
-        let { questionIds } = this.subActivities[formerlySelectedSubActivity]
-        let shouldWeShowBadge = false
+      // only show badges if every question in the activity is correct
+      // ok .. if EVERYTHING Is correct.. let's show a badge
+      let { questionIds } = this.subActivities[formerlySelectedSubActivity]
+      let shouldWeShowBadge = false
 
-        let correctResults = this.questionResults[this.activityPhase].filter(
-          (result: any) => {
-            return result?.correct
-          }
-        )
+      let correctResults = this.questionResults[this.activityPhase].filter(
+        (result: any) => {
+          return result?.correct
+        }
+      )
 
+      questionIds.forEach((id: number) => {
         if (
-          questionIds.every((id: number) => {
-            return correctResults.find((result: any) => {
-              return result?.id === id
-            })
-          })
+          correctResults.find(
+            (result: any) => result.id === id && result.showBadge
+          )
         ) {
           shouldWeShowBadge = true
-        } else {
-          shouldWeShowBadge = false
         }
+      })
 
-        if (shouldWeShowBadge) {
-          // eh shoot. Which badge are we showing again
-          this.currBadgeIndex = this.showBadgesArr.findIndex(
-            (entry: boolean) => !entry
-          )
+      // if (
+      //   // correctResults.find((result: any) => {
+      //   //   console.log(result)
+      //   //   return result.showBadge
+      //   // })
+      //   // questionIds.find(())
+      //   questionIds.every((id: number) => {
+      //     return correctResults.find((result: any) => {
+      //       return result?.id === id
+      //     })
+      //   })
+      // ) {
+      //   shouldWeShowBadge = true
+      // } else {
+      //   shouldWeShowBadge = false
+      // }
 
-          this.showBadgePopup = true
-        } else {
-          this.checkIfDone()
-        }
+      if (shouldWeShowBadge) {
+        // eh shoot. Which badge are we showing again
+        this.currBadgeIndex = this.showBadgesArr.findIndex(
+          (entry: boolean) => !entry
+        )
+
+        this.showBadgePopup = true
       } else {
         this.checkIfDone()
       }
+      //} else {
+      //  this.checkIfDone()
+      //}
     },
     async checkIfDone() {
       if (!this.subActivitiesDone.includes(false)) {

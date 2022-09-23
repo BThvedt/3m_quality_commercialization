@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22892e"],{da83:function(p,e,n){p.exports=n.p+"media/lorem-ipsum-3.1fb32ae7.mp3"}}]);
+//# sourceMappingURL=chunk-2d22892e.02f29271.js.map

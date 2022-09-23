@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./public/videos/stock-video.mp4"],"names":["module","exports"],"mappings":"qGAAAA,EAAOC,QAAU,IAA0B","file":"js/chunk-2d0c4627.20923f7d.js","sourcesContent":["module.exports = __webpack_public_path__ + \"media/stock-video.04a3a868.mp4\";"],"sourceRoot":""}

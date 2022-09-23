@@ -10,7 +10,7 @@
     {
       "id": 1,
       "questionIds": [1],
-      "showBadge": false,
+
       "image": "map-activity-office.png",
       "conclusion": {
         "e_title": "",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "questionIds": [2],
-      "showBadge": false,
+
       "image": "map-activity-checklist.png",
       "conclusion": {
         "e_title": "",
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "questionIds": [3, 4],
-      "showBadge": true,
+
       "image": "map-activity-comp.png",
       "conclusion": {
         "e_title": "",
@@ -149,6 +149,7 @@
       "questionType": "multiple-choice",
       "questionImage": "launch_activity__3_question_2.png",
       "specialClass": "big-image",
+      "showBadge": true,
       "choices": [
         {
           "e_text": "Note improvements that could be made to future new products",

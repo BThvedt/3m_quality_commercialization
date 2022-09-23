@@ -17,10 +17,10 @@
       <!-- the "first" section is the speech bubble.. now each area has 7 sections -->
       <!-- so the completed section is actiually this plus one -->
       <E class="small-headline section-headline" :h="section.e_title" t="h2" />
-      <div v-if="lockedSections[i]" class="icon-thing">
+      <div v-if="lockedSections[i + 1]" class="icon-thing">
         <Icon :iconName="'lock'" />
       </div>
-      <div v-else-if="completedSections[i]" class="icon-thing check">
+      <div v-else-if="completedSections[i + 1]" class="icon-thing check">
         <Icon :iconName="'check'" />
       </div>
     </div>

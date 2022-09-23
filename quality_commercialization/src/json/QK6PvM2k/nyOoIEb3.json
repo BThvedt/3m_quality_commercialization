@@ -4,21 +4,21 @@
   "coachImg": "coach-shadowed-smile.png",
   "time": 120,
   "e_specialPrompts": [
-    "You will have one mintue to answer each question. Ready? Close this prompt to get started. Good Luck!",
-    "That was the last question! Let's get some feedbak on your results."
+    "You have one minute to answer each question. Throughout this game, you'll move forward by selecting the X to close my responses. Ready to get started? Close this box to begin.",
+    "That was the last question! Let's get some feedback on your results."
   ],
   "tryAgainPrompt": "We will cover the questions you missed. Ready to get started?",
   "introModal": {
     "e_title": "It’s Time to Race Against the Clock!",
-    "e_text": "<p>Let’s see how much you remember about commercialization at 3M. In the following challenge, you’ll be presented with questions about key commercialization concepts. These questions will look familiar if you have completed the <strong>3M | Grow Commercialization course.</strong></p><p>Answer carefully, but also quickly: A timer will start counting down once each question appears. Once you’re out of time, you’ll have to move ahead to the next question.</p><p>Ready? Let’s go!</p>"
+    "e_text": "<p>Let’s see how much you know about commercialization at 3M. In the following challenge, you’ll be presented with questions about key commercialization concepts. These questions will look familiar if you have completed the <strong>3M | Grow Commercialization Introduction course.</strong></p><p>Answer carefully, but also quickly. A timer will start counting down when each question appears. Once you’re out of time, you’ll have to move ahead to the next question.</p><p>Ready? Let’s go!</p>"
   },
   "conclusionModal": {
     "e_title": "Lesson Complete!",
     "e_text": "<p>Now you've done: Quality with a Commercialization Challenge.</p><p>Time for the next part!</p>"
   },
   "feedBack": {
-    "e_feedbackTitle": "Success Summary",
-    "e_feedbackSubTitle": "Review Feedback from Missed Questions:",
+    "e_feedbackTitle": "Summary",
+    "e_feedbackSubTitle": "",
     "e_allCorrect": "You got every question right!",
     "e_continue": "Continue",
     "e_tryAgain": "Try Again",
@@ -28,8 +28,8 @@
       "icon": false
     },
     "med": {
-      "e_title": "Might wanna Review",
-      "e_text": "<p>It seems like your recollection of concepts related to commercialization at 3M could benefit from a refresher. If you wish, revisiting the <strong>3M | Grow Commercialization course</strong> could be helpful.</p><p>Select Continue to complete this lesson. Or, if you’d like to improve your score, select Try Again.</p>",
+      "e_title": "You might want to review the questions you missed.",
+      "e_text": "<p>It seems like your recollection of concepts related to commercialization at 3M could benefit from a refresher. If you wish, revisiting the <strong>3M | Grow Commercialization Introduction course</strong> could be helpful.</p><p>Select Continue to complete this lesson. Or, if you’d like to improve your score, select Try Again. You'll be taken to the questions you missed.</p>",
       "icon": false
     },
     "high": {
@@ -43,11 +43,9 @@
       "icon": "champion.png"
     }
   },
-
   "questions": [
     {
       "e_questionText": "Which term fits the following description:<br>“A process with target dates and financial components to bring new products, services, and solutions to market.” ",
-
       "e_instructions": "Which is the best answer?",
       "questionType": "multiple-choice",
       "time": 60,
@@ -65,17 +63,17 @@
       "choices": [
         {
           "e_text": "Value Stream",
-          "e_feedback": "<strong>Not quite.</strong><br/><br/>A value stream is the set of actions that take place to add value to a customer from the initial request through realization of value by the customer.",
+          "e_feedback": "<strong>Not quite.</strong><br><br>A value stream is&nbsp;the set of actions that take place to add value to a customer from the initial request through realization of value by the customer.<br><br>Close this prompt to advance to the next question.",
           "correct": false
         },
         {
           "e_text": "Commercialization",
-          "e_feedback": "<strong>You got it!</strong><br/><br/>Commercialization can be defined as a process that uses phases and gates to guide products, services, and solutions to market using a variety of components.",
+          "e_feedback": "<strong>You got it!</strong><br><br>Commercialization can be defined as a process that uses phases and gates to guide products, services, and solutions to market using a variety of components.<br><br>Close this prompt to advance to the next question.",
           "correct": true
         },
         {
           "e_text": "Go to Market Strategy",
-          "e_feedback": "<strong>Not quite.</strong><br/><br/>The Go to Market Strategy is a plan created in the Build a Business Case phase and identifies market size, trends, pricing and branding strategy, and future product expansion, among other items.",
+          "e_feedback": "<strong>Not quite.</strong><br><br>The Go to Market Strategy is a plan created in the Build a Business Case phase and identifies market size, trends, pricing and branding strategy, and future product expansion, among other items.<br><br>Close this prompt to advance to the next question.",
           "correct": false
         }
       ]
@@ -89,7 +87,7 @@
       "e_timesUpMessage": "Time’s up! Time to move onto the next question.",
       "prompts": [
         {
-          "e_text": "Answer as best you can.",
+          "e_text": "What do you think? There's more than one answer here.",
           "time": 0
         },
         {
@@ -99,36 +97,36 @@
       ],
       "feedback": {
         "e_correct": "<strong>You’re on the right track!</strong><br/><br/>Validation helps to ensure that the product design meets the customer’s needs in their process and that the product specifications are complete and predict performance.",
-        "e_incorrect": "<strong>You’re not quite there.</strong><br/><br/>Validation helps to ensure that the product design meets the customer’s needs in their process and that the product specifications are complete and predict performance."
+        "e_incorrect": "<strong>You’re not quite there.</strong><br><br>Validation helps to ensure the product design meets the customer’s needs and the product specifications are complete and predict performance."
       },
       "choices": [
         {
-          "e_text": "To ensure that the product meets the customer needs.",
+          "e_text": "To ensure the product meets the customer needs",
           "correct": true
         },
         {
-          "e_text": "To ensure the product specification is complete and predictive of performance in the customer’s use.",
+          "e_text": "To ensure the product specification is complete and predictive of performance during customer use",
           "correct": true
         },
         {
-          "e_text": "To determine if additional products or services can be developed at the same time.",
+          "e_text": "To determine if additional products or services can be developed at the same time",
           "correct": false
         },
         {
-          "e_text": "To gain confidence that 3M will obtain expected profits.",
+          "e_text": "To be compliant with the process",
           "correct": false
         }
       ]
     },
     {
-      "e_questionText": "What term matches with the following description?<br/>“A workflow process used to develop and launch new products, consisting of phases, gate reviews, multifunctional deliverables, and financial plans.”",
-      "e_instructions": "Which choice whould you pick?",
+      "e_questionText": "Which term matches this description:<br>“A workflow process used to develop and launch new products, consisting of phases, gate reviews, multifunctional deliverables, and financial plans.”",
+      "e_instructions": "Which term is it?",
       "questionType": "multiple-choice",
       "time": 60,
-      "e_timesUpMessage": "Time’s up! Time to move onto the next question.",
+      "e_timesUpMessage": "Time’s up! Time to move onto the next question. Close this prompt to move on.",
       "prompts": [
         {
-          "e_text": "Answer as best you can.",
+          "e_text": "Do you know the term?",
           "time": 0
         },
         {
@@ -172,14 +170,26 @@
         }
       ],
       "feedback": {
-        "e_correct": "<strong>You got it!</strong><br/><br/>Commercialization at 3M can be broken into several major categories of deliverables. These include Customer/Market and Business opportunity.",
-        "e_incorrect": "<strong>You’re not quite there.</strong><br/><br/>Commercialization at 3M can be broken into several major categories of deliverables. These include Customer/Market and Business opportunity."
+        "e_correct": "<strong>You got it!</strong><br><br>Commercialization at 3M can be organized into five key deliverables throughout each phase. Customer/Market and Business opportunity are two of the five key deliverables.",
+        "e_incorrect": "<strong>You’re not quite there.</strong><br><br>Commercialization at 3M can be broken into 5 key deliverables throughout each phase. Customer/Market and Business opportunity are 2 of the 5 key deliverables."
       },
       "choices": [
-        { "e_text": "Customer/Market", "correct": true },
-        { "e_text": "Media exposure", "correct": false },
-        { "e_text": "Business opportunity", "correct": true },
-        { "e_text": "Competitive analysis", "correct": false }
+        {
+          "e_text": "Customer/Market",
+          "correct": true
+        },
+        {
+          "e_text": "Media exposure",
+          "correct": false
+        },
+        {
+          "e_text": "Business opportunity",
+          "correct": true
+        },
+        {
+          "e_text": "Competitive analysis",
+          "correct": false
+        }
       ]
     },
     {
@@ -191,7 +201,7 @@
       "e_timesUpMessage": "Time’s up! Time to move onto the next question.",
       "prompts": [
         {
-          "e_text": "Answer as best you can.",
+          "e_text": "Consider your choices here and choose more than one.",
           "time": 0
         },
         {
@@ -253,7 +263,7 @@
       ]
     },
     {
-      "e_questionText": "In the Build Business Case phase of 3M | Grow, which questions should be answered?",
+      "e_questionText": "In Build Business Case of 3M | Grow, which questions should be answered?",
       "e_instructions": "Select all that apply",
       "questionType": "multiple-select",
       "e_submitText": "Submit",
@@ -261,7 +271,7 @@
       "e_timesUpMessage": "Time’s up! Time to move onto the next question.",
       "prompts": [
         {
-          "e_text": "Answer as best you can.",
+          "e_text": "Think about this and choose more than one answer.",
           "time": 0
         },
         {
@@ -270,7 +280,7 @@
         }
       ],
       "feedback": {
-        "e_correct": "<strong>You’ve got it!</strong><br/><br/>One of the primary purposes of the Business Case is establishing that a new product is likely to be successful. To help fulfill this goal, all three of these questions are vital to answer.",
+        "e_correct": "<strong>Awesome!</strong><br><br>One of the primary purposes of Business Business Case is establishing that a new product is likely to be successful. To help fulfill this goal, all three of these questions are vital to answer.",
         "e_incorrect": "<strong>You’re not quite there.</strong><br/><br/>One of the primary purposes of the Business Case is establishing that a new product is likely to be successful. To help fulfill this goal, all three of these questions are vital to answer."
       },
       "choices": [
@@ -323,8 +333,7 @@
       ]
     },
     {
-      "e_questionText": "Motivations, influences, and other descriptions of an end-user are data used to compile which of the following?",
-
+      "e_questionText": "Motivations, influences, and other end-user data are used to compile which of the following?",
       "e_instructions": "What is the best answer?",
       "questionType": "multiple-choice",
       "time": 60,
@@ -357,10 +366,8 @@
         }
       ]
     },
-
     {
       "e_questionText": "Which of the following best describes why 3M commercialization teams complete a Project Wrap?",
-
       "e_instructions": "What is the best answer?",
       "questionType": "multiple-choice",
       "time": 60,
@@ -388,7 +395,7 @@
         },
         {
           "e_text": "Capturing best practices and key learnings while documenting the project outcome",
-          "e_feedback": "<strong>That’s it!</strong><br/><br/>The project wrap is completed after a product is launched to capture best practices, key learnings, and to document the process so that continual improvement can happen.",
+          "e_feedback": "<strong>That’s it!</strong><br><br>The project wrap is completed after a product is launched to capture best practices, key learnings, and to document the process so continual improvement can happen.",
           "correct": true
         }
       ]

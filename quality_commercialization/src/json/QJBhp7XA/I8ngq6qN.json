@@ -9,7 +9,7 @@
     {
       "id": 1,
       "questionIds": [1, 2],
-      "showBadge": false,
+
       "image": "map-activity-comp.png",
       "conclusion": {
         "e_title": "",
@@ -20,7 +20,7 @@
     {
       "id": 2,
       "questionIds": [3],
-      "showBadge": true,
+
       "image": "map-activity-forklift.png",
       "conclusion": {
         "e_title": "",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "questionIds": [4],
-      "showBadge": false,
+
       "image": "map-activity-office.png",
       "conclusion": {
         "e_title": "",
@@ -131,6 +131,7 @@
       "questionType": "multiple-select",
       "e_submitText": "Submit",
       "questionImage": "team-manufacturing-concerned.jpg",
+      "showBadge": true,
       "feedback": {
         "correct": {
           "e_title": "That’s right!",

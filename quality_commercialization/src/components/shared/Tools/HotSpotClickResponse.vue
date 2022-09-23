@@ -36,7 +36,7 @@
     >
       <div
         key="question-text-wrapper-1"
-        v-if="revealPopupNum >= 0"
+        v-if="revealPopupNum >= 0 && !showPopupPrompt"
         class="question-text-wrapper"
       >
         <transition
@@ -55,6 +55,15 @@
             </div>
           </template>
         </transition>
+      </div>
+      <div
+        key="click-reveal-prompt"
+        v-if="revealPopupNum < 0 && showPopupPrompt"
+        class="question-text-wrapper"
+      >
+        <div class="question-text">
+          <E t="p" :h="hotspotData.e_clickRevealPrompt" />
+        </div>
       </div>
     </transition>
     <!-- End the popups -->
@@ -93,6 +102,8 @@ export default Vue.extend({
       revealPopupNum: -1,
       hotSpotIndexSelected: -1,
       hotSpotsFinished: [] as boolean[],
+
+      showPopupPrompt: false,
 
       fileArray: this.hotspotData.images,
       currFileArrayIndex: 0,
@@ -140,6 +151,7 @@ export default Vue.extend({
     },
     async handleHotSpotSelected(payload: any) {
       this.revealPopupNum = 0
+      this.showPopupPrompt = false
 
       this.hotSpotIndexSelected = payload.index
       if (this.startShowingPrompts) {
@@ -168,6 +180,8 @@ export default Vue.extend({
           await genericAwait(1000)
 
           this.$emit("moveOn")
+        } else {
+          this.showPopupPrompt = true
         }
       }
     },

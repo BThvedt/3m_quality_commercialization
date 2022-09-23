@@ -35,8 +35,8 @@
       mode="out-in"
     >
       <div
-        key="question-text-wrapper-1"
-        v-if="revealPopupNum >= 0"
+        key="the-click-reveal-popups"
+        v-if="revealPopupNum >= 0 && !showPopupPrompt"
         class="question-text-wrapper"
       >
         <transition
@@ -55,6 +55,15 @@
             </div>
           </template>
         </transition>
+      </div>
+      <div
+        key="click-reveal-prompt"
+        v-if="revealPopupNum < 0 && showPopupPrompt"
+        class="question-text-wrapper"
+      >
+        <div class="question-text">
+          <E t="p" :h="questionData.e_clickRevealPrompt" />
+        </div>
       </div>
     </transition>
     <!-- End the popups -->
@@ -155,7 +164,7 @@
         </div>
       </div>
     </transition>
-    <!-- <ToolScroller
+    <ToolScroller
       ref="toolScroller"
       :fileArray="fileArray"
       :currFileArrayIndex="currFileArrayIndex"
@@ -164,14 +173,14 @@
       :revealHotSpots="revealHotSpots"
       :alreadySelectedHotSpots="hotSpotsFinished"
       @hotSpotSelected="handleHotSpotSelected"
-    /> -->
-    <ToolScroller
+    />
+    <!-- <ToolScroller
       ref="toolScroller"
       :fileArray="fileArray"
       :currFileArrayIndex="currFileArrayIndex"
       :role="role"
       @hotSpotSelected="handleHotSpotSelected"
-    />
+    /> -->
   </div>
 </template>
 
@@ -192,11 +201,13 @@ export default Vue.extend({
       startShowingPrompts: false,
       attemptNum: 0,
 
-      // revealHotSpots: false,
+      revealHotSpots: false,
       revealPopups: [],
       revealPopupNum: -1,
       hotSpotIndexSelected: -1,
-      // hotSpotsFinished: [] as boolean[],
+      hotSpotsFinished: [] as boolean[],
+
+      showPopupPrompt: false,
 
       showQuestion: false,
       showFeedback: false,
@@ -223,9 +234,12 @@ export default Vue.extend({
     // this.showChoices = true
 
     // do we hve hotspots? If so..
-    // this.hotSpotsFinished = new Array(
+    if (this.questionData.clickRevealAreas) {
+      this.hotSpotsFinished = new Array(
+        this.questionData.clickRevealAreas.length
+      ).fill(false)
+    }
     //   this.questionData.clickRevealAreas.length
-    // ).fill(false)
   },
   methods: {
     async goToNextPrompt() {
@@ -235,22 +249,26 @@ export default Vue.extend({
       } else {
         // if we're not revealing hot spots then just go straight to the question
 
-        //if (!this.prompts[this.promptNum].revealHotSpots) {
-        this.promptNum = -1
-        await genericAwait(1000)
-        this.showQuestion = true
-        await genericAwait(1000)
-        this.showChoices = true
-        //}
+        if (!this.prompts[this.promptNum].revealHotSpots) {
+          this.promptNum = -1
+          await genericAwait(1000)
+          this.showQuestion = true
+          await genericAwait(1000)
+          this.showChoices = true
+        }
       }
 
-      // if (this.prompts[this.promptNum].revealHotSpots) {
-      //   await genericAwait(1000)
-      //   this.revealHotSpots = true
-      // }
+      if (
+        this.prompts[this.promptNum] &&
+        this.prompts[this.promptNum].revealHotSpots
+      ) {
+        await genericAwait(1000)
+        this.revealHotSpots = true
+      }
     },
     async handleHotSpotSelected(payload: any) {
       this.revealPopupNum = 0
+      this.showPopupPrompt = false
 
       this.hotSpotIndexSelected = payload.index
       if (this.startShowingPrompts) {
@@ -270,18 +288,20 @@ export default Vue.extend({
         // 2) already selected state
         // 3) When all the popups are clicked, instead of reactivated, show question
         // alert("reactivate popups!")
-        // ;(this.$refs["toolScroller"] as any).resetHotSpots()
+        ;(this.$refs["toolScroller"] as any).resetHotSpots()
         this.revealPopupNum = -1
-        // this.hotSpotsFinished.splice(this.hotSpotIndexSelected, 1, true)
+        this.hotSpotsFinished.splice(this.hotSpotIndexSelected, 1, true)
 
-        // if (this.hotSpotsFinished.every((entry) => entry)) {
-        // this.revealHotSpots = false
-        await genericAwait(1000)
+        if (this.hotSpotsFinished.every((entry) => entry)) {
+          this.revealHotSpots = false
+          await genericAwait(1000)
 
-        this.showQuestion = true
-        await genericAwait(1000)
-        this.showChoices = true
-        // }
+          this.showQuestion = true
+          await genericAwait(1000)
+          this.showChoices = true
+        } else {
+          this.showPopupPrompt = true
+        }
       }
     },
     resetOrFinish() {

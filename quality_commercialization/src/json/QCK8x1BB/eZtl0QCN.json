@@ -1,0 +1,38 @@
+{
+  "e_title": "Quality Essentials for Commercialization",
+  "e_subTitle": "",
+  "e_backToRoleMenu": "Back To Choose Area",
+  "e_html": "<p>Welcome to the next-level training for commercialization at 3M! You chose to take a <strong>Quality </strong>focus in this course. This training takes your learning beyond the basics and helps you apply key tasks and tools to learn how Quality brings value to commercialization.</p><p>Throughout this course, you’ll see the term “customer.” A customer may be defined depending on the project and/or division. For example, “customer” could mean another company, a distributor, or the consumer.</p><p>For the purposes of your learning journey, this course focuses on new product development in commercialization.</p><p>It is recommended you complete this course in the numeric order shown on the lesson menu at right. However, you can select the lessons in any order you like.</p><p>Select a lesson to continue.</p>",
+  "sectionData": [
+    {
+      "e_title": "1. Introduction",
+      "image": "menu-introduction.jpg",
+      "section": 2
+    },
+    {
+      "e_title": "2. Commercialization Challenge!",
+      "image": "menu-comm-challenge.jpg",
+      "section": 3
+    },
+    {
+      "e_title": "3. What are Your Tasks?",
+      "image": "menu-your-role.jpg",
+      "section": 4
+    },
+    {
+      "e_title": "4. What are Your Tools?",
+      "image": "menu-your-tools.jpg",
+      "section": 5
+    },
+    {
+      "e_title": "5. Commercialize the Product!",
+      "image": "menu-comm-the-product.jpg",
+      "section": 6
+    },
+    {
+      "e_title": "6. Conclusion",
+      "image": "whatAreTools.jpg",
+      "section": 7
+    }
+  ]
+}

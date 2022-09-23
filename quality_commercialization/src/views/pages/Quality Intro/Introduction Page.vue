@@ -112,7 +112,9 @@ export default Vue.extend({
       if (!this.endOfSpeechBubbleReached) {
         ;(this.$refs["speechBubble"] as any).goForward()
       } else {
-        this.$store.dispatch("meta/goForward")
+        let { currSection } = this.$store.getters["meta/getSectionAndPageIndex"]
+        this.$store.dispatch("meta/markSectionComplete", currSection)
+        this.$store.dispatch("meta/goHome") // goes to the home of the current role
       }
     },
     backClicked() {
