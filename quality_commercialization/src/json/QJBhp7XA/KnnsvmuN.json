@@ -1,10 +1,10 @@
 {
   "e_title": "Meet Your Team",
-  "e_subtitle": "Select the Quality portrait.",
-  "e_subtitle_2": "Select each portrait to learn more about your team members.",
+  "e_subtitle": "Select the Quality icon.",
+  "e_subtitle_2": "Select each team member to learn more.",
   "introModal": {
     "e_title": "About this activity",
-    "e_text": "<p>Now that you have a comprehensive understanding of the Quality focus is and how team members operating from this focus advocate and amplify the VOC, let’s see how these concepts apply to an example of new product commercialization.</p><p>In this activity you will contribute to the development of a product throughout the phases of 3M | Grow. You will directly role play as a team member representing Quality as you work with your team.</p><p>Before you begin, let’s refresh your knowledge of the other focus areas. In the real world, commercialization teams are organized differently depending on the project or division, but we can consider six core focuses:  Quality, Marketing and Business, Manufacturing, Lab, Legal, and Product Stewardship.</p>"
+    "e_text": "<p>This activity helps you practice and apply the concepts and skills in the Quality Essentials for Commercialization course. </p><p>In this activity, you will contribute to the development of a new product throughout the commercialization phases. You will be a team member representing the Quality focus as you work with your team.</p><p>Let's begin by meeting your team. In the real world, commercialization teams are organized based on the project or division, but we can consider six core areas of focus: Quality, Marketing and Business, Manufacturing, Lab, Legal, and Product Stewardship.</p>"
   },
   "transitionModal": {
     "e_title": "It's a team effort!",
@@ -27,7 +27,7 @@
       "area": "manufacturing",
       "image": "manufacturing.png",
       "e_headlineOne": "Manufacturing",
-      "e_text": "<p>The Manufacturing team members include manufacturing and supply chain employees and administrators. They are most involved with the Manufacturing/Supply Chain deliverable.</p><p>The Manufacturing team members are responsible for defining the manufacturing requirements for the product and overseeing production (including capacity and unit costs).<br><br>The Supply Chain ensures enough product ships and arrives to the intended market.</p>",
+      "e_text": "<p>The Manufacturing team members include manufacturing personnel and plant product engineers. The Supply Chain includes supply chain employees and administrators. Note that Manufacturing and Supply Chain are separate teams that may work toward similar deliverables.</p><p>The Manufacturing team members are responsible for defining the manufacturing requirements for the product and overseeing production (including capacity and unit costs). They use predictive models to understand cost, manage capacity, advocate for resources, and manage risk.<br><br>The Supply Chain ensures enough product ships and arrives to the intended market on time.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     },
@@ -37,7 +37,7 @@
       "area": "product",
       "image": "product.png",
       "e_headlineOne": "Product Stewardship",
-      "e_text": "<p>Product Stewardship ensures products are safe for human health and the environment, and are compliant wherever they are sold.</p><p>Product stewardship is practiced throughout the entire life cycle of the product, including design, manufacture, use, and disposal. 3M’s product stewardship principles and practices support 3M’s fundamental corporate values, help achieve both legal compliance and ethical business conduct, and contribute to successful product commercialization and customer satisfaction.</p>",
+      "e_text": "<p>Product Stewards ensure products are safe for human health and the environment, and are compliant with government regulations in all countries where they are sold.</p><p>Product stewardship is practiced throughout the entire life cycle of the product, including design, manufacture, use, and disposal. 3M’s product stewardship principles and practices support 3M’s fundamental corporate values, help achieve both legal compliance and ethical business conduct, and contribute to successful product commercialization and customer satisfaction.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     },
@@ -47,7 +47,7 @@
       "area": "marketing",
       "image": "marketing.png",
       "e_headlineOne": "Marketing & Business",
-      "e_text": "<p>Your Marketing and Business team members include marketing employees, functional managers, and business executives as gatekeepers.</p><p>Tasks in the Customer/Market and Business Opportunity deliverables are to understand the user’s needs, drive a successful global launch, and manage the life cycle of sales. Some of these tasks are the:</p><ul><li><p>Go to Market Strategy</p></li><li><p>Global Launch Plan</p></li><li><p>Launch Control Plan</p></li></ul><p>The team carries out a value-based assessment of the product within the context of how it meets the business goals, e.g., ensuring the product does not inadvertently reduce sales of other products. </p>",
+      "e_text": "<p>Your Marketing and Business team members include product portfolio and functional managers, marketing and communications personnel, and business executives.</p><p>Marketing/Business deliverables are focused on understanding the customer and market needs, value proposition, competition, pricing, and developing product Launch packages. Some of these tasks include:</p><ul><li><p>Business opportunity assessment and financial analysis</p></li><li><p>Customer overview</p></li><li><p>Go to Market strategy</p></li><li><p>Global Launch Plan (including marketing communications)</p></li><li><p>Marketing claims and claim substantiation</p></li><li><p>Launch Control Plan</p></li></ul><p>The team uses financial modeling to ensure investments and product design meet profitability requirements and offer competitive value.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     },
@@ -67,7 +67,7 @@
       "area": "lab",
       "image": "lab.png",
       "e_headlineOne": "Lab",
-      "e_text": "<p>Your Lab team members include the Product Developer (who leads the definition of the product), along with application engineers and other research and development personnel.</p><p>These team members are responsible for the product deliverables from Build Business Case through Launch.</p>",
+      "e_text": "<p>Your Lab team members include the Product Developer (who leads the definition of the product), along with application engineers and other research and development personnel.</p><p>These team members are responsible for the product deliverables from Build Business Case through Launch. These can include qualification testing, pilot and manufacturing scale-up runs, and finalizing the product design.</p>",
       "e_headlineTwo": "",
       "e_textTwo": ""
     }

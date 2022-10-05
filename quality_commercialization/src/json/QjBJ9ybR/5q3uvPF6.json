@@ -1,6 +1,6 @@
 {
   "e_title": "Quality Across the Phases",
-  "e_instructions": "Select each button to learn more.",
+  "e_instructions": "Select each phase to learn more.",
   "e_instructionsTwo": "Scroll to recap all four phases. You can also download this info as a PDF",
   "secondPageButtons": {
     "e_download": "Download PDF",
@@ -16,7 +16,7 @@
   },
   "conclusionModal": {
     "e_title": "Quality at a Glance",
-    "e_text": "<p>The tasks, the ways they are carried out, and the teamwork contributions you have reviewed for each phase are a high-level glimpse at how quality contributes to a project. This is not an exhaustive list. Rather, you’ve covered the broad activities you will engage in if you are working from the quality focus.</p><p>You can access a document version of this review from the course Resources (Quality at a Glance).</p><p>You may have noticed a few themes:</p><ul><li><p>The same tools that are started in Build Business Case are further refined through each of the following phases in the commercialization process</p></li><li><p>Quality routinely helps to develop action plans to address gaps</p></li><li><p>Quality also coaches teams on test methods, statistics and experimental design</p></li><li><p>Quality may assist in data gathering and analysis, as well as reviewing the documentation of other focus areas to ensure that standards are met</p></li><li><p>To accomplish this, quality uses a variety of tools as they are completed or updated</p></li></ul><p>Some of the tools mentioned may be familiar to you, while some may not. Exploring these commonly used tools thoroughly is the objective of the next lesson of your learning journey. </p><p>Get ready!</p>"
+    "e_text": "<p>The tasks, how they are carried out, and the team contributions you just reviewed for each phase give you a high-level glimpse at the way Quality contributes to a project. Keep in mind this is not an exhaustive list— you’ve covered the broad activities when working with a Quality focus.</p><p>You can access a document version of this from the course Resources (Quality at a Glance) and/or download a PDF by selecting the button below.</p><p>You may have noticed a few themes:</p><ul><li><p>The same tools started in Build Business Case are further refined through each of the subsequent phases in the commercialization process.</p></li><li><p>Quality routinely helps to develop action plans to address gaps.</p></li><li><p>Quality coaches teams on test methods, statistics, and experimental design.</p></li><li><p>Using a variety of tools, Quality may assist in data gathering and analysis, and reviewing the documentation of other focus areas to ensure standards are met.</p></li></ul><p>Some of the tools mentioned may be familiar to you, while some may not. Exploring these commonly used tools thoroughly is the objective of Lesson 4 in your learning journey.</p>"
   },
   "activities": [
     {
@@ -27,18 +27,18 @@
       "deliverables": [
         {
           "id": "tasks",
-          "e_title": "Quality Tasks",
-          "e_text": "<ul><li><p>Translate customer wants and needs into customer requirements, and then further translate these into quantifiable test methods.</p></li><li><p>Define or develop test methods to measure customer requirements</p></li><li><p>Test concepts or prototypes for performance</p></li></ul>"
+          "e_title": "Quality-Focused Tasks",
+          "e_text": "<ul><li><p>Translate customer wants and needs into customer requirements, and then further translate these into quantifiable test methods.</p></li><li><p>Define or develop test methods to measure customer requirements</p></li><li><p>Document the raw materials and key suppliers</p></li><li><p>Test concepts or prototypes for performance</p></li></ul>"
         },
         {
           "id": "how",
           "e_title": "How You’ll Do It",
-          "e_text": "<ul><li><p>Link customer requirements to measurable product properties and raw material characteristics</p></li><li><p>Begin use of the following tools: House of Quality (HOQ), the Design Qualification Matrix (DQM), Measurement System Analysis (MSA) tools, Design of Experiments (DOE), and Failure Mode and Effects Analysis (FMEA)</p></li></ul>"
+          "e_text": "<ul><li><p>Link customer requirements to measurable product properties and raw material characteristics</p></li><li><p>Begin using the following tools: </p></li><li><p>House of Quality (HOQ)</p></li><li><p>Design Qualification Matrix (DQM)</p></li><li><p>Division Design Review (DR)</p></li><li><p>Measurement System Analysis (MSA and Gage R&amp;R)</p></li><li><p>Design FMEA (DFMEA)</p></li><li><p>Process Flow Diagram (PFD)</p></li><li><p>Process FMEA (PFMEA)</p></li><li><p>Control Plan (CP)</p></li></ul>"
         },
         {
           "id": "team",
           "e_title": "How You’ll Work as a Team",
-          "e_text": "<ul><li><p>Collaborate with the cross-focus team to begin gathering information for the Design Review, Quality Plan, and data package; create an action plan to address key gaps</p></li><li><p>Work with the technical team to develop the experimental plan and evaluate Lab or pilot scale prototypes</p></li><li><p>Contribute to the raw material plan and supplier plan</p></li><li><p>Review and document the product design with the Lab and Manufacturing team and record the results in the Design Review and DQM</p></li></ul>"
+          "e_text": "<ul><li><p>Collaborate across the focus areas to develop the experimental plan to evaluate Lab or pilot scale prototypes.</p></li><li><p>Meet as a cross-functional team to review the technical feasibility of the new product prototype(s) and manufacturing process to achieve the performance targets captured in the Quality Plan.&nbsp; This division review may be formalized as a Design Review or Total Quality Manufacturing Review (TQMR).</p></li><li><p>Capture the results of the cross-functional feasibility review in 3M | GROW as the DQM or Design Review Score.</p><p></p></li></ul>"
         }
       ]
     },
@@ -50,8 +50,8 @@
       "deliverables": [
         {
           "id": "business-case",
-          "e_title": "Quality Tasks",
-          "e_text": "<ul><li><p>Ensure the voice of the customer and voice of the process remain aligned and are translated into robust test methods</p></li><li><p>Update the Quality Plan and data packages with additional information from pilot or manufacturing scale runs</p></li><li><p>Update the Design Review to reflect any design modifications and additional testing</p></li></ul>"
+          "e_title": "Quality-Focused Tasks",
+          "e_text": "<ul><li><p>Update the Quality Plan (or Design Review) with additional data from pilot and manufacturing runs. Include any design modifications, raw material updates, and test data.&nbsp;</p></li><li><p>Determine the product specifications and initial manufacturing capability.</p></li><li><p>Begin Measurement System Analysis (MSA) on critical test methods.</p></li></ul>"
         },
         {
           "id": "develop",
@@ -61,7 +61,7 @@
         {
           "id": "scale-up",
           "e_title": "How You’ll Work as a Team",
-          "e_text": "<ul><li><p>Collaborate with the cross-focus team to update information for the Design Review, Quality Plan, and data package; create an action plan to address key gaps</p></li><li><p>Review and document any updates to the product and process design</p></li><li><p>Confirm design continues to meet customer requirements</p></li></ul>"
+          "e_text": "<ul><li><p>Meet as a team to review the locked design and record risks in the DQM, also referred to in divisions as the Design Review, TQMR, etc.</p></li><li><p>Collaborate with the team to update information for the Design Review, Quality Plan, and data package; create an action plan to address key gaps.</p></li><li><p>Review and document any updates to the product and process design.</p></li><li><p>Confirm design continues to meet customer requirements.</p></li></ul>"
         }
       ]
     },
@@ -74,17 +74,17 @@
         {
           "id": "business-case",
           "e_title": "Your Role",
-          "e_text": "<ul><li><p>Finalize and implement the HOQ, DQM, and FMEA</p></li><li><p>Use statistical tools to confirm process capability and all test methods are validated and capable</p></li><li><p>Ensure action items from the Design Review are complete</p></li><li><p>Evaluate product and process performance using statistical methods</p></li><li><p>Validate the design meets customer requirements</p></li></ul>"
+          "e_text": "<ul><li><p>Finalize the product design documentation package (HOQ, DQM, Design Review, FMEA, process flow diagram, control plan, etc.).</p></li><li><p>Optimize and confirm manufacturing process capability.</p></li><li><p>Confirm the final product specifications and test plan.</p></li><li><p>Validate the design reliably meets the customer requirements.</p></li></ul>"
         },
         {
           "id": "develop",
           "e_title": "How You’ll Do It",
-          "e_text": "<ul><li><p>Finalize the HOQ, DQM, and FMEA</p></li><li><p>Use statistical tools to confirm process capability and all test methods are validated and capable</p></li><li><p>Ensure all suppliers are qualified and capable</p></li></ul>"
+          "e_text": "<ul><li><p>Complete the MSA for key test methods at the plant.</p></li><li><p>Complete any review process capability and control charts for the product design.</p></li><li><p>Review final product stability data relative to product release test methods.</p></li><li><p>Finalize list of key suppliers for supplier management.</p></li><li><p>Upload the final documentation packages into PLM to support PPU and transfer into manufacturing.</p><p></p></li></ul>"
         },
         {
           "id": "scale-up",
           "e_title": "How You’ll Work as a Team",
-          "e_text": "<ul><li><p>Collaborate with the cross-focus team to finalize the Quality Plan and data package; ensure action items are complete</p></li><li><p>Align on a robust manufacturing Control Plan</p></li></ul>"
+          "e_text": "<ul><li><p>Meet as a team to review the final Design Review data packages in preparation for product launch, e.g., Design Review, TQMR.&nbsp; Record risk evaluation scores in 3M | GROW.&nbsp;</p></li><li><p>Collaborate with the team to finalize the Quality Plan and data package; ensure action items are complete.</p></li><li><p>Align on a robust manufacturing Control Plan.</p></li></ul>"
         }
       ]
     },
@@ -98,19 +98,19 @@
           "id": "business-case",
           "e_title": "Your Role",
           "e_header": "Assess and Plan Manufacturing Needs",
-          "e_text": "<ul><li><p>Monitor Manufacturing capability relative to specifications</p></li><li><p>Monitor and respond to customer/end-user feedback</p></li></ul>"
+          "e_text": "<ul><li><p>Continue to control chart performance of the product and monitor manufacturing capability.</p></li><li><p>Monitor customer and/or end-user feedback and complaints.</p></li><li><p>Respond to complaints efficiently and effectively.</p></li></ul>"
         },
         {
           "id": "develop",
           "e_title": "How You’ll Do It",
           "e_header": "Develop a Robust Manufacturing Plan",
-          "e_text": "<ul><li><p>As part of the Manufacturing Control Plan, measure and review manufacturing and technical results, including capability indices and test methods and sampling</p></li><li><p>Ensure the product continues to meet customer expectations by using statistical processes, controls, and root cause analysis tools</p></li></ul>"
+          "e_text": "<ul><li><p>Control chart and monitor changes in performance for key test methods.&nbsp; Look for drift, special causes, and control vs. specification limits.&nbsp; Monitor process capability.</p></li><li><p>Identify root cause of deviations or complaints using tools such as 5-Why, Fishbone, cause maps, etc.</p></li><li><p>Respond efficiently to customer complaints using tools such as 8D and implement corrective actions, as needed.</p></li></ul>"
         },
         {
           "id": "scale-up",
           "e_title": "How You’ll Work as a Team",
           "e_header": "Finalize and Plan Manufacturing Processes",
-          "e_text": "<ul><li><p>Contribute to the team’s Wrap Up and lessons learned activities</p></li></ul>"
+          "e_text": "<ul><li><p>Work closely with your Quality Direct or Complaint resolution team to respond to customers efficiently.</p></li><li><p>Support manufacturing plant in process improvements, cost down, and product understanding.</p></li><li><p>Contribute to Lessons Learned discussions.</p></li></ul>"
         }
       ]
     }

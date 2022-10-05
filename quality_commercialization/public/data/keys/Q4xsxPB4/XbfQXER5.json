@@ -1,86 +1,86 @@
 {
-  "5a845c12-f696-4a4e-9d48-4580268a0ebc": {
+  "508489de-9925-4fd5-b7c7-2c5227cdbcd8": {
     "html": "Completing Your Toolkit"
   },
-  "06e6ffa0-987c-4c94-959b-b48e4a538c0e": {
-    "html": "Drag the icon for each definition below to the correct element."
+  "e2d9df72-780b-4ae5-a721-335f8f36f486": {
+    "html": "Drag the icon for each description to the correct tool."
   },
-  "d4743ef8-8b46-40e0-a133-f2feceae52b0": {
-    "html": "Before you can move on, select each component to explore it in more detail"
+  "56bb39fe-a831-4e3b-ac8f-82c7e2fadcb6": {
+    "html": "Before you can move on, select each tool to explore it in more detail."
   },
-  "1a8efbc1-ff34-4f21-997b-42936cda5997": {
+  "0c7df0b4-d773-41e4-b291-e26042cc0faa": {
     "html": "You Have an Entire Toolkit!"
   },
-  "0662584c-13f6-459e-be40-46f2059aa22c": {
-    "html": "<p>As you saw in the previous lesson, What are Your Tasks?, the Quality focus is linked to more tools than just the HOQ/LHOQ and the DQM.</p><p>Let’s explore these additional, common tools identified for use in 3M | Grow to complete your toolkit. See if you can identify which descriptions match with each tool before learning more about each of them.</p>"
+  "aa743cdb-5dc5-46c4-ae1e-e7ab12f65a7f": {
+    "html": "<p>The Quality focus is linked to more tools than just the HOQ/LHOQ and the DQM.</p><p>Let’s explore these additional, common tools identified for use in 3M | Grow to complete your toolkit. See if you can identify which descriptions match each tool before learning more about each of them.</p>"
   },
-  "c921443c-51f2-4c79-a055-07c82a5ddc99": {
+  "0736591a-441c-4d78-acc6-81114efebbd2": {
     "html": "But wait, there’s more!"
   },
-  "b51a4054-e916-4fd2-8389-d39ee9393e96": {
+  "a5d19d25-b002-41f3-a2f4-38a60bc87829": {
     "html": "<p>The DQM, the HOQ/LHOQ, the Product Quality Assurance Plan, test method analysis/Data Package and more… you’ve now got a familiarity with the common tools that the Quality focus uses in new product commercialization.</p><p>However, this is not an exhaustive list of the tools in Quality’s toolkit. Quality will also, depending on the project or division, inspect or evaluate tools led by other focus areas. One such example is the Manufacturing Activities and Toolkit. The Product Quality Assurance Plan is a key input used to complete the Manufacturing Activities, such as production specs and test methods.</p><p>Connect with leadership in your division to learn if there are additional tools (or tasks!) with which you should be familiar.</p><p>It's now time to bring all the concepts you’ve learned so far together. Next up is the culminating challenge of your learning journey where you’ll get hands-on in a project: Get ready to Commercialize the Product!</p>"
   },
-  "27b3711d-9bd2-4032-8ee1-96e6e3150a8a": {
+  "db12152b-030a-4373-a6c0-073247f33c21": {
     "html": "Incorrect"
   },
-  "50add7f2-ec4f-4c6d-813d-952f98c70f5d": {
+  "78d488d8-02a9-4782-850b-f01d771668be": {
     "html": "Try Again"
   },
-  "fb2e4b12-ee7b-4452-a9d5-76a0509b4e9e": {
+  "4165ec82-eac1-4ed6-a146-fe126d84cf91": {
     "html": "Product Quality Assurance Plan"
   },
-  "cd5a98c3-4daf-44a6-8c4c-8c9ebf412ecd": {
+  "84aacd9d-b034-483c-8b69-a630f972c51b": {
     "html": "Failure Modes and Effects Assessment (FMEA)"
   },
-  "c9b56f84-db8c-41c4-b0ab-8f338cb3c033": {
+  "b29dec70-8566-4794-be73-f6218cdf9c1e": {
     "html": "Design Review"
   },
-  "932e710f-8d49-4ab7-afb0-809d2d278f38": {
+  "68b72511-352a-4c6a-99c4-23d01a26ba77": {
     "html": "Test Method Analysis"
   },
-  "1f219107-2f26-4bde-b2f0-11c07cbfcf70": {
+  "87ae62f1-0e6e-4320-95a8-453e4a87d815": {
     "html": "A tool used to identify and assess failures in the process that could occur and the consequences of those failures."
   },
-  "a91ad77c-fc7e-477f-a092-e899028905d1": {
+  "91f1ad5d-cfc4-4dd3-8538-d37d2594b794": {
     "html": "<p>The FMEA is used to proactively identify possible failures that could occur and the consequences of those failures, making it Quality’s primary tool for project <strong>risk assessment.</strong></p><p>There are two types of FMEAS, which together can be thought of as a collective FMEA:</p><ul><li><p>Design FMEA (DFMEA): a FMEA completed for the product design</p></li><li><p>Process FMEA (PFMEA): a FMEA for the manufacturing process</p></li></ul>"
   },
-  "ebfd8015-8974-45e7-b306-d47f090da85a": {
+  "56fb6601-1389-4292-8965-0816d166bbbb": {
     "html": "<p>The FMEA is first created in Build Business Case and then is updated in the subsequent phases. By effectively using the FMEA, teams can identify risks and proactively implement steps to prevent possible failures from occurring.</p><p>In Scale Up, the FMEA is used to validate that all risk assessment items have been addressed and documented.</p>"
   },
-  "3dac9c25-337e-4d37-9ea6-4a8e61326068": {
+  "52c79c3c-af50-4f54-b858-92ade750c4bc": {
     "html": "A way of measuring a product property and the supporting statistical evaluations that are used along with it."
   },
-  "e876af2f-72f3-4fde-9517-a2132e9e1bbd": {
+  "27e2930f-f8f2-4d48-bae7-2514e141f900": {
     "html": "<p>Simply put, a test method is used for measuring a property. A good test method will be able to show that the product will meet the customer’s requirements for the property being measured. A test method must have the right level of accuracy, precision, sensitivity, and specificity.</p><p>Test methods are a part of the DQM, Product Quality Assurance Plan, and influence and guide the product design. They also form the basis of the project Data Package because this Package includes the DQM and Product Quality Assurance Plan, Product Claims, design verification testing, and many other components. The Data Package guides the process, and its manufacturing components guide the use of materials for production of the project.</p><p>What this all means is that test methods are involved in every phase of 3M | Grow.</p>"
   },
-  "a14cb742-daf2-460c-8959-132171a55206": {
+  "0cc6a6e4-4769-4df9-ae04-bfdeb55aae02": {
     "html": "<p>All test methods should be evaluated to confirm they will provide meaningful data:</p><ul><li><p>Measurement System Analysis (MSA): A statistical evaluation of a test method to evaluate its accuracy, precision, resolution, and stability</p></li><li><p>Gage Repeatability and Reproducibility (Gage R&R): A type of MSA used to investigate the repeatability and reproducibility of a test method</p></li></ul>"
   },
-  "488d2441-8f06-441d-ba95-b5c7e62c847e": {
+  "9d9033c0-7c85-4ba2-aba4-92a6c27568d2": {
     "html": "<ul><li><p>Design of Experiments (DOE) is often used in Build Business case to identify optimize the formulation or process variables for the product.  A DOE is a statistical method for planning, conducting, analyzing, and interpreting experiments with multiple variables</p></li></ul><p>Finally, Process Capability Indices (Cp, Cpk, Pp, Ppk) provide a statistical evaluation of how consistently the process output meets specifications. Poor process capability means the process will produce out-of-spec product.  Good process capability indicates the process should reliably meet specifications.   </p><p>How to use and interpret these statistical evaluations will not be covered in this course, however it is important that you become familiar with what purpose they serve.</p>"
   },
-  "c1df3944-b9c5-45b0-ab6a-86c0f55e209d": {
+  "fd289cf6-e603-432d-b91f-6f0d20ff8cf5": {
     "html": "A set of definitions of when, how, and why to incorporate test methods for the purposes of predicting manufacturing material acceptability, testing key product features, and sampling plans for customer acceptance, among others."
   },
-  "402367d4-cc53-46cb-bd0d-1dd56cd384df": {
+  "86d04458-b979-42ee-8a93-77d84ba339c6": {
     "html": "<p>The Product Quality Assurance Plan documents the quality aspects of the project. This Plan draws from a multitude of sources, including:</p><ul><li><p>Validated and capable test methods</p></li><li><p>The Bill of Materials (BOM) setup</p></li><li><p>Qualified suppliers</p></li><li><p>Testing used to predict incoming and in-process material acceptability, aligned to key quality characteristics</p></li><li><p>Test methods for key product features and functions, used to ensure customers accept the product</p></li><li><p>Identifying test equipment, test methods, quality standards, personnel, etc. that will be required</p></li></ul>"
   },
-  "2a08b411-1b65-4db7-bd10-73f459bb9a3c": {
+  "fbefb991-dec0-4ea8-a601-f87298961427": {
     "html": "<p>In Build Business Case, preliminary planning for the Product Quality Assurance Plan begins.  Often this begins as a checklist listing the information that will need to be identified and finalized. The LHOQ and Design FMEA can provide input to this list.</p><p>In Development, the information in the checklist will be expanded.  The Product Quality Assurance Plan is updated to include validating test methods, beginning supplier qualifications.  In parallel, other tools such as the LHOM, DQM and FMEA should be updated as needed. <strong>Sampling plans</strong> (statistical sampling during production; not the same as customer sampling) are an important component of completing the Product Quality Assurance Plan.</p><p>During Scale Up, the Plan is finalized. The finalization of the DQM (and its supporting tools such as the HOQ) and the FMEA inform the finalized state of the Plan. The finalized Product Quality Assurance Plan assures the quality elements are in place to begin production.</p>"
   },
-  "ae98c646-5408-4746-92ee-990beaf9a8c2": {
+  "f503c585-08e7-45e2-b39e-e8e0602c86cb": {
     "html": "<p>The Product Quality Assurance Plan becomes the guide for meeting quality requirements during production.</p><p>You can think of this tool as the <strong>guiding quality assurance resource for the project</strong> and what the HOQ and other customer voice capturing tools, the DQM, and the FMEA have built towards. You can learn more about this tool using The Product Quality Assurance Plan aid in the course Resources.</p>"
   },
-  "53cc6940-5a8f-4cab-b015-74b4a03e8585": {
+  "568df038-e017-45ec-ae1a-a986a747238b": {
     "html": "A method of engaging the cross-focus team to evaluate the proposed product design, touching on manufacturability, sustainability, material and supplier choices, packaging, and other product aspects."
   },
-  "f48e58d3-702d-42b9-bcaf-f27c2375b09c": {
+  "aef0257d-8eff-44fd-bc36-577dd0d7650e": {
     "html": "<p>The overall purpose of a Design Review is to uncover possible problems or issues as early as possible. The Design Review is a collaborative team effort and a process tool. The cross-team will meet during Build Business Case to evaluate the product design:</p><ul><li><p>The translation of the voice of the customer into customer requirements, accomplished via the HOQ and DQM</p></li><li><p>Manufacturability of the product, including material and supplier choices</p></li><li><p>Packaging and other design considerations</p></li><li><p>Sustainability methods and how they will be measured</p></li><li><p>Product stewardship considerations, including life cycle management and Environmental Health, Safety, & Regulatory requirements</p></li></ul>"
   },
-  "9d3a9911-e4db-4e6e-a985-73695635c13d": {
+  "e6a28db9-c2df-4203-bfa2-a11f4c7673d6": {
     "html": "<p>The Design Review from BBC is updated during Development to evaluate optimized product capability relative to the customer requirements. If any design changes occur during Development phase, the Design Review should be updated to document those changes.</p><p>A final Design Review at Scale Up is used to approve the final product design and ensure all outstanding action items have been addressed.</p>"
   },
-  "c11699a2-7faa-4fb6-8a78-9e3e5f225f85": {
+  "c1aa6db3-d7e4-4758-b0ac-d64d03fb8c26": {
     "html": "<p>Robustness is achieved by verifying the product’s capabilities against customer tolerances. This is often accomplished through field testing. During Design Review, Quality is responsible for reviewing tools such as the DQM and Manufacturing data to guide the team in evaluating whether robustness has been achieved, or if there is still some distance to go.</p>"
   }
 }

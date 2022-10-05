@@ -49,7 +49,7 @@
         :leave-active-class="TExit.FADE_OUT"
       >
         <div
-          @click="goToNextSection"
+          @click="showFinalModal"
           id="continue-container"
           v-if="showContinue"
         >
@@ -73,7 +73,7 @@
 
     <IntroConclusionModal ref="IntroModal" :titleAndText="introModal" />
 
-    <IntroConclusionModal
+    <TasksConclusionModal
       ref="ConclusionModal"
       :titleAndText="conclusionModal"
       :specialClass="'tasks-conclusion-modal'"
@@ -93,6 +93,7 @@ import TopRuleIcons from "@/components/shared/Role/TopRoleIcons.vue"
 import RoleInfoTable from "@/components/shared/Role/RoleInfoTable.vue"
 import SecondPage from "@/components/shared/Role/SecondPage.vue"
 import SecondPageContinueButtons from "@/components/shared/Role/SecondPageContinueButtons.vue"
+import TasksConclusionModal from "@/components/shared/Role/TasksConclusionModal.vue"
 
 const ATTN_INTERVAL = 4000
 
@@ -106,6 +107,7 @@ export default Vue.extend({
     RoleInfoTable,
     SecondPage,
     SecondPageContinueButtons,
+    TasksConclusionModal,
   },
   data() {
     return {
@@ -134,6 +136,10 @@ export default Vue.extend({
   },
   methods: {
     finish() {
+      ;(this.$refs["ConclusionModal"] as any).show()
+    },
+
+    showFinalModal() {
       ;(this.$refs["ConclusionModal"] as any).show()
     },
     async goToNextSection() {

@@ -1,191 +1,209 @@
 {
-  "1e0c7c35-1a30-447d-82ff-43ebf7ea01d6": {
+  "7d4f56bd-1d85-487d-8fca-d66203850bc2": {
     "html": "Design Qualification Matrix Exploration"
   },
-  "b38b114d-faa2-46c8-bd23-3b5dee24cf93": {
-    "html": "Follow the coach’s directions to explore the tool."
+  "608404a8-6860-42b7-92f2-f7287f888777": {
+    "html": "Follow the coach’s directions to explore the DQM."
   },
-  "515f031c-9d34-4baa-8960-e6b3179bc7c2": {
+  "c864daf9-f45e-41ce-8d75-26f56431034c": {
     "html": "Exploring the DQM"
   },
-  "de3585a5-dc88-4c85-92ce-81de216de87f": {
+  "2d10836b-b5e1-4a09-8224-fc61f34c9b22": {
     "html": "<p>It’s time to walk through the DQM. You’ll explore this vital tool for the Quality focus in the same way you did with the LHOQ.</p><p>Ready? Let’s go!</p>"
   },
-  "a88a7853-884e-4d68-96f1-a44d2a5d10cf": {
-    "html": "There is More to Come"
+  "4793fbaf-6af5-4b57-bc16-c893ed9a6fab": {
+    "html": "You Know the Tools"
   },
-  "5bf02eee-0caf-4cbd-9dc2-1308e1d2ef52": {
-    "html": "<p>Congratulations! You now have a foundational understanding of <strong>how</strong> tools used to capture the voice of the customer (such as the LHOQ) and the DQM are used by the Quality focus throughout the phases of 3M | Grow.  </p><p>Of course, as you saw as you learned about the tasks related to Quality, these are hardly the only tools you will use if you are operating from the Quality focus.</p><p>Next, let’s revisit and explore the additional tools to round-out your Quality toolkit!</p>"
+  "550a3844-7ec0-4900-be26-be015615ab02": {
+    "html": "<p>Congratulations! You now have a foundational understanding of <strong>how</strong> tools are used to capture the voice of the customer (such as the LHOQ) and how Quality uses the DQM throughout commercialization.</p><p>While these two tools are essential to commercialization, there are additional tools to use when you're working from the Quality focus.</p><p>Next, let’s revisit and explore the additional tools to complete your Quality toolkit!</p>"
   },
-  "f50cebbb-1fe1-4d6e-8251-6c2dbbae0d1e": {
-    "html": "These three categories should appear familiar. Recall what we’ve reviewed earlier: When do design specification verification and design validation usually take place in 3M | Grow?"
+  "346eb195-2b68-4868-b1df-3b2e79079a87": {
+    "html": "Title-lorem ipsum"
   },
-  "bea2c7af-18b8-46c4-9846-8e386667c0ad": {
+  "7cc29fcf-f0d0-43a3-8639-49a8f8edabdf": {
+    "html": "Subtitle lorem ipsum"
+  },
+  "98eb2bd7-3cdf-4046-aadd-1174112a49f8": {
+    "html": "<p>This is some page text lorem ipsum</p>"
+  },
+  "d80dd351-3d42-4ca7-bd20-d494fa56b20c": {
+    "html": "Design Requirement, Design Specification Verification and Design Validation categories should appear familiar. Recall what we reviewed earlier: When do design specification verification and design validation usually take place in commercialization?"
+  },
+  "a3057939-3060-44fe-8b2d-1e3682a3c87b": {
     "html": "Which is the best answer?"
   },
-  "080714ae-7fca-4e30-af29-4ea016977a2b": {
-    "html": "Depending on your division, you may see a Microsoft Excel® DQM template, or a DQM table embedded within the 3M |Grow task portal. The DQM is completed linearly by project phase, beginning with Build Business Case."
+  "f23c2c79-e01c-4ea4-bd74-1d660e9b54df": {
+    "html": "DQM Templates"
   },
-  "31717014-f03c-49d6-8239-65b76697fd4c": {
-    "html": "In the DQM template, the columns of the DQM are divided into three sections, proceeding from left to right:<ul><li><p>Product Requirements</p></li><li><p>Design Specification Verification</p></li><li><p>Design Validation</p></li></ul>"
+  "7ceb97a2-b8b6-4d2b-9379-67d4b0ff4354": {
+    "html": "Depending on your division, you may see a Microsoft Excel® DQM template, or a DQM table embedded within the 3M |Grow task portal. The DQM is completed linearly by project phase, beginning with Build Business Case. In the DQM template, the columns of the DQM are divided into three sections, proceeding from left to right:<ul><li><p>Product Requirements</p></li><li><p>Design Specification Verification</p></li><li><p>Design Validation</p></li></ul>If your division uses the embedded table, you will see an abbreviated version.<br><br>Select X to continue."
   },
-  "b4072fb4-094e-48c7-be2d-78a3e21160a9": {
-    "html": "If your division uses the embedded table, you will see an abbreviated version."
-  },
-  "e0047f16-c0d1-48fa-8335-78d0bcb1118a": {
+  "c9cd879d-845a-4d23-a136-da5553a7a49d": {
     "html": "Select each highlighted area"
   },
-  "93b0d612-d050-4341-879d-e0cb32752fdc": {
+  "9fc5b317-4600-47c4-afb1-58a1c93eb7c4": {
     "html": "Verification is completed in Build Business Case; Validation in Scale Up"
   },
-  "5e6eb275-506e-40fe-bb90-a2b28ea3bd7e": {
-    "html": "<strong>Not Quite.</strong><br/><br/>This isn’t an efficient timeframe to complete verification. Try again."
+  "136b3ebf-7426-41a3-893a-5411ca5131ff": {
+    "html": "<strong>Not Quite.</strong><br><br>This isn’t an efficient timeframe to complete verification. Try again by selecting X."
   },
-  "a9897808-2451-4548-b016-8d09f40aa9d9": {
+  "24bfbfc2-a45d-4f1a-9c07-9078b2e944a7": {
     "html": "Verification is completed in Build Business Case; Validation in Development"
   },
-  "ada8de6e-022a-426a-a02e-7fd0fdb8ddd2": {
-    "html": "<strong>Not Quite.</strong><br/><br/>These are not the ideal timeframes. Try again."
+  "1eaaa11b-58f7-4bea-a2ea-9a878c00ef81": {
+    "html": "<strong>Not Quite.</strong><br><br>These are not the ideal timeframes.<br/>Try again by selecting X."
   },
-  "2c1c51e3-df8d-4a5c-9c05-2905f612ed65": {
+  "810a8a96-32f3-4dc6-a6ac-bcca48ece843": {
     "html": "Verification is completed in Development; Validation in Scale Up"
   },
-  "5554db43-784e-4d42-940f-32f363b117a9": {
-    "html": "<strong>You got it!</strong><br/><br/>You’re right – in most cases, verification will be completed in the Development phase using test methods, while validation is completed in Scale Up."
+  "9c108127-a392-49fb-b687-0b356b613488": {
+    "html": "<strong>You got it!</strong><br><br>In most cases, verification is completed in Development using test methods, while validation is completed in Scale Up. Select X to continue."
   },
-  "ea029e1d-30ea-4c5d-8ef6-6f43b687f06a": {
-    "html": "You’ll now dive into each of these three categories. Let’s begin with Product Requirements."
+  "d8c61fa8-4bd0-493c-9b07-91fb232a6ec3": {
+    "html": "DQM: Product Requirements"
   },
-  "a4841858-2b11-4949-80e3-0d6f36c0145f": {
+  "f2f2c552-f799-43e6-b64c-1c85e7cba07e": {
+    "html": "Let's now dive into each of these three categories. Let’s begin with Product Requirements.<br><br>Select X to continue."
+  },
+  "b13cbafc-e946-46a3-a39b-9c7d1bae562f": {
     "html": "Select each highlighted area on the DQM to learn more."
   },
-  "591c396f-0d91-4a26-8b1a-40f55964d13a": {
-    "html": "Select each highlighted area"
+  "5ea52a48-a2be-4dfc-97f3-b5e0cef10b64": {
+    "html": "Select another highlighted area."
   },
-  "2ff06016-2bf0-4825-9d68-75b952e5bc08": {
-    "html": "<p>The Reference Number column is where a reference number is assigned to each design requirement to maintain traceability throughout the design process. These numbers will be associated with Specification Reference Numbers in the Design Specification Verification section of the DQM.</p>"
+  "c476f25f-8cca-4e4f-9938-557970ac55c1": {
+    "html": "This column is where a reference number is assigned to each design requirement to maintain traceability throughout the design process.<br><br>These numbers will be associated with Specification Reference Numbers in the Design Specification Verification section of the DQM."
   },
-  "c60a5043-93d3-4569-ac3f-3729b41fc115": {
-    "html": "<p>This column is used for Classification of Input, or classification of design requirements.</p><p>Common classifications are regulatory, customer, 3M internal, shelf-life, reliability, and durability. </p>"
+  "c2fb2b85-250a-4dc7-9bf7-d0570d59784b": {
+    "html": "This column is used for Classification of Input, or classification of design requirements. Common classifications are regulatory, customer, 3M internal, shelf-life, reliability, and durability."
   },
-  "307e143b-3955-4d61-9e76-e2c08ff1ec30": {
-    "html": "<p>Here is where each design requirement is described in general, plain language. For example: “the product is comfortable to use for eight hours.”</p><p>This should appear familiar, as requirements listed here mirror the customer wants and needs used in the LHOQ.</p>"
+  "6546c1e7-4823-4a2b-8613-c14a3d3dfdb2": {
+    "html": "Here is where each design requirement is described in general, plain language. For example: “the product is comfortable to use for eight hours.”<br><br>This should appear familiar because requirements listed here mirror the customer wants and needs used in the LHOQ."
   },
-  "0c23f7ab-708e-480a-aa34-0a3b6a05c3ee": {
-    "html": "<p>The degree of importance is populated with corresponding data from the LHOQ. You can pull key customer requirements into the DQM to ensure they are identified and incorporated into the product design throughout the design process.</p>"
+  "d63fd432-160e-44b6-a51d-bf5794e157a9": {
+    "html": "The degree of importance is populated with corresponding data from the LHOQ.<br><br>You can pull key customer requirements into the DQM to ensure they are identified and incorporated into the product design throughout the design process."
   },
-  "abec9ff4-9d81-4c9f-bd96-1d9ddf2e1026": {
-    "html": "<p>This is a Yes / No identifier for any requirement that would be used as a <strong>product claim.</strong></p><p>Product claims are declarations of features, advantages, or benefits used to promote a product or service. They may include physical and chemical properties, technical performance, health/safety-related factors. They also include comparisons to another product/service, results of efforts to conform to an industry standard, or environmental or sustainability statements. </p><p><strong>Product claims must be substantiated.</strong></p>"
+  "f7d6045e-568f-43f2-9d4d-7ce5d0d5d20d": {
+    "html": "Product claims are declarations of features, advantages, or benefits used to promote a product or service. They may include physical and chemical properties, technical performance, health/safety-related factors.<br><br>Product claims also include comparisons to another product/service, results of efforts to conform to an industry standard, or environmental or sustainability statements.<br><br>Product claims require a Yes/No identifier in this column.<br><br><strong>Product claims must be substantiated.</strong>"
   },
-  "171adab8-6eea-454b-9b1a-d237e6fe613a": {
-    "html": "Which of the following could be identified as problems when control limits and capability are evaluated?"
+  "d9cbdbf2-5193-4331-8ac4-d4790d8e8b41": {
+    "html": "Which of the following must be true of design specifications so their control limits and capability can be evaluated by the team?<br><br><strong>Hint</strong>: There are three correct answers."
   },
-  "3a2f9791-bbb5-4e37-bcb8-62e0396daa33": {
+  "f20c9c39-7c2c-404e-adc1-50daffd3de82": {
     "html": "Select all that apply"
   },
-  "2bbf6c75-7841-4c76-8b03-1f88e8713166": {
+  "40119ace-093b-4733-adfe-74ea89027e4c": {
     "html": "Submit"
   },
-  "ca2bbf66-4db2-427c-86b2-35769d7e580a": {
-    "html": "<p>The numbers seen here carry over from the Product Requirement Reference Numbers populated earlier. </p>"
+  "c9f1cd84-1fda-4f94-945e-c7ce531fe8b3": {
+    "html": "DQM: Design Specification Verification"
   },
-  "d1636c7b-5c47-494c-95e3-6c7abcd28b3f": {
-    "html": "<p>This column contains the Design Specification Description. This is where qualitative design requirements identified earlier are translated into quantitative manufacturing or product performance specifications.</p><p>Value ranges for these specifications are defined.</p>"
+  "f4031fdc-e3ba-4ed5-8b21-a655f98897e2": {
+    "html": "The numbers seen here carry over from the Product Requirement Reference Numbers populated earlier.<br><br>Select X to continue."
   },
-  "9d453697-8198-4222-bf6b-a5cbc43aca80": {
-    "html": "Now let’s explore Design Specification Verification. This is where the team becomes more involved with test methods and interpretation of results."
+  "7a01eb14-b85f-4613-8631-cbcac77f8174": {
+    "html": "This column contains the Design Specification Description. This is where qualitative design requirements identified earlier are translated into quantitative manufacturing or product performance specifications.<br><br>Value ranges for these specifications are defined."
   },
-  "98450700-bbd7-4102-b33a-950242f2e0eb": {
+  "6e4c29b1-d52f-4f13-a7cc-248645fb789e": {
+    "html": "Now let’s explore another category: Design Specification Verification.<br><br>This is where the team becomes more involved with test methods and interpretation of results."
+  },
+  "9f74901e-1757-47e1-8ddf-86a8ba11aa5a": {
     "html": "Select each highlighted area on the DQM to learn more."
   },
-  "6812000b-5d6d-4a23-bbb9-b41a231e3136": {
-    "html": "Select each highlighted area"
+  "f0aa00bb-496d-4d9b-a9dc-eb7fdfdfecb9": {
+    "html": "Select another highlighted area."
   },
-  "4dcbec60-f558-4d7c-be2b-e61775d322cf": {
+  "abbf4fe7-ebd7-460c-8df7-b027445c4543": {
     "html": "Descriptions are concise"
   },
-  "82920a39-bf5f-47b6-a28f-ef6d1122a854": {
+  "02c103fd-e556-4941-a9bf-df5f1db75be0": {
     "html": "Descriptions are quantifiable"
   },
-  "006a9ff0-1f68-4399-9789-116fac5d9abf": {
+  "9f28f024-21f7-40fc-bc0f-3da2ea1b9bb6": {
     "html": "Descriptions can be measured by a test method"
   },
-  "bd3b5cb7-c22c-4b45-86b1-ca80d68242c4": {
+  "cf371fba-3137-4742-ae3d-159b856c04e3": {
     "html": "Descriptions must be agreed upon by the entire team"
   },
-  "0b6d10fc-ac5e-4e28-bc97-d501f2ea1c97": {
-    "html": "<p>Imagine that verification testing of a design specification showed that it did not meet requirements (red). After considering different solutions, the team decides to eliminate the specification.</p><p>Which of the following is the most important thing a team member operating from the Quality focus must ensure?</p>"
+  "b8012676-4b0c-4100-8c30-0b5b6c233ab6": {
+    "html": "Imagine that verification testing of a design specification showed it did not meet requirements (red). After considering different solutions, the team decides to eliminate the specification.<br>Which of the following is the most important thing a team member with the Quality focus must ensure?"
   },
-  "f5575eaa-34d4-4589-bd43-782c439725d3": {
+  "c143a9db-2854-4be4-9779-57c2ae7b77ec": {
     "html": "Which is the best answer?"
   },
-  "a4b3e2af-e170-4095-942d-9fddacdd836a": {
+  "fa25ad3b-4db9-462a-89f3-4e12c0f98599": {
+    "html": "DQM: Design Specification Verification"
+  },
+  "de3d586f-caae-4af5-80b8-abc01695bc47": {
     "html": "You’ll now dive into each of these three categories. Let’s begin with Product Requirements."
   },
-  "0ffba53f-cdc1-4675-b082-4d4c2a3c7632": {
+  "a346a4b7-44ab-4ae6-b0d1-9f7ab62f918c": {
     "html": "Select each highlighted area on the DQM to learn more."
   },
-  "bd33b152-4a3c-4d1f-9d2a-098668353e40": {
-    "html": "Select each highlighted area"
+  "56bb7b07-faa2-45e6-bceb-50b2e305250b": {
+    "html": "Select another highlighted area."
   },
-  "b027ac08-6a37-4a75-887c-a71899478179": {
-    "html": "<p>Here is where the test method or standard that will be used to verify each design specification is identified. There may be an existing test method available, or a new test method may need to be developed.</p><p>This is a vital section of the DQM for Quality involvement. If an inappropriate or inadequate test method is linked to a design specification, this can introduce risk or  product or process failure.</p><p>Specifically, the test method should be able to <strong>validly and reliably measure the property</strong> for each design specification.</p>"
+  "de7e81c8-8f77-4fde-bc06-0d004258aa78": {
+    "html": "Here is where Lab identifies the test method or standard used to verify each design specification. There may be an existing test method available, or a new test method may need to be developed.<br><br>This is a vital section of the DQM for Quality involvement. If an inappropriate or inadequate test method is linked to a design specification, this can introduce risk or product or process failure.<br><br>Specifically, the test method should have a <strong>strong correlation</strong> and<strong> reliably measure</strong> the property for each design specification."
   },
-  "8eca983c-f851-4c04-b0ca-1ffa8ff32430": {
-    "html": "<p>This is an optional column for additional comments. It can be used to provide a brief rationale for why a specification was included, and how the values of that specification are defined and measured. </p>"
+  "571c70f8-7704-42a2-81cc-e979f4f9c225": {
+    "html": "This is an optional column for additional comments.<br><br>It can be used to provide a brief rationale for why a specification was included, and how the values of that specification are defined and measured."
   },
-  "1e6bfa59-b4ee-43e5-93cf-2087e0ea9481": {
-    "html": "<p>Here is where the Verification Test Plan and location is documented.</p><p>For this section to be completed, the methods used to verify that design specifications meet design requirements must be recorded. Additionally, this section must identify where the records of the results can be found.</p>"
+  "f7920d21-c08e-4573-ae10-44ca19a6bb42": {
+    "html": "Here is where the Verification Test Plan and location is documented.<br><br>For this section to be completed, the methods used to verify that design specifications meet design requirements must be recorded.<br><br>Additionally, this section must identify where the records of the results can be found."
   },
-  "da548840-83c0-4200-ab04-7814fc372e90": {
-    "html": "<p>This is a vital component of the DQM. Here the results or current status of verification are documented.</p><p>It can be beneficial to color code this column to easily show where the team must make decisions:</p><ul><li><p>Green (requirements met)</p></li><li><p>Yellow (must be modified)</p></li><li><p>Red (requirements not met)</p></li<ul>"
+  "c9218c19-04fc-4e0d-985e-b36776707e2c": {
+    "html": "This is a vital component of the DQM. Here the results or current status of verification are documented.<br><br>It can be beneficial to color code this column to easily show where the team must make decisions:<ul><li><p>Green (requirements met)</p></li><li><p>Yellow (must be modified)</p></li><li><p>Red (requirements not met)</p></li></ul>"
   },
-  "5ce46974-169f-4569-9c24-aac38bc59b90": {
-    "html": "<p>If a design specification has not passed verification, the team must decide if it will be modified or eliminated from the product design. The Quality focus plays an active role in this collaborative decision making.</p><br/><p>Once these decisions have been made and documented, and any necessary re-testing has been completed, verification in the Development phase can be considered complete.</p><br/><p>With this milestone achieved, the Design Review can proceed.</p>"
+  "bea1db50-8929-49c3-b60a-309544546810": {
+    "html": "If a design specification has not passed verification, the team must decide if it will be modified or eliminated from the product design. Quality plays an active role in this collaborative decision making.<br>Once these decisions are made and documented, and any necessary re-testing has been completed, verification in the Development phase can be considered complete.<p><br>With this milestone achieved, the Design Review can proceed.</p>"
   },
-  "c770d38b-482c-4393-9469-94788ef006c7": {
-    "html": "Ensure that materials linked to the specification are not acquired for production"
+  "6da7984f-9c26-4a47-90b4-ba45f53f9847": {
+    "html": "Materials linked to the specification are not acquired for production"
   },
-  "a82de382-6fc6-4e37-bf14-d8ef704edb41": {
-    "html": "<strong>Not exactly.</strong><br/><br/>While this is a consideration if a design specification is eliminated, it is not the most important thing quality must ensure at this point. Try again."
+  "a252cdc1-d45e-4a46-af5a-73cfddbeac17": {
+    "html": "<strong>Not exactly.</strong><br><br>While this is a consideration if a design specification is eliminated, it is not the most important thing quality must ensure at this point. Try again by selecting X."
   },
-  "8845fd98-2757-4c8a-84e4-b59101939920": {
-    "html": "Ensure that packaging design is updated to reflect the change"
+  "95187d1f-a526-42ad-9257-0409f9d4b5a0": {
+    "html": "Packaging design is updated to reflect the change"
   },
-  "863dc2d0-3c11-4e1c-ab8e-9ca55b779bf4": {
-    "html": "<strong>Not exactly.</strong><br/><br/>While this is a consideration if a design specification is eliminated, it is not the most important thing Quality must ensure at this point. Try again."
+  "c99a7ee2-3efb-40a1-932b-926f6c7d759e": {
+    "html": "<strong>Not exactly.</strong><br><br>While this is a consideration if a design specification is eliminated, it is not the most important thing Quality must ensure at this point. Try again by selecting X."
   },
-  "e462e3d4-b233-4ba2-9b27-1a73f1e43157": {
-    "html": "Ensure that eliminating the specification will not result in a lack of ability to confirm the product will meet a critical customer expectation (VOC)."
+  "89706550-9b66-4733-b85f-ff3bf41265d9": {
+    "html": "Eliminating the specification will not result in a lack of ability to confirm the product meets a critical customer expectation (VOC)."
   },
-  "e842a399-f723-4097-9fdb-8f7e33e16eb7": {
-    "html": "<strong>You got it!</strong><br/><br/><p>If a design specification is eliminated, Quality should ensure that the specification was not linked to a critical customer requirement (referring to the HOQ/LHOQ or another customer voice capturing tool would be helpful in this analysis).</p><p>As verification is completed, Quality has the duty of ensuring that the <strong>product design still reflects the voice of the customer after modifications.</strong></p>"
+  "2966c6d9-8cf4-4ba2-a203-8fd7ddcaac7d": {
+    "html": "<strong>You got it!</strong><br><br>If a design specification is eliminated, Quality should ensure the specification was not linked to a critical customer requirement (referring to the HOQ/LHOQ or another customer voice capturing tool would be helpful in this analysis).<br><br>As verification is completed, Quality has the duty of ensuring the product design still reflects the voice of the customer after modifications."
   },
-  "29471287-d119-4552-8269-144a1feca25d": {
-    "html": "Now you’re ready to learn about the final section of the DQM template: Design Validation."
+  "e55fa413-186a-4646-90a3-9a12d15c01c4": {
+    "html": "DQM: Design Validation"
   },
-  "cc48ee30-68ca-45a1-b815-d8d0bafb90c4": {
+  "f0f5c647-631b-42e1-8f03-6b2c36518bf0": {
+    "html": "Now you’re ready to learn about the final section of the DQM template: Design Validation.<br/><br/>Select X to continue."
+  },
+  "192c7698-bb3e-4a37-8a8f-2c1f19a97cb2": {
     "html": "Select each highlighted area on the DQM to learn more."
   },
-  "fc0bddad-7fab-4e7c-9d46-4e6628138195": {
-    "html": "Select each highlighted area"
+  "e6f7ee7f-e367-4087-a7fd-b2d685fd1f82": {
+    "html": "Select another highlighted area."
   },
-  "fbf9684b-1ece-40fc-8f0d-5c015f7c8253": {
-    "html": "<p>Here the team identifies the Validation Plan. This plan is the method used to validate that the design specifications meet the customer requirements (think back to PPU: Ensuring that the voice of the customer and the voice of the process are aligned).</p><p>Responses may include field trials/tests, fit testing, surveys, regulatory approval letters, or customer observations, among others.</p>"
+  "8904bb17-6db0-478a-8aba-5f2cf3d32651": {
+    "html": "Here the team identifies the Validation Plan used to validate the design specifications meet the customer requirements (think back to <strong>PPU</strong>: Ensuring that the voice of the customer and the voice of the process are aligned).<br><br>Plans may include field trials/tests, fit testing, surveys, regulatory approval letters, or customer observations, among others."
   },
-  "6548d6fc-d1c1-4a8c-957e-96d48613046e": {
-    "html": "<p>Here, the team records if the validation plan testing results were successful. </p><p>If validation results do not meet requirements at this point in Scale Up, the team (especially Quality) will need to review <strong>the process</strong> and decide the next steps.</p>"
+  "222885e5-c844-4f14-97ab-60ad55c10bc5": {
+    "html": "Here, the team records if the validation plan testing results were successful.<br><br>If validation results do not meet requirements at this point in Scale Up, the team (especially Quality) will need to review <strong>the process</strong> and decide the next steps."
   },
-  "06f0a1cb-8567-4740-9cd4-5903d9e35b69": {
-    "html": "<p>This column is where the team identifies where the validation data will be stored. </p><p>This is an important part of documenting the process and ensuring continuous improvements can effectively occur.</p>"
+  "d4fde192-9748-46e9-9da8-02b479417da8": {
+    "html": "The team uses this column to identify where the validation data will be stored.<br><br>This is an important part of documenting the process and ensuring continuous improvements can effectively occur."
   },
-  "399871ec-d2c9-40c5-b483-71b2c9c5a11c": {
-    "html": "Finally, be aware that the DQQ template includes a separate tab labeled <strong>Key Customer Needs.</strong>"
+  "185fb991-925a-437b-ad1d-36dfa43672d7": {
+    "html": "DQM: Key Customer Needs"
   },
-  "81a29d29-8efb-4ca2-9c0c-ce22c510ed11": {
-    "html": "This tab contains a tale that summarizes how key customer needs are evaluated throughout the process. This can be useful for evaluating a new product development project at a glance."
+  "f532affd-5d94-4619-8d39-757cdf7ed8bf": {
+    "html": "Finally, the DQM template includes a separate tab labeled <strong>Key Customer Needs.</strong>This tab summarizes how key customer needs are evaluated throughout the process. This summary can be useful for evaluating a new product development project at a glance."
   },
-  "be38bb08-f657-48cd-be32-8424124ebf20": {
+  "601ae074-affe-47b9-b31e-d32576966dde": {
     "html": "Select each highlighted area"
   }
 }

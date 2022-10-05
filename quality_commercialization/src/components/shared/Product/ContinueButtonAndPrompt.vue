@@ -7,11 +7,12 @@
         :key="'one'"
         @click="moveOntoQuestions"
       >
-        <E
+        <!-- <E
           class="continue-button small-button"
           :h="audioDoneContinueButton.e_text"
           t="div"
-        />
+        /> -->
+        <div class="continue-button small-button">Continue</div>
       </div>
     </transition>
     <transition :enter-active-class="TEnter.FADE_IN_UP" mode="out-in">

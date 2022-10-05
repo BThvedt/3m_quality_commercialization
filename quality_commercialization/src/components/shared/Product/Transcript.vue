@@ -7,9 +7,13 @@
         @click="hideTranscript"
       />
       <perfect-scrollbar :suppressScrollX="true">
-        <!-- {{ theTranscript }}
-        <E class="transcript-inner" :h="theTranscript" t="div" /> -->
-        <div class="transcript-inner" v-html="theTranscript" />
+        <!-- {{ theTranscript }}-->
+        <E
+          class="transcript-inner"
+          :h="theTranscript"
+          t="div"
+          :key="transcriptKey"
+        />
       </perfect-scrollbar>
     </div>
   </div>
@@ -24,11 +28,11 @@ import E from "@/components/editable/E.vue"
 export default Vue.extend({
   name: "Transcript",
   data() {
-    return { theTranscript: null as string | null }
+    return { theTranscript: null as string | null, transcriptKey: "" }
   },
   components: {
     PerfectScrollbar,
-    // E,
+    E,
   },
   methods: {
     hideTranscript() {
@@ -38,9 +42,10 @@ export default Vue.extend({
   watch: {
     currentActiveAreaInfo(nv) {
       this.theTranscript = ""
-      console.log("WE HAVE A NEW VALUE")
-      console.log(nv)
+
       this.theTranscript = nv.e_transcript
+      // gotta update the key to force re-render!!
+      this.transcriptKey = nv.e_transcript.replace(/[^a-zA-Z0-9]/g, "")
     },
   },
   props: ["transcriptShowing", "currentActiveAreaInfo"],
@@ -48,6 +53,11 @@ export default Vue.extend({
 </script>
 
 <style scoped lang="scss">
+::v-deep .ps {
+  .ps__rail-y {
+    opacity: 0.6 !important;
+  }
+}
 .transcript {
   .ps {
     height: 185px;

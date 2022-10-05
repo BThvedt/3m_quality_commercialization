@@ -1,9 +1,9 @@
 {
-  "e_title": "Quality - Commercialize the Product",
-  "e_subtitle": "Play the audio to listen to the team’s conversation.",
+  "e_title": "Commercialize the Product!",
+  "e_subtitle": "Select the highlighted team members to listen to the team’s conversation.",
   "introModal": {
-    "e_title": "What is Commercialization?",
-    "e_text": "<p>Let’s get started by exploring some concepts and definitions to build a good foundation of knowledge.</p>"
+    "e_title": "Commercialize the Product!",
+    "e_text": "<p>This activity is organized into the Build Business Case, Develop, Scale Up, and Launch phases of commercialization.<br><br>As each phase begins, you will listen to conversations between your team members which will set the stage for events or challenges that have arisen as the team develops a new product: a specialized painter’s tape to be sold in stores to customers.<br><br>Once the team’s conversation wraps up, you will view an activity map along with your performance indicators. You can select activities to complete in any order you wish, answering questions within them to raise your performance. Along the way, you have opportunities to earn badges representing knowledge areas for Quality.<br><br>Ready to get started? Let’s go!</p>"
   },
   "conclusionModal": {
     "e_title": "You completed your journey!",
@@ -19,7 +19,7 @@
     },
     "med": {
       "e_title": "You Might Want to Review",
-      "e_text": "<p>You demonstrated knowledge of how the Quality focus contributes to new product commercialization, but there is an opportunity to reach better results in this scenario.</p><p>To make sure you’ve got a mastery of the Quality mindset, you may want to visit some of the questions you’ve missed. </p><p>When you are ready, you may proceed to the conclusion.</p>",
+      "e_text": "<p>You demonstrated knowledge of how the Quality focus contributes to new product commercialization, but there is an opportunity to reach better results in this scenario.</p><p>To make sure you’ve mastered the Quality focus, you may want to visit some of the questions you’ve missed.</p><p>When you are ready, you may proceed to the conclusion.</p>",
       "icon": false
     },
     "high": {
@@ -177,7 +177,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>Team, we’ve collected and compared the information we gathered in Discover. Let’s get to work on Building the Business Case for this new painter’s tape we hope to take to Launch.</p><p>I’ll contribute to our feasibility assessment from the business perspective.</p><p>Quality, we’ll need your help in translating the voice of the customer into the voice of the process. Be on the lookout for any opportunities you see to guide us.</p>"
+              "e_transcript": "<p>Team, we’ve collected and compared the information we gathered in Discover. Let’s get to work on Building the Business Case for this new painter’s tape we hope to take to Launch.</p><p>I’ll contribute to our feasibility assessment from the business perspective.</p><p>Quality, we’ll need your help in reviewing Lab's initial translation of the voice of the customer from functional prototypes and test data. We will then look to you to help draft the Quality Plan and advise us on ways to reduce risk in our product and process design. Be on the lookout for any opportunities you see to guide us.</p>"
             }
           ]
         },
@@ -195,7 +195,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>I’ll be awaiting the information we’ll need to begin identifying our product targets and specifications.</p>"
+              "e_transcript": "<p>I will begin working on the product requirements and design to identify the best solution for the customer. My team will begin building pilot scale prototypes and defining test methods.</p>"
             },
             {
               "area": "Product Stewardship",
@@ -208,7 +208,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>Since we know the type of product and the primary market, I can begin identifying the legal requirements.</p>"
+              "e_transcript": "<p>Since we know the type of product and the primary market, I will provide product safety and environmental expertise, services, and governance for the project, beginning with the Environmental Health, Safety, and Rehabilitation assessment.<br><br>It will be helpful to know which countries you will manufacture and sell the tape in. Thanks for collaborating with me early so that we can best anticipate regulatory requirements.</p>"
             },
             {
               "area": "Legal",
@@ -221,7 +221,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>I can begin evaluating product sustainability once we have the product specifications.</p>"
+              "e_transcript": "<p>I will work with the product developer to identify the intellectual property plan for the new product and confirm Freedom to Operate clearance.</p>"
             },
             {
               "area": "Manufacturing",
@@ -234,7 +234,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>I will be on the lookout for raw material testing.</p>"
+              "e_transcript": "<p>I will start the preliminary needs assessment for the data package, including value stream maps, capital needs, supplier assessment and selection, and manufacturing compliance requirements.<br><br>Once the team understands the market and has a validated prototype, I will work with Quality on risk assessments for manufacturing, supply chain, sourcing, and the value stream.</p>"
             }
           ]
         }
@@ -266,7 +266,7 @@
                   "emotion": "happy"
                 }
               ],
-              "e_transcript": "<p>Now that we are in Development, we are well underway with design specification verification. Some of our field testing is returning mixed results. Quality, I’ll need your help to diagnose the problem.</p>"
+              "e_transcript": "<p>Now that we are in Development, we need to confirm we have a robust product design that is optimized for our customer.<br><br>Quality, I'll need your help to make sure we are using the right statistical tools as we evaluate our product capability and test methods.</p>"
             }
           ]
         },
@@ -284,7 +284,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>We are also formulating our approach to raw material selection and I could use help in ensuring we do not encounter one of the material failure modes we identified in the FMEA.</p>"
+              "e_transcript": "<p>I'm assembling the data package for manufacturing. Quality, I'll need your help in including the analysis of the MSAs, DOEs, and quality plans in the data package. Our team should also review and update the FMEAs.</p>"
             },
             {
               "area": "Product Stewardship",
@@ -297,7 +297,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>Since Lab is sharing that field testing is having some unexpected results, we will need to make sure our proposed product claims are accurate. Quality, I’m sure you’ll have insight into this once we review the findings.</p>"
+              "e_transcript": "<p>I see that there have been some changes to the product construction and manufacturing plan since Build Business Case.<br><br>I'll update my LCM/EHS&amp;R information for this project so we can be confident there are no product stewardship concerns.</p>"
             }
           ]
         }
@@ -329,7 +329,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>I’d like to congratulate the team on entering Scale Up. I’ve completed IP and Freedom to Operate checks on the painting tape and it appears that we have no challenges.</p>"
+              "e_transcript": "<p>I’d like to congratulate the team on entering Scale Up.<br><br>I’ve completed IP and Freedom to Operate checks on the painting tape and it appears that we have no challenges.</p>"
             }
           ]
         },
@@ -392,7 +392,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>Team, while the Launch of the tape has largely been successful, we have some improvement opportunities based on our KPIs.</p><p>Customer feedback indicates that we may have some variation in the adhesion quality of the tape. and surprisingly, the tape isn’t a preferred reflective color. This needs investigation.</p><p>Finally, were aware of a product failure in one of our submarkets. It appears that adhesive glue is melted inside of the packaging when customers rfirst open it.</p><p>Quality, we’ll look to you to investigate these issues and help guide what interventions we should take.</p>"
+              "e_transcript": "<p>Team, while the Launch of the tape has largely been successful, we have some improvement opportunities based on our KPIs.</p><p>Customer feedback indicates that we may have some variation in the adhesion performance of the tape. and surprisingly, the tape has had complaints about color. This needs investigation.</p><p>Finally, were aware of a product failure in one of our submarkets. It appears that adhesive glue is oozing onto the inside of the packaging.</p><p>Quality, we’ll look to you to investigate these issues and help guide what interventions we should take.</p>"
             }
           ]
         },
@@ -410,7 +410,7 @@
                   "emotion": "neutral"
                 }
               ],
-              "e_transcript": "<p>If part of the problem is product specification variation falling outside of our defined limits, we will need to check our Manufacturing Control Plan. Quality, I could use your help to identify where we may have an issue.</p>"
+              "e_transcript": "<p>If part of the problem is product specification variation falling outside of our defined limits, we will need to check our Manufacturing Control Plan.<br><br>Quality, I could use your help to identify where we may have an issue.</p>"
             }
           ]
         }

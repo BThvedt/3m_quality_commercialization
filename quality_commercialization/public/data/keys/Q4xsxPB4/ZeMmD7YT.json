@@ -1,8 +1,32 @@
 {
-  "5959472e-44d2-4363-b1f2-7da0dbd521f2": {
+  "370d1165-1bb2-413d-bd2f-ca315a98e7a0": {
     "html": "Amplifying the Customer Voice"
   },
-  "1ea8fd7e-fecc-49e3-a27e-de4b68c3f8ad": {
-    "html": "<p>Now that you’ve explored the LHOQ, you’ll do the same with the DQM.  </p><p>While the LHOQ is a tool for capturing and translating the voice of the customer, the DQM can be considered the master key tool that Quality uses to <strong>amplify the voice of the customer</strong> during design of the product.</p><p>Since it will be populated and revised by multiple focus areas and team members, the DQM should be stored in one location for revision control and approval of changes.  This will be uploaded to the Design Qualification Matrix (DQM) task for the project in 3M | Grow at the end of each phase.</p><p>A DQM is required for all new product projects to document product requirements, design specifications, test methods, and traceability to verification and validation activities. While projects and divisions have some flexibility in implanting the steps used for completing the DQM, it is usually started <strong>once the 1st House of the HOQ is complete.</strong></p>"
+  "8b84e78e-44d7-4ca5-adfd-61f369a65cc9": {
+    "html": "<p>Now that you’ve explored the LHOQ, you’ll do the same with the DQM.</p><p>While the LHOQ is a tool for capturing and translating the voice of the customer, the DQM can be considered the master key tool Quality uses to <strong>amplify the voice of the customer</strong> during design of the product.</p><p>Since it will be populated and revised by multiple focus areas and team members, the DQM should be stored in one location for revision control and approval of changes, i.e., uploaded to the DQM task for the project in the 3M | Grow system at the end of each phase.</p><p>A DQM is required for all new product projects to document product requirements, design specifications, test methods, and traceability to verification and validation activities. While projects and divisions have some flexibility in completing the DQM, it is usually started <strong>once the 1st House of the HOQ is complete.</strong></p>"
+  },
+  "9f52bbe2-561e-4c50-bbea-d3eba73308be": {
+    "html": "Title-lorem ipsum"
+  },
+  "a2a16886-a2fc-439f-880d-e0a1a27fd7a0": {
+    "html": "Select the image parts at the bottom of the screen to see the part of the tool lorem ipsum"
+  },
+  "a5689901-f3d5-43a4-9433-46804d01e9e8": {
+    "html": "img 1"
+  },
+  "eb30e8d0-fdb4-497a-a6e9-1899a0b48ebc": {
+    "html": "This is the label"
+  },
+  "1f81ef87-c910-44fc-a0d9-6973cf221bf0": {
+    "html": "some Text lorem ipsum"
+  },
+  "d8e7908b-1724-4493-9371-d731a362f017": {
+    "html": "img 2"
+  },
+  "5197ebd1-0e57-4b52-b661-9a58d3e8b193": {
+    "html": "This is the label"
+  },
+  "73b8e637-dbaf-4e78-9a6e-9bd90c8e8801": {
+    "html": "some Text lorem ipsum"
   }
 }

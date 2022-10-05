@@ -79,7 +79,7 @@
 
       <FloatingControls />
     </div>
-    <!-- <JiraButton /> -->
+    <JiraButton />
   </div>
 </template>
 
@@ -490,7 +490,7 @@ export default Vue.extend({
     FloatingControls,
     // GlossaryModal,
     ResourcesMenu,
-    // JiraButton,
+    JiraButton,
     GlossaryModal,
   },
 })

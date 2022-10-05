@@ -1,188 +1,185 @@
 {
-  "2691ef9c-c04c-4abc-bc61-4042beae85ee": {
-    "html": "Quality - Commercialize the Product - Launch"
+  "59775a89-fe9b-4d50-b1f8-00c4b6af294a": {
+    "html": "Commercialize the Product - Launch"
   },
-  "e9ccaa88-8104-45c7-bf95-a24082b19131": {
+  "25c423de-f864-4b5f-b968-4d02d5ddf8c9": {
     "html": "Select the highlighted team members to listen to the team's conversation"
   },
-  "bacc58a5-f325-423b-9343-16a5e41f983d": {
+  "4f9d2640-3331-46fa-a97c-2e18852397d3": {
     "html": "Launch is completed!"
   },
-  "a44b9616-443c-4eab-aa47-a94ee9a0be96": {
-    "html": "<p>The painting tape encountered some issues post-Launch, but you worked with the team to identify these issues as soon as knowledge of them arose and were able to apply redesigns and address manufacturing drift. After these interventions, the business performance of the tape increases and it becomes a true 3M business success!</p>"
+  "4d42c3a2-66ec-42a4-a42d-251667b4d772": {
+    "html": "<p>The painter's tape encountered some issues post-Launch, but you worked with the team to identify these issues as soon as they arose.<br><br>You were also able to apply redesigns and address manufacturing drift. After these interventions, the business performance of the tape increased and it became a true 3M business success!</p>"
   },
-  "736304e0-57b4-4d77-ba68-8788eb357069": {
+  "481614fc-c336-4329-bcbf-87e7997206c9": {
     "html": ""
   },
-  "56038b07-7b8b-4141-b7b0-b30c33ee3854": {
-    "html": "<p>Discovering an unanticipated failure mode post-Launch speaks to how important it is to conduct robust testing of the product earlier in the process. </p><p>The team determines that the best intervention for the problem is to issue <strong>strict guidance for the transportation and storage</strong> of the painting tape to minimize failed product arriving at stores located in geographic markets with hot climates.</p>"
+  "179e76b8-0041-4a78-ad3f-60a8b0df4ce1": {
+    "html": "<p>Discovering an unanticipated failure mode post-Launch speaks to how important it is to conduct robust testing of the product earlier in the commercialization process.</p><p>The team determines the best intervention for the problem is to issue <strong>strict guidance for the transportation and storage</strong> of the painter's tape. This will minimize the chances of failed product arriving at stores located in geographic markets with hot climates.</p>"
   },
-  "3da40ff7-ebf1-4435-983c-a9971a2d2ef3": {
+  "a67ab661-bc11-450e-ae70-a49fbd13f6bf": {
     "html": ""
   },
-  "deb08364-e7ef-4efb-b711-6d746dcc8d9f": {
+  "7e445496-12a6-4370-9994-02a8671c2a9c": {
     "html": "<p>If negative customer or end-user feedback is encountered post-Launch, you must determine the root cause of the feedback.</p><p>Begin by investigating: “Are we manufacturing the product to specifications?”</p><p>If the answer to this question is yes, you can then move onto other questions. The next appropriate question set would be: “Is the design correct?”  If the design is still correct, you and the team may wish to investigate if the market is correct for the product, or if the product is the right fit for 3M.</p><p>You work with the team to identify a specification issue with adhesion and address it to improve the tape’s performance.</p>"
   },
-  "b2d4e4dd-814e-461f-a6a6-b7d8d0993eb9": {
+  "cff0764f-2b2a-4c88-8caf-d070ea75c051": {
     "html": ""
   },
-  "b674cff1-3895-4388-8ab2-21dc83bbcfd2": {
-    "html": "<p>It is possible that a part of the VOC goes completely unidentified and because of this, its impact will be unanticipated. Carefully evaluating the VOC early in the process can help reduce this risk.</p><p>Should a missed important customer need occur, you must collaborate with the team on a solution and document all steps taken. Thorough documentation helps the product continue to be successful and also informs future products, contributing to Product and Process Understanding (PPU).</p><p>Remember as always that you must also <strong>amplify the VOC</strong> as changes are made to help ensure that the product will be right.</p>"
+  "12b9f36c-b423-49ea-99a8-ac2ecdd027b7": {
+    "html": "<p>It is possible that a part of the VOC goes completely unidentified and because of this, its impact will be unanticipated. Carefully evaluating the VOC early in the process can help reduce this risk.</p><p>If an important customer need is missed, you must collaborate with the team on a solution and document all steps taken. Thorough documentation helps the product continue to be successful and also informs future products, contributing to <strong>Product and Process Understanding</strong> (PPU).</p><p>Remember you must also <strong>amplify the VOC</strong> as changes are made to help ensure the product will be right.</p>"
   },
-  "ad6900cf-e160-4163-86bc-47bc984e2aef": {
-    "html": "<p>The team responds to the finding of an unanticipated failure mode: The tape’s adhesive glue is melting when transported in high temperature areas.</p><p>What could have helped prevent this from occurring during the process?</p>"
+  "d6c8c6ae-1e6b-4256-be7c-22dce91d7eff": {
+    "html": "The team responds to the finding of an unanticipated failure mode: The tape’s adhesive is oozing out the side of the roll when transported in high temperature areas.<br><br>Which of the following would have been most helpful in preventing this if it had happened earlier in the commercialization process?"
   },
-  "fee382f6-e301-497c-88ea-ce01a7084f63": {
+  "b33ac441-05e8-49a6-8b88-bfad632db072": {
     "html": "Which is the best answer?"
   },
-  "86b9c685-fef0-41d6-8b52-97bc41ae0f90": {
-    "html": "More product testing to evaluate extreme conditions"
+  "8dae14f1-e0f9-4c58-804d-772722ec4330": {
+    "html": "Product testing at extreme temperatures"
   },
-  "6f61ca2f-4e57-4f48-b82e-6cd8c92046d3": {
+  "95c55ac0-9fca-439e-8516-20fb4ec6cb4b": {
     "html": "Good thinking!"
   },
-  "e2928379-3ea2-46b5-9683-a9fb5c3f577e": {
+  "861eb296-4876-4c23-8492-1422aad7a93c": {
     "html": "This unanticipated failure mode may have been identified earlier in the process if there was more testing to evaluate extreme conditions, like temperature."
   },
-  "5fee0944-00aa-4f8c-80fd-9e51b05eeef7": {
-    "html": "Product packaging warning against use in hot temperatures/climates"
+  "63204cd5-a10b-44ee-975a-cdbd44c4f093": {
+    "html": "Including extreme environmental conditions as a failure mode in the Product FMEA"
   },
-  "5cbe4b4f-5928-437c-823e-72ea694c4378": {
+  "04407701-2a47-4dd4-96e2-7a8f95a50192": {
     "html": "This could limit the product’s success."
   },
-  "8f96398b-bfa0-4de1-b07c-42cbf4f43ee0": {
-    "html": "This intervention would be more suited as a reaction to this failure mode, rather than a way to identify or prevent it. A change to packaging may give customers warning, but it doesn’t help prevent the problem."
+  "dcaa3543-e1fd-45b0-8637-eda4ce68b093": {
+    "html": "<p>Adjusting the FMEA to address environmental conditions would be more suited as a reaction to this failure mode, rather than a way to identify or prevent it. A change to packaging may give customers warning, but it doesn’t help prevent the problem.</p>"
   },
-  "6842eb2e-a763-45dd-842b-7a1811fca3b3": {
+  "7fe0acd3-f789-4a8e-ad1a-4b2f5ebd59d1": {
     "html": "Conducting more customer field testing"
   },
-  "51be0dec-5861-4d74-8dbb-32bfb0644432": {
+  "8fdb43f9-3a56-4db9-8ece-984f0d184c92": {
     "html": "Close, but not quite."
   },
-  "a5782592-ac9e-42d0-a54b-c89a60494783": {
+  "f78a9002-6771-4882-a4e9-bc91e9b1831c": {
     "html": "While more customer field testing may have given the team more information, it would not necessarily have helped to uncover a failure mode for transportation of the tape in extreme temperatures. The more helpful intervention would have been more product testing to evaluate extreme conditions."
   },
-  "7527e1df-df95-468c-8e50-da13d862eb2e": {
-    "html": "<p>You review a theme in customer feedback: The tape’s glue is not sticking to certain surfaces strongly enough.</p><p>Manufacturing wonders: “Is there a drift from the Manufacturing Control Plan?”</p><p>What is <strong>the first question to answer</strong> in a diagnosis of the problem?</p>"
+  "9f112652-993e-44ec-ac69-cc8044c7d02b": {
+    "html": "You notice a theme in customer feedback: The tape’s adhesive is not sticking to certain surfaces strongly enough.<br><br>Manufacturing wonders: “Is there a drift from the Manufacturing Control Plan?”<br><br>Which of the following should you investigate?"
   },
-  "1a94d74a-2d05-49be-a40f-32f4cf2150d8": {
-    "html": "Which is the best answer?"
+  "232ebfdc-4a43-447a-84b7-deeea49375ee": {
+    "html": "Select all that apply"
   },
-  "a2ac89b4-a9c4-40d0-a695-3930fa6e40c8": {
+  "cd4d2a69-3e9a-4a4d-b952-b69c3bd2d89f": {
+    "html": "Submit"
+  },
+  "5bee6aa2-602a-48d4-936a-1bf7130bf413": {
+    "html": "That’s right!"
+  },
+  "74b9f5ab-4acf-42c4-a8b8-559a99c654d0": {
+    "html": "<p>All of the available options are possible root causes of the discovery that the tape's adhesive is not meeting customer expectations. All of them should be explored to diagnose the issue and begin developing solutions.</p>"
+  },
+  "e6aadef1-e1a6-4999-9794-1b7fb0586677": {
+    "html": "Not quite."
+  },
+  "a8fe04a4-c00c-435f-8d08-40ef25a4c4b9": {
+    "html": "<p>All of the available options are possible root causes of the discovery that the tape's adhesive is not meeting customer expectations. All of them should be explored to diagnose the issue and begin developing solutions.</p>"
+  },
+  "8fd86787-5d0b-48ea-90db-34d4d9b821d2": {
     "html": "Are customers using the product the way it is intended to be used?"
   },
-  "5d1b1985-21c8-43c3-b536-32158b6b20a1": {
-    "html": "Close, but not quite."
-  },
-  "67ac31b9-5fa7-4278-a30a-c6ef88ee47a0": {
-    "html": "Before evaluating if the product is being used as intended or directed by the customer or end-user, you would first want to determine if the manufacture of the tape is still within product specifications."
-  },
-  "cba5b0c4-501c-44eb-a8a6-e49441e1a23b": {
+  "facca78a-ecef-4d98-b2a5-3b9c0f0ea4c1": {
     "html": "Is the manufacture of the product still within product specifications?"
   },
-  "0bf3d223-b6cb-442c-bb0b-890dffa6f9ee": {
-    "html": "This is the first question to answer."
-  },
-  "11310d55-4540-4ffc-b643-564bd5a25405": {
-    "html": "It is possible that the product’s adhesion has drifted from product specifications over time and this is the first question to answer, or root cause of the problem to rule out, before investigating other possible explanations for the issue."
-  },
-  "b5bc6a08-0b22-4239-b6ec-43fdd3715078": {
+  "5482512d-3718-4436-bcb7-747078944f1f": {
     "html": "Was the tape designed correctly in the first place?"
   },
-  "582437c1-28f6-409d-8cbf-646297061c3a": {
-    "html": "Close, but not quite."
+  "afab99e9-215b-4cde-82fe-d04bfa154fa1": {
+    "html": "The team reviews customer feedback and identifies a major theme: Customers are disappointed in the color of the tape.<br><br>Which of the following is the <strong>primary reason</strong> why this outcome has occurred?"
   },
-  "98824d79-51d5-43e5-a1e0-62118fa660fd": {
-    "html": "Before going back to analyze if there was an unanticipated flaw in the tape’s product design, you would first want to determine if the manufacture of the tape is still within product specifications."
-  },
-  "2b56f230-95f0-4032-a33e-d037bbb31d2a": {
-    "html": "<p>The team reviews customer feedback and identifies a major theme: Customers are not satisfied with the reflective color of the tape and wish they had options to choose from for color.</p><p>What is the <strong>primary reason</strong> why this outcome has occurred?</p>"
-  },
-  "f671f94a-76d5-459b-80f0-38e90d5a2806": {
+  "be425bef-0a53-4b4a-a12f-0b5e62f50b5f": {
     "html": "Which is the best answer?"
   },
-  "936d25b4-49b9-4fd3-9f23-bd554980c18c": {
+  "9fdaa73f-127e-4b6f-9d47-12b1d2d5bb70": {
     "html": "Color is a failure mode for the product"
   },
-  "4a73e0d3-e1ea-4af0-9466-0052c8cb78a7": {
+  "9bafe8af-7145-4861-b40f-04b2bab0d4fd": {
     "html": "Not quite."
   },
-  "7a42276e-d662-404b-a1ce-462feefecaea": {
+  "1af23a93-d659-4818-813d-ee483a8db2fc": {
     "html": "<p>This is tricky. Color would be a failure mode if manufacturing variation led to a failure (such as color fading). In this case, the customer need is that there be a choice of what color the tape is. Color treated as a failure mode does not adequately explain this situation. Instead, it appears that color was not a customer need that was identified to begin with.</p>"
   },
-  "a7408eff-a97d-4eec-a92f-b4b35dca28b8": {
-    "html": "Color was not accurately translated from a customer need into the product design"
+  "6b0abc2f-96f1-41fb-9c35-777bb41c399e": {
+    "html": "Color was not accurately translated from a customer need into the product design "
   },
-  "8e1bb554-8642-486a-9b7f-d50002225fb2": {
+  "66d616a8-81b7-4447-b5f7-aee35512c626": {
     "html": "Not quite."
   },
-  "3c0b82c1-8348-4f3c-a433-9d2906c666c3": {
-    "html": "<p>This is tricky. If you observe the DQM, color is not present as an identified important customer need. Therefore, it would not have had an opportunity to be mistranslated. The primary reason for the current situation appears to be that color was not a customer need that was identified to begin with.</p>"
+  "69f3dfee-6a2d-409a-b8b7-660e67a8eb40": {
+    "html": "<p>This is tricky. If you observe the DQM, color is not present as an identified important customer need. Therefore, it would not have had an opportunity to be mistranslated. The primary reason for the current situation appears to be that color was not a customer need identified to begin with.</p>"
   },
-  "db873557-5b38-49ba-84d1-d616387e1893": {
+  "fac31d83-8780-44f3-8b80-a03d83b7cc70": {
     "html": "Color was not a customer need that was identified"
   },
-  "d3c6310e-5aff-4fa4-b7aa-53d6f22a8cec": {
+  "480f2a50-f64a-463c-8c26-ab4ff2eadce6": {
     "html": "You got it!"
   },
-  "cedac346-5509-4d80-ae50-99a140dbcf60": {
-    "html": "<p>Color was not one of the primary customer needs identified during Build Business Case as the DQM was compiled. Somehow color has emerged as an important part of the VOC that was not only not translated, but not identified from the onset.</p>"
+  "636f1779-9476-4634-94b7-3bf6ba36b1de": {
+    "html": "<p>Color was not one of the primary customer needs identified during Build Business Case by the team as they completed the DQM. Somehow, color has emerged as an important part of the VOC that was not only not translated, but not identified from the onset.</p>"
   },
-  "8f3005c6-0442-434d-84cb-13122161a979": {
-    "html": "<p>Reflective and body color has been added to the DQM and other tools.</p><p>The team works to revise the tape and bring back to the market with new color specifications.</p><p>What is the <strong>most important thing</strong> for you to facilitate as the Quality focus team member?</p>"
+  "b193dc01-e6be-485c-b5c8-9738f26d9fcc": {
+    "html": "Color has been added to the DQM and other tools. The team works to revise the tape and bring it back to the market with new color specifications.<br><br>What is the <strong>most important thing</strong> for you to facilitate as the Quality team member?"
   },
-  "bc6bdc84-6f9a-42f6-aaff-0b7bd7acb29c": {
+  "f8d96ad4-3705-45fc-869f-5046e525eb22": {
     "html": "Which is the best answer?"
   },
-  "5685303a-df9c-4b8f-9a24-d9a4f38e3265": {
-    "html": "Note improvements that could be made to future new products"
+  "ee7f6eb7-48c2-4464-8465-e9661a65993d": {
+    "html": "Updating the sales plan"
   },
-  "708a2cf9-7be1-47b4-81b7-a29c368108fd": {
+  "9fa5d044-742c-45d8-87af-a5e8451a964e": {
     "html": "Not quite."
   },
-  "383a0522-7a60-474d-9b0a-80854799be36": {
-    "html": "<p>While there may be important lessons learned from this post-Launch redesign, the <strong>most important</strong> thing to do as the Quality focus team member is to robustly document all the steps taken and changes made to the product and process.</p>"
+  "a7c5b4d1-2ce2-4baf-9781-4a7737bcd93c": {
+    "html": "<p>While there may be important lessons learned from this post-Launch redesign, the <strong>most important</strong> thing to do as the Quality focus team member is to ensure that all relevant project documentation is updated with post-Launch changes.</p>"
   },
-  "09fb2f39-7c01-47ea-866b-9ac56ed4dc38": {
-    "html": "Robustly document all steps taken and changes made to the product and process"
+  "25a6870f-ae35-4df4-9e57-b4a3470fc458": {
+    "html": "Ensuring all relevant project documentation is updated with post-Launch changes"
   },
-  "93df16bc-09dd-4925-bb83-e755a018e598": {
+  "ecdebdc9-02ff-41c2-bb45-9d3394a11908": {
     "html": "You got it!"
   },
-  "988bf224-8d97-4259-954b-35d9210cccdb": {
-    "html": "<p>As with all steps throughout the commercialization process, documentation is key. This is especially true for large shifts in product design that occur. Robust documentation of all of the changes made to the product and process is the <strong>most important</strong> step to take here.</p>"
+  "29460df0-eaaa-45ea-bc78-790985d9a1fd": {
+    "html": "<p>Documentation is key throughout all phases in the commercialization process. This is especially true for large shifts in product design.<br><br>Robust documentation of all of the changes made to the product and process is the <strong>most important</strong> step to take here.</p>"
   },
-  "f5a486ad-5344-440d-8df8-aefa4b270a81": {
-    "html": "Ecnourage teamwork as the steps that need to be taken are completed"
+  "82d6a81e-79e6-41c2-9e43-6c7ee9390235": {
+    "html": "Ordering new packaging supplies"
   },
-  "676d73b4-9897-4fc3-9ec7-11cad89de819": {
+  "29e6b9d4-0c14-4972-93a6-7cbf539330a4": {
     "html": "Close, but not quite."
   },
-  "8e227adb-a84a-463b-9225-8c2068d449bb": {
-    "html": "<p>While encouraging and being involved in teamwork is important, <strong>the most important</strong> thing to do as the Quality focus team member is to robustly document all the steps taken and changes made to the product and process.</p>"
+  "7c41ae8d-af86-483c-bc3a-21ceba29a1ba": {
+    "html": "<p>T<strong>he most important</strong> thing to do as the Quality team member after this event is to ensure all relevant project documentation is updated with post-Launch changes.</p>"
   },
-  "615e678f-ccb7-41c3-98d7-050a7b780e7d": {
+  "8eef62fa-b12a-4963-a325-eca8fcd871e4": {
     "html": "Build Business Case"
   },
-  "09dc252f-67dd-4ba1-b4e7-f4e04b44229e": {
+  "9f79f3d4-0265-427d-9627-f61328a83db4": {
     "html": "Build a Business Case"
   },
-  "141ea20e-eace-48f0-8c72-b2c72e23c41a": {
+  "15c6abca-0b35-4ef6-bd8c-65defa802edc": {
     "html": "Development"
   },
-  "8bb28482-c679-43fc-8cc7-7289b715b68c": {
+  "6efa399f-d815-4f47-94ad-69fd393e9715": {
     "html": "Development"
   },
-  "84f8bb14-0def-4a60-936a-b418b157460e": {
+  "e094d36c-0a4d-4fe6-bfbf-add54563d8b1": {
     "html": "Scale Up"
   },
-  "42218f03-3e0c-40ff-bcc3-62d6ab7f2ca1": {
+  "d0f0555a-1409-43aa-a139-558fb1bbb6f3": {
     "html": "Scale Up"
   },
-  "cfd234d1-fe99-42ae-a9b8-1434266b6feb": {
+  "322dec4a-8d0c-4f9c-b9bd-77b4725cd57d": {
     "html": "Launch"
   },
-  "f50e7437-f31c-4c9f-9b9f-b94e65f97dee": {
+  "bbe63f66-3491-44ea-a006-e215ab8272dd": {
     "html": "Launch"
   }
 }

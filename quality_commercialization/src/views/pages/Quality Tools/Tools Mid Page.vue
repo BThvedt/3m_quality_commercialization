@@ -2,12 +2,12 @@
   <PageBase>
     <div id="tools-mid-page" class="page-container">
       <div class="page-container-inner">
-        <div class="left-and-right-parts">
-          <div id="left-part">
+        <div class="top-and-bottom-parts">
+          <div id="top-part">
             <E :h="json.e_header" t="h1" class="bold-headline" />
             <E :h="json.e_text" t="div" class="page-text" />
           </div>
-          <div id="right-part">
+          <div id="bottom-part">
             <img
               :src="
                 require(`@/assets/images/Quality/Tools/${json.pageImage}`)
@@ -16,18 +16,40 @@
             />
           </div>
         </div>
+      </div>
 
-        <transition
-          :enter-active-class="TEnter.FADE_IN_UP"
-          :leave-active-class="TExit.FADE_OUT"
-        >
-          <div id="continue-container" v-if="showContinue">
+      <transition
+        :enter-active-class="TEnter.FADE_IN_UP"
+        :leave-active-class="TExit.FADE_OUT"
+      >
+        <div id="buttons-container" v-if="showContinue">
+          <div id="continue-container">
             <button class="continue-button small-button" @click="goToNextPage">
               Continue
             </button>
           </div>
-        </transition>
-      </div>
+          <div id="pdf-button-container">
+            <div class="bAndWButton small-button" @click="showToolDisplay">
+              <strong>View the Tool</strong>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <transition
+        :enter-active-class="`${TEnter.FADE_IN}`"
+        :leave-active-class="`${TExit.FADE_OUT}`"
+        mode="out-in"
+      >
+        <ToolDisplay
+          v-if="showToolPage"
+          :title="toolPage.e_title"
+          :subTitle="toolPage.e_subtitle"
+          :images="toolPage.images"
+          :role="'Quality'"
+          @close="closeToolDisplay"
+        />
+      </transition>
     </div>
   </PageBase>
 </template>
@@ -38,16 +60,19 @@ import PageBase from "@/components/PageBase.vue"
 import { TEnter, TExit, TTimes } from "@/types"
 import { genericAwait } from "@/lib/randomFunctions"
 import E from "@/components/editable/E.vue"
+import ToolDisplay from "@/components/shared/Tools/ToolDisplay.vue"
 
 export default Vue.extend({
   name: "ToolsMidPage",
-  components: { PageBase, E },
+  components: { PageBase, E, ToolDisplay },
   data() {
     return {
       TEnter,
       TExit,
       TTimes,
       showContinue: false,
+      toolPage: this.json.toolPage,
+      showToolPage: false,
     }
   },
   async mounted() {
@@ -55,14 +80,17 @@ export default Vue.extend({
     this.showContinue = true
   },
   methods: {
+    showToolDisplay() {
+      this.showToolPage = true
+    },
+    closeToolDisplay() {
+      this.showToolPage = false
+    },
     goToNextPage() {
       // alert("go to next page")
 
       let { currSection, currPage } =
         this.$store.getters["meta/getSectionAndPageIndex"]
-
-      console.log("-----> REPLACE THE HARDCODED CURRPAGE WITH THE currPage")
-      console.log("MAYBE MAKE A NEW GETTER.. GET PAGE BY NAME.. OR USE ")
 
       let sectionInfo = this.$store.getters["meta/getCurrentSection"]
 
@@ -84,28 +112,59 @@ export default Vue.extend({
 </script>
 
 <style scoped lang="scss">
+#buttons-container {
+  z-index: 0;
+  position: absolute;
+  right: 2em;
+  bottom: 1.2em;
+  width: 20.5em;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#continue-container {
+  position: static;
+}
+// #pdf-button-container {
+//   z-index: 0;
+//   position: absolute;
+//   right: 0em;
+// }
+// #continue-container {
+//   z-index: 0;
+//   position: absolute;
+//   right: 11em;
+//   bottom: 0.2em;
+// }
 .page-container-inner {
   box-sizing: border-box;
   padding-bottom: 0%;
 }
-.left-and-right-parts {
+.top-and-bottom-parts {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding-bottom: 2em;
   min-height: 502px;
   width: 100%;
-  ::v-deep #left-part {
-    width: 50%;
-    padding-right: 3%;
+  ::v-deep #top-part {
+    // width: 50%;
+    // padding-right: 3%;
     box-sizing: border-box;
+    padding-bottom: 0.5em;
   }
-  ::v-deep #right-part {
-    width: 50%;
-    padding-left: 3%;
+  ::v-deep #bottom-part {
+    // width: 50%;
+    // padding-left: 3%;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img {
+      width: 83%;
       position: relative;
-      top: 15%;
-      width: 100%;
+      // top: 13%;
+      bottom: 5%;
     }
   }
 }
@@ -113,11 +172,5 @@ export default Vue.extend({
   font-size: 1em;
   font-family: $noto;
   color: $darkGray;
-}
-#continue-container {
-  z-index: 0;
-  position: absolute;
-  right: 2em;
-  bottom: 1.2em;
 }
 </style>

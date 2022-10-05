@@ -4,16 +4,16 @@
       <div class="page-container-inner">
         <div class="left-and-right-parts">
           <div id="left-part">
+            <E :h="json.e_header" t="h1" class="bold-headline" />
+            <E :h="json.e_text" t="div" class="page-text" />
+          </div>
+          <div id="right-part">
             <img
               :src="
                 require(`@/assets/images/Quality/Tools/${json.pageImage}`)
                   .default
               "
             />
-          </div>
-          <div id="right-part">
-            <E :h="json.e_header" t="h1" class="bold-headline" />
-            <E :h="json.e_text" t="div" class="page-text" />
           </div>
         </div>
       </div>
@@ -59,17 +59,14 @@ export default Vue.extend({
     width: 50%;
     padding-right: 3%;
     box-sizing: border-box;
-    img {
-      position: relative;
-      top: 12%;
-      width: 100%;
-    }
   }
   ::v-deep #right-part {
     width: 50%;
     padding-left: 3%;
     box-sizing: border-box;
     img {
+      position: relative;
+      top: 15%;
       width: 100%;
     }
   }

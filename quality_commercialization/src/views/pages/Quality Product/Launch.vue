@@ -202,24 +202,23 @@ export default Vue.extend({
     }
   },
   async mounted() {
-    console.log("Launch")
+    // console.log("Launch")
     // this.$store.dispatch("initilizeCommercializationQuestionResults", {
     //   area: "quality",
     //   questionArray: [
     //     [null, null, null, null, null],
     //     [null, null, null, null, null, null, null],
-    //     [null, null, null, null],
+    //     [null, null],
     //     [null, null, null, null],
     //   ],
     //   activitesArray: [
     //     [null, null, null, null], // null for each activity
     //     [null, null, null, null],
-    //     [null, null, null],
+    //     [null, null],
     //     [null, null, null],
     //   ],
     // })
     // await genericAwait(1000)
-
     // this.activityConclusion = this.subActivities[0].conclusion
     // console.log(this.activityConclusion)
     // this.$nextTick(() => {

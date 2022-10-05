@@ -1,8 +1,8 @@
 {
-  "d27deaee-347d-430c-a694-359a4f7cbfe6": {
+  "461eda56-8cd0-47ba-986e-969a167d0366": {
     "html": "What are Your Tasks?"
   },
-  "657967eb-a15b-4b56-949c-dd1b8428d44f": {
-    "html": "<p>Quality tasks align the Voice of the Customer (VOC) and the Voice of the Process (VOP).<br><br>The goal is to translate the VOC into measurable customer requirements, which are then translated into robust test methods. For example, the customer may require a smooth surface, which can be quantified by a specific test method.</p><p>The potential to align the VOC and VOP occurs when we capture the customer requirements accurately and when the test methods are reproducible and measure the manufacturing process accurately.</p><p>As shown at right, alignment occurs when the manufacturing variability is low and test data is centered in the specification range. As the process is improved, the control limits are narrower than the product specifications, resulting in high process capability, so the product can be manufactured \"right the first time.\" This alignment ensures customer satisfaction.</p>"
+  "df1392ad-96f6-4541-a3dd-30e2c5e01840": {
+    "html": "<p>Quality tasks align the Voice of the Customer (VOC) and the Voice of the Process (VOP).<br><br>The goal is to translate the VOC into measurable customer requirements, which are then translated into robust test methods. For example, the customer may require a smooth surface, which can be quantified by a specific test method.</p><p>The potential to align the VOC and VOP occurs when we capture the customer requirements accurately and when the test methods are reproducible and measure the manufacturing process accurately.</p><p>As shown at right, alignment occurs when the manufacturing process variability is low and test data is centered in the specification range. As the process is improved, the control limits are narrower than the product specifications, resulting in high process capability, so the product can be manufactured \"right the first time.\" This alignment ensures customer satisfaction.</p>"
   }
 }

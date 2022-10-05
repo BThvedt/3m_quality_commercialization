@@ -30,6 +30,7 @@
       :currFileArrayIndex="currFileArrayIndex"
       :role="role"
       :transitionTimes="TTimes.MEDIUM"
+      :label="label"
     />
   </div>
 </template>
@@ -49,6 +50,7 @@ export default Vue.extend({
       prompts: this.introData.prompts,
       promptNum: -1,
       fileArray: this.introData.images,
+      label: this.introData.e_imageLabel,
       currFileArrayIndex: 0,
       startShowingPrompts: false,
       TEnter,

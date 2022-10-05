@@ -173,6 +173,7 @@
       :revealHotSpots="revealHotSpots"
       :alreadySelectedHotSpots="hotSpotsFinished"
       @hotSpotSelected="handleHotSpotSelected"
+      :label="label"
     />
     <!-- <ToolScroller
       ref="toolScroller"
@@ -215,6 +216,7 @@ export default Vue.extend({
       hideSubmit: false,
       questionText: this.questionData.e_questionText,
       fileArray: this.questionData.images,
+      label: this.questionData.e_imageLabel,
       currFileArrayIndex: 0,
       feedback: "",
       answered: false,

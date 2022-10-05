@@ -1,27 +1,24 @@
 {
-  "e_title": "Quality - Commercialize the Product - Launch",
+  "e_title": "Commercialize the Product - Launch",
   "e_subtitle": "Select the highlighted team members to listen to the team's conversation",
   "launchConclusion": {
     "e_title": "Launch is completed!",
-    "e_text": "<p>The painting tape encountered some issues post-Launch, but you worked with the team to identify these issues as soon as knowledge of them arose and were able to apply redesigns and address manufacturing drift. After these interventions, the business performance of the tape increases and it becomes a true 3M business success!</p>"
+    "e_text": "<p>The painter's tape encountered some issues post-Launch, but you worked with the team to identify these issues as soon as they arose.<br><br>You were also able to apply redesigns and address manufacturing drift. After these interventions, the business performance of the tape increased and it became a true 3M business success!</p>"
   },
-
   "subActivities": [
     {
       "id": 1,
       "questionIds": [1],
-
       "image": "map-activity-office.png",
       "conclusion": {
         "e_title": "",
-        "e_text": "<p>Discovering an unanticipated failure mode post-Launch speaks to how important it is to conduct robust testing of the product earlier in the process. </p><p>The team determines that the best intervention for the problem is to issue <strong>strict guidance for the transportation and storage</strong> of the painting tape to minimize failed product arriving at stores located in geographic markets with hot climates.</p>",
+        "e_text": "<p>Discovering an unanticipated failure mode post-Launch speaks to how important it is to conduct robust testing of the product earlier in the commercialization process.</p><p>The team determines the best intervention for the problem is to issue <strong>strict guidance for the transportation and storage</strong> of the painter's tape. This will minimize the chances of failed product arriving at stores located in geographic markets with hot climates.</p>",
         "image": ""
       }
     },
     {
       "id": 2,
       "questionIds": [2],
-
       "image": "map-activity-checklist.png",
       "conclusion": {
         "e_title": "",
@@ -32,11 +29,10 @@
     {
       "id": 3,
       "questionIds": [3, 4],
-
       "image": "map-activity-comp.png",
       "conclusion": {
         "e_title": "",
-        "e_text": "<p>It is possible that a part of the VOC goes completely unidentified and because of this, its impact will be unanticipated. Carefully evaluating the VOC early in the process can help reduce this risk.</p><p>Should a missed important customer need occur, you must collaborate with the team on a solution and document all steps taken. Thorough documentation helps the product continue to be successful and also informs future products, contributing to Product and Process Understanding (PPU).</p><p>Remember as always that you must also <strong>amplify the VOC</strong> as changes are made to help ensure that the product will be right.</p>",
+        "e_text": "<p>It is possible that a part of the VOC goes completely unidentified and because of this, its impact will be unanticipated. Carefully evaluating the VOC early in the process can help reduce this risk.</p><p>If an important customer need is missed, you must collaborate with the team on a solution and document all steps taken. Thorough documentation helps the product continue to be successful and also informs future products, contributing to <strong>Product and Process Understanding</strong> (PPU).</p><p>Remember you must also <strong>amplify the VOC</strong> as changes are made to help ensure the product will be right.</p>",
         "image": ""
       }
     }
@@ -44,13 +40,13 @@
   "questions": [
     {
       "id": 1,
-      "e_prompt": "<p>The team responds to the finding of an unanticipated failure mode: The tape’s adhesive glue is melting when transported in high temperature areas.</p><p>What could have helped prevent this from occurring during the process?</p>",
+      "e_prompt": "The team responds to the finding of an unanticipated failure mode: The tape’s adhesive is oozing out the side of the roll when transported in high temperature areas.<br><br>Which of the following would have been most helpful in preventing this if it had happened earlier in the commercialization process?",
       "e_instructions": "Which is the best answer?",
       "questionType": "multiple-choice",
       "questionImage": "team-group.jpg",
       "choices": [
         {
-          "e_text": "More product testing to evaluate extreme conditions",
+          "e_text": "Product testing at extreme temperatures",
           "feedback": {
             "e_title": "Good thinking!",
             "e_text": "This unanticipated failure mode may have been identified earlier in the process if there was more testing to evaluate extreme conditions, like temperature."
@@ -58,10 +54,10 @@
           "correct": true
         },
         {
-          "e_text": "Product packaging warning against use in hot temperatures/climates",
+          "e_text": "Including extreme environmental conditions as a failure mode in the Product FMEA",
           "feedback": {
             "e_title": "This could limit the product’s success.",
-            "e_text": "This intervention would be more suited as a reaction to this failure mode, rather than a way to identify or prevent it. A change to packaging may give customers warning, but it doesn’t help prevent the problem."
+            "e_text": "<p>Adjusting the FMEA to address environmental conditions would be more suited as a reaction to this failure mode, rather than a way to identify or prevent it. A change to packaging may give customers warning, but it doesn’t help prevent the problem.</p>"
           },
           "correct": false
         },
@@ -77,40 +73,39 @@
     },
     {
       "id": 2,
-      "e_prompt": "<p>You review a theme in customer feedback: The tape’s glue is not sticking to certain surfaces strongly enough.</p><p>Manufacturing wonders: “Is there a drift from the Manufacturing Control Plan?”</p><p>What is <strong>the first question to answer</strong> in a diagnosis of the problem?</p>",
-      "e_instructions": "Which is the best answer?",
-      "questionType": "multiple-choice",
+      "e_prompt": "You notice a theme in customer feedback: The tape’s adhesive is not sticking to certain surfaces strongly enough.<br><br>Manufacturing wonders: “Is there a drift from the Manufacturing Control Plan?”<br><br>Which of the following should you investigate?",
+      "e_instructions": "Select all that apply",
+      "questionType": "multiple-select",
+      "e_submitText": "Submit",
       "questionImage": "team-manufacturing-concerned.jpg",
+      "feedback": {
+        "correct": {
+          "e_title": "That’s right!",
+          "e_text": "<p>All of the available options are possible root causes of the discovery that the tape's adhesive is not meeting customer expectations. All of them should be explored to diagnose the issue and begin developing solutions.</p>"
+        },
+        "incorrect": {
+          "e_title": "Not quite.",
+          "e_text": "<p>All of the available options are possible root causes of the discovery that the tape's adhesive is not meeting customer expectations. All of them should be explored to diagnose the issue and begin developing solutions.</p>"
+        }
+      },
       "choices": [
         {
           "e_text": "Are customers using the product the way it is intended to be used?",
-          "feedback": {
-            "e_title": "Close, but not quite.",
-            "e_text": "Before evaluating if the product is being used as intended or directed by the customer or end-user, you would first want to determine if the manufacture of the tape is still within product specifications."
-          },
-          "correct": false
+          "correct": true
         },
         {
           "e_text": "Is the manufacture of the product still within product specifications?",
-          "feedback": {
-            "e_title": "This is the first question to answer.",
-            "e_text": "It is possible that the product’s adhesion has drifted from product specifications over time and this is the first question to answer, or root cause of the problem to rule out, before investigating other possible explanations for the issue."
-          },
           "correct": true
         },
         {
           "e_text": "Was the tape designed correctly in the first place?",
-          "feedback": {
-            "e_title": "Close, but not quite.",
-            "e_text": "Before going back to analyze if there was an unanticipated flaw in the tape’s product design, you would first want to determine if the manufacture of the tape is still within product specifications."
-          },
-          "correct": false
+          "correct": true
         }
       ]
     },
     {
       "id": 3,
-      "e_prompt": "<p>The team reviews customer feedback and identifies a major theme: Customers are not satisfied with the reflective color of the tape and wish they had options to choose from for color.</p><p>What is the <strong>primary reason</strong> why this outcome has occurred?</p>",
+      "e_prompt": "The team reviews customer feedback and identifies a major theme: Customers are disappointed in the color of the tape.<br><br>Which of the following is the <strong>primary reason</strong> why this outcome has occurred?",
       "e_instructions": "Which is the best answer?",
       "questionType": "multiple-choice",
       "questionImage": "launch_activity_3_question_1.png",
@@ -125,10 +120,10 @@
           "correct": false
         },
         {
-          "e_text": "Color was not accurately translated from a customer need into the product design",
+          "e_text": "Color was not accurately translated from a customer need into the product design ",
           "feedback": {
             "e_title": "Not quite.",
-            "e_text": "<p>This is tricky. If you observe the DQM, color is not present as an identified important customer need. Therefore, it would not have had an opportunity to be mistranslated. The primary reason for the current situation appears to be that color was not a customer need that was identified to begin with.</p>"
+            "e_text": "<p>This is tricky. If you observe the DQM, color is not present as an identified important customer need. Therefore, it would not have had an opportunity to be mistranslated. The primary reason for the current situation appears to be that color was not a customer need identified to begin with.</p>"
           },
           "correct": false
         },
@@ -136,7 +131,7 @@
           "e_text": "Color was not a customer need that was identified",
           "feedback": {
             "e_title": "You got it!",
-            "e_text": "<p>Color was not one of the primary customer needs identified during Build Business Case as the DQM was compiled. Somehow color has emerged as an important part of the VOC that was not only not translated, but not identified from the onset.</p>"
+            "e_text": "<p>Color was not one of the primary customer needs identified during Build Business Case by the team as they completed the DQM. Somehow, color has emerged as an important part of the VOC that was not only not translated, but not identified from the onset.</p>"
           },
           "correct": true
         }
@@ -144,7 +139,7 @@
     },
     {
       "id": 4,
-      "e_prompt": "<p>Reflective and body color has been added to the DQM and other tools.</p><p>The team works to revise the tape and bring back to the market with new color specifications.</p><p>What is the <strong>most important thing</strong> for you to facilitate as the Quality focus team member?</p>",
+      "e_prompt": "Color has been added to the DQM and other tools. The team works to revise the tape and bring it back to the market with new color specifications.<br><br>What is the <strong>most important thing</strong> for you to facilitate as the Quality team member?",
       "e_instructions": "Which is the best answer?",
       "questionType": "multiple-choice",
       "questionImage": "launch_activity__3_question_2.png",
@@ -152,26 +147,26 @@
       "showBadge": true,
       "choices": [
         {
-          "e_text": "Note improvements that could be made to future new products",
+          "e_text": "Updating the sales plan",
           "feedback": {
             "e_title": "Not quite.",
-            "e_text": "<p>While there may be important lessons learned from this post-Launch redesign, the <strong>most important</strong> thing to do as the Quality focus team member is to robustly document all the steps taken and changes made to the product and process.</p>"
+            "e_text": "<p>While there may be important lessons learned from this post-Launch redesign, the <strong>most important</strong> thing to do as the Quality focus team member is to ensure that all relevant project documentation is updated with post-Launch changes.</p>"
           },
           "correct": false
         },
         {
-          "e_text": "Robustly document all steps taken and changes made to the product and process",
+          "e_text": "Ensuring all relevant project documentation is updated with post-Launch changes",
           "feedback": {
             "e_title": "You got it!",
-            "e_text": "<p>As with all steps throughout the commercialization process, documentation is key. This is especially true for large shifts in product design that occur. Robust documentation of all of the changes made to the product and process is the <strong>most important</strong> step to take here.</p>"
+            "e_text": "<p>Documentation is key throughout all phases in the commercialization process. This is especially true for large shifts in product design.<br><br>Robust documentation of all of the changes made to the product and process is the <strong>most important</strong> step to take here.</p>"
           },
           "correct": true
         },
         {
-          "e_text": "Ecnourage teamwork as the steps that need to be taken are completed",
+          "e_text": "Ordering new packaging supplies",
           "feedback": {
             "e_title": "Close, but not quite.",
-            "e_text": "<p>While encouraging and being involved in teamwork is important, <strong>the most important</strong> thing to do as the Quality focus team member is to robustly document all the steps taken and changes made to the product and process.</p>"
+            "e_text": "<p>T<strong>he most important</strong> thing to do as the Quality team member after this event is to ensure all relevant project documentation is updated with post-Launch changes.</p>"
           },
           "correct": false
         }

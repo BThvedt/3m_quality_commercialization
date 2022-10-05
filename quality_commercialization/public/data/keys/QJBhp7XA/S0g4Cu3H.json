@@ -1,287 +1,293 @@
 {
-  "e4fd35c4-031a-40ea-9b30-d4319ad11107": {
-    "html": "Quality - Commercialize the Product - Development"
+  "53bf7487-38bd-4a58-9865-ae3bf51b77ce": {
+    "html": "Commercialize the Product - Development"
   },
-  "f50f2d3b-f70a-4067-bc46-30f3b5c7723c": {
+  "cb92a64f-a292-4b08-97a3-e4bc7ca3c520": {
     "html": "Select the highlighted team members to listen to the team's conversation"
   },
-  "24689706-16c8-4fd4-ad17-b05749cf03ae": {
+  "5f015452-6e20-4cd7-85da-c454f7c291d5": {
     "html": "Development is completed!"
   },
-  "0f9a4775-e999-4948-8c99-2da56c6230cf": {
-    "html": "<p>Your team has made some early determinations based on input from each focus area, and you have ensured that a Quality mindset is reflected in the project from the very beginning. </p><p>The painting tape has passed the gate review and has been selected for development into a new product.</p>"
+  "980ff8a4-d54d-43c8-a084-dea177746c22": {
+    "html": "<p>Your team has made some early determinations based on input from each focus area, and you have ensured a Quality focus is reflected in the project.</p><p>The painter's tape has passed the gate review and has been selected for development into a new product. Good job!</p>"
   },
-  "8f198f9c-fc7a-4a5f-9db7-3fa9a0a8d488": {
+  "265ee602-efa8-460f-89e4-3bbb3918b27c": {
     "html": ""
   },
-  "78896d73-eae3-4421-b7b3-3123e326d5e3": {
-    "html": "<p>Test method selection is a careful process. In addition to ensuring that a test method validly and reliably measures a product specification, test methods preferably have credibility.</p><p>For this reason, using existing 3M test methods or industry standard test methods will nearly always be preferable to developing an entirely new test method, which may not be an efficient use of the team’s resources if credible alternatives exist.</p>"
+  "0c825d9a-ece4-41b0-a69b-6447426c3150": {
+    "html": "<p>Test method selection is a careful process. In addition to ensuring a test method validly and reliably measures a product specification, test methods should have credibility.<br><br>Ensure all test methods are validated with a MSA.</p>"
   },
-  "ad77f157-07e2-42fa-bf48-cc7fe30299c3": {
+  "87b47672-0c69-43c4-aeba-578097d14420": {
     "html": ""
   },
-  "d369532f-9437-425e-9600-0f8a94ade8af": {
-    "html": "<p>In Development, you will bring the Quality mindset to interpreting the results of product and process testing. This is a big part of ensuring that the product is developed right the first time.</p><p>You make the team aware that the painting tape requires some redesign. While redesign is a serious and costly intervention to take, it can often be the correct one if a serious opportunity for improvement or a failure mode is encountered.</p>"
+  "c0fdbeef-87f4-4690-abb5-a34947ffdf0f": {
+    "html": "<p>In Development, you will bring the Quality mindset to interpreting the results of product and process testing. This is a big part of ensuring that the product is developed right the first time.</p><p>You make the team aware that the painting tape requires design modifications. While redesign is a serious and costly intervention to take, it is the correct one if it is critical to the success of the product.</p>"
   },
-  "6e4c6638-4ae4-47fe-a8a8-356be9ae3ba3": {
+  "8fd5fe10-6a90-4620-ba9e-5bbd65e8d2c9": {
     "html": ""
   },
-  "9f884fd3-c02b-4a0c-959b-6fb85e956d8e": {
-    "html": "<p>To ensure that a supplier’s raw material variability fits within the specification limits for the product, you will compare the Cpk/Ppk values for the raw materials sampled to the Cpk/Ppk values identified for the Product. In the LHOQ, these values can be found under the Product Control Limits and Capability section.</p><p>As the Quality focus team member, these efforts contribute to the completion of deliverables the Manufacturing team completes, including the Bill of Materials (BOM) and the data package.</p>"
+  "31074085-a8dc-4198-9c24-db74cfcf2530": {
+    "html": "<p>To ensure a supplier’s raw material variability fits within the specification limits for the product, you should use the process capability indices, (Cpk/Ppk) to evaluate how well the product is meeting specifications.<br><br>With capability indices, a higher value is always better.<br><br>In the LHOQ, these values can be found under the Product Control Limits and Capability section.</p><p>With the Quality focus, these efforts contribute to the completion of deliverables the Manufacturing team completes, including the Bill of Materials (BOM) and the data package.</p>"
   },
-  "a229c363-fbf9-420c-99f5-ccec523c79c4": {
+  "d9a8d1b4-e8ea-4a16-9824-74f28e8e47f3": {
     "html": ""
   },
-  "152e7929-a5ea-4837-83bb-28bf2d13345e": {
-    "html": "<p>One of the reasons why the product and process is so thoroughly tested and evaluated during Development is to ensure that the product design is robust. To be robust, the product must be able to meet the VOC and other design inputs under various uses and conditions. When a product does not meet minimum acceptable parameters, it will be flagged, and interventions will be generated so that the product can reach a passing evaluation.</p>"
+  "dd824591-0b07-4cb7-8296-42035202821b": {
+    "html": "<p>One of the reasons why the product and process is so thoroughly tested and evaluated during Development is to ensure the product design is robust.<br><br>To be robust, the product must be able to meet the customer requirements, value proposition, sustainability requirements, and have a capable manufacturing process.<br><br>During Development, the product may require optimization to ensure all requirements are met.</p>"
   },
-  "7134fdeb-6bc6-427d-9f10-b205d4c0637e": {
-    "html": "<p>Lab shares with you:</p><p>“One of the test methods for the reflective surfacing specification of the tape is not reliably measuring the spec.”</p><p>You determine a new test method is needed. The method will need to be credible, valid for measuring the spec, and return reliable measurement results. Which of the following solutions would be most <strong>efficient?</strong></p>"
+  "39f282da-549a-4eda-95b5-8ba2ff1208f1": {
+    "html": "Multichoice Question"
   },
-  "15750e9c-f34f-4ef8-b8fb-7452f0874fbb": {
-    "html": "Select all that apply"
+  "57c2cb30-2015-47c5-8957-76d108828fb1": {
+    "html": "The Product Developer in the Lab shares a concern with you:<br><br>\"Our field testing has revealed the texture of the tape is very important to the customer, so we want to monitor the texture. The issue is we don't have a test method for this.\"<br><br>From a Quality focus, what would you recommend to the team?"
   },
-  "08ede153-d225-4c0b-a1c4-6ce804555bfd": {
-    "html": "Submit"
+  "50541ba2-2e12-4b4b-a76a-ce7469797ae0": {
+    "html": "Which is the best answer?"
   },
-  "af5ad0a5-9aa0-47f3-9665-59558debef5e": {
-    "html": "That’s right!"
+  "f29ee0a1-3ce6-4753-b58a-dce4ac9ddd45": {
+    "html": "Advise the team that adding a verbal description of the texture to the production documents should be adequate and no test method is needed"
   },
-  "82d14575-0953-499d-9969-cc70ba8715bc": {
-    "html": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
-  },
-  "25aed387-b768-415c-a2a4-265b34927be0": {
+  "381a02f4-93b5-4457-8098-cd6c7dbd6836": {
     "html": "Not quite."
   },
-  "dfeae48c-5c8e-4087-8175-3558745de670": {
-    "html": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+  "d32da4b1-1c38-4da7-bf6b-129d03376ecc": {
+    "html": "<p>Based on the Product Developer's findings, a new test method should be linked to texture as a newly recorded part of the VOC. The best way to control a property of your product is with specifications and a validated test method.</p>"
   },
-  "78ae16d9-9454-44d9-b671-671c9600d3be": {
-    "html": "Develop a new test method suitable for the specification"
+  "9b9496cd-1b81-4d5b-a1a5-66ab107a7f23": {
+    "html": "Identify an existing test method (such as a 3M proprietary method or an industry standard) that can be used, or develop a new test method"
   },
-  "9f35e1dd-4287-49ae-9a8b-0cbeb95432d9": {
-    "html": "Select an existing test method considered an industry standard for the specification"
+  "c35b8de7-58be-4989-bc69-8fb28f3b2600": {
+    "html": "That’s right!"
   },
-  "47af131d-7653-4b3b-9caf-3e52ce938d85": {
-    "html": "Select an existing 3M test method suitable for the specification"
+  "b280d583-199a-4068-bfac-98c4f8310cfa": {
+    "html": "<p>The best way to control a property of your product is with specifications and a validated test method.</p>"
   },
-  "1b46cfcc-1bfb-4f81-80d3-b8b8a9e8bb5a": {
+  "bdf3c37e-30d7-442f-869d-23ef299b4e86": {
+    "html": "Inform the team this probably is not a risk because texture was not in the original LHOQ/DQM"
+  },
+  "e9b0c5bd-75da-45da-9210-b5acbb24ca63": {
+    "html": "Not quite."
+  },
+  "b17b9046-c314-45f7-ad0c-8148ba15ecfe": {
+    "html": "<p>Based on the Product Developer's findings, a new test method should be linked to texture as a newly recorded part of the VOC. The best way to control a property of your product is with specifications and a validated test method.</p>"
+  },
+  "f66e826e-2209-4beb-a6a4-83b114d7f88b": {
     "html": "As Lab reported, field testing has detected a gap between current design performance and a product claim. You inspect the Key Customer Needs tool within the DQM to investigate and diagnose the issue."
   },
-  "db18be2e-ff17-4982-ba6b-adfd85a702d7": {
+  "b2144f6c-5b59-4c2e-b975-5ff35bdef302": {
     "html": "Select the column of the tool you should focus on."
   },
-  "d48189be-d0c9-4777-babb-8205ed0db6f9": {
+  "f6c86299-04e5-4bbc-b02c-d19dcf8bfd9b": {
     "html": "Submit"
   },
-  "87e07d3a-9128-4a8e-b3b1-73d012ee8e49": {
+  "1fa522ac-cff6-4af0-b6b9-36bf943eefd4": {
     "html": "Not quite."
   },
-  "533e5bbb-d402-4426-8037-d79c49515ada": {
+  "eccde055-016d-4b8a-8de2-790404208ec6": {
     "html": "<p>The key customer needs listed are the most crucial needs that were initially collected and reflect the VOC. Your inspection should instead focus on Measured Performance Development.</p>"
   },
-  "d5ba1744-6f2d-4142-bb82-7c596ef8a553": {
+  "9b8a3af6-2a82-47ba-98c0-f4f9af7b6207": {
     "html": "Close, but not quite."
   },
-  "162ed0ff-e782-4455-adac-1bfd4d67780b": {
+  "921a1f80-3d58-41c8-987f-fe1ea59907d9": {
     "html": "<p>While you are on the right track in considering test methods, your inspection should instead focus on Measured Performance Development. This information will better inform you about the performance of the test method.</p>"
   },
-  "7b97f346-5576-4b7a-a50f-e3205451f3b1": {
+  "529005a3-fbdf-4eec-8a23-deef646634ca": {
     "html": "This is the best choice."
   },
-  "fc14e1ca-bfa5-4d0e-9d59-9e3b318a2afa": {
+  "7bf30ce3-5256-45ac-a4cf-d8d4437be411": {
     "html": "<p>If there is a difference between design performance and a product claim, the Measured Performance Development rendered from product design testing is the most important information to inspect to possibly diagnose the problem. </p>"
   },
-  "875a165e-a1db-440d-b2ab-f2ae7bdd557f": {
+  "ab36e8a3-d70a-4acb-8f03-35cecb13dd8e": {
     "html": "Not quite."
   },
-  "7a6fd16d-5389-47d0-9d51-0c3f4daad531": {
+  "37d6114e-9c05-4ea2-b1e2-287484b46419": {
     "html": "<p>Scale Up Cpks are related to control limits. Instead of these limit ranges, your inspection should instead focus on Measured Performance Development.</p>"
   },
-  "e5579689-883e-42cd-807c-f087e192b86b": {
-    "html": "In reviewing Measured Performance Development, which of the following aspects should be considered?"
+  "a59c6c61-94aa-478a-a3d8-e90b9bbdaaea": {
+    "html": "In reviewing the performance of the measurement system, what attributes of measured performance development should you consider?"
   },
-  "8cfa1e3e-fa63-41a5-9246-67f9803b6135": {
+  "7e50cbd7-5a0f-42d8-b84c-0ce08f2e98e1": {
     "html": "Select all that apply"
   },
-  "83650a41-7e5d-4d38-806d-93580f55a842": {
+  "9c2a87c9-e313-4d9d-a377-a7c071e4bf5c": {
     "html": "Submit"
   },
-  "349403f6-578e-45e1-9dc9-43f29fa12bb3": {
+  "072e143b-1023-43d0-97c9-5a29bc71155d": {
     "html": "You got it!"
   },
-  "559ec213-632c-4d86-a975-1be308f02c8a": {
-    "html": "<p>All three of these aspects of a test method’s outcomes need to be considered if a potential failure mode related to the product specification/requirement is suspected.</p>"
+  "3254db91-172e-4f22-9d85-6d513bcd8dd2": {
+    "html": "<p>Each critical test method should be verified for precision, accuracy, and resolution. Test method validation is completed through MSA and Gage R&amp;R.</p>"
   },
-  "890d738f-2767-4612-b901-d9411107e085": {
+  "50aa9692-0bd5-449a-a826-dc287eb683ff": {
     "html": "Not quite."
   },
-  "38a0e528-6f12-4001-a1af-644aed06c9fb": {
-    "html": "<p>All three of these aspects of a test method’s outcomes need to be considered if a potential failure mode related to the product specification/requirement is suspected.</p>"
+  "98d8a63e-d46f-4a0a-b621-f87a0f319303": {
+    "html": "<p>All three of these attributes (precision, accuracy, and resolution)  need to be evaluated if a failure mode related to the product specification/requirement is suspected.</p>"
   },
-  "0f508723-aad2-4ab7-8ca2-c656085e8507": {
+  "fd771179-f4ff-4a59-a038-50468e5cde44": {
     "html": "Precision"
   },
-  "e0fb380d-d656-4753-8200-06948ae094ba": {
+  "d4647449-2a8d-41b7-a94f-fc67290e363f": {
     "html": "Accuracy"
   },
-  "dc6a05b2-bfd5-4211-8ac6-f79e15cd4c5b": {
+  "11a14844-40ab-43ab-9869-a69e8debef24": {
     "html": "Resolution"
   },
-  "e484e13c-63da-4419-9ba8-6f4fa4f24f49": {
+  "976ab3b0-e4a1-47b1-b66d-ee84b9895398": {
     "html": "Multichoice Question"
   },
-  "3cb60fd0-ab9e-4fcf-9584-f5c4e1b62a23": {
-    "html": "<p>You find that the Measured Performance Development testing results are sound. Test methods are seemingly not the issue. Product Stewardship shares:</p><p>“The product claim is a requirement for the success of the tape.”</p><p>What is the <strong>best course of action</strong> should you communicate to the team</p>"
+  "e59d4259-f2a9-46fd-b9ee-d55d767344a8": {
+    "html": "You find the VOC was translated into design requirements and specifications, but the claim doesn't align with the original VOC. The Product Marketer shares:<br><br>“The product claim is a requirement for the success of the tape.”<br><br>From a Quality focus, which of the below are valid options for you to present to the team?"
   },
-  "b4997540-2e15-467d-be50-ab60c7c2ad97": {
+  "8bf13688-cdbc-470f-97d7-16110b4018b1": {
     "html": "Which is the best answer?"
   },
-  "73aae8d9-c606-491a-b1f4-f1929e9f1648": {
-    "html": "Conduct customer field testing to see if customers are satisfied despite the current performance findings"
+  "c7d3638a-372d-45c8-a349-f2519cbe20a4": {
+    "html": "Recommend that the project be terminated if the claim is mandatory for the product's success because the product's design cannot be modified to meet the claim"
   },
-  "9fd302ee-de0f-414a-afbe-f87a1ea194bc": {
+  "f6817f7f-dc5e-4f7b-b60d-9d157aa5d8fc": {
     "html": "This is a risky move."
   },
-  "d10e7805-100b-4aa6-9564-7510dabe0101": {
-    "html": "If a product claim has been determined to be a requirement for the tape’s business success, you can reasonably conclude that customers will have expectations for it. A better course of action is proposing a product redesign."
+  "1e236285-fc8d-46d1-a435-1e6a4e91f58e": {
+    "html": "<p>The project does not need to be terminated because the product specifications can be changed, with necessary steps to accomplish this. The best option available is to proceed with modifying the specifications. All product claims must be substantiated.</p>"
   },
-  "3e160c8b-c6c9-434b-be0a-d79c22753448": {
-    "html": "Redesign the tape to adequately meet the product claim and ensure the VOC is captured"
+  "757a8be6-77d2-43ee-903e-cfb6ca1e9f96": {
+    "html": "Modify the product specifications so the product will always meet the claim (update the FMEA, LHOQ, and DQM and then reconfirm process capability and performance)"
   },
-  "f0c95b68-9040-4033-99f8-8e27a18c2631": {
+  "6bc21e22-ee6b-413b-813b-b12fafdac098": {
     "html": "This was the best choice."
   },
-  "ae0cd1f8-07ce-455e-ac56-37b7df580331": {
-    "html": "In Development, product specifications are verified through testing. When gaps, areas for improvement, or especially failure modes are encountered during testing, redesign of the product should be considered. "
+  "dbd0950e-ce49-4d29-aa8e-92bf6bd8f8f6": {
+    "html": "<p>In Development, product specifications are verified through testing. When gaps, areas for improvement, and especially failure modes are encountered during testing, modification of the product specifications should be considered.<br><br>Finally, all product claims must be substantiated.</p>"
   },
-  "7c9d5052-cef7-45ba-93d7-1bbe61520b9b": {
-    "html": "Recommend that the product not be continued for development"
+  "27781910-9973-4981-ac52-b3c3f51faf4e": {
+    "html": "Proceed as-is with the current specifications and the proposed claim — there is not enough risk to justify making changes"
   },
-  "33d540b6-5e74-4b78-8a6a-453ba8ab5360": {
-    "html": "This is not the first action to explore."
+  "f365691a-bdc2-4882-aea1-936ca2994c14": {
+    "html": "This is a risky move."
   },
-  "95f7754c-e34d-40ec-870c-a5a72553f664": {
-    "html": "While it is possible that failure modes can be encountered that may suggest that the product is not fit for the market, this is not the best action to take at this point. Instead, product redesign should be considered."
+  "033f3e4c-9522-4c98-a1a2-2bea8eda2fe1": {
+    "html": "<p>There is absolutely risk introduced into the product and process if no changes are made. The best option available is to proceed with modifying the product specifications along with the necessary steps to accomplish it. All product claims must be substantiated.</p>"
   },
-  "20fdb46e-9adc-493e-950a-54e75fb73806": {
-    "html": "<p>You follow up on Manufacturing’s concerns about raw materials and check the LHOQ tool. Select the column that <strong>best</strong> describes the team’s approach for avoiding lot failure from raw material suppliers.</p>"
+  "2308ed5d-6d42-447f-9bfb-672a43dc87df": {
+    "html": "Manufacturing is concerned about variation in an input raw material from a new supplier and if that variation could result in the end product not meeting specifications.  Select the column in the LHOQ that <strong>will most help the team put controls in place to understand and manage this risk</strong>."
   },
-  "9f610c1c-8f71-4dce-8d5b-638df27cf882": {
+  "7627e77f-0775-4b2f-add2-96944976a43a": {
     "html": "Select the column of the tool you should focus on."
   },
-  "00f9f34e-4c43-4094-91b1-764bfe33cec4": {
+  "9db1c4df-ec3a-4842-9834-2f2293f03b25": {
     "html": "Submit"
   },
-  "1fbcaffd-cbcc-4cac-b850-9c7f6d83b18f": {
+  "a1bb2e51-ab57-41b0-b231-af8e8ac7d97d": {
     "html": "Not quite."
   },
-  "2481367e-06e7-4c1d-937c-7a36f589a9b7": {
-    "html": "<p>While product characteristic proposed target values are important in identifying if materials will match what the product requires, this information does not depict the team’s plan for determining that a supplier’s materials will work. The best answer is the Sampling Plan.</p>"
+  "7ff31ff7-baf0-49a7-b183-eadcfb491319": {
+    "html": "<p>While product characteristic proposed target values are important in identifying if materials will match what the product requires, this information does not directly help the team in determining if a supplier’s materials will work. The best answer is the Sampling Plan.</p>"
   },
-  "3b99e3f8-7aa1-4177-a82c-9c125e9a496f": {
+  "4283ce11-6f15-4a54-a856-572519cdcb0b": {
     "html": "Not quite."
   },
-  "5dad1898-0788-4181-9344-c51572c582ba": {
-    "html": "<p>While product characteristic proposed upper specification limit values are important in identifying if materials will match what the product requires, this information does not depict the team’s plan for determining that a supplier’s materials will work. The best answer is the Sampling Plan. </p>"
+  "df4582d0-04e6-47e1-aa46-6fd45a7e7c49": {
+    "html": "<p>While product characteristic upper specification limits are important in identifying if materials will match what the product requires, this information does not directly help the team in determining if a supplier’s raw materials will work. The best answer is the Sampling Plan.</p>"
   },
-  "a2abc28d-d1ac-4844-ab01-3ea92ccf5c04": {
+  "eb8eba8c-7124-4b9d-98d6-e3ca819a1c11": {
     "html": "Good thinking!"
   },
-  "0b04a53f-a186-4987-969c-87e7a8f6e8f9": {
+  "37a7b2ff-8920-4da6-bb00-df91bc8d90b3": {
     "html": "<p>The sampling plan is the team’s method of evaluating if raw materials from a supplier will meet the product’s specification requirements. This information is identified in the LHOQ and can be referenced by the team as the DQM is updated.</p>"
   },
-  "1a1058a9-548e-41ce-8199-f8b7e1de4bd3": {
+  "7fde1477-7b1a-419a-b60f-5f1b6793e759": {
     "html": "Multichoice Question"
   },
-  "bfd6b54a-045c-408d-a7a6-939a5c0e29f6": {
-    "html": "<p>Manufacturing gives you an update:</p><p>“I’m concerned that the variability of the supplier’s materials that we sampled may not meet our needs.”</p><p>How should you evaluate raw material variability?</p>"
+  "edb26788-3a03-451b-b274-9f7790d5c3f1": {
+    "html": "Manufacturing gives you an update:<br><br>“We've run one lot of the raw material from our supplier on the production line and the resulting product looks great! All the product met our specifications.”<br><br>From a Quality focus, what should be your next step in evaluating this raw material?"
   },
-  "6e761a7e-84dd-403a-84b2-626ae0978929": {
+  "63ff27ae-03a5-4ba2-845f-abb99790635a": {
     "html": "Which is the best answer?"
   },
-  "03ff6bac-d446-4da9-8a51-37d5d7a73acf": {
-    "html": "Narrow the sampling plan to quickly and efficiently evaluate the supplier’s variability"
+  "dfc24bc4-b5af-4c70-b9ad-5c7828b1237a": {
+    "html": "Confirm that the raw material is the lowest cost option"
   },
-  "a2e0423e-5999-46fb-8b60-6e83b984c0fd": {
+  "4d276cbb-b779-4d5c-b569-6cff496e6bc8": {
     "html": "This would not help the product or process."
   },
-  "4bb25c90-5817-4b15-a016-d48e75e80ebe": {
-    "html": "A sampling plan needs to sample enough instances or aspects of a supplier’s raw materials to attain a sense of its variability. What you must do is ensure that the variability fits within the specification limits for the product."
+  "456be465-3bc4-4e43-826d-c47530b85ad5": {
+    "html": "<p>A sampling plan needs to sample enough instances or aspects of a supplier’s raw materials to attain a sense of its variability. What you must do is ensure that the variability fits within the specification limits for the product  by conducting more lot runs.</p>"
   },
-  "5b004968-bc1e-46db-8005-907e19ab76fd": {
-    "html": "Ensure that the supplier’s variability fits within the specification limits for the product"
+  "6feb4c6a-bf3e-4102-8e92-f2e006e0bdd8": {
+    "html": "Run multiple lots of the raw material to evaluate how lot-to-lot variability impacts the final product"
   },
-  "76fc7180-092d-4733-8d18-46c354f7eb31": {
+  "f97e0b25-4e62-4f75-bb2e-e1ac6360836a": {
     "html": "This is the approach to take!"
   },
-  "39160c0a-da82-425e-9dbe-5b7aad60cd3c": {
-    "html": "There can be some variation in a supplier’s raw materials so long as that variability falls within the acceptable variability limits established for the painting tape by the team."
+  "ebbca187-1aec-408b-82d4-b58eeea1a86e": {
+    "html": "<p>You will want to conduct more lot runs to execute an extensive sampling of the raw material.<br><br>Extensive sampling can help ensure that the amount of variability in the supplier's raw material meets (and will continue to meet) standards for the product's specifications.</p>"
   },
-  "96f2f179-0b50-4863-9bbc-c15e441a39de": {
-    "html": "Run a single selection from the supplier’s raw materials through a test"
+  "e5fc3e04-5f3b-4efd-8c33-1fd72575d7e3": {
+    "html": "No further evaluation of the raw material is required since the product made with the raw material met specifications"
   },
-  "633fc718-b918-4bac-b0e9-22f6f50f8c9d": {
+  "97eb5cae-afca-4f75-bfc0-14ea8c13badc": {
     "html": "This would not be a great help."
   },
-  "d5e5e6d6-1c15-4890-9008-50d26ec49a71": {
-    "html": "A sampling plan does not rely on testing just one selection from a supplier’s raw materials for testing. What you must do is ensure that the variability fits within the specification limits for the product."
+  "cdbfb917-034a-4970-9d89-3126332b6d84": {
+    "html": "<p>A sampling plan does not rely on testing just one selection from a supplier’s raw material lot.<br><br>Instead, what you must do is ensure that the variability fits within the specification limits for the product by conducting more lot runs.</p>"
   },
-  "2665199f-a142-479d-b6f7-f7fa19a4b746": {
-    "html": "<p>Additional field-testing results in a yellow result for Measured Performance Development for a key customer need. The team proceeds with a redesign to address the issue and bring the result to Pass/Green.</p><p>What must you do to ensure the VOC is not lost in this process?</p>"
+  "03cd2c2f-7178-4bf5-9703-1ede39c6b373": {
+    "html": "Field testing was completed with the product from an experimental run, and this effort revealed the product does not address a key customer need.<br><br>The product developer has identified a minor change in the product design that will resolve the problem. Given the product is in the Development phase, what action or actions should you direct the team to take?"
   },
-  "8fd89c15-9e1f-404b-a108-4ca861a279fc": {
+  "6180adfe-4231-4730-b50c-2a60545112b7": {
     "html": "Select all that apply"
   },
-  "342b9349-b755-4434-9784-5e1147df3f55": {
+  "75d92bd7-fc36-409b-9a4c-371281ff1805": {
     "html": "Submit"
   },
-  "2aee4943-e7e1-4915-9633-75f2f41337c6": {
+  "55952c53-f1c5-4b4d-a59d-cd92132a7a87": {
     "html": "That’s right!"
   },
-  "a897819b-f2c7-444b-9575-deda665e5b3e": {
-    "html": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+  "1d1297b1-f37d-42bb-a9cf-e313c6e28af2": {
+    "html": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing to ensure that the VOC has not been lost.</p>"
   },
-  "5b465069-36a9-4058-bd16-d0f8a251058d": {
+  "1f93c7bb-9f1a-4846-b6ee-69e45f08188f": {
     "html": "Not quite."
   },
-  "257e6568-f5a1-477f-8de9-7e5189d1018b": {
-    "html": "<p>When a redesign occurs, you must ensure that all changes to the product and process are documented (activities that are redone) and that the product is once again verified through customer testing/customer feedback to ensure that the VOC has not been lost.</p>"
+  "a0ace66c-afbc-4c41-9227-3ee1da476474": {
+    "html": "<p>All of the available actions should be completed. When a redesign occurs, you must ensure all changes to the product and process are documented (activities that are redone) and the product is once again verified through customer testing/customer feedback to ensure the VOC has not been lost. The process capability indices must also be recalculated. These steps are all then reflected at the gate review at the end of the Development phase.</p>"
   },
-  "935e072d-1ae1-4706-88cb-e237b9a1b686": {
-    "html": "Document all activities that are redone to revalidate the tape after redesign"
+  "c322c020-2b24-4944-8008-1753fb728636": {
+    "html": "Document all changes, including updating the LHOQ, DQM, FMEA, specs, test methods, and other related documents"
   },
-  "4036d2fa-81d9-478d-8cf0-d6293e22d9f8": {
-    "html": "Check the Cpk/Ppk for the product"
+  "bf24d1b4-b942-43da-b3b3-d3c1c7e0eaf2": {
+    "html": "Recalculate the process capability indices (Cpk/Ppk) after the changes are made to the product to confirm robustness"
   },
-  "692a0951-7b42-4437-a4e7-2872304d4032": {
+  "b11e6ba4-ea2c-4ea8-9745-aaa91ed5cee3": {
     "html": "Verify the redesign with customers"
   },
-  "de302979-5a50-4614-8927-92738e8b30d8": {
-    "html": "Ask for opinions about the redesign from stakeholders"
+  "dee05f44-3e6d-47a0-9159-f4f04e50214a": {
+    "html": "Bring the modified design to the gate review at the completion of the Development phase"
   },
-  "e130724c-3187-4863-b66b-1e90ce590a4d": {
+  "461a3a00-114f-4bdc-af0e-c24f39a45003": {
     "html": "Build Business Case"
   },
-  "3a065186-09b1-43bb-8d04-60fadfea5fa4": {
+  "9c4d2f8f-4db5-4a2c-8e07-d3965833d442": {
     "html": "Build a Business Case"
   },
-  "5862ddf2-98bd-4cbb-bac2-f0d2829970c6": {
+  "5ce73a7c-905a-4f80-b986-28bbc01e37f9": {
     "html": "Development"
   },
-  "1570c594-ea5a-4f54-a28d-c0346e7aac0e": {
+  "4bcda649-2b50-478f-9a8f-64c7b385abd1": {
     "html": "Development"
   },
-  "940c72d3-7d1b-4088-830d-cc1ff0815f8f": {
+  "e16096cf-ffe6-4bfc-9469-15b760252fa7": {
     "html": "Scale Up"
   },
-  "94b07fa8-f74f-47ed-8800-bbdf1d5c9483": {
+  "3004492d-53a6-4da8-8bf3-b83577cc3c3c": {
     "html": "Scale Up"
   },
-  "6b8f4a6b-aa82-4267-8e85-47a9d4dfe4ab": {
+  "d7737843-70c7-44c7-a5f6-a3980906c239": {
     "html": "Launch"
   },
-  "4508511f-6d5a-4182-afa0-6c2611ed0a96": {
+  "d9c63148-92c2-467d-87bd-d493ce8edad7": {
     "html": "Launch"
   }
 }

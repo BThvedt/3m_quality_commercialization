@@ -69,7 +69,8 @@
           </template>
         </transition>
       </div>
-      <IntroConclusionModal
+      <HouseOfQualityIntroModal
+        @showToolPage="showToolDisplay"
         ref="IntroModal"
         :titleAndText="introModal"
         @onClose="startLesson"
@@ -80,6 +81,20 @@
         :titleAndText="conclusionModal"
         @onClose="goToNextPage"
       />
+      <transition
+        :enter-active-class="`${TEnter.FADE_IN}`"
+        :leave-active-class="`${TExit.FADE_OUT}`"
+        mode="out-in"
+      >
+        <ToolDisplay
+          v-if="showToolPage"
+          :title="toolPage.e_title"
+          :subTitle="toolPage.e_subtitle"
+          :images="toolPage.images"
+          :role="'Quality'"
+          @close="closeToolDisplay"
+        />
+      </transition>
     </div>
   </PageBase>
 </template>
@@ -96,6 +111,8 @@ import MultiChoice from "@/components/shared/Tools/MultiChoice.vue"
 import MultiSelect from "@/components/shared/Tools/MultiSelect.vue"
 import HotSpotClickResponse from "@/components/shared/Tools/HotSpotClickResponse.vue"
 import IntroConclusionModal from "@/components/modals/IntroConclusionModal.vue"
+import HouseOfQualityIntroModal from "@/components/shared/Tools/HouseOfQualityIntroModal.vue"
+import ToolDisplay from "@/components/shared/Tools/ToolDisplay.vue"
 
 export default Vue.extend({
   name: "QualityTools",
@@ -108,6 +125,8 @@ export default Vue.extend({
     HotSpotSelect,
     HotSpotClickResponse,
     IntroConclusionModal,
+    HouseOfQualityIntroModal,
+    ToolDisplay,
   },
   data() {
     return {
@@ -121,17 +140,26 @@ export default Vue.extend({
       partIndex: -1,
       TEnter,
       TExit,
+
+      toolPage: this.json.toolPage,
+      showToolPage: false,
     }
   },
   async mounted() {
-    // await genericAwait(1000)
-    // ;(this.$refs["IntroModal"] as any).show()
+    await genericAwait(1000)
+    ;(this.$refs["IntroModal"] as any).show()
     // ---- remove this below ----
-    this.componentsShowing.smallCoach = true
-    this.toolIndex = 0
-    this.partIndex = 0
+    // this.componentsShowing.smallCoach = true
+    // this.toolIndex = 0
+    // this.partIndex = 0
   },
   methods: {
+    showToolDisplay() {
+      this.showToolPage = true
+    },
+    closeToolDisplay() {
+      this.showToolPage = false
+    },
     async startLesson() {
       await genericAwait(1000)
       this.componentsShowing.smallCoach = true

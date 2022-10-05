@@ -1,13 +1,68 @@
 {
-  "e_title": "3883a289-d1eb-460e-9749-b021558f3265",
-  "e_subTitle": "29a9aed0-2167-4a87-9830-c3494919d6dd",
+  "e_title": "3aea7e96-a8bb-468b-b1a0-3677f8d4bdef",
+  "e_subTitle": "812e9260-5f90-4d4d-a9c6-55f37a72ec7d",
   "introModal": {
-    "e_title": "dcf11134-5937-44f8-84e1-8fcba13837bd",
-    "e_text": "b15fa14c-4b23-4c60-bf23-f89d341d68c5"
+    "e_title": "14f7b801-b8d6-414d-a7d3-e549344a97aa",
+    "e_text": "b2ffdb97-c90e-42e4-9bcd-e80f1410d6d7"
   },
   "conclusionModal": {
-    "e_title": "d4e09cdc-d50e-48df-90d5-9b9c010c4df0",
-    "e_text": "73afb71b-ab53-42d4-8b6f-4fc58abc99d1"
+    "e_title": "db801429-e0c4-492c-a781-907d99865805",
+    "e_text": "bae1758b-5d30-46a1-b570-54fe2d01c804"
+  },
+  "toolPage": {
+    "e_title": "76528447-cd21-4a70-a9e7-bb13fdeeff32",
+    "e_subtitle": "b0f93a6b-9507-4d51-b35b-eb0a599b8cf0",
+    "images": [
+      {
+        "id": 1,
+        "image": "LHOQ_1.png",
+        "e_label": "4e2b2ad2-48ea-4d8d-b59f-5e1ab27efe24",
+        "e_tab": "693005ed-5e13-4883-a1c4-ca57d73f0179",
+        "e_text": "a34060dc-be3d-4e21-aa0b-bba481fe0ae9"
+      },
+      {
+        "id": 2,
+        "image": "LHOQ_2.png",
+        "e_label": "7814dfb9-fefb-45c9-8c8d-ef84f557290e",
+        "e_tab": "a1e9105f-ce02-42af-ae6d-bb5751f995dc",
+        "e_text": "78afdb51-a8a5-4cf4-8cc5-a942f09bb188"
+      },
+      {
+        "id": 3,
+        "image": "LHOQ_3.png",
+        "e_label": "c0310185-5672-4324-abe5-b2837a086860",
+        "e_tab": "a48600b4-3c58-4d25-93b9-5d412a6d413c",
+        "e_text": "dc5a7141-93ce-4c2f-85e0-90821acbea13"
+      },
+      {
+        "id": 4,
+        "image": "LHOQ_4.png",
+        "e_label": "e0d84e04-04df-44f3-a1c7-aa9e065c92f4",
+        "e_tab": "ed247d96-f2e1-4c18-a4b3-a0374c10f925",
+        "e_text": "c360c956-54b3-4196-b357-03a433347af9"
+      },
+      {
+        "id": 5,
+        "image": "LHOQ_5.png",
+        "e_label": "31ac4c28-d094-406f-b5d0-2723aa33dbfe",
+        "e_tab": "4f296752-07b0-448c-95ef-79ea284a6dc7",
+        "e_text": "d5c83ad7-41e9-4660-b4b8-104897340543"
+      },
+      {
+        "id": 6,
+        "image": "LHOQ_6.png",
+        "e_label": "b3ba01c5-d510-4647-919e-b206f84196f4",
+        "e_tab": "159c471e-2de3-478c-a548-8d3dd66e8961",
+        "e_text": "0b5fdcee-ed37-424f-adbb-1053c5806af4"
+      },
+      {
+        "id": 7,
+        "image": "LHOQ_7.png",
+        "e_label": "7d6fc063-89ad-407a-bb7a-583d7dd33848",
+        "e_tab": "4ea863c7-5da7-4204-a90c-a39b1afa0e59",
+        "e_text": "ed7bbd93-dd35-4245-bab2-0af37b6d829b"
+      }
+    ]
   },
   "smallCoachImg": "coach-shadowed-smile.png",
   "tools": [
@@ -15,65 +70,66 @@
       "parts": [
         {
           "type": "multi-choice",
-          "e_questionText": "19aaaac3-63d1-4897-9285-e98a6f7400ac",
+          "e_questionText": "790514c6-bf92-47c0-9904-b79629fa93de",
           "images": [
             "round_1.png"
           ],
-          "e_instructions": "90a5f07b-c66d-4d7d-98c5-be751a10230a",
+          "e_instructions": "362f82c7-597d-4d6d-9437-b6107115ce07",
+          "e_imageLabel": "dfe23208-0f21-4122-81c1-7a286508244c",
           "prompts": [
             {
-              "e_prompt": "6e2fde2e-7357-4f98-8b68-ec6b879ec2ed",
+              "e_prompt": "e673cae2-8598-47c5-a0ff-a4c9cc4d82bb",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "d38fd185-fb1b-40aa-97a8-a2e39089c8ea",
+              "e_prompt": "366b3b92-5fbd-41b6-8528-b3805d4108d4",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "681ca145-c70d-4354-a928-ceac8cbd2bfc",
+          "e_clickRevealPrompt": "4ba48179-7a70-4348-9bff-a7a5195f04b9",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "55,42,378,407",
               "e_popups": [
-                "0697b28b-7223-4d77-a6bf-08100c7e6553",
-                "40a18905-016b-4659-8b7a-e661daac8aa0"
+                "7a0d8e3d-fdff-49ae-86f9-d1605451998a",
+                "94352f22-2e9c-4ffd-94a2-1e532bc58591"
               ]
             },
             {
               "shape": "rect",
               "coords": "379,42,450,407",
               "e_popups": [
-                "c1299cdd-f3a2-466c-8d8e-92742b0f96aa"
+                "63b18722-2ae1-43da-b885-4d041695c83a"
               ]
             },
             {
               "shape": "rect",
               "coords": "451,42,650,407",
               "e_popups": [
-                "73d1d4d7-7268-4f84-87a2-dbe393f3848a"
+                "24335bb4-255e-41aa-8edf-f112cc1008e2"
               ]
             }
           ],
           "choices": [
             {
-              "e_text": "13a73d5f-6181-497c-b7c2-78e00de78b81",
-              "e_feedback": "eb567c38-1057-4ed4-b5a7-a8f31ea2f7fe",
+              "e_text": "c088b0bb-0f29-4323-8ed7-3364ea8644d1",
+              "e_feedback": "aef16d32-f475-4a16-a6d6-157e89e8c60d",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "f65f6f72-97db-4c67-861f-13c31d197094",
-              "e_feedback": "0ddc1219-cdd3-4b54-a910-36b0f368cf86",
+              "e_text": "1f462043-f548-46fe-9676-e6f4d9332cdb",
+              "e_feedback": "1aa2df9e-6762-453a-8c36-334681767007",
               "correct": true,
               "imageIndex": 0
             },
             {
-              "e_text": "72498e89-7daa-42af-ba12-d1700a22e4e9",
-              "e_feedback": "3548ea28-d0cd-459d-91f1-6a0be8ddfe85",
+              "e_text": "e061d44f-e87c-4f12-b309-cf5802904f7e",
+              "e_feedback": "d731df3e-bcba-4a44-b0a5-1af97a31f59f",
               "correct": false,
               "imageIndex": 0
             }
@@ -81,57 +137,58 @@
         },
         {
           "type": "multi-choice",
-          "e_questionText": "73757e08-7521-4b7c-bc78-75d5f2e244ba",
+          "e_questionText": "80ae5b07-4c85-4d88-9ed2-360e589a517c",
           "images": [
             "round_2.png"
           ],
-          "e_instructions": "93101f0d-8155-4891-ac1d-11671366344a",
+          "e_instructions": "f41f6827-81a6-4877-abc3-64bfb06c4517",
+          "e_imageLabel": "a401cfe5-8d4e-4e10-8997-2e28c9b838fb",
           "prompts": [
             {
-              "e_prompt": "43a69717-5fa4-47d1-872b-9ba5a186295b",
+              "e_prompt": "e837c262-852d-465f-b04d-e7ecff530715",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "22aa776e-8e99-40b7-a450-fd24800db9a8",
+              "e_prompt": "6e0ce226-a4c5-436e-bbb6-9698f48d2d1a",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "aec0042c-4be9-4809-96b8-117345d9ec55",
+          "e_clickRevealPrompt": "9d3d2b4e-58fa-4829-b888-470d96a198ee",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "412,57,549,394",
               "e_popups": [
-                "edfd3827-ad28-48fa-954d-eb48e49e0827"
+                "307a259c-7415-4279-a0e2-2af7b284c0fb"
               ]
             },
             {
               "shape": "rect",
               "coords": "550,57,650,394",
               "e_popups": [
-                "fbf2d3ed-1aba-4400-9307-5306a805e9bf"
+                "e41a43fb-019b-4781-bc78-52d233477d50"
               ]
             }
           ],
           "choices": [
             {
-              "e_text": "d28729f0-2fd9-4499-a412-1b9abc58b1b7",
-              "e_feedback": "fa349575-a0a1-4cbc-8404-1f57c9883c02",
+              "e_text": "494f5f1e-a689-40a7-bfad-0191d059f117",
+              "e_feedback": "464bc8b2-d336-4b0c-99b6-4ddd12624e29",
               "correct": true,
               "imageIndex": 0
             },
             {
-              "e_text": "df8017fb-e4fd-4356-84ad-66aa1d98a593",
-              "e_feedback": "a2c4b923-8a91-431d-9b24-ff9613a36206",
+              "e_text": "50be787c-ef65-46d3-afed-330033b89bfa",
+              "e_feedback": "3854da13-4d20-47ea-98d9-799fda0b4e53",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "9a16470e-8633-4893-8d65-5f251bd8b295",
-              "e_feedback": "ed7c0930-ead4-424c-b46e-f13273ebf2a8",
+              "e_text": "36c8e808-fce4-4f88-861c-38d3e910a312",
+              "e_feedback": "7ae323b4-2a7f-447f-83f7-287329ebc67d",
               "correct": false,
               "imageIndex": 0
             }
@@ -142,13 +199,10 @@
           "images": [
             "round_3.png"
           ],
+          "e_imageLabel": "94034367-29e4-4537-a98d-641acb6ede20",
           "prompts": [
             {
-              "e_prompt": "bad99cea-d110-4968-9804-011cd45adf17",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "b2e716a5-7d31-4553-a463-188134eca862",
+              "e_prompt": "bdd0f34b-a896-43fe-95ad-80ddf06ab851",
               "imageIndex": 0
             }
           ]
@@ -158,39 +212,35 @@
           "images": [
             "round_4.png"
           ],
-          "e_instructions": "9b283227-4805-41bd-b4ec-47ba6a17e2a8",
+          "e_instructions": "a25ceb29-29f9-492e-8945-2f472df49a81",
+          "e_imageLabel": "72ffb88b-cc34-4913-af18-9f620bec5b2b",
           "prompts": [
             {
-              "e_prompt": "9b4f49b0-4dbd-4e53-8f7b-95f1f21f3d8c",
+              "e_prompt": "02350201-417a-416b-94f4-c2e65f4379ca",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "206674f4-90c1-4da6-ab17-96bd937c2633",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "acd7b696-c8a9-4935-b43d-b38c9c0b3d6d",
+              "e_prompt": "b6c5aa8b-f14b-4dfa-a5c4-aa3c4cd3c4c2",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "650cb7d6-4eb3-435a-8979-cc099aceb54d",
+          "e_clickRevealPrompt": "92a7da2d-df76-4785-b986-f0ea42e1292e",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "17,62,169,367",
               "e_popups": [
-                "558dc226-8b8f-4065-9ee8-2a95a883e4b3"
+                "d160dc36-048d-4c2b-909b-cfbe6217e8cb"
               ]
             },
             {
               "shape": "rect",
               "coords": "170,62,260,367",
               "e_popups": [
-                "0b8eda41-2fe0-4161-86c6-2b560aa3228a"
+                "84003f4e-9484-45d3-9ea7-bf0088e30359"
               ]
             }
           ]
@@ -200,58 +250,47 @@
           "images": [
             "round_5.png"
           ],
+          "e_imageLabel": "21aacfbf-b8ce-4112-8b96-65aa83fecdf2",
           "prompts": [
             {
-              "e_prompt": "9b62f37d-c658-4e73-9188-c6390dfa47cf",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "daddba0f-bb57-4700-a346-d674d652c1ab",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "1fc82a66-683d-4282-aaa0-d912bd9c9ac9",
+              "e_prompt": "c1cc15f1-5698-4fb7-a84d-e74a41a9a02d",
               "imageIndex": 0
             }
           ]
         },
         {
           "type": "multi-choice",
-          "e_questionText": "ee888841-eb31-4fc5-9e39-53d53dee4fa1",
+          "e_questionText": "5d55f370-5c29-4baf-9711-2f66227f5e9d",
           "images": [
             "round_6.png"
           ],
-          "e_instructions": "68431110-0b68-42a7-abeb-380bba7ba17b",
+          "e_instructions": "8dbec3a1-7491-48df-bbc5-70839e12781d",
+          "e_imageLabel": "27d6bd18-851c-405a-8634-b075c396a651",
           "prompts": [
             {
-              "e_prompt": "654147b3-14ae-4117-9771-77461054ea91",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "6ea9cafb-63c5-472f-847d-4692dda30613",
+              "e_prompt": "19e32d96-e6de-4cb0-9d51-056d6a2331e9",
               "imageIndex": 0,
               "closeable": true
             }
           ],
-          "e_clickRevealPrompt": "966c2e99-8f3e-4777-8c70-186406e8093e",
+          "e_clickRevealPrompt": "440ff018-026d-4161-9410-27a6f0099298",
           "clickRevealAreas": [],
           "choices": [
             {
-              "e_text": "016dfb6a-5673-48a0-8e8d-ff89d214b5c4",
-              "e_feedback": "c714e2c8-cbd6-4ac1-8a88-3c6b1c1a386b",
+              "e_text": "fc546c50-6a7f-4aaf-a616-2e190cd0e5be",
+              "e_feedback": "3074ab8f-a590-4492-81cd-40beb0e16911",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "546a4bee-5835-4845-9f4e-ed4bb6c38c17",
-              "e_feedback": "28461dc0-0b50-4d43-93b8-5d5446d077b9",
+              "e_text": "e1d6a1d6-3f59-481a-9732-1eab3afdcaab",
+              "e_feedback": "c25e9093-a4f7-45a3-b163-15d9276ed6e9",
               "correct": true,
               "imageIndex": 0
             },
             {
-              "e_text": "0083d751-f077-42d6-b18a-425452d49150",
-              "e_feedback": "6b1e7c0e-d23f-4641-949f-3967d4c99aa9",
+              "e_text": "713b8a9f-d2f7-4be2-a8bc-0cbb23eb36b0",
+              "e_feedback": "7eab6c35-23da-461d-bcbf-42590b2e7c39",
               "correct": false,
               "imageIndex": 0
             }
@@ -262,13 +301,10 @@
           "images": [
             "round_7.png"
           ],
+          "e_imageLabel": "28533dc5-cfc8-47d9-9113-b926bef9ca30",
           "prompts": [
             {
-              "e_prompt": "ab4df95b-284f-4aed-af37-3ed2269d3734",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "c09fc99c-0000-4a8f-8600-8739fed0ba30",
+              "e_prompt": "a393ca09-8a27-4b5e-b2a2-c9c2aa010caf",
               "imageIndex": 0
             }
           ]
@@ -278,58 +314,55 @@
           "images": [
             "round_8.png"
           ],
-          "e_instructions": "627c82b0-bb05-43ee-9fa2-6a756622d41a",
+          "e_instructions": "a74de2ad-acc1-4171-8023-75730140905b",
+          "e_imageLabel": "0e006eb2-f807-455c-b2a4-eb6a2b1c695d",
           "prompts": [
             {
-              "e_prompt": "ea3ddb32-0622-4359-9cc0-20dd3957ab6f",
+              "e_prompt": "80f97acb-ccf2-4c1e-a9c5-b043068d4ea6",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "c6aa9ba5-176e-49a2-be51-b7aff9f858c7",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "bac572dd-0c05-44a4-8581-6f7a2c7073d2",
+              "e_prompt": "64ece40e-e933-4dd7-bdd6-072502d2ffde",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "6d7f920b-22d9-405d-9779-b9a84bd3d0d3",
+          "e_clickRevealPrompt": "ac3d8636-2a11-4419-bff4-418a24857ac6",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "20,62,119,368",
               "e_popups": [
-                "157978b8-747d-4688-bdf8-13cd779d0eca"
+                "b502ee89-b811-4b55-9be2-9f3d5c153294"
               ]
             },
             {
               "shape": "rect",
               "coords": "120,62,224,368",
               "e_popups": [
-                "ce9b7336-7a37-40e4-ba6e-c575909d656d"
+                "211bc7a3-5135-4c86-9d39-0c92e38ecd82"
               ]
             },
             {
               "shape": "rect",
               "coords": "225,62,402,368",
               "e_popups": [
-                "ec6f562f-54e1-4475-a543-8402c8063fbe"
+                "66631757-212b-4f1f-acb5-fb2d4a5dadc9"
               ]
             }
           ]
         },
         {
           "type": "multiple-select",
-          "e_questionText": "888938e9-7eb1-47ae-8558-cf89da7612d1",
+          "e_questionText": "b5d7d8c4-d771-4474-80c3-bba8dc286828",
+          "e_imageLabel": "ea67818a-ed66-47dc-bc15-a029e60a1245",
           "images": [
             "round_9.png"
           ],
-          "e_instructions": "b5aff43b-1610-45d7-997e-61948a203ecf",
-          "e_submitText": "33d346a8-46ae-4b57-83e0-6499740013fa",
+          "e_instructions": "eadb830b-0518-46d6-b208-be316a244bc0",
+          "e_submitText": "978a76ec-bda9-4a8c-9535-8b71fe4d2eb6",
           "feedback": {
             "e_correct": {
               "text": "<strong>Good Thinking!</strong><br/><br/>Product characteristics are evaluated to ensure they fall within the control limits related to selected raw materials used for production. As decisions or trade-offs are made to achieve this, the design of the product should also not fall below customer tolerances.",
@@ -342,32 +375,27 @@
           },
           "prompts": [
             {
-              "e_prompt": "6cc70da7-29b9-4dd6-8881-50d96f8225f9",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "5e757d3e-ab61-40e0-9a7d-b7f12db8d0f8",
+              "e_prompt": "5657c8b3-e852-46ea-b725-3e51efbadcc4",
               "imageIndex": 0,
               "closeable": true
             }
           ],
-          "e_clickRevealPrompt": "d3359095-dd95-4212-967c-3c9241ded440",
+          "e_clickRevealPrompt": "89666c76-07c1-4066-b3f9-bea4b481d3ae",
           "choices": [
             {
-              "e_text": "3406842f-312a-47d9-9920-3ea9e3d94718",
+              "e_text": "701c9d28-145d-4c6a-ac37-e6c9f0f66a7d",
               "correct": true
             },
             {
-              "e_text": "e4399542-0722-4af2-a50a-7de7ed70a0a0",
+              "e_text": "d94c9ba1-f1ba-45e4-91ea-2ee2cc66a4df",
               "correct": false
             },
             {
-              "e_text": "646334cb-4ce3-4b5b-b959-7e9e85bfd419",
+              "e_text": "47fa6d0a-5b08-4846-94ae-19a24611dcb0",
               "correct": false
             },
             {
-              "e_text": "0b94e13c-8125-4c71-b65d-73173e209bf5",
+              "e_text": "a9542cdb-6909-467f-8a94-9af1bd041ee8",
               "correct": true
             }
           ]
@@ -377,39 +405,35 @@
           "images": [
             "round_10.png"
           ],
-          "e_instructions": "bb00458f-d8a6-4473-8393-5771bd01af46",
+          "e_instructions": "bee9d0fc-53e6-4bcc-b59a-96646bbe972b",
+          "e_imageLabel": "5c49ace4-4989-4274-bf7e-9b291d3f7bc6",
           "prompts": [
             {
-              "e_prompt": "e804fb0d-4f07-4e62-af96-85cea835baba",
+              "e_prompt": "c4a0672f-d06c-4c9c-852e-0cd442ac3a61",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "564b8aee-8c5d-417b-8c4e-8d47c253bf0a",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "e930fce6-cd22-4dee-a3c6-689dc42b5109",
+              "e_prompt": "a5cd8a5b-5f83-4900-b155-f35e0013d033",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "b73fe0be-9942-4e69-8c09-af1ef6c4cba9",
+          "e_clickRevealPrompt": "dacca807-31f4-4279-ada0-8f0a1eeb291d",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "22,62,385,290",
               "e_popups": [
-                "58d33e65-f66f-4940-bfa4-6e8da08ced2a"
+                "654e96ea-b651-4ae0-bbff-8750f314b811"
               ]
             },
             {
               "shape": "rect",
               "coords": "386,62,620,290",
               "e_popups": [
-                "33359db8-e3e7-417f-860a-33ae1cbb0671"
+                "c5862637-d5e2-4e53-bdca-77c69b24edf3"
               ]
             }
           ]

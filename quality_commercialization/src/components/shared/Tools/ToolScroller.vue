@@ -1,18 +1,39 @@
 <template>
   <div id="tool-wrapper">
     <div id="tool-wrapper-inner">
+      <E class="small-headline" t="h2" :h="label" />
+
       <perfect-scrollbar :suppressScrollX="true">
-        <div id="img-container">
-          <transition
-            :enter-active-class="`${TEnter.FADE_IN} ${
-              transitionTimes ? transitionTimes : ''
-            }`"
-            :leave-active-class="`${TExit.FADE_OUT} ${
-              transitionTimes ? transitionTimes : ''
-            }`"
-            mode="out-in"
-          >
+        <transition
+          :enter-active-class="`${TEnter.FADE_IN} ${
+            transitionTimes ? transitionTimes : ''
+          }`"
+          :leave-active-class="`${TExit.FADE_OUT} ${
+            transitionTimes ? transitionTimes : ''
+          }`"
+          mode="out-in"
+        >
+          <div id="img-and-hotspots-wrapper">
             <div id="img-and-hotspots" :key="fileArray[currFileArrayIndex]">
+              <template v-for="(item, index) in hotspots">
+                <font-awesome-icon
+                  v-if="
+                    alreadySelectedHotSpots &&
+                    alreadySelectedHotSpots[index] &&
+                    revealTheHotSpots
+                  "
+                  class="menu-icon check"
+                  :class="{ hidden: hotSpotQuestionAnswered }"
+                  icon="check"
+                  :key="index"
+                  :style="{
+                    top: getTop(item.coords),
+                    left: getLeft(item.coords),
+                    position: 'absolute',
+                    zIndex: 100,
+                  }"
+                />
+              </template>
               <svg
                 name="image-map"
                 v-if="
@@ -45,8 +66,8 @@
                 "
               />
             </div>
-          </transition>
-        </div>
+          </div>
+        </transition>
       </perfect-scrollbar>
     </div>
   </div>
@@ -57,6 +78,7 @@ import Vue from "vue"
 import { TEnter, TExit } from "@/types"
 import { PerfectScrollbar } from "vue2-perfect-scrollbar"
 import Hotspot from "./Hotspot.vue"
+import E from "@/components/editable/E.vue"
 
 export default Vue.extend({
   name: "ToolScroller",
@@ -79,6 +101,16 @@ export default Vue.extend({
   // },
 
   methods: {
+    getTop(coords: string) {
+      let y = parseInt(coords.split(",")[1])
+
+      return `${y + 10}px`
+    },
+    getLeft(coords: string) {
+      let x = parseInt(coords.split(",")[0])
+
+      return `${x + 10}px`
+    },
     resetHotSpots() {
       this.hotSpotQuestionAnswered = false
       this.hotSpotResetCounter++
@@ -112,12 +144,20 @@ export default Vue.extend({
     "transitionTimes",
     "revealHotSpots",
     "alreadySelectedHotSpots",
+    "label",
   ],
-  components: { PerfectScrollbar, Hotspot },
+  components: { PerfectScrollbar, Hotspot, E },
 })
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+// .menu-icon.check {
+//   color: $phaseGreen;
+//   font-size: 24px;
+//   &.hidden {
+//     display: none;
+//   }
+// }
 #the-tool {
   max-width: 100%;
 }
@@ -129,12 +169,15 @@ export default Vue.extend({
 .ps__rail-y {
   opacity: 0.6 !important;
 }
-.ps {
+::v-deep .ps {
   height: 508px;
   padding-right: 3%;
   box-sizing: border-box;
   .ps__rail-x {
     display: none;
+  }
+  .ps__rail-y {
+    opacity: 0.6 !important;
   }
 }
 #tool-wrapper {
@@ -147,23 +190,40 @@ export default Vue.extend({
   outline: 1px solid $lightGray;
   box-shadow: $box-shadow;
 
-  #img-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 652px;
-    margin-right: 3%;
-    #img-and-hotspots {
-      max-width: 100%;
+  ::v-deep #tool-wrapper-inner {
+    .small-headline {
+      margin-top: 0;
+      text-align: center;
+    }
+    #img-and-hotspots-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 652px;
+      margin-right: 3%;
       position: relative;
-      svg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 10;
+      #img-and-hotspots {
+        max-width: 100%;
+        position: relative;
+
+        svg {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 10;
+        }
+        .menu-icon.check {
+          color: $phaseGreen;
+          font-size: 24px;
+          width: 24px;
+          height: 24px;
+          &.hidden {
+            display: none;
+          }
+        }
       }
     }
   }

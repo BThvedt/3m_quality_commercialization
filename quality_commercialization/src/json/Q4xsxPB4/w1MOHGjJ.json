@@ -1,13 +1,68 @@
 {
-  "e_title": "House of Quality Exploration",
-  "e_subTitle": "Follow the coach’s directions to explore the tool.",
+  "e_title": "Linear House of Quality Exploration",
+  "e_subTitle": "Follow your coach’s directions to explore the LHOQ.",
   "introModal": {
     "e_title": "Exploring the Linear House of Quality",
-    "e_text": "<p>In this activity, you’ll explore the LHOQ to demonstrate how it translates the voice of the customer (design input) into product specifications and materials (design outputs).</p><p>This exploration will also prepare you for an exploration of the DQM, which uses data compiled in the LHOQ.</p><p>Ready? Let’s begin!</p>"
+    "e_text": "<p>In this activity, you’ll explore the LHOQ to demonstrate how it translates the voice of the customer (design input) into product specifications and materials (design outputs).</p><p>Your LHOQ exploration will prepare you to walk through the DQM, which uses data compiled in the LHOQ.</p><p>Ready? Let’s begin!</p>"
   },
   "conclusionModal": {
     "e_title": "That Completes Your Tour of the Linear House of Quality!",
-    "e_text": "<p>You now have a formal introduction to the LHOQ as a tool that unities the voice of the customer with the voice of the process: The product design, specifications, raw materials, and end-product characteristics.</p><p>As mentioned, part of the LHOQ is used to create the DQM. Let’s learn more about that connection now.</p>"
+    "e_text": "<p>You have now reviewed the LHOQ as a tool that unites the voice of the customer with the voice of the process. This union includes the product design, specifications, raw materials, and end-product characteristics.</p><p>As mentioned, part of the LHOQ is used to create the DQM. Let’s learn more about that connection now.</p>"
+  },
+  "toolPage": {
+    "e_title": "LHOQ",
+    "e_subtitle": "Select the image numbers at the bottom of the screen to see the sheets in each LHOQ tab.",
+    "images": [
+      {
+        "id": 1,
+        "image": "LHOQ_1.png",
+        "e_label": "This is the label",
+        "e_tab": "img 1",
+        "e_text": ""
+      },
+      {
+        "id": 2,
+        "image": "LHOQ_2.png",
+        "e_label": "This is the label",
+        "e_tab": "img 2",
+        "e_text": "some Text lorem ipsum"
+      },
+      {
+        "id": 3,
+        "image": "LHOQ_3.png",
+        "e_label": "This is the label",
+        "e_tab": "img 3",
+        "e_text": "some Text lorem ipsum"
+      },
+      {
+        "id": 4,
+        "image": "LHOQ_4.png",
+        "e_label": "This is the label",
+        "e_tab": "img 4",
+        "e_text": "some Text lorem ipsum"
+      },
+      {
+        "id": 5,
+        "image": "LHOQ_5.png",
+        "e_label": "This is the label",
+        "e_tab": "img 5",
+        "e_text": "some Text lorem ipsum"
+      },
+      {
+        "id": 6,
+        "image": "LHOQ_6.png",
+        "e_label": "This is the label",
+        "e_tab": "img 6",
+        "e_text": "some Text lorem ipsum"
+      },
+      {
+        "id": 7,
+        "image": "LHOQ_7.png",
+        "e_label": "This is the label",
+        "e_tab": "img 7",
+        "e_text": "some Text lorem ipsum"
+      }
+    ]
   },
   "smallCoachImg": "coach-shadowed-smile.png",
   "tools": [
@@ -16,29 +71,32 @@
         {
           "type": "multi-choice",
           "e_questionText": "What do you believe happens if total comparison scores for importance between one or more customer wants results in a tie?",
-          "images": ["round_1.png"],
+          "images": [
+            "round_1.png"
+          ],
           "e_instructions": "Which is the best answer?",
+          "e_imageLabel": "LHOQ - VOC Analysis",
           "prompts": [
             {
-              "e_prompt": "Before House 1 of the LHOQ is explored, a tab exists in the tool to begin an analysis of the voice of the customer: Their wants and needs.  Our exploration will begin here.",
+              "e_prompt": "Before House 1 of the LHOQ is explored, a tab exists in the tool to begin an analysis of the voice of the customer: Customer Wants. Our exploration begins here.<br><br>Select the X in the right corner to advance to the next screen in this activity.",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "Select each highlighted area on the LHOQ to learn more.",
+              "e_prompt": "Select each are highlighted in yellow on the LHOQ to learn more.",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "Select each highlighted area",
+          "e_clickRevealPrompt": "Select another highlighted area.",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "55,42,378,407",
               "e_popups": [
-                "In this column, the team enters a list of the customer voices critical to quality. This isn't intended to capture everything, but will help the team focus on the critical wants and needs throughout the phases of commercialization.<br>Examples of customer wants and needs might be:<p></p><p>“I want the container to open easily.”</p><p>“I want the cleaning solution to not leave a smear.”</p><p>“I don’t want the product to easily break.”</p>",
-                "Completing this section is often a team effort to capture different perspectives of the target customer.<br>As you work from a Quality focus, <strong>you will inspect the accuracy of this list</strong> and how it is carried into House 1 of the tool."
+                "In this column, the team enters a list of the customer wants from initial discovery insights. This isn't intended to capture everything, but will help the team focus on the critical wants and needs throughout commercialization.<br><br>Examples of customer wants and needs might be:<br><br>“I want the container to open easily.”<br>“I want the cleaning solution to not leave a smear.”“I don’t want the product to break easily.”",
+                "Completing this section is often a team effort to capture different perspectives of the target customer.<br><br>Quality inspects the accuracy of the Customer Wants list and how it is carried into House 1 of the LHOQ."
               ]
             },
             {
@@ -52,20 +110,20 @@
               "shape": "rect",
               "coords": "451,42,650,407",
               "e_popups": [
-                "The results of a paired comparison of the customer wants and needs are recorded in these columns and rows.The team will decide if each customer want listed in the spreadsheet rows are either more or less important to the customer than the corresponding want listed in the columns.<br><p>If a want in a row deemed more important, it receives a value of 1. If a want in a column is deemed more important, it receives a value of 0.</p>"
+                "The results of a paired comparison of the customer wants are automatically recorded in the rows to the right based on what you entered in Column B.<br><br>For any customer wants in the columns that are higher in importance to those in the corresponding rows in Column B, change the cell values from a 1 to a 0.<br><br>This changes the calculations used to rank the customer needs against one another."
               ]
             }
           ],
           "choices": [
             {
               "e_text": "The tied customer wants will need to be equally represented in the steps that will follow",
-              "e_feedback": "<strong>Not Quite.</strong><br/><br/>While this may seem like a reasonable conclusion, the standard for use of the LHOQ calls for another action. Try again.",
+              "e_feedback": "<strong>Not Quite.</strong><br><br>While this may seem like a reasonable conclusion, the standard for use of the LHOQ calls for another action. Try again by selecting the X at the upper right corner.",
               "correct": false,
               "imageIndex": 0
             },
             {
               "e_text": "A tie must be broken to complete the ranking process",
-              "e_feedback": "<strong>You got it!</strong><br/><br/>You’re right – it is standard for use of the LHOQ that total comparison score ties need to be broken. This is easily accomplished by adding fractions to column BC for the wants that the <strong>team decides should “win” in a tie.</strong>",
+              "e_feedback": "<strong>You got it!</strong><br><br>It is standard when using the LHOQ that total comparison score ties need to be broken. Select X to continue.",
               "correct": true,
               "imageIndex": 0
             },
@@ -79,12 +137,15 @@
         },
         {
           "type": "multi-choice",
-          "e_questionText": "What do you believe happens if a correlation between a customer want and a linked performance method returns a 0 or a 1 result?",
-          "images": ["round_2.png"],
+          "e_questionText": "What do you think happens if a correlation between a customer want and a linked performance method returns a 0 or 1 result?",
+          "images": [
+            "round_2.png"
+          ],
           "e_instructions": "Which is the best answer?",
+          "e_imageLabel": "LHOQ: House 1",
           "prompts": [
             {
-              "e_prompt": "Excellent! Once customer wants have been identified and ranked, this information can be brought in to populate the <strong>1st House: Customer Wants</strong>. We will spend most of our time exploring House 1, as this House is what is used to begin completion of the DQM.",
+              "e_prompt": "Once the team identifies and ranks customer wants, the information can be brought in to populate the <strong>1st House: Customer Wants, </strong>as seen on the right.<br><br>We will spend most of our time exploring House 1 as it is used to begin completion of the DQM.<br><br>Select the X to begin exploring now.",
               "imageIndex": 0,
               "closeable": true
             },
@@ -95,27 +156,27 @@
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "Select each highlighted area",
+          "e_clickRevealPrompt": "Select another highlighted area.",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "412,57,549,394",
               "e_popups": [
-                "In this column, performance measures are defined. These measures are used to ensure that the customer wants are met. Note that these are not test methods but are rather what factors are being controlled that will eventually be tested.<br>More than one performance measure can be tied to a single customer want."
+                "In this column, performance measures are defined by Lab to ensure the customer wants are quantified. Note these are not test methods, but are controlled factors that will eventually be tested. <br><br>More than one performance measure can be tied to a single customer want.<br><br>Quality checks these measurements to ensure they are feasible."
               ]
             },
             {
               "shape": "rect",
               "coords": "550,57,650,394",
               "e_popups": [
-                "<p>Here, the strength of correlation between each customer want and a corresponding performance measure is recorded, using a scale:</p><ul><li><p>0: No correlation</p></li><li><p>1. Slight correlation</p></li><li><p>3. Moderate correlation</p></li><li><p>9. Strong correlation</p></li></ul><p>Results of 0 or 1 need to be investigated by the team, as higher correlations are necessary to ensure quality.</p>"
+                "Here, Lab records the strength of correlation between each customer want and a corresponding performance measure using a scale:<br/><br/>0: No correlation<br/>1. Slight correlation<br/>3. Moderate correlation<br/>9. Strong correlation<br/><br/>Correlations of 0 or 1 need to be investigated by the team, including Quality, as higher correlations are necessary to ensure quality.<br><br></p>"
               ]
             }
           ],
           "choices": [
             {
               "e_text": "The performance method needs to be revised",
-              "e_feedback": "<strong>You got it!</strong><br/><br/>If a performance method does not have a strong correlation with a customer want, then it will not be able to be used confidently to determine a test method for the identified customer want.",
+              "e_feedback": "<strong>You got it!</strong><br><br>If a performance method does not have a strong correlation with a customer want, then it cannot be used confidently to determine a test method for the identified customer want.<br/><br/>Select X to continue.",
               "correct": true,
               "imageIndex": 0
             },
@@ -135,30 +196,27 @@
         },
         {
           "type": "tool-intro-prompts",
-          "images": ["round_3.png"],
+          "images": [
+            "round_3.png"
+          ],
+          "e_imageLabel": "LHOQ: House 1",
           "prompts": [
             {
-              "e_prompt": "Product characteristics are also matched to customer wants in this next section of House 1, including similar testing for strength of correlation that was completed for performance measures.",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "Higher correlations are best, while lower correlations will require investigation.",
+              "e_prompt": "Product characteristics are also matched to customer wants in this next section of House 1, including similar testing for strength of correlation completed for performance measures. Higher correlations are best while lower correlations require investigation.",
               "imageIndex": 0
             }
           ]
         },
         {
           "type": "hotspot-click-response",
-          "images": ["round_4.png"],
+          "images": [
+            "round_4.png"
+          ],
           "e_instructions": "Which is the best answer?",
+          "e_imageLabel": "LHOQ: House 2",
           "prompts": [
             {
-              "e_prompt": "You are now in the <strong>2nd House: Test methods and product characteristics.</strong>",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "We won’t explore this section entirely, but we will examine the importance of selecting appropriate test methods.",
+              "e_prompt": "You are now in the <strong>2nd House: Test methods and product characteristics.</strong><br><br>In this section, we will examine the importance of selecting appropriate test methods.<br/><br/>Select X to continue.",
               "imageIndex": 0,
               "closeable": true
             },
@@ -169,56 +227,48 @@
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "Select each highlighted area",
+          "e_clickRevealPrompt": "Select the other highlighted area.",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "17,62,169,367",
               "e_popups": [
-                "<p>Here, the test method name and number are recorded. More than one test method can be tied to a single product characteristic identified and substantiated in House 1.</p>"
+                "Here, Lab records the test method name and number. More than one test method can be tied to a single product characteristic identified and substantiated in House 1."
               ]
             },
             {
               "shape": "rect",
               "coords": "170,62,260,367",
               "e_popups": [
-                "In this column, test methods are identified as being used for product design development, for manufacturing release, or for both. Each team member will contribute to or reference the information collected here in some way.<br><br>Later, process variables and raw material characteristics will be documented and evaluated for test methods and their linked product characteristics."
+                "In this column, test methods are identified as being used for product design development, manufacturing release, or both. Each team member contributes to or references the information collected here in some way.<br><br>Later, process variables and raw material characteristics are documented and evaluated for test methods and their linked product characteristics."
               ]
             }
           ]
         },
-
         {
           "type": "tool-intro-prompts",
-          "images": ["round_5.png"],
+          "images": [
+            "round_5.png"
+          ],
+          "e_imageLabel": "LHOQ: House 2",
           "prompts": [
             {
-              "e_prompt": "Here are some of the additional test methods and material consideration aspects of House 2 at a glance. ",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "Broadly, the results of test methods are evaluated to ensure that product specifications are within close proximity to what customers will expect (or in other words, they fall within customer tolerances).",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "Lab and Manufacturing populate this section, while Quality will inspect to improve the process if needed.",
+              "e_prompt": "Here are some of the additional test methods and material consideration aspects of House 2 at a glance. Lab evaluates the results of test methods to ensure product specifications are within close proximity to what customers will expect, i.e., they fall within customer tolerances. Lab and Manufacturing populate this section, while Quality inspects to improve the process if needed.<br><br>Take a moment to review this screen and then select X to continue.",
               "imageIndex": 0
             }
           ]
         },
         {
           "type": "multi-choice",
-          "e_questionText": "Let’s say that a test method that is included in a collection of similar tests fully captures the product characteristic on its own.<br><br>What might you do from the Quality perspective?",
-          "images": ["round_6.png"],
+          "e_questionText": "Let’s say a test method included in a collection of similar tests fully captures the product characteristic on its own.<br><br>What might you do from the Quality perspective?",
+          "images": [
+            "round_6.png"
+          ],
           "e_instructions": "Which is the best answer?",
+          "e_imageLabel": "LHOQ: House 2",
           "prompts": [
             {
-              "e_prompt": "Strength of correlation is once again tested, this time evaluating test methods to product characteristics, followed by <strong>collections of test methods</strong> to product characteristics.",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "The reasoning behind this is that similar test methods should return similar correlations. Decisions regarding these tests can then be recorded in the tool.",
+              "e_prompt": "Lab tests Strength of Correlation again to evaluate test methods to product characteristics, followed by <strong>collections of test methods</strong> to product characteristics. Similar test methods should return similar correlations. Decisions regarding these tests can then be recorded in the tool.",
               "imageIndex": 0,
               "closeable": true
             }
@@ -234,7 +284,7 @@
             },
             {
               "e_text": "Select the test method in question in favor of using a collection of methods for the product characteristic",
-              "e_feedback": "<strong>Good thinking!</strong><br><br>There may be no need to continually use a set of tests if a single test has been demonstrated to fully characterize a product characteristic reliably.<br><p>Note that a test method should be demonstrated to measure a product characteristic validly and reliably. Not all test methods will perform equally in this way. Identifying the best ones is part of the process.</p>",
+              "e_feedback": "<strong>Good thinking!</strong><br><br>Lab may not need to continually use a set of tests if a single test demonstrates it can fully characterize a product characteristic reliably.<br><br>Note that a test method should be demonstrated to measure a product characteristic validly and reliably. Not all test methods will perform equally. Identifying the best ones is part of the process.<br/><br/>Select X to continue.",
               "correct": true,
               "imageIndex": 0
             },
@@ -248,30 +298,27 @@
         },
         {
           "type": "tool-intro-prompts",
-          "images": ["round_7.png"],
+          "images": [
+            "round_7.png"
+          ],
+          "e_imageLabel": "LHOQ: House 2",
           "prompts": [
             {
-              "e_prompt": "To end our tour of House 2, Product Targets and Specifications and Product Control Limits and Capability are also tested and evaluated. These sections identify upper and lower limits for product specifications and for manufacturing.",
-              "imageIndex": 0
-            },
-            {
-              "e_prompt": "Specification limits should represent the maximum allowable limits that the customer would find acceptable. Release limits should represent a narrower range within the specification limits that can account for process variability.",
+              "e_prompt": "To end our tour of House 2, Product Targets and Specifications and Product Control Limits and Capability are also tested and evaluated. These sections identify upper and lower limits for product specifications and for manufacturing. Specification limits should represent the maximum allowable limits the customer would find acceptable. Release limits should represent a narrower range within the specification limits that can account for process variability.",
               "imageIndex": 0
             }
           ]
         },
         {
           "type": "hotspot-click-response",
-          "images": ["round_8.png"],
+          "images": [
+            "round_8.png"
+          ],
           "e_instructions": "Which is the best answer?",
+          "e_imageLabel": "LHOQ: House 3",
           "prompts": [
             {
-              "e_prompt": "You’ve now reached the <strong>3rd House: Process Variables and Raw Material Properties That Predict Product Characteristics.</strong>",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "You’ve reached the point now that you can see how the journey of translating customer wants has reached the expected end-product characteristics.",
+              "e_prompt": "You’ve now reached the <strong>3rd House: Process Variables and Raw Material Properties That Predict Product Characteristics.</strong> This is the point where you can see how the journey of translating customer wants reaches the expected end-product characteristics.",
               "imageIndex": 0,
               "closeable": true
             },
@@ -282,35 +329,38 @@
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "Select each highlighted area",
+          "e_clickRevealPrompt": "Select another highlighted area.",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "20,62,119,368",
               "e_popups": [
-                "Here, for each product characteristic, the team defines the <strong>process step</strong> at which the product characteristic is imparted.<br><br>Process steps are the series of actions and tasks taken to manufacture the product or solution to specific and defined standards and tests.<br><br><p>More than one process step may be responsible for imparting a product characteristic.</p>"
+                "Here, the team defines the <strong>process step</strong> at which each product characteristic is imparted.<br><br>Process steps are the series of actions and tasks to manufacture the product or solution to specific and defined standards and tests.<br><br>More than one process step may be responsible for imparting a product characteristic."
               ]
             },
             {
               "shape": "rect",
               "coords": "120,62,224,368",
               "e_popups": [
-                "Once product characteristics and process steps have been paired, this column is used to define the <strong>process variable</strong> or <strong>raw material characteristic</strong> tied to that pairing.<br><br>Process variables are parts of a process that are being monitored or controlled.<br><br><p>Raw material characteristics can include physical, chemical, and/or performance properties of an input material.</p>"
+                "Once product characteristics and process steps have been paired, Lab uses this column to define the <strong>process variable</strong> or <strong>raw material characteristic</strong> tied to that pairing.<br><br>Process variables are parts of a process being monitored or controlled.<br><br>Raw material characteristics can include physical, chemical, and/or performance properties of an input material."
               ]
             },
             {
               "shape": "rect",
               "coords": "225,62,402,368",
               "e_popups": [
-                "<p>As seen earlier in our exploration, correlations between process variables or raw material characteristics and their corresponding product characteristic are conducted to ensure confidence that the correct materials are now linked to product characteristics for manufacturing.</p>"
+                "As seen earlier in our exploration, Lab conducts correlations between process variables or raw material characteristics and their corresponding product characteristic to ensure the correct materials are now linked to product characteristics for manufacturing."
               ]
             }
           ]
         },
         {
           "type": "multiple-select",
-          "e_questionText": "Which of the following could be identified as problems when control limits and capability are evaluated?",
-          "images": ["round_9.png"],
+          "e_questionText": "Which of the following could be identified as problems when control limits and capability are evaluated?<br><br><strong>Hint</strong>: There are two correct answers.",
+          "e_imageLabel": "LHOQ: House 3",
+          "images": [
+            "round_9.png"
+          ],
           "e_instructions": "Select all that apply",
           "e_submitText": "Submit",
           "feedback": {
@@ -325,12 +375,7 @@
           },
           "prompts": [
             {
-              "e_prompt": "Analysis continues in House 3 to include additional methods of measuring process variable and raw material measurements, targets and specifications, and control limits and capability.",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "Control limits are related to product robustness and describe what a process can produce.",
+              "e_prompt": "Analysis continues in House 3 to include additional methods of measuring process variable and raw material measurements, targets and specifications, and control limits and capability. Control limits are related to product robustness and describe what a process can produce.",
               "imageIndex": 0,
               "closeable": true
             }
@@ -338,11 +383,11 @@
           "e_clickRevealPrompt": "Select each highlighted area",
           "choices": [
             {
-              "e_text": "Critical product characteristics drifting outside of raw material capabilities",
+              "e_text": "Critical product characteristics drifting outside the control limit",
               "correct": true
             },
             {
-              "e_text": "Customer tolerances fall within control limits",
+              "e_text": "Test data from validation falls within control limits",
               "correct": false
             },
             {
@@ -350,23 +395,21 @@
               "correct": false
             },
             {
-              "e_text": "Product characteristics falling below customer tolerances",
+              "e_text": "Test data is off-center of the specification and capability is low",
               "correct": true
             }
           ]
         },
         {
           "type": "hotspot-click-response",
-          "images": ["round_10.png"],
+          "images": [
+            "round_10.png"
+          ],
           "e_instructions": "Which is the best answer?",
+          "e_imageLabel": "LHOQ: House 4",
           "prompts": [
             {
-              "e_prompt": "Finally, we will end our exploration with the <strong>4th House: Controls.</strong>",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "The purpose of this House is entering the <strong>control methods</strong> that ensure that process variables are met.",
+              "e_prompt": "We'll end our exploration with the <strong>4th House: Controls.</strong><br/>The purpose of this House is entering the <strong>control methods</strong> to ensure the process variables are met.",
               "imageIndex": 0,
               "closeable": true
             },
@@ -377,20 +420,20 @@
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "Select each highlighted area",
+          "e_clickRevealPrompt": "Select another highlighted area.",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "22,62,385,290",
               "e_popups": [
-                "<p>For each process variable identified in House 3, a control method is defined to ensure that the process variable or raw material characteristic remains within a selected target range.</p><p>This is determined, once again, by correlation analysis by individual control methods and by collections of control methods.</p>"
+                "For each process variable identified in House 3, Lab defines a control method to ensure the process variable or raw material characteristic remains within a selected target range.<br><br>This is determined, once again, by correlation analysis by individual control methods and by collections of control methods."
               ]
             },
             {
               "shape": "rect",
               "coords": "386,62,620,290",
               "e_popups": [
-                "<p>Effectiveness of control methods are recorded with their location documented.</p><p>This ensures the previous analysis results and the target ranges identified can be accessible by the team and future teams performing similar work.</p>"
+                "Lab records the effectiveness of control methods with their location documented.<br><br>This ensures the previous analysis results and the target ranges identified can be accessible by the team and future teams performing similar work."
               ]
             }
           ]

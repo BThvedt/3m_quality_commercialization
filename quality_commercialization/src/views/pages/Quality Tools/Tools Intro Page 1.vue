@@ -2,7 +2,7 @@
   <PageBase>
     <div id="tools-intro-one" class="page-container">
       <div class="page-container-inner">
-        <div class="left-and-right-parts">
+        <div class="top-and-bottom-parts">
           <div id="top-part">
             <E :h="json.e_header" t="h1" class="bold-headline" />
             <E :h="json.e_text" t="div" class="page-text" />
@@ -50,7 +50,7 @@ export default Vue.extend({
   box-sizing: border-box;
   padding-bottom: 0%;
 }
-.left-and-right-parts {
+.top-and-bottom-parts {
   display: flex;
   flex-direction: column;
   min-height: 502px;
@@ -64,11 +64,16 @@ export default Vue.extend({
     // width: 50%;
     // padding-left: 3%;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
     img {
-      width: 100%;
+      width: 87%;
+      margin: auto;
       position: relative;
       // top: 13%;
       bottom: 5%;
+      right: 2%;
     }
   }
 }

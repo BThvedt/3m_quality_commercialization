@@ -189,23 +189,29 @@ export default Vue.extend({
         questionArray: [
           [null, null, null, null, null],
           [null, null, null, null, null, null, null],
-          [null, null, null, null],
+          [null, null],
           [null, null, null, null],
         ],
         activitesArray: [
           [null, null, null, null], // null for each activity
           [null, null, null, null],
-          [null, null, null],
+          [null, null],
           [null, null, null],
         ],
       })
       await genericAwait(1000)
       // ;(this.$refs["CTPFeedbackModal"] as any).show()
-      // ;(this.$refs["IntroModal"] as any).show()
+      ;(this.$refs["IntroModal"] as any).show()
 
       this.$store.dispatch("startCommercializationPhase", 0)
+      // actually, this is kinda weird. I'm just gonna not show the continue button at all until
+      // everything is clicked, every time. There is some logic to it, but in practice, feels like a bug
+      this.audioDoneContinueButton.audioDone = false
+      this.audioDoneContinueButton.allowRevisit = false
+      this.feedbackModeActivated = false
     } else if (this.activityPhase < 3) {
       this.audioDoneContinueButton.audioDone = false
+      this.feedbackModeActivated = false
       this.audioDoneContinueButton.allowRevisit = false
 
       this.$store.dispatch(
@@ -214,6 +220,7 @@ export default Vue.extend({
       )
     } else {
       this.audioDoneContinueButton.audioDone = false
+      this.feedbackModeActivated = false
       this.audioDoneContinueButton.allowRevisit = false
 
       this.finalResultsForConclusionModal = this.questionResults
@@ -244,6 +251,13 @@ export default Vue.extend({
           [null, null, null, null],
         ],
       })
+
+      this.audioDoneContinueButton = {
+        audioDone: false,
+        text: "Continue",
+        allowRevisit: false,
+      }
+      this.feedbackModeActivated = false
 
       this.$store.dispatch("startCommercializationPhase", 0)
 

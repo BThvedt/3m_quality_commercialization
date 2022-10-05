@@ -1,254 +1,272 @@
 {
-  "3982bead-f15b-4b4f-aa4d-05b8dbe0e4ff": {
+  "5f2e87e7-3e5d-4473-9c12-6a713f16785c": {
     "html": "Quality - Commercialize the Product - Build Business Case"
   },
-  "ee3a51ac-7d5f-4f0f-9fbd-c0ad158eac77": {
+  "cf32d15a-82ca-4ccc-912a-b49322d8e6ea": {
     "html": "Select the highlighted team members to listen to the team's conversation"
   },
-  "095371d0-e19e-4d92-ac16-4b7e36c6c1a9": {
+  "07fb33c0-6302-4020-a24e-88663f2ff692": {
     "html": "Build Business Case is completed!"
   },
-  "1027d14c-57e8-4226-815f-da419bea5050": {
-    "html": "<p>Your team has made some early determinations based on input from each focus area, and you have ensured that a Quality mindset is reflected in the project from the very beginning. </p><p>The painting tape has passed the gate review and has been selected for development into a new product.</p>"
+  "970182ce-da49-4c61-aaa8-a57ee57e7364": {
+    "html": "<p>Your team has made some early determinations based on input from each team member, and you have ensured the Quality focus is reflected in the project from the very beginning.</p><p>The painter's tape has passed the gate review and has been selected for development into a new product. Congratulations!</p>"
   },
-  "5b3376db-04e5-47df-97a1-10fc2925b12e": {
-    "html": "Opening prompt here"
+  "a11430e9-02d2-452e-aa55-45698fb4c792": {
+    "html": "Activity Dashboard"
   },
-  "2be42d2f-d13f-4757-8386-3cfab5ce105b": {
-    "html": "<p>As requested, here is an openeing prompt.</p><p>Not sure if other sections need one or not haha.</p>"
+  "a000c2dc-0324-4053-a595-5a6868debfaa": {
+    "html": "<p>This will be your navigation and performance dashboard as you progress through the phases of commercialization.<br><br>Select icons on your map to begin activities. You can complete the activities in any order you wish. Once you have completed all activities for a phase, you will proceed to the next phase and debrief with your team.</p>"
   },
-  "6622b900-104f-45e5-b6c9-f06208a6cd3a": {
+  "6e3ad9ff-94fd-4fdb-9832-c9245cf9b459": {
     "html": ""
   },
-  "fe09c37d-e419-444a-b796-4e69fd4ae395": {
-    "html": "<p>The valid test methods for the Adhesive Strength specification have been identified.</p><p>Remember that for any design specification to be measured by a test method, the specification description must be <strong>concise</strong>, <strong>quantifiable</strong>, and <strong>measurable</strong>.</p>"
+  "2a255fd2-0359-4961-9b34-5da5008aab5d": {
+    "html": "<p>The valid test methods for the Adhesive Strength specification have been identified.</p><p>Remember for any design specification to be measured by a test method, the specification description must be <strong>concise</strong>, <strong>quantifiable</strong>, and <strong>measurable</strong>.</p>"
   },
-  "79cf1554-2689-458f-b43c-a50d17a70a30": {
+  "c1b892ad-14ce-4762-97a2-92083c7fe759": {
     "html": ""
   },
-  "56ced9b8-9a58-4911-8c6e-22ad319d02b0": {
-    "html": "<p>There can be a misconception that due to the oversight and inspection of completed work that is included in the responsibilities for the Quality focus, that Quality becomes more involved later in 3M | Grow. </p><p>It's in fact the case that Quality should be involved as early as possible, contributing to the team’s efforts.</p>"
+  "2e1e27be-5c7f-4dd5-aa50-c274d42b956d": {
+    "html": "<p>Quality inspects the work of the rest of the team, so it could be easy to think Quality becomes more involved with the team's efforts later in commercialization after initial work is complete. This is a misconception.<br><br>Instead, Quality should be involved as early as possible, contributing to the team’s efforts.</p>"
   },
-  "6e4da1a8-5ea5-4347-97f8-80fe36be7896": {
+  "e49174b9-e22e-4210-8979-bd09c9ff79c9": {
     "html": ""
   },
-  "b1f43a3f-3004-411c-975d-f8e6ebb495f4": {
-    "html": "<p>Note that while you will be an advocate for the VOC in the activities and deliverables completed in BBC, this is not the only design input to draw from. Industry standards can be easy to overlook, but they are vitally important to identify early in BBC.</p>"
+  "acbf8064-feae-449f-9070-91dcbb086593": {
+    "html": "<p>Note that while you will be an advocate for the VOC in the activities and deliverables completed in Build Business Case, it is a risk to lose sight of other design inputs as you do so.<br><br>For example: Industry standards can be easy to overlook, but they are vitally important to identify early.</p>"
   },
-  "0420814f-afb9-4323-8625-cf3fb2e887d7": {
+  "baafb10a-f800-43cb-ae47-bbb4a4068081": {
     "html": ""
   },
-  "98c0d2ff-75d9-4ef9-81fc-228337c38bee": {
-    "html": "<p>A fantastic opportunity for you to take a leadership role on the team is by involving every team member from each focus area as the initial FMEA checklist is compiled. This helps ensure that risk identification is not unevenly distributed: For example, identifying many possible Market/Business risks, but few Lab risks.</p><p>This coverage across multiple focus areas and categories helps to ensure that the product design will be robust and cover all major failure mode challenges.</p>"
+  "80cd00a8-a70a-406f-99a9-513927a605f4": {
+    "html": "<p>The cross-functional team should draft the FMEA together. This helps ensure risk identification is not unevenly distributed. For example, identifying possible product performance failure modes, but overlooking possible regulatory or manufacturing failure modes.</p><p>Coverage across multiple functional areas and categories helps to ensure the product design will be robust and cover all major failure mode challenges.</p>"
   },
-  "c409a1f0-81ed-430e-8fe4-ebf2143dc8a8": {
-    "html": "The team has begun populating the DQM with information collected in the LHOQ. Significant product requirements need to be translated into design requirements."
+  "39d50ece-f23e-47c4-9cc2-a12ac08f2901": {
+    "html": "The team has begun populating the DQM with information collected in the LHOQ. The product requirements need to be translated into design requirements."
   },
-  "2ed2a5f7-7e39-4860-a0b5-e6cd7e7ebac3": {
+  "28613b5d-01cf-402c-9b86-229758df60d3": {
     "html": "Select the column of the DQM where the translation of product requirement into design requirement is captured."
   },
-  "472f010d-7630-465d-96ab-5af07cd2183d": {
+  "8a124a6d-964c-4b38-80c3-ba192660a179": {
     "html": "Submit"
   },
-  "dbd190bb-9559-408a-8f75-014a07e22e68": {
+  "fd3bebf1-35d5-42dc-9b2b-c1e31247ac1c": {
     "html": "You got it!"
   },
-  "5ee23e87-89c8-443f-a5b2-be05f7f5ea45": {
+  "06b35388-785b-4295-96a8-1c189e2791bc": {
     "html": "<p>The design requirements are identified by translating key product requirements into specifications. Specifications must be defined in plain terms, and these descriptions and values are recorded in this column of the DQM.</p>"
   },
-  "9efe30b0-aab4-4d9d-ac11-24f3bf38661c": {
+  "39f1383e-9dab-4ff2-a4b6-833a2992e42d": {
     "html": "Not quite."
   },
-  "cd88e511-fe79-40bd-bcc4-38b76fc22d67": {
+  "34bf8149-668b-4e3f-8409-0637d2d60ced": {
     "html": "<p>This column is used to identify test methods that will be used to validate specifications.</p><p>The correct choice was the Specification Descriptions and Value column.</p>"
   },
-  "6660c593-15f3-484d-9f2a-dea9d7e8094f": {
+  "0f839bbb-1362-4b5e-9e3d-48ef382cd942": {
     "html": "Close, but not quite."
   },
-  "09165c22-96aa-4ec3-94e0-eaf6968182ea": {
-    "html": "<p>This column is used to add additional comments about a specification, but it is not where the specification is defined. The correct choice was the Specification Descriptions and Value column.</p>"
+  "054b19da-b134-48e3-8a24-ec0f7c7cec2f": {
+    "html": "<p>This column is used to add additional comments about a specification, but it is not where the specification is defined. The correct column is the Specification Descriptions and Value column.</p>"
   },
-  "0cba6732-bf57-4013-808d-5e63ab295525": {
-    "html": "Next, test methods need to be identified. Using the Adhesive Strength specification as an example, what test methods would test for this specification?"
-  },
-  "1d77843b-9086-4138-bff5-b1f01ae59f93": {
-    "html": "Select all that apply"
-  },
-  "8ff5411c-0dba-4762-b6b7-0e81971b241e": {
-    "html": "Submit"
-  },
-  "7108c918-a44c-4a7e-9214-b1b5d0ef3ae7": {
-    "html": "Good thinking!"
-  },
-  "2487cb1b-c924-419a-bc86-f3eec13e8bd6": {
-    "html": "<p>Testing how the tape peels off a roll, testing for adhesion to key surfaces such as metal, and testing the force required to move the tape from a surface are all valid test methods for testing adhesive strength.</p><p>Impact testing and temperature resistance testing are not, at face-value, strongly related to adhesive strength and would not be valid tests for the specification.</p>"
-  },
-  "06e721e7-06cc-4877-8224-661d13e650c1": {
-    "html": "Not quite."
-  },
-  "ba152521-e270-43cf-9c2a-ce4eda9e869a": {
-    "html": "<p>Testing how the tape peels off a roll, testing for adhesion to key surfaces such as metal, and testing the force required to move the tape from a surface are all valid test methods for testing adhesive strength.</p><p>Impact testing and temperature resistance testing are not, at face-value, strongly related to adhesive strength and would not be valid tests for the specification.</p>"
-  },
-  "39240e28-1def-487a-bae8-0aa2a61e1ee6": {
-    "html": "Peel off-the-tape roll testing"
-  },
-  "5a6b0c40-b867-4fb8-9a73-4dbfa8714751": {
-    "html": "Adhesion to key surfaces testing"
-  },
-  "630f9eb2-6724-48cc-9631-818f09e1f32a": {
-    "html": "Impact testing"
-  },
-  "7b9bde7c-113a-4a02-9b04-07034ad53098": {
-    "html": "Temperature resistance testing"
-  },
-  "593eb7b6-fd1c-4a02-aabf-a2a0e91253da": {
-    "html": "Force required to remove tape from a surface testing"
-  },
-  "4156b4a5-a498-42f2-a1a7-0f8379135951": {
+  "6660e0be-bb7c-4895-a78e-769916a7fc67": {
     "html": "Multichoice Question"
   },
-  "6bc70faf-c46c-419b-b992-303695bf67bc": {
-    "html": "<p>The team is evaluating the product for feasibility to ensure that it has a strong business case.</p><p>As the Quality focus team member, at what point should you be involved in feasibility determination?</p>"
+  "ab8b0b87-0291-437e-9acd-61ee9f9d078b": {
+    "html": "Next, test methods need to be identified.<br><br>If the team needs to measure adhesive strength, which of the test methods below is most appropriate?"
   },
-  "27d96d1d-9ecb-401c-8b82-ca37367ce95a": {
+  "88b3c443-73ee-483b-a13e-dd1f8a2ce905": {
     "html": "Which is the best answer?"
   },
-  "92f8e899-eeea-4a3e-9eb5-c7b1e55c6812": {
-    "html": "Quality contributes to feasibility determination once the business case is formulated for the BBC gate review"
+  "94f26d93-1782-46b9-be21-98d6289929aa": {
+    "html": "Reflectivity testing"
   },
-  "e1730c4d-6580-40d5-b186-35bce05201c9": {
-    "html": "This isn’t the right team mindset."
-  },
-  "d76568d4-92a6-402a-897f-7c0630b7f27b": {
-    "html": "As the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning. Only contributing before the gate review between BBC and Develop is not an adequate amount of team engagement. "
-  },
-  "f0881e3d-b3df-4347-8757-eb08cd9086e3": {
-    "html": "Quality primarily reviews and inspects the work of the rest of the team and becomes more involved after this work is complete"
-  },
-  "5f152b03-95db-4dc0-b26c-4d681f4b4d50": {
+  "162a2fe3-12a6-446a-a569-ee105b5cdc3f": {
     "html": "Not quite."
   },
-  "5fc4729d-395d-4639-860e-66a814764244": {
-    "html": "While it is true that you will be inspecting the team’s work from a quality mindset, as the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning."
+  "5a9c9772-24de-425b-a059-b972ed9787e0": {
+    "html": "The test method should be related to the customer need or want, as defined in the Design Requirement column of the DQM.<br><br>Adhesion to key surfaces might be appropriate, while the other test methods are unlikely to have a strong relationship to the design requirement."
   },
-  "0c9fa851-7fb1-406d-abc3-6e42148b9166": {
-    "html": "Quality contributes to feasibility determination from the onset of a project and is engaged in all aspects of deliverables"
+  "fc344d1f-7278-455e-a246-b73519dabdba": {
+    "html": "Adhesion to key surfaces testing"
   },
-  "b58e67c7-862e-4878-89bf-b69dad4779ba": {
-    "html": "This is the team role to strive for!"
-  },
-  "998a3241-dc31-4b24-9d79-9a4e72b2f0e0": {
-    "html": "As the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning. This means collaborating or giving input towards all deliverables."
-  },
-  "491a4059-e8f2-4519-9b41-0f701aba5a84": {
-    "html": "<p>You meet with Marketing/Business to review progress in identifying design inputs for the business case.</p><p>Which of the following design input categories must be included?</p>"
-  },
-  "3b91293d-a0a4-41c1-aad0-90d3d7cceb2c": {
-    "html": "Select all that apply"
-  },
-  "22077d8c-386e-4a60-a023-bc344ad82873": {
-    "html": "Submit"
-  },
-  "2ec8eb9a-1e3b-4926-abb8-0f005a774175": {
-    "html": " Yes!"
-  },
-  "8cf48a9a-93f7-4271-94aa-5eb23bd472ca": {
-    "html": "<p>As the Quality focus team member, you’ll be chiefly concerned with ensuring that customer wants and needs (VOC) are reflected as design inputs. However, for a product to have a strong business case, additional inputs must be present: Business and market feasibility and industry standards related to the product. </p>"
-  },
-  "e806dd63-b421-4ee4-8fb2-7b3253eb200d": {
-    "html": "Not quite."
-  },
-  "464dd4fd-8009-4f3d-87f1-88dc845be0cf": {
-    "html": "<p>As the Quality focus team member, you’ll be chiefly concerned with ensuring that customer wants and needs (VOC) are reflected as design inputs. However, for a product to have a strong business case, additional inputs must be present: Business and market feasibility and industry standards related to the product. </p>"
-  },
-  "ad4d4774-64ee-416a-8c69-4039a1cf0750": {
-    "html": "Customer needs and wants (VOC)"
-  },
-  "4c80240e-e078-4c33-9407-560e0e593b76": {
-    "html": "Subject matter expert feedback"
-  },
-  "7d78b4ac-e21b-4850-9006-74c330943412": {
-    "html": "Business and market feasibility"
-  },
-  "d9c20c76-6c7b-46c3-8d74-607c030ea5de": {
-    "html": "Reviews of competing products"
-  },
-  "4df515ac-a7c1-4645-baa0-4fb5c4af7ee9": {
-    "html": "Industry standards for the product"
-  },
-  "87a9f8cf-b7c1-44f1-ac0c-9bd5814f117f": {
-    "html": "<p>You are building the initial checklist that will become the collective FMEA: The tools used for risk assessment. The checklist aims to identify failure modes for the product/process.</p><p>Which type of failure modes should take <strong>most priority</strong> for identification and linking to risk reduction?</p>"
-  },
-  "1140eaf6-94db-4461-8fd4-66a96c978cdb": {
-    "html": "Which is the best answer?"
-  },
-  "735518e7-c850-4277-85f2-7a1d4985c46f": {
-    "html": "Understanding the customer or market failure"
-  },
-  "94fd1074-db41-4c20-a913-47912ee70b71": {
-    "html": "Not quite."
-  },
-  "e1caaea4-d488-4db2-a5e6-1c32603ea9d8": {
-    "html": "While it is true that you will be inspecting the team’s work from a quality mindset, as the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning."
-  },
-  "5c41e24d-921c-4718-8eea-f0366cdd4038": {
-    "html": "Design of product specifications failure"
-  },
-  "52a0ae49-3261-4105-8b2c-2d20e7ba8a02": {
-    "html": "Not quite."
-  },
-  "73137402-d4b5-4f64-bf68-8020a11d542a": {
-    "html": "While it is true that you will be inspecting the team’s work from a quality mindset, as the team member representing the Quality focus, you should be involved with the team’s efforts from the beginning."
-  },
-  "4a6a7f89-3f98-445d-aa04-58074cf88719": {
-    "html": "Raw materials/supply chain failure"
-  },
-  "99df3486-9bb8-4706-be78-60f2e4a680cc": {
-    "html": "Not quite."
-  },
-  "32081e64-54f4-462a-ba22-2dcca5f1a7a5": {
-    "html": "The team needs to identify potential risks or failure modes for the product in the category of raw material selection/supply chain, but all potential failure modes from each category or focus area’s workflow should be identified to create the FMEA."
-  },
-  "ddbc69aa-9de8-4d2a-a80c-563000c01523": {
-    "html": "Legal requirements and product sustainability failure"
-  },
-  "f2a1bc7a-b6df-4a6a-80ef-294077a36deb": {
-    "html": "Not quite."
-  },
-  "daf3630d-22a0-4985-a792-dda0b3392efb": {
-    "html": "The team needs to identify potential risks or failure modes for the product in the category of legal requirements and product sustainability, but all potential failure modes from each category or focus area’s workflow should be identified to create the FMEA."
-  },
-  "f1d8659a-29c5-462b-b55a-17a10140a320": {
-    "html": "Each potential failure mode category has high priority"
-  },
-  "79854b02-688e-45e7-b885-6c133d5bd8dd": {
+  "64680d3f-2fcd-4819-8f25-19d643589341": {
     "html": "Good thinking!"
   },
-  "670fb818-d578-41ff-8266-36315ae40709": {
-    "html": "For the initial checklist that will be developed into the FMEA to be effective at minimizing risk, all relevant categories where failure modes could emerge must be accounted for and take equal priority."
+  "09e87fd5-5e32-4b2d-86e6-c7e187b57b9d": {
+    "html": "<p>Testing how the tape peels off a roll, testing for adhesion to key surfaces such as metal, and testing the force required to move the tape from a surface are all valid test methods for testing adhesive strength.</p><p></p><p>Impact, reflectivity, roll length, and drop testing are not, at face-value, strongly related to adhesive strength and would not be valid tests for the specification.</p>"
   },
-  "726cae15-de89-4a7d-b319-1acda7088712": {
+  "b0da2372-18ba-4356-a89b-75b5027ba9d2": {
+    "html": "Impact testing"
+  },
+  "2bf46681-238b-4b25-991c-61deab1ae759": {
+    "html": "Not quite."
+  },
+  "fc20e14d-eaf4-4f90-b983-d918f6821cb3": {
+    "html": "The test method should be related to the customer need or want, as defined in the Design Requirement column of the DQM.<br><br>Adhesion to key surfaces might be appropriate, while the other test methods are unlikely to have a strong relationship to the design requirement."
+  },
+  "bab7816f-c92e-4fc1-9255-930e5420941d": {
+    "html": "Roll length testing"
+  },
+  "d027aa31-271b-4ab8-94cd-854284bd590c": {
+    "html": "Not quite."
+  },
+  "554ea84c-6633-40f1-b22e-5a80c2333bcd": {
+    "html": "The test method should be related to the customer need or want, as defined in the Design Requirement column of the DQM.<br><br>Adhesion to key surfaces might be appropriate, while the other test methods are unlikely to have a strong relationship to the design requirement."
+  },
+  "607deb7f-adf5-451c-9533-39a2dc7fccb3": {
+    "html": "Drop testing"
+  },
+  "e7f36f2a-9788-4513-96cc-9538ba1b8879": {
+    "html": "Not quite."
+  },
+  "1f1cb7bc-ba0a-4b96-92b3-dc08c961dc54": {
+    "html": "The test method should be related to the customer need or want, as defined in the Design Requirement column of the DQM.<br><br>Adhesion to key surfaces might be appropriate, while the other test methods are unlikely to have a strong relationship to the design requirement."
+  },
+  "2a7cb782-d07d-41c4-b896-79ff0839b70a": {
+    "html": "Multichoice Question"
+  },
+  "54433800-2497-464a-9f77-32a416613d10": {
+    "html": "The team is evaluating product feasibility. As Quality, at what point in Build Business Case should you get involved in the commercialization of a new product?"
+  },
+  "04566f46-eb74-4b96-8473-3cbf566acf42": {
+    "html": "Which is the best answer?"
+  },
+  "aaf47008-21d3-4a0d-8f55-2e48a9573e1f": {
+    "html": "Quality is not involved in the Build Business Case phase of commercialization"
+  },
+  "96c90ae1-a758-4650-a283-5e27ad4deee1": {
+    "html": "This isn’t the right team mindset."
+  },
+  "92892ebc-594b-4371-bb98-3f50cc0602e0": {
+    "html": "<p>As the Quality team member, you should be involved with the team’s efforts from the beginning.</p>"
+  },
+  "e0b01d72-cd1a-40f0-9ce4-b107ec8f4f32": {
+    "html": "Quality gets involved when all Build Business Case deliverables have been completed, but before the gate review"
+  },
+  "5cfdde2e-a1ea-42b6-ac09-d5c85cee54d1": {
+    "html": "Not quite."
+  },
+  "5b07fa1d-be00-45ad-8b10-70e4aebc3d85": {
+    "html": "<p>As the Quality team member, you should be involved with the team’s efforts from the beginning.</p>"
+  },
+  "5adf4fa3-cb9a-4886-a9bd-ed6aaea738aa": {
+    "html": "Quality should be involved from the start of the project and works with the cross-functional team on a variety of deliverables"
+  },
+  "cad1f7fc-0573-4632-9e51-6d292cac0e87": {
+    "html": "This is the team role to strive for!"
+  },
+  "bc510d4d-f8a5-4eaf-9fd8-c8496c3960a6": {
+    "html": "<p>Quality should be involved with the team’s efforts from the beginning. This means collaborating on all relevant deliverables.</p>"
+  },
+  "58e6e689-7304-48b5-9fb8-a2a8624da65d": {
+    "html": "You meet with Marketing/Business to review progress in identifying design inputs for the business case.<br><br>Which of the following design input categories must you include?"
+  },
+  "8c34db02-0c86-48d5-b4c8-ef70190b7efa": {
+    "html": "Select all that apply."
+  },
+  "5f219dea-bddd-4db4-8fea-7110066aad86": {
+    "html": "Submit"
+  },
+  "caf475a7-960c-456f-8120-ea8a7f4ae42d": {
+    "html": " Yes!"
+  },
+  "a70ef7d0-6917-4ab4-a363-906e012dc515": {
+    "html": "<p>Quality will be chiefly concerned with ensuring customer wants and needs (VOC) are reflected as design inputs. However, for a product to have a strong business case, additional inputs must be present: Business and market feasibility, industry standards, subject matter expert input, and competing product data.</p>"
+  },
+  "45802477-b481-4147-9616-cdab9db26a5f": {
+    "html": "Not quite."
+  },
+  "eb24473c-ea96-4ff3-92f1-75bb23623c53": {
+    "html": "<p>As the Quality team member, you’ll be chiefly concerned with ensuring that customer wants and needs (VOC) are reflected as design inputs.<br><br>However, for a product to have a strong business case, additional inputs must be present, such as the following: Business and market feasibility, industry standards related to the product, subject matter expert input, and reviews of competing products.</p>"
+  },
+  "c9dcda20-ac97-4363-8b28-3165d71963cb": {
+    "html": "Customer needs and wants (VOC)"
+  },
+  "ba6f1dec-881f-498a-812e-452a3662d1da": {
+    "html": "Subject matter expert feedback"
+  },
+  "37f6d535-a3f3-4f76-af21-2193ad1e4516": {
+    "html": "Business and market feasibility"
+  },
+  "473432b3-fcad-4dbb-9015-65abd1d0a1b2": {
+    "html": "Reviews of competing products"
+  },
+  "c204fc03-8f5b-481b-9248-3dc71a11db15": {
+    "html": "Industry standards for the product"
+  },
+  "391febd3-8c33-494c-b1d2-d43c396da5fe": {
+    "html": "You are beginning to work on the FMEA for the new painter's tape and process.<br><br>Which of the following types of failure mode should be your focus as you work with the team?"
+  },
+  "99cef4de-f645-493c-bf91-76c1feb8de84": {
+    "html": "Which is the best answer?"
+  },
+  "c26c4476-5e4e-4c2d-a753-7d3a374adf5b": {
+    "html": "Understanding the customer or market failure"
+  },
+  "ec0658b9-2e08-4b1f-ba33-7fc4bf765d2b": {
+    "html": "Not quite."
+  },
+  "5a929331-8f25-48be-9260-35136fff18af": {
+    "html": "<p>Understanding the market and identifying a potential failure mode in this area is important, but other types of failure modes should be considered by the team as well.</p>"
+  },
+  "26450acd-b5c1-486c-bd80-d31444f9edc2": {
+    "html": "Design of product specifications failure"
+  },
+  "d2eec7e0-9cec-46dd-b8fc-1bb63fc22c71": {
+    "html": "Not quite."
+  },
+  "e6c04610-2594-4569-9640-de4f047ec6c1": {
+    "html": "<p>While design of product specifications is an important failure mode to focus on, other types of failure modes should be considered by the team as well.</p>"
+  },
+  "e0821c58-780b-4a4e-ab45-a64fa668fbdc": {
+    "html": "Raw materials/supply chain failure"
+  },
+  "bdf4b7da-b79e-4ecf-b3a5-cbcc2f5c2427": {
+    "html": "Not quite."
+  },
+  "e16a3837-4580-4a68-8519-254a3fb78086": {
+    "html": "<p>The team needs to identify potential risks or failure modes for the product in the category of raw material selection/supply chain, but other types of failure modes should be considered by the team as well.</p>"
+  },
+  "4b6c2d35-c33c-4951-8b3a-70b30cd3b39c": {
+    "html": "Legal requirements and product sustainability failure"
+  },
+  "e659589a-23d9-491d-a1bc-6c753b3913b5": {
+    "html": "Not quite."
+  },
+  "efb346cd-d524-4b5c-947e-e601e3ce5b77": {
+    "html": "<p>The team needs to identify potential risks or failure modes for the product in the category of legal requirements and product sustainability, but other types of failure modes should be considered by the team as well.</p>"
+  },
+  "fc35b675-b340-4185-961d-915e0d2db6c8": {
+    "html": "All of these failure modes are important"
+  },
+  "b7130f94-66a6-4166-a4ad-b130c82d830e": {
+    "html": "Good thinking!"
+  },
+  "039b67cb-d4f3-4556-a84f-986461f0a74b": {
+    "html": "<p>For the initial checklist that will be developed into the FMEA to be effective at minimizing risk, all relevant categories where failure modes could emerge must be accounted for and these should take equal priority.</p>"
+  },
+  "a9c94f8f-f3d1-4b63-96c0-340580d5d59a": {
     "html": "Build Business Case"
   },
-  "37524354-cf60-4429-b7b5-ca5752d057c3": {
+  "522a331f-7162-423c-9841-9e9a4eb20c6a": {
     "html": "Build a Business Case"
   },
-  "24f42c1a-7f04-4be1-b338-34e129abf210": {
+  "51affe01-cc06-40b4-b8e3-41c32451bc76": {
     "html": "Development"
   },
-  "0822c067-5f90-44ad-b8ca-d351ff5a5163": {
+  "471c4dc7-b1b8-413c-a765-145ad020932e": {
     "html": "Development"
   },
-  "378eaaf7-0e64-40bf-b540-aeaa45ed3405": {
+  "e6a83f47-6c7e-4440-a98f-0b1c1e71823b": {
     "html": "Scale Up"
   },
-  "df9223ad-e245-4083-9999-9255f76dd48d": {
+  "bfe9a06f-a699-42c0-9d19-765bff51f4d1": {
     "html": "Scale Up"
   },
-  "9dee060b-5bca-4cb4-abf0-076dfc656d8d": {
+  "da89d4f2-3f2d-4ad1-b781-d3a24db669b5": {
     "html": "Launch"
   },
-  "ec07b431-e546-4fbc-93bb-652d983fc6f4": {
+  "5fc74df8-a67f-4bd4-9abd-df34d897c42a": {
     "html": "Launch"
   }
 }

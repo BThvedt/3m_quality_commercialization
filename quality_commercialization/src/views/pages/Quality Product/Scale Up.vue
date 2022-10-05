@@ -60,7 +60,7 @@
             :showBadgesArr="showBadgesArr"
           />
         </div>
-        {{ subActivitiesDone }}
+        <!-- {{ subActivitiesDone }} -->
       </div>
 
       <transition
@@ -203,20 +203,20 @@ export default Vue.extend({
     }
   },
   async mounted() {
-    console.log("Scale Up")
+    // console.log("Scale Up")
     // this.$store.dispatch("initilizeCommercializationQuestionResults", {
     //   area: "quality",
     //   questionArray: [
     //     [null, null, null, null, null],
     //     [null, null, null, null, null, null, null],
+    //     [null, null],
     //     [null, null, null, null],
-    //     [null, null, null, null, null],
     //   ],
     //   activitesArray: [
     //     [null, null, null, null], // null for each activity
     //     [null, null, null, null],
+    //     [null, null],
     //     [null, null, null],
-    //     [null, null, null, null],
     //   ],
     // })
     await genericAwait(1000)
@@ -428,6 +428,11 @@ export default Vue.extend({
 </script>
 
 <style scoped lang="scss">
+::v-deep #scale-up {
+  .top-sub-bar-inner {
+    padding-top: 8px;
+  }
+}
 #top {
   text-align: center;
 }
@@ -469,10 +474,10 @@ export default Vue.extend({
   }
   &.icon-1 {
     // laptop
-    top: 53px;
-    left: 118px;
+    top: 76px;
+    left: 152px;
     img {
-      width: 130px;
+      width: 105px;
     }
 
     .done-icon {
@@ -481,23 +486,23 @@ export default Vue.extend({
     }
   }
 
-  &.icon-2 {
-    // forklift
-    top: 112px;
-    left: 390px;
-    img {
-      width: 105px;
-    }
+  // &.icon-2 {
+  //   // forklift
+  //   top: 107px;
+  //   left: 390px;
+  //   img {
+  //     width: 105px;
+  //   }
 
-    .done-icon {
-      left: -27px;
-      top: 5px;
-    }
-  }
+  //   .done-icon {
+  //     left: -27px;
+  //     top: 5px;
+  //   }
+  // }
   &.icon-3 {
-    // house building
-    top: 220px;
-    left: 50px;
+    // office building
+    top: 259px;
+    left: 366px;
     img {
       width: 95px;
     }

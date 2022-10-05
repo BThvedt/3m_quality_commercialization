@@ -1,13 +1,19 @@
 {
-  "e_title": "1e0c7c35-1a30-447d-82ff-43ebf7ea01d6",
-  "e_subTitle": "b38b114d-faa2-46c8-bd23-3b5dee24cf93",
+  "e_title": "7d4f56bd-1d85-487d-8fca-d66203850bc2",
+  "e_subTitle": "608404a8-6860-42b7-92f2-f7287f888777",
   "introModal": {
-    "e_title": "515f031c-9d34-4baa-8960-e6b3179bc7c2",
-    "e_text": "de3585a5-dc88-4c85-92ce-81de216de87f"
+    "e_title": "c864daf9-f45e-41ce-8d75-26f56431034c",
+    "e_text": "2d10836b-b5e1-4a09-8224-fc61f34c9b22"
   },
   "conclusionModal": {
-    "e_title": "a88a7853-884e-4d68-96f1-a44d2a5d10cf",
-    "e_text": "5bf02eee-0caf-4cbd-9dc2-1308e1d2ef52"
+    "e_title": "4793fbaf-6af5-4b57-bc16-c893ed9a6fab",
+    "e_text": "550a3844-7ec0-4900-be26-be015615ab02"
+  },
+  "toolPage": {
+    "e_title": "346eb195-2b68-4868-b1df-3b2e79079a87",
+    "e_subtitle": "7cc29fcf-f0d0-43a3-8639-49a8f8edabdf",
+    "e_text": "98eb2bd7-3cdf-4046-aadd-1174112a49f8",
+    "image": "tool-image.svg"
   },
   "smallCoachImg": "coach-shadowed-smile.png",
   "tools": [
@@ -15,45 +21,36 @@
       "parts": [
         {
           "type": "multi-choice",
-          "e_questionText": "f50cebbb-1fe1-4d6e-8251-6c2dbbae0d1e",
+          "e_questionText": "d80dd351-3d42-4ca7-bd20-d494fa56b20c",
           "images": [
             "r1_dqm.png"
           ],
-          "e_instructions": "bea2c7af-18b8-46c4-9846-8e386667c0ad",
+          "e_instructions": "a3057939-3060-44fe-8b2d-1e3682a3c87b",
+          "e_imageLabel": "f23c2c79-e01c-4ea4-bd74-1d660e9b54df",
           "prompts": [
             {
-              "e_prompt": "080714ae-7fca-4e30-af29-4ea016977a2b",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "31717014-f03c-49d6-8239-65b76697fd4c",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "b4072fb4-094e-48c7-be2d-78a3e21160a9",
+              "e_prompt": "7ceb97a2-b8b6-4d2b-9379-67d4b0ff4354",
               "imageIndex": 0,
               "closeable": true
             }
           ],
-          "e_clickRevealPrompt": "e0047f16-c0d1-48fa-8335-78d0bcb1118a",
+          "e_clickRevealPrompt": "c9cd879d-845a-4d23-a136-da5553a7a49d",
           "choices": [
             {
-              "e_text": "93b0d612-d050-4341-879d-e0cb32752fdc",
-              "e_feedback": "5e6eb275-506e-40fe-bb90-a2b28ea3bd7e",
+              "e_text": "9fc5b317-4600-47c4-afb1-58a1c93eb7c4",
+              "e_feedback": "136b3ebf-7426-41a3-893a-5411ca5131ff",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "a9897808-2451-4548-b016-8d09f40aa9d9",
-              "e_feedback": "ada8de6e-022a-426a-a02e-7fd0fdb8ddd2",
+              "e_text": "24bfbfc2-a45d-4f1a-9c07-9078b2e944a7",
+              "e_feedback": "1eaaa11b-58f7-4bea-a2ea-9a878c00ef81",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "2c1c51e3-df8d-4a5c-9c05-2905f612ed65",
-              "e_feedback": "5554db43-784e-4d42-940f-32f363b117a9",
+              "e_text": "810a8a96-32f3-4dc6-a6ac-bcca48ece843",
+              "e_feedback": "9c108127-a392-49fb-b687-0b356b613488",
               "correct": true,
               "imageIndex": 0
             }
@@ -64,66 +61,68 @@
           "images": [
             "r2_dqm.png"
           ],
+          "e_imageLabel": "d8c61fa8-4bd0-493c-9b07-91fb232a6ec3",
           "prompts": [
             {
-              "e_prompt": "ea029e1d-30ea-4c5d-8ef6-6f43b687f06a",
+              "e_prompt": "f2f2c552-f799-43e6-b64c-1c85e7cba07e",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "a4841858-2b11-4949-80e3-0d6f36c0145f",
+              "e_prompt": "b13cbafc-e946-46a3-a39b-9c7d1bae562f",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "591c396f-0d91-4a26-8b1a-40f55964d13a",
+          "e_clickRevealPrompt": "5ea52a48-a2be-4dfc-97f3-b5e0cef10b64",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "18,102,111,529",
               "e_popups": [
-                "2ff06016-2bf0-4825-9d68-75b952e5bc08"
+                "c476f25f-8cca-4e4f-9938-557970ac55c1"
               ]
             },
             {
               "shape": "rect",
               "coords": "112,102,223,529",
               "e_popups": [
-                "c60a5043-93d3-4569-ac3f-3729b41fc115"
+                "c2fb2b85-250a-4dc7-9bf7-d0570d59784b"
               ]
             },
             {
               "shape": "rect",
               "coords": "224,102,479,529",
               "e_popups": [
-                "307e143b-3955-4d61-9e76-e2c08ff1ec30"
+                "6546c1e7-4823-4a2b-8613-c14a3d3dfdb2"
               ]
             },
             {
               "shape": "rect",
               "coords": "480,102,583,529",
               "e_popups": [
-                "0c23f7ab-708e-480a-aa34-0a3b6a05c3ee"
+                "d63fd432-160e-44b6-a51d-bf5794e157a9"
               ]
             },
             {
               "shape": "rect",
               "coords": "584,102,650,529",
               "e_popups": [
-                "abec9ff4-9d81-4c9f-bd96-1d9ddf2e1026"
+                "f7d6045e-568f-43f2-9d4d-7ce5d0d5d20d"
               ]
             }
           ]
         },
         {
           "type": "multiple-select",
-          "e_questionText": "171adab8-6eea-454b-9b1a-d237e6fe613a",
+          "e_questionText": "d9cbdbf2-5193-4331-8ac4-d4790d8e8b41",
           "images": [
             "r3_dqm.png"
           ],
-          "e_instructions": "3a2f9791-bbb5-4e37-bcb8-62e0396daa33",
-          "e_submitText": "2bbf6c75-7841-4c76-8b03-1f88e8713166",
+          "e_instructions": "f20c9c39-7c2c-404e-adc1-50daffd3de82",
+          "e_submitText": "40119ace-093b-4733-adfe-74ea89027e4c",
+          "e_imageLabel": "c9f1cd84-1fda-4f94-945e-c7ce531fe8b3",
           "feedback": {
             "e_correct": {
               "text": "<strong>Yes!</strong><br/><br/>Design specifications must be described or defined using concise language. The description must include how the specification will be quantified and this quantified value must be measurable. ",
@@ -139,118 +138,119 @@
               "shape": "rect",
               "coords": "19,15,91,303",
               "e_popups": [
-                "ca2bbf66-4db2-427c-86b2-35769d7e580a"
+                "f4031fdc-e3ba-4ed5-8b21-a655f98897e2"
               ]
             },
             {
               "shape": "rect",
               "coords": "92,15,246,303",
               "e_popups": [
-                "d1636c7b-5c47-494c-95e3-6c7abcd28b3f"
+                "7a01eb14-b85f-4613-8631-cbcac77f8174"
               ]
             }
           ],
           "prompts": [
             {
-              "e_prompt": "9d453697-8198-4222-bf6b-a5cbc43aca80",
+              "e_prompt": "6e4c29b1-d52f-4f13-a7cc-248645fb789e",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "98450700-bbd7-4102-b33a-950242f2e0eb",
+              "e_prompt": "9f74901e-1757-47e1-8ddf-86a8ba11aa5a",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "6812000b-5d6d-4a23-bbb9-b41a231e3136",
+          "e_clickRevealPrompt": "f0aa00bb-496d-4d9b-a9dc-eb7fdfdfecb9",
           "choices": [
             {
-              "e_text": "4dcbec60-f558-4d7c-be2b-e61775d322cf",
+              "e_text": "abbf4fe7-ebd7-460c-8df7-b027445c4543",
               "correct": true
             },
             {
-              "e_text": "82920a39-bf5f-47b6-a28f-ef6d1122a854",
+              "e_text": "02c103fd-e556-4941-a9bf-df5f1db75be0",
               "correct": true
             },
             {
-              "e_text": "006a9ff0-1f68-4399-9789-116fac5d9abf",
+              "e_text": "9f28f024-21f7-40fc-bc0f-3da2ea1b9bb6",
               "correct": true
             },
             {
-              "e_text": "bd3b5cb7-c22c-4b45-86b1-ca80d68242c4",
+              "e_text": "cf371fba-3137-4742-ae3d-159b856c04e3",
               "correct": false
             }
           ]
         },
         {
           "type": "multi-choice",
-          "e_questionText": "0b6d10fc-ac5e-4e28-bc97-d501f2ea1c97",
+          "e_questionText": "b8012676-4b0c-4100-8c30-0b5b6c233ab6",
           "images": [
             "r3_dqm.png"
           ],
-          "e_instructions": "f5575eaa-34d4-4589-bd43-782c439725d3",
+          "e_instructions": "c143a9db-2854-4be4-9779-57c2ae7b77ec",
+          "e_imageLabel": "fa25ad3b-4db9-462a-89f3-4e12c0f98599",
           "prompts": [
             {
-              "e_prompt": "a4b3e2af-e170-4095-942d-9fddacdd836a",
+              "e_prompt": "de3d586f-caae-4af5-80b8-abc01695bc47",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "0ffba53f-cdc1-4675-b082-4d4c2a3c7632",
+              "e_prompt": "a346a4b7-44ab-4ae6-b0d1-9f7ab62f918c",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "bd33b152-4a3c-4d1f-9d2a-098668353e40",
+          "e_clickRevealPrompt": "56bb7b07-faa2-45e6-bceb-50b2e305250b",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "247,15,297,303",
               "e_popups": [
-                "b027ac08-6a37-4a75-887c-a71899478179"
+                "de7e81c8-8f77-4fde-bc06-0d004258aa78"
               ]
             },
             {
               "shape": "rect",
               "coords": "298,15,423,303",
               "e_popups": [
-                "8eca983c-f851-4c04-b0ca-1ffa8ff32430"
+                "571c70f8-7704-42a2-81cc-e979f4f9c225"
               ]
             },
             {
               "shape": "rect",
               "coords": "424,15,516,303",
               "e_popups": [
-                "1e6bfa59-b4ee-43e5-93cf-2087e0ea9481"
+                "f7920d21-c08e-4573-ae10-44ca19a6bb42"
               ]
             },
             {
               "shape": "rect",
               "coords": "517,15,650,303",
               "e_popups": [
-                "da548840-83c0-4200-ab04-7814fc372e90",
-                "5ce46974-169f-4569-9c24-aac38bc59b90"
+                "c9218c19-04fc-4e0d-985e-b36776707e2c",
+                "bea1db50-8929-49c3-b60a-309544546810"
               ]
             }
           ],
           "choices": [
             {
-              "e_text": "c770d38b-482c-4393-9469-94788ef006c7",
-              "e_feedback": "a82de382-6fc6-4e37-bf14-d8ef704edb41",
+              "e_text": "6da7984f-9c26-4a47-90b4-ba45f53f9847",
+              "e_feedback": "a252cdc1-d45e-4a46-af5a-73cfddbeac17",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "8845fd98-2757-4c8a-84e4-b59101939920",
-              "e_feedback": "863dc2d0-3c11-4e1c-ab8e-9ca55b779bf4",
+              "e_text": "95187d1f-a526-42ad-9257-0409f9d4b5a0",
+              "e_feedback": "c99a7ee2-3efb-40a1-932b-926f6c7d759e",
               "correct": false,
               "imageIndex": 0
             },
             {
-              "e_text": "e462e3d4-b233-4ba2-9b27-1a73f1e43157",
-              "e_feedback": "e842a399-f723-4097-9fdb-8f7e33e16eb7",
+              "e_text": "89706550-9b66-4733-b85f-ff3bf41265d9",
+              "e_feedback": "2966c6d9-8cf4-4ba2-a203-8fd7ddcaac7d",
               "correct": true,
               "imageIndex": 0
             }
@@ -261,40 +261,41 @@
           "images": [
             "r5_dqm.png"
           ],
+          "e_imageLabel": "e55fa413-186a-4646-90a3-9a12d15c01c4",
           "prompts": [
             {
-              "e_prompt": "29471287-d119-4552-8269-144a1feca25d",
+              "e_prompt": "f0f5c647-631b-42e1-8f03-6b2c36518bf0",
               "imageIndex": 0,
               "closeable": true
             },
             {
-              "e_prompt": "cc48ee30-68ca-45a1-b815-d8d0bafb90c4",
+              "e_prompt": "192c7698-bb3e-4a37-8a8f-2c1f19a97cb2",
               "imageIndex": 0,
               "closeable": false,
               "revealHotSpots": true
             }
           ],
-          "e_clickRevealPrompt": "fc0bddad-7fab-4e7c-9d46-4e6628138195",
+          "e_clickRevealPrompt": "e6f7ee7f-e367-4087-a7fd-b2d685fd1f82",
           "clickRevealAreas": [
             {
               "shape": "rect",
               "coords": "26,19,151,393",
               "e_popups": [
-                "fbf9684b-1ece-40fc-8f0d-5c015f7c8253"
+                "8904bb17-6db0-478a-8aba-5f2cf3d32651"
               ]
             },
             {
               "shape": "rect",
               "coords": "152,19,235,393",
               "e_popups": [
-                "6548d6fc-d1c1-4a8c-957e-96d48613046e"
+                "222885e5-c844-4f14-97ab-60ad55c10bc5"
               ]
             },
             {
               "shape": "rect",
               "coords": "236,19,320,393",
               "e_popups": [
-                "06f0a1cb-8567-4740-9cd4-5903d9e35b69"
+                "d4fde192-9748-46e9-9da8-02b479417da8"
               ]
             }
           ]
@@ -304,20 +305,16 @@
           "images": [
             "r6_dqm.png"
           ],
+          "e_imageLabel": "185fb991-925a-437b-ad1d-36dfa43672d7",
           "prompts": [
             {
-              "e_prompt": "399871ec-d2c9-40c5-b483-71b2c9c5a11c",
-              "imageIndex": 0,
-              "closeable": true
-            },
-            {
-              "e_prompt": "81a29d29-8efb-4ca2-9c0c-ce22c510ed11",
+              "e_prompt": "f532affd-5d94-4619-8d39-757cdf7ed8bf",
               "imageIndex": 0,
               "closeable": true,
               "revealHotSpots": false
             }
           ],
-          "e_clickRevealPrompt": "be38bb08-f657-48cd-be32-8424124ebf20",
+          "e_clickRevealPrompt": "601ae074-affe-47b9-b31e-d32576966dde",
           "clickRevealAreas": []
         }
       ]

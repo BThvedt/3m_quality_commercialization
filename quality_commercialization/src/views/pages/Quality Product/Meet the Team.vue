@@ -113,7 +113,9 @@ export default Vue.extend({
   right: 2em;
   bottom: 1.2em;
 }
-
+::v-deep ul li p {
+  margin: 0;
+}
 #top {
   width: 93%;
   height: 14%;

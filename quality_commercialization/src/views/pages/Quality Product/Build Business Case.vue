@@ -214,19 +214,19 @@ export default Vue.extend({
     //   area: "quality",
     //   questionArray: [
     //     [null, null, null, null, null],
-    //     [null, null, null, null, null],
-    //     [null, null, null, null, null],
-    //     [null, null, null, null, null],
+    //     [null, null, null, null, null, null, null],
+    //     [null, null],
+    //     [null, null, null, null],
     //   ],
     //   activitesArray: [
     //     [null, null, null, null], // null for each activity
     //     [null, null, null, null],
-    //     [null, null, null, null],
-    //     [null, null, null, null],
+    //     [null, null],
+    //     [null, null, null],
     //   ],
     // })
-    // await genericAwait(1000)
-    // ;(this.$refs["businessCaseIntro"] as any).show()
+    await genericAwait(1000)
+    ;(this.$refs["businessCaseIntro"] as any).show()
     // this.activityConclusion = this.subActivities[0].conclusion
     // console.log(this.activityConclusion)
     // this.$nextTick(() => {

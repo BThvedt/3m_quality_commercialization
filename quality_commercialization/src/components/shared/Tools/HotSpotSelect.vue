@@ -39,6 +39,7 @@
       :role="role"
       :hotspots="this.hotspotData.areas"
       @hotSpotSelected="handleHotSpotSelected"
+      :label="label"
     />
   </div>
 </template>
@@ -59,6 +60,7 @@ export default Vue.extend({
       showFeedback: false,
       feedback: "",
       fileArray: this.hotspotData.images,
+      label: this.hotspotData.e_imageLabel,
       currFileArrayIndex: 0,
       correct: false,
       TEnter,

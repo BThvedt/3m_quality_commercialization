@@ -1,5 +1,25 @@
 {
   "e_header": "Amplifying the Customer Voice",
-  "e_text": "<p>Now that you’ve explored the LHOQ, you’ll do the same with the DQM.  </p><p>While the LHOQ is a tool for capturing and translating the voice of the customer, the DQM can be considered the master key tool that Quality uses to <strong>amplify the voice of the customer</strong> during design of the product.</p><p>Since it will be populated and revised by multiple focus areas and team members, the DQM should be stored in one location for revision control and approval of changes.  This will be uploaded to the Design Qualification Matrix (DQM) task for the project in 3M | Grow at the end of each phase.</p><p>A DQM is required for all new product projects to document product requirements, design specifications, test methods, and traceability to verification and validation activities. While projects and divisions have some flexibility in implanting the steps used for completing the DQM, it is usually started <strong>once the 1st House of the HOQ is complete.</strong></p>",
-  "pageImage": "text-image-page-4.png"
+  "e_text": "<p>Now that you’ve explored the LHOQ, you’ll do the same with the DQM.</p><p>While the LHOQ is a tool for capturing and translating the voice of the customer, the DQM can be considered the master key tool Quality uses to <strong>amplify the voice of the customer</strong> during design of the product.</p><p>Since it will be populated and revised by multiple focus areas and team members, the DQM should be stored in one location for revision control and approval of changes, i.e., uploaded to the DQM task for the project in the 3M | Grow system at the end of each phase.</p><p>A DQM is required for all new product projects to document product requirements, design specifications, test methods, and traceability to verification and validation activities. While projects and divisions have some flexibility in completing the DQM, it is usually started <strong>once the 1st House of the HOQ is complete.</strong></p>",
+  "pageImage": "text-image-page-4.png",
+  "toolPage": {
+    "e_title": "Title-lorem ipsum",
+    "e_subtitle": "Select the image parts at the bottom of the screen to see the part of the tool lorem ipsum",
+    "images": [
+      {
+        "id": 1,
+        "image": "DQM_Full.png",
+        "e_tab": "img 1",
+        "e_label": "This is the label",
+        "e_text": "some Text lorem ipsum"
+      },
+      {
+        "id": 2,
+        "image": "DQM_Key_Customer_Needs.png",
+        "e_tab": "img 2",
+        "e_label": "This is the label",
+        "e_text": "some Text lorem ipsum"
+      }
+    ]
+  }
 }

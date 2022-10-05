@@ -77,6 +77,7 @@
       :revealHotSpots="revealHotSpots"
       :alreadySelectedHotSpots="hotSpotsFinished"
       @hotSpotSelected="handleHotSpotSelected"
+      :label="label"
     />
   </div>
 </template>
@@ -106,6 +107,7 @@ export default Vue.extend({
       showPopupPrompt: false,
 
       fileArray: this.hotspotData.images,
+      label: this.hotspotData.e_imageLabel,
       currFileArrayIndex: 0,
 
       TEnter,

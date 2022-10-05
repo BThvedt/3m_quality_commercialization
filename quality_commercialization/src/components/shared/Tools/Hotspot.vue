@@ -165,10 +165,13 @@ g {
       cursor: default;
     }
     &.hovering {
-      fill: rgba(227, 111, 30, 1) !important;
+      fill: rgba(248, 194, 49, 1) !important;
       opacity: 0.6;
     }
-    stroke: #014a63 !important;
+    // fill: rgba(227, 111, 30, 1) !important;
+    // stroke: #014a63 !important;
+    stroke: #f8c231 !important;
+    fill: rgba(248, 194, 49, 0.3) !important;
     stroke-width: 3px !important;
 
     &.questionAnswered {
@@ -176,16 +179,20 @@ g {
       display: none;
     }
     &.clicked {
-      stroke: #e36f1e !important;
-      fill: rgba(227, 111, 30, 0.5) !important;
+      // stroke: #e36f1e !important;
+      stroke: #f8c231 !important;
+      // fill: rgba(227, 111, 30, 0.5) !important;
+      fill: rgba(248, 194, 49, 0.5) !important;
       opacity: 1 !important;
       &.questionAnswered {
         display: inherit;
       }
     }
     &.alreadySelected {
-      stroke: #00b432 !important;
-      fill: rgba(28, 178, 59, 0.5) !important;
+      // stroke: #00b432 !important;
+      // fill: rgba(28, 178, 59, 0.5) !important;
+      stroke: #f8c231 !important;
+      fill: rgba(248, 194, 49, 0.5) !important;
     }
   }
   image {
